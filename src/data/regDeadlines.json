@@ -1,0 +1,11 @@
+// myObj = {"Alvin":{"name":"John", "age":30, "car":null}};
+
+{"Alaska": {"inPerson":"March 5, 2020", "byMail":"March 5, 2020", "online":"March 5, 2020","status":"unverified"},
+"Alabama": {"inPerson":"February 4, 2020", "byMail":"February 17, 2020", "online":"February 17, 2020","status":"unverified"},
+"Arkansas": {"inPerson":"February 4, 2020", "byMail":"February 4, 2020", "online":"You can't in AR.","status":"unverified"},
+"Arizona": {"inPerson":"February 4, 2020", "byMail":"February 4, 2020", "online":"You can't in AR.","status":"unverified"},
+"California": {"inPerson":"Anytime", "byMail":"February 17, 2020", "online":"February 17, 2020.","status":"unverified"},
+"Colorado": {"inPerson":"Anytime", "byMail":"February 24, 2020", "online":"February 24, 2020.","status":"unverified"},
+"Connecticutt": {"inPerson":"April 27, 2020", "byMail":"April 23, 2020", "online":"April 23, 2020","status":"unverified"},
+"Washington, D.C.": {"inPerson":"Anytime", "byMail":"May 12, 2020", "online":"May 12, 2020","status":"unverified"}
+}
