@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import RegistrationScorecard from './components/registrationScorecard';
-import * from './data/regDeadlines.json'
-
+import ScorecardRow from './components/regDatesRow'
 
 
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<RegistrationScorecard />, document.getElementById('root'));
+ReactDOM.render(<ScorecardRow />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
