@@ -1,0 +1,7 @@
+1. Make sure the state is avaialble to the StatePicker.
+    a. Try getting it via the console
+    b. Try making it appear in a <p> element
+
+2. THEN worry about passing it up to the parent 
+    a. make it appear in a <p>
+3. THEN make it available to the scorecards
