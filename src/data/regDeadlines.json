@@ -24,9 +24,230 @@
     {
         "inPerson":"February 4, 2020",
         "byMail":"February 4, 2020",
-        "online":"You can't in AR.","status":"unverified"},
-"California": {"inPerson":"Anytime", "byMail":"February 17, 2020", "online":"February 17, 2020.","status":"unverified"},
-"Colorado": {"inPerson":"Anytime", "byMail":"February 24, 2020", "online":"February 24, 2020.","status":"unverified"},
-"Connecticutt": {"inPerson":"April 27, 2020", "byMail":"April 23, 2020", "online":"April 23, 2020","status":"unverified"},
-"Washington, D.C.": {"inPerson":"Anytime", "byMail":"May 12, 2020", "online":"May 12, 2020","status":"unverified"}
+        "online":"You can't in AR.","status":"unverified"
+    },
+    "California": 
+    {
+        "inPerson":"Anytime", 
+        "byMail":"February 17, 2020", 
+        "online":"February 17, 2020.",
+        "status":"unverified"
+    },
+    "Colorado": 
+    {
+        "inPerson":"Anytime", 
+        "byMail":"February 24, 2020", 
+        "online":"February 24, 2020.",
+        "status":"unverified"
+    },
+    "Connecticut": 
+    {
+        "inPerson":"April 27, 2020", 
+        "byMail":"April 23, 2020", 
+        "online":"April 23, 2020",
+        "status":"unverified"
+    },
+    "Delaware":
+    {
+        "inPerson":"April 4, 2020", 
+        "byMail":"April 4, 2020", 
+        "online":"April 4, 2020",
+        "status":"unverified"
+    },
+    "Florida":
+    {
+        "inPerson":"February 18, 2020", 
+        "byMail":"February 18, 2020", 
+        "online":"February 18, 2020",
+        "status":"unverified"
+    },
+    "Georgia":
+    {
+        "inPerson":"February 24, 2020", 
+        "byMail":"February 24, 2020", 
+        "online":"February 24, 2020",
+        "status":"unverified"
+    },
+    "Hawaii":
+    {
+        "inPerson":"March 5, 2020", 
+        "byMail":"March 5, 2020", 
+        "online":"March 5, 2020",
+        "status":"unverified"
+    },
+    "Iowa":
+    {
+        "inPerson":"Anytime", 
+        "byMail":"January 19, 2020", 
+        "online":"January 24, 2020",
+        "status":"unverified"
+    },
+    "Idaho":
+    {
+        "inPerson":"Anytime", 
+        "byMail":"February 14, 2020", 
+        "online":"February 28, 2020",
+        "status":"unverified"
+    },
+    "Illinois":
+    {
+        "inPerson":"Anytime", 
+        "byMail":"February 18, 2020", 
+        "online":"February 29, 2020",
+        "status":"unverified"
+    },
+    "Indiana":
+    {
+        "inPerson":"April 6, 2020", 
+        "byMail":"April 6, 2020", 
+        "online":"April 6, 2020",
+        "status":"unverified"
+    },
+    "Kansas":
+    {
+        "inPerson":"Anytime", 
+        "byMail":"April 25, 2020", 
+        "online":"April 11, 2020",
+        "status":"unverified"
+    },
+    "Kentucky":
+    {
+        "inPerson":"April 20, 2020", 
+        "byMail":"April 20, 2020", 
+        "online":"April 20, 2020",
+        "status":"unverified"
+    },    
+    "Louisiana":
+    {
+        "inPerson":"March 4, 2020", 
+        "byMail":"March 4, 2020", 
+        "online":"March 14, 2020",
+        "status":"unverified"
+    },
+    "Massachusetts":
+    {
+        "inPerson":"February 12, 2020", 
+        "byMail":"February 12, 2020", 
+        "online":"February 12, 2020",
+        "status":"unverified"
+    },
+    "Maryland":
+    {
+        "inPerson":"Anytime", 
+        "byMail":"April 7, 2020", 
+        "online":"April 7, 2020",
+        "status":"unverified"
+    },
+    "Michigan":
+    {
+        "inPerson":"February 24, 2020", 
+        "byMail":"February 24, 2020", 
+        "online":"You can't in MI.",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"Anytime", 
+        "byMail":"February 11, 2020", 
+        "online":"February 11, 2020",
+        "status":"unverified"
+    },
+    "Mississippi":
+    {
+        "inPerson":"February 12, 2020", 
+        "byMail":"February 12, 2020", 
+        "online":"February 12, 2020",
+        "status":"unverified"
+    },
+    "Missouri":
+    {
+        "inPerson":"February 8, 2020", 
+        "byMail":"February 8, 2020", 
+        "online":"You can't in MS.",
+        "status":"unverified"
+    },
+    "North Carolina":
+    {
+        "inPerson":"", 
+        "byMail":"February 7", 
+        "online":"You can't in NC.",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"", 
+        "byMail":"", 
+        "online":"",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"", 
+        "byMail":"", 
+        "online":"",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"", 
+        "byMail":"", 
+        "online":"",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"", 
+        "byMail":"", 
+        "online":"",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"", 
+        "byMail":"", 
+        "online":"",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"", 
+        "byMail":"", 
+        "online":"",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"", 
+        "byMail":"", 
+        "online":"",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"", 
+        "byMail":"", 
+        "online":"",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"", 
+        "byMail":"", 
+        "online":"",
+        "status":"unverified"
+    },
+    "Minnesota":
+    {
+        "inPerson":"", 
+        "byMail":"", 
+        "online":"",
+        "status":"unverified"
+    },
+    "Washington, D.C.": 
+    {
+        "inPerson":"Anytime", 
+        "byMail":"May 12, 2020", 
+        "online":"May 12, 2020",
+        "status":"unverified"
+    }
 }

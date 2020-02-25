@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 
-
-
-class InPersonScorecard extends Component {
+class RegDateScorecard extends Component {
     scorecardStyle = {
         background: "red",
         height: 300,
@@ -13,66 +11,17 @@ class InPersonScorecard extends Component {
         return (
             <React.Fragment>
                 <div style={this.scorecardStyle}>
-                    <p>{this.getInPersonDate('Alaska','inPerson')}</p>
+                    <p>{this.getDates(this.props.selectedState,this.props.method)}</p>
                 </div>
             </React.Fragment>
         );
     }
 
-    getInPersonDate(stateName, method) {
+    getDates(stateName, method) {
         const data = require('../data/regDeadlines.json')
         //console.log(data[stateName][method])
         return data[stateName][method]
     }
 }
 
-class ByMailScorecard extends Component {
-    scorecardStyle = {
-        background: "red",
-        height: 300,
-    };
-
-    render() {
-        return (
-            <React.Fragment>
-                <div style={this.scorecardStyle}>
-                    <p>{this.getInPersonDate('Alaska','byMail')}</p>
-                </div>
-            </React.Fragment>
-        );
-    }
-
-    getInPersonDate(stateName, method) {
-        const data = require('../data/regDeadlines.json')
-        console.log(data[stateName][method])
-        return data[stateName][method]
-    }
-}
-
-class OnlineScorecard extends Component {
-    scorecardStyle = {
-        background: "red",
-        height: 300,
-    };
-
-    render() {
-        return (
-            <React.Fragment>
-                <div style={this.scorecardStyle}>
-                    <p>{this.getInPersonDate('Alaska','online')}</p>
-                </div>
-            </React.Fragment>
-        );
-    }
-
-    getInPersonDate(stateName, method) {
-        const data = require('../data/regDeadlines.json')
-        console.log(data[stateName][method])
-        return data[stateName][method]
-    }
-}
-export {
-    OnlineScorecard,
-    ByMailScorecard,
-    InPersonScorecard
-} 
+export default RegDateScorecard;
