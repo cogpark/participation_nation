@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import RegDateScorecard from './registrationScorecard';
-import StatePicker from './statePicker';
+import {StatePicker, ElectionTypePicker} from './statePicker';
 
 
 class ScorecardRow extends Component {
     constructor(props) {
         super(props);
         this.state = { 
-            selectedState: 'Alabama' 
+            selectedState: 'Alabama',
+            selectedElection: 'General' 
         };
         this.handleSelectAState = this.handleSelectAState.bind(this);
+        this.handleSelectElectionType = this.handleSelectAState.bind(this);
     }
 
     handleSelectAState(stateValue) {
@@ -17,24 +19,38 @@ class ScorecardRow extends Component {
         this.setState({ selectedState: stateValue});
     }
 
+    handleSelectElectionType(electionValue) {
+        console.log(electionValue)
+        this.setState({ selectedElection: electionValue});
+    }
+
+
     render() {
         return (
             <React.Fragment>
-                <div className="form-group">
-                    <StatePicker onSelectAState = {this.handleSelectAState} />
+                <div className="form-group row">
+                    <div className="col-8">
+                        <StatePicker onSelectAState = {this.handleSelectAState} />
+                    </div>
+                    <div className="col-4">
+                        <ElectionTypePicker onSelectElection = {this.handleSelectElectionType} />
+                    </div>
                 </div> 
                 <div className="row">
                     <div className="col-sm"><RegDateScorecard
                             selectedState = {this.state.selectedState}
-                            method = 'inPerson'/>
+                            method = 'inPerson'
+                            electionType = {this.state.selectedElection}/>
                     </div> 
                     <div className="col-sm"><RegDateScorecard
                             selectedState = {this.state.selectedState}
-                            method = 'byMail'/>
+                            method = 'byMail'
+                            electionType = {this.state.selectedElection}/>
                     </div>
                     <div className="col-sm"><RegDateScorecard
                             selectedState = {this.state.selectedState}
-                            method = 'online'/>
+                            method = 'online'
+                            electionType = {this.state.selectedElection}/>
                     </div>
                 </div>
             </React.Fragment>

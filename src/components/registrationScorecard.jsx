@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import regData from '../data/RegDeadlines2020.json';
+
+var obj = JSON.parse(regData);
 
 class RegDateScorecard extends Component {
     scorecardStyle = {
@@ -7,20 +10,24 @@ class RegDateScorecard extends Component {
     };
 
     render() {
-        //const stateName = this.state.stateName;
         return (
             <React.Fragment>
                 <div style={this.scorecardStyle}>
-                    <p>{this.getDates(this.props.selectedState,this.props.method)}</p>
+                    <p>{this.getDates(
+                        this.props.electionType,
+                        this.props.selectedState,
+                        this.props.method
+                        )
+                        }
+                    </p>
                 </div>
             </React.Fragment>
         );
     }
 
-    getDates(stateName, method) {
-        const data = require('../data/regDeadlines.json')
-        //console.log(data[stateName][method])
-        return data[stateName][method]
+    getDates(electionType, stateName, method ) {
+        console.log(obj[electionType.toLowerCase()][stateName][method]);
+        return obj[electionType.toLowerCase()][stateName][method]
     }
 }
 
