@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import regData from '../data/RegDeadlines2020.json';
-
-var obj = JSON.parse(regData);
+import RegData from '../data/RegDeadlines2020.json';
 
 class RegDateScorecard extends Component {
     scorecardStyle = {
@@ -27,7 +25,7 @@ class RegDateScorecard extends Component {
 
     getDates(electionType, stateName, method ) {
         console.log(obj[electionType.toLowerCase()][stateName][method]);
-        return obj[electionType.toLowerCase()][stateName][method]
+        return {RegData.electionType.stateName.method}
     }
 }
 
