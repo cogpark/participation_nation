@@ -2,27 +2,29 @@ import React, { Component } from "react";
 import {InPersonScorecard, ByMailScorecard, OnlineScorecard} from './registrationScorecard';
 import StatePicker from './statePicker';
 
+
 class ScorecardRow extends Component {
     constructor(props) {
         super(props);
-
-        this.state = {
-            value: ''
+        this.state = { 
+            selectedState: 'Alabama' 
         };
-        this.handleChange = this.handleChange.bind(this)
+
+        this.handleSelectAState = this.handleSelectAState.bind(this);
     }
 
-    handleChange = (stateSelection) => {
-        this.setState({value: stateSelection});
+    handleSelectAState(stateValue) {
+        console.log(stateValue)
+        this.setState({ selectedState: stateValue});
     }
 
-    render() {    
+    render() {
         return (
             <React.Fragment>
                 <div className="form-group">
-                    <StatePicker value={this.state.value} onChange={this.handleChange} />
+                    <StatePicker onSelectAState = {this.handleSelectAState} />
                 </div> 
-                <p>I should get the state here: {this.state.value}</p>   
+                <p>I should get the state here: {this.state.selectedState}</p>   
                 <div className="row">
                     <div className="col-sm"><InPersonScorecard /></div> 
                     <div className="col-sm"><ByMailScorecard /></div>
