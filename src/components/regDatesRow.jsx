@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import RegDateScorecard from './registrationScorecard';
 import {StatePicker, ElectionTypePicker} from './statePicker';
-
+import RegData from '../data/RegDeadlines2020.json';
 
 class ScorecardRow extends Component {
     constructor(props) {
         super(props);
         this.state = { 
             selectedState: 'Alabama',
-            selectedElection: 'General' 
+            selectedElection: 'General',
+            data: RegData 
         };
         this.handleSelectAState = this.handleSelectAState.bind(this);
         this.handleSelectElectionType = this.handleSelectAState.bind(this);
@@ -40,17 +41,20 @@ class ScorecardRow extends Component {
                     <div className="col-sm"><RegDateScorecard
                             selectedState = {this.state.selectedState}
                             method = 'inPerson'
-                            electionType = {this.state.selectedElection}/>
+                            electionType = {this.state.selectedElection}
+                            regData = {this.state.regData}/>
                     </div> 
                     <div className="col-sm"><RegDateScorecard
                             selectedState = {this.state.selectedState}
                             method = 'byMail'
-                            electionType = {this.state.selectedElection}/>
+                            electionType = {this.state.selectedElection}
+                            regData = {this.state.regData}/>
                     </div>
                     <div className="col-sm"><RegDateScorecard
                             selectedState = {this.state.selectedState}
                             method = 'online'
-                            electionType = {this.state.selectedElection}/>
+                            electionType = {this.state.selectedElection}
+                            regData = {this.state.regData}/>
                     </div>
                 </div>
             </React.Fragment>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import RegData from '../data/RegDeadlines2020.json';
 
 class RegDateScorecard extends Component {
+
     scorecardStyle = {
         background: "red",
         height: 300,
@@ -24,8 +25,9 @@ class RegDateScorecard extends Component {
     }
 
     getDates(electionType, stateName, method ) {
-        console.log(obj[electionType.toLowerCase()][stateName][method]);
-        return {RegData.electionType.stateName.method}
+        var registration =  0;
+        console.log(registration);
+        return registration
     }
 }
 
