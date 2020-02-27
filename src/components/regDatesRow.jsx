@@ -8,15 +8,15 @@ class ScorecardRow extends Component {
         super(props);
         this.state = { 
             selectedState: 'Alabama',
-            selectedElection: 'General',
-            data: RegData 
+            selectedElection: 'general',
+            datesData: RegData,
         };
+        console.log(this.state.data) 
         this.handleSelectAState = this.handleSelectAState.bind(this);
-        this.handleSelectElectionType = this.handleSelectAState.bind(this);
+        this.handleSelectElectionType = this.handleSelectElectionType.bind(this);
     }
 
     handleSelectAState(stateValue) {
-        console.log(stateValue)
         this.setState({ selectedState: stateValue});
     }
 
@@ -42,19 +42,19 @@ class ScorecardRow extends Component {
                             selectedState = {this.state.selectedState}
                             method = 'inPerson'
                             electionType = {this.state.selectedElection}
-                            regData = {this.state.regData}/>
+                            regData = {this.state.datesData}/>
                     </div> 
                     <div className="col-sm"><RegDateScorecard
                             selectedState = {this.state.selectedState}
                             method = 'byMail'
                             electionType = {this.state.selectedElection}
-                            regData = {this.state.regData}/>
+                            regData = {this.state.datesData}/>
                     </div>
                     <div className="col-sm"><RegDateScorecard
                             selectedState = {this.state.selectedState}
                             method = 'online'
                             electionType = {this.state.selectedElection}
-                            regData = {this.state.regData}/>
+                            regData = {this.state.datesData}/>
                     </div>
                 </div>
             </React.Fragment>

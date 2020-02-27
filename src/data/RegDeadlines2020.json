@@ -26,7 +26,8 @@
         {
             "inPerson":"February 4, 2020",
             "byMail":"February 4, 2020",
-            "online":"You can't in AR.","status":"unverified"
+            "online":"You can't in AR.",
+            "status":"unverified"
         },
         "California": 
         {
@@ -203,7 +204,8 @@
         {
             "inPerson":"February 4, 2020",
             "byMail":"February 4, 2020",
-            "online":"You can't in AR.","status":"unverified"
+            "online":"You can't in AR.",
+            "status":"unverified"
         },
         "California": 
         {

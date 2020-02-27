@@ -1,7 +1,23 @@
 import React, { Component } from "react";
-import RegData from '../data/RegDeadlines2020.json';
+//import RegData from '../data/RegDeadlines2020.json';
 
 class RegDateScorecard extends Component {
+
+     constructor() {
+        super()
+        this.handleDates = this.handleDates.bind(this);
+        }
+        
+        state = {
+            electionType: 'primary',
+            stateName: 'Alabama',
+            method: ''
+        }    
+
+    handleDates(electionType, stateName, method ) {
+        console.log(this.props.regData)
+        return this.props.regData[electionType.toLowerCase()][stateName][method]
+    }
 
     scorecardStyle = {
         background: "red",
@@ -12,7 +28,7 @@ class RegDateScorecard extends Component {
         return (
             <React.Fragment>
                 <div style={this.scorecardStyle}>
-                    <p>{this.getDates(
+                    <p>{this.handleDates(
                         this.props.electionType,
                         this.props.selectedState,
                         this.props.method
@@ -24,11 +40,7 @@ class RegDateScorecard extends Component {
         );
     }
 
-    getDates(electionType, stateName, method ) {
-        var registration =  0;
-        console.log(registration);
-        return registration
-    }
+
 }
 
 export default RegDateScorecard;
