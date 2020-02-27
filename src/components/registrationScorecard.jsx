@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import RegData from '../data/RegDeadlines2020.json';
 
 class RegDateScorecard extends Component {
 
@@ -15,7 +14,6 @@ class RegDateScorecard extends Component {
         }    
 
     handleDates(electionType, stateName, method ) {
-        console.log(this.props.regData)
         return this.props.regData[electionType.toLowerCase()][stateName][method]
     }
 

@@ -17,32 +17,38 @@
         },
         "Arkansas":
         {
-            "inPerson":"February 4, 2020", 
-            "byMail":"February 4, 2020", 
+            "inPerson":"February 3, 2020", 
+            "byMail":"February 3, 2020", 
             "online":"You can't in AR.",
-            "status":"unverified"
+            "status":"https://www.sos.arkansas.gov/elections"
         },
         "Arizona": 
         {
-            "inPerson":"February 4, 2020",
-            "byMail":"February 4, 2020",
-            "online":"You can't in AR.",
-            "status":"unverified"
+            "inPerson":"July 6, 2020",
+            "byMail":"July 6, 2020",
+            "online":"July 6, 2020",
+            "status":"https://azsos.gov/elections/elections-calendar-upcoming-events"
         },
+
         "California": 
         {
-            "inPerson":"Anytime", 
-            "byMail":"February 17, 2020", 
-            "online":"February 17, 2020.",
-            "status":"unverified"
+            "inPerson":"Anytime*", 
+            "byMail":"February 18, 2020", 
+            "online":"February 18, 2020.",
+            "status":"https://www.sos.ca.gov/elections/voting-resources/voting-california/election-dates-and-resources/",
+            "notes":"If you miss the main registration deadline, you can still register in person."
         },
+
         "Colorado": 
         {
             "inPerson":"Anytime", 
-            "byMail":"February 24, 2020", 
-            "online":"February 24, 2020.",
-            "status":"unverified"
+            "byMail":"February 25, 2020", 
+            "online":"February 25, 2020",
+            "status":"https://www.sos.state.co.us/pubs/elections/calendars/2020ElectionCalendar.pdf",
+            "notes":"If you miss the main registration deadline, you can still register in person."
+
         },
+
         "Connecticut": 
         {
             "inPerson":"April 27, 2020", 
@@ -169,11 +175,132 @@
             "online":"You can't in MS.",
             "status":"unverified"
         },
+
         "North Carolina":
         {
             "inPerson":"", 
             "byMail":"February 7", 
             "online":"You can't in NC.",
+            "status":"unverified"
+        },
+
+        "North Dakota":
+        {
+            "inPerson":"until election day", 
+            "byMail":"You can't in ND.", 
+            "online":"You can't in ND.",
+            "status":"unverified"
+        },
+
+        "Nebraska":
+        {
+            "inPerson":"May 1, 2020", 
+            "byMail":"April 24, 2020", 
+            "online":"April 24, 2020",
+            "status":"unverified"
+        },
+
+        "New Jersey":
+        {
+            "inPerson":"May 12, 2020", 
+            "byMail":"May 12, 2020", 
+            "online":"You can't in NJ.",
+            "status":"unverified"
+        },
+
+        "New Mexico":
+        {
+            "inPerson":"May 5, 2020", 
+            "byMail":"May 5, 2020", 
+            "online":"May 5, 2020",
+            "status":"unverified"
+        },
+        
+        "Nevada":
+        {
+            "inPerson":"until election day", 
+            "byMail":"January 29, 2020", 
+            "online":"February 3, 2020",
+            "status":"unverified"
+        },
+        
+        "New York":
+        {
+            "inPerson":"April 3, 2020", 
+            "byMail":"April 3, 2020", 
+            "online":"April 3, 2020",
+            "status":"unverified"
+        },
+
+        "Texas":
+        {
+            "inPerson":"April 3, 2020", 
+            "byMail":"April 3, 2020", 
+            "online":"You can't in TX.",
+            "status":"unverified"
+        },
+
+        "Utah":
+        {
+            "inPerson":"until election day", 
+            "byMail":"February 2, 2020", 
+            "online":"February 25, 2020",
+            "status":"unverified"
+        },
+
+        "Virginia":
+        {
+            "inPerson":"February 10, 2020", 
+            "byMail":"February 10, 2020", 
+            "online":"February 10, 2020",
+            "status":"unverified"
+        },
+        
+        "Vermont":
+        {
+            "inPerson":"until election day", 
+            "byMail":"until election day", 
+            "online":"until election day",
+            "status":"unverified"
+        },
+        
+        "Washington":
+        {
+            "inPerson":"until election day", 
+            "byMail":"March 2, 2020", 
+            "online":"March 2, 2020",
+            "status":"unverified"
+        },
+
+        "Washington, D.C.": 
+        {
+            "inPerson":"until election daye", 
+            "byMail":"May 12, 2020", 
+            "online":"May 12, 2020",
+            "status":"unverified"
+        },
+
+        "Wisconsin": 
+        {
+            "inPerson":"until election day", 
+            "byMail":"March 18, 2020", 
+            "online":"March 18, 2020",
+            "status":"unverified"
+        },
+
+        "West Virginia": 
+        {
+            "inPerson":"April 21, 2020", 
+            "byMail":"April 21, 2020", 
+            "online":"April 21, 2020",
+            "status":"unverified"
+        },
+
+        "Wyoming": 
+        {
+            "inPerson":"until election day", 
+            "byMail":"March 20, 2020", 
+            "online":"You can't in WY.",
             "status":"unverified"
         }
     },
@@ -181,177 +308,289 @@
     {
         "Alaska": 
         {
-            "inPerson":"General election json", 
-            "byMail":"March 5, 2020", 
-            "online":"March 5, 2020",
-            "status":"unverified"
+            "inPerson":"October 4, 2020 ", 
+            "byMail":"October 4, 2020 ", 
+            "online":"October 4, 2020 ",
+            "source":"http://www.elections.alaska.gov/Core/electiondatesandhours.php"
         },
         "Alabama": 
         {
-            "inPerson":"February 4, 2020", 
-            "byMail":"February 17, 2020", 
-            "online":"February 17, 2020",
+            "inPerson":"October 19, 2020", 
+            "byMail":"received by October 19, 2020", 
+            "online":"October 20, 2020",
             "status":"unverified"
         },
         "Arkansas":
         {
-            "inPerson":"February 4, 2020", 
-            "byMail":"February 4, 2020", 
+            "inPerson":"October 3, 2020", 
+            "byMail":"mailed by October 3, 2020", 
             "online":"You can't in AR.",
             "status":"unverified"
         },
+
         "Arizona": 
         {
-            "inPerson":"February 4, 2020",
-            "byMail":"February 4, 2020",
-            "online":"You can't in AR.",
-            "status":"unverified"
+            "inPerson":"October 5, 2020",
+            "byMail":"October 5, 2020",
+            "online":"October 5, 2020",
+            "status":"https://azsos.gov/elections/elections-calendar-upcoming-events"
         },
+        
         "California": 
         {
             "inPerson":"Anytime", 
-            "byMail":"February 17, 2020", 
-            "online":"February 17, 2020.",
-            "status":"unverified"
+            "byMail":"October 20, 2020", 
+            "online":"October 20, 2020",
+            "status":"unverified",
+            "notes":"If you miss the main registration deadline, you can still register in person."
         },
+
         "Colorado": 
         {
             "inPerson":"Anytime", 
-            "byMail":"February 24, 2020", 
-            "online":"February 24, 2020.",
-            "status":"unverified"
+            "byMail":"October 26, 2020", 
+            "online":"October 26, 2020",
+            "status":"https://www.sos.state.co.us/pubs/elections/calendars/2020ElectionCalendar.pdf",
+            "notes":"If you miss the main registration deadline, you can still register in person."
         },
+
         "Connecticut": 
         {
-            "inPerson":"April 27, 2020", 
-            "byMail":"April 23, 2020", 
-            "online":"April 23, 2020",
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Delaware":
         {
-            "inPerson":"April 4, 2020", 
-            "byMail":"April 4, 2020", 
-            "online":"April 4, 2020",
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Florida":
         {
-            "inPerson":"February 18, 2020", 
-            "byMail":"February 18, 2020", 
-            "online":"February 18, 2020",
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Georgia":
         {
-            "inPerson":"February 24, 2020", 
-            "byMail":"February 24, 2020", 
-            "online":"February 24, 2020",
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Hawaii":
         {
-            "inPerson":"March 5, 2020", 
-            "byMail":"March 5, 2020", 
-            "online":"March 5, 2020",
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Iowa":
         {
             "inPerson":"Anytime", 
-            "byMail":"January 19, 2020", 
-            "online":"January 24, 2020",
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Idaho":
         {
             "inPerson":"Anytime", 
-            "byMail":"February 14, 2020", 
-            "online":"February 28, 2020",
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Illinois":
         {
             "inPerson":"Anytime", 
-            "byMail":"February 18, 2020", 
-            "online":"February 29, 2020",
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Indiana":
         {
-            "inPerson":"April 6, 2020", 
-            "byMail":"April 6, 2020", 
-            "online":"April 6, 2020",
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Kansas":
         {
             "inPerson":"Anytime", 
-            "byMail":"April 25, 2020", 
-            "online":"April 11, 2020",
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Kentucky":
         {
-            "inPerson":"April 20, 2020", 
-            "byMail":"April 20, 2020", 
-            "online":"April 20, 2020",
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },    
         "Louisiana":
         {
-            "inPerson":"March 4, 2020", 
-            "byMail":"March 4, 2020", 
-            "online":"March 14, 2020",
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Massachusetts":
         {
-            "inPerson":"February 12, 2020", 
-            "byMail":"February 12, 2020", 
-            "online":"February 12, 2020",
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Maryland":
         {
             "inPerson":"Anytime", 
-            "byMail":"April 7, 2020", 
-            "online":"April 7, 2020",
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Michigan":
         {
-            "inPerson":"February 24, 2020", 
-            "byMail":"February 24, 2020", 
+            "inPerson":"", 
+            "byMail":"", 
             "online":"You can't in MI.",
             "status":"unverified"
         },
         "Mississippi":
         {
-            "inPerson":"February 12, 2020", 
-            "byMail":"February 12, 2020", 
-            "online":"February 12, 2020",
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
             "status":"unverified"
         },
         "Missouri":
         {
-            "inPerson":"February 8, 2020", 
-            "byMail":"February 8, 2020", 
+            "inPerson":"", 
+            "byMail":"", 
             "online":"You can't in MS.",
             "status":"unverified"
         },
-        "North Carolina":
+
+        "North Dakota":
         {
-            "inPerson":"", 
-            "byMail":"February 7", 
-            "online":"You can't in NC.",
+            "inPerson":"until election day", 
+            "byMail":"You can't in ND.", 
+            "online":"You can't in ND.",
             "status":"unverified"
         },
+
+        "Nebraska":
+        {
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
+            "status":"unverified"
+        },
+
+        "New Jersey":
+        {
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"You can't in NJ.",
+            "status":"unverified"
+        },
+
+        "New Mexico":
+        {
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
+            "status":"unverified"
+        },
+        
+        "Nevada":
+        {
+            "inPerson":"until election day", 
+            "byMail":"", 
+            "online":"",
+            "status":"unverified"
+        },
+        
+        "New York":
+        {
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
+            "status":"unverified"
+        },
+
+        "Texas":
+        {
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"You can't in TX.",
+            "status":"unverified"
+        },
+
+        "Utah":
+        {
+            "inPerson":"until election day", 
+            "byMail":"", 
+            "online":"",
+            "status":"unverified"
+        },
+
+        "Virginia":
+        {
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
+            "status":"unverified"
+        },
+        
+        "Vermont":
+        {
+            "inPerson":"until election day", 
+            "byMail":"until election day", 
+            "online":"until election day",
+            "status":"unverified"
+        },
+        
+        "Washington":
+        {
+            "inPerson":"until election day", 
+            "byMail":"", 
+            "online":"",
+            "status":"unverified"
+        },
+
         "Washington, D.C.": 
         {
-            "inPerson":"Anytime", 
-            "byMail":"May 12, 2020", 
-            "online":"May 12, 2020",
+            "inPerson":"until election daye", 
+            "byMail":"", 
+            "online":"",
+            "status":"unverified"
+        },
+
+        "Wisconsin": 
+        {
+            "inPerson":"until election day", 
+            "byMail":"", 
+            "online":"",
+            "status":"unverified"
+        },
+
+        "West Virginia": 
+        {
+            "inPerson":"", 
+            "byMail":"", 
+            "online":"",
+            "status":"unverified"
+        },
+
+        "Wyoming": 
+        {
+            "inPerson":"until election day", 
+            "byMail":"", 
+            "online":"You can't in WY.",
             "status":"unverified"
         }
     }
