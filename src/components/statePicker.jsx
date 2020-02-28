@@ -48,12 +48,11 @@ class ElectionTypePicker extends Component {
 
     handleSelectElection(event) {
         var election = event.target.value;
-        console.log(election)
         this.props.onSelectElection(election);
     }
 
     render() {
-        const electionTypes = ['General', 'Primary']
+        const electionTypes = ['General', 'Democratic Primary']
         const items = []
         for ( const[index, value] of electionTypes.entries()) {
             items.push(<option key={index} value={electionTypes[index]}>{value}</option>)

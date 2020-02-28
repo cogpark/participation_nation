@@ -3,7 +3,7 @@ import RegDateScorecard from './registrationScorecard';
 import {StatePicker, ElectionTypePicker} from './statePicker';
 import RegData from '../data/RegDeadlines2020.json';
 
-class ScorecardRow extends Component {
+class RegDeadlinesRow extends Component {
     constructor(props) {
         super(props);
         this.state = { 
@@ -11,7 +11,7 @@ class ScorecardRow extends Component {
             selectedElection: 'general',
             datesData: RegData,
         };
-        console.log(this.state.data) 
+
         this.handleSelectAState = this.handleSelectAState.bind(this);
         this.handleSelectElectionType = this.handleSelectElectionType.bind(this);
     }
@@ -21,14 +21,22 @@ class ScorecardRow extends Component {
     }
 
     handleSelectElectionType(electionValue) {
-        console.log(electionValue)
         this.setState({ selectedElection: electionValue});
     }
-
 
     render() {
         return (
             <React.Fragment>
+                <h2 className="h2">Registration deadlines</h2>
+                <hr />
+                <div className="row">
+                    <div className="col-8">
+                        <p>SELECT A STATE:</p>
+                    </div>
+                    <div className="col-4">
+                        <p>SELECT AN ELECTION:</p>
+                    </div>
+                </div>
                 <div className="form-group row">
                     <div className="col-8">
                         <StatePicker onSelectAState = {this.handleSelectAState} />
@@ -42,19 +50,22 @@ class ScorecardRow extends Component {
                             selectedState = {this.state.selectedState}
                             method = 'inPerson'
                             electionType = {this.state.selectedElection}
-                            regData = {this.state.datesData}/>
+                            regData = {this.state.datesData}
+                            cardTitle= "In person deadline:" />
                     </div> 
                     <div className="col-sm"><RegDateScorecard
                             selectedState = {this.state.selectedState}
                             method = 'byMail'
                             electionType = {this.state.selectedElection}
-                            regData = {this.state.datesData}/>
+                            regData = {this.state.datesData}
+                            cardTitle= "By mail deadline:"/>
                     </div>
                     <div className="col-sm"><RegDateScorecard
                             selectedState = {this.state.selectedState}
                             method = 'online'
                             electionType = {this.state.selectedElection}
-                            regData = {this.state.datesData}/>
+                            regData = {this.state.datesData}
+                            cardTitle= "Online deadline:"/>
                     </div>
                 </div>
             </React.Fragment>
@@ -62,4 +73,4 @@ class ScorecardRow extends Component {
     }
 }
 
-export default ScorecardRow
+export default RegDeadlinesRow

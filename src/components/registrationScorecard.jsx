@@ -24,8 +24,12 @@ class RegDateScorecard extends Component {
 
     render() {
         return (
-            <React.Fragment>
-                <div style={this.scorecardStyle}>
+            <div className="card">
+                <div className="card-header">
+                    <p>{this.props.cardTitle}</p>
+
+                </div>
+                <div className="card-body">
                     <p>{this.handleDates(
                         this.props.electionType,
                         this.props.selectedState,
@@ -34,7 +38,7 @@ class RegDateScorecard extends Component {
                         }
                     </p>
                 </div>
-            </React.Fragment>
+            </div>
         );
     }
 
