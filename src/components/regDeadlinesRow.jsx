@@ -27,7 +27,7 @@ class RegDeadlinesRow extends Component {
     render() {
         return (
             <React.Fragment>
-                <h2 className="h2">Registration deadlines</h2>
+                <h2>Registration deadlines</h2>
                 <hr />
                 <div className="row">
                     <div className="col-8">

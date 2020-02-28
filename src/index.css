@@ -6,6 +6,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+ 
+}
+#banner {
+  background: #E4001B; 
+  height: 250px; 
+  margin-bottom: 10px;
+}
+
+.container {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #606060;
+  min-height: 500px;
 }
 
 code {
@@ -15,5 +29,17 @@ code {
 
 h1,h2,h3,h4,h5 {
   font-family: 'Oswald', sans-serif;
-  color: #340068; 
+  color: #E4001B; 
+}
+
+h1.header-text {
+  color:#ECECEC;
+}
+
+.card-header {
+  background-color: #A5D1F3;
+}
+
+.card-body {
+  background-color: #D0EAFF;
 }
