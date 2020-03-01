@@ -26,7 +26,7 @@ class RegDateScorecard extends Component {
         return (
             <div className="card">
                 <div className="card-header">
-                    <p>{this.props.cardTitle}</p>
+                    <h3>{this.props.cardTitle}</h3>
 
                 </div>
                 <div className="card-body">

@@ -53,7 +53,7 @@ class RegDeadlinesRow extends Component {
                             regData = {this.state.datesData}
                             cardTitle= "In person deadline:" />
                     </div> 
-                    <div className="col-sm"><RegDateScorecard
+                    <div className="col-sm middle-card"><RegDateScorecard
                             selectedState = {this.state.selectedState}
                             method = 'byMail'
                             electionType = {this.state.selectedElection}
