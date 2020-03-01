@@ -1,0 +1,10 @@
+TRY MOVING JSON UP TO PARENT and passing it down
+
+* Do general election registration dates
+* Finish primary dates
+* North Carolina in person primary date
+* MVP style
+* logo
+
+* deploy
+* verify all json data
