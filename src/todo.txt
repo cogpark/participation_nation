@@ -1,7 +1,6 @@
 
-* North Carolina in person primary date
 
-* logo
+* North Carolina in person primary date
 
 * deploy
 * verify all json data
@@ -9,3 +8,11 @@
 * Try to figure out how serve works
 ** How does routing work?
 ** example "homepage"
+
+* North Carolina in person primary date
+
+* logo
+
+* deploy
+* verify all json data
+
