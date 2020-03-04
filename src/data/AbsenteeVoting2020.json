@@ -3,67 +3,90 @@
     {  
         "Alaska": 
         {
-         "instructions": "Send your application to the Absentee Office.",
-         "requirements":"None",
-         "request_deadline": "10 days before the election",
-         "submission_deadline": "Postmarked by election day at the latest.",
-         "ballot_application": "http://www.elections.alaska.gov/doc/forms/C06%20Fillable.pdf",  
-         "send_to": "http://www.elections.alaska.gov/Core/contacttheabsenteeandpetitionoffice.php", 
-         "source": "http://www.elections.alaska.gov/Core/votingbymail.php"
+            "types": "By mail or in person.",
+            "mail_request_instructions": "Request or <a href='http://www.elections.alaska.gov/doc/forms/C06%20Fillable.pdf'>fill out an absentee ballot application and send it to <a href='http://www.elections.alaska.gov/Core/contacttheabsenteeandpetitionoffice.php'>your local Absentee Office</a>.",
+            "mail_request_deadline": "10 days before the election",
+            "in_person_request_instructions": "Visit <a href='http://www.elections.alaska.gov/Core/AIPEVEvents.php'>an early/in-person absentee voting location</a> starting 15 days before the election.",
+            "ballot_delivery": "Postmarked or delivered by election day.", 
+            "requirements":"None",
+            "source": "http://www.elections.alaska.gov/Core/votingbymail.php and http://www.elections.alaska.gov/Core/votingbymail.php"
         },
         
         "Alabama": 
         {
-        "instructions": "Write or visit your local election manager. You'll need to provide your name, home address, mailing address, photo ID, your signature",
-        "requirements":"You can vote absentee if you're out of the country, ill, working a 10-hour shift, caring for a family member who's confined to their home, or incarcerated (though not if you've been convicted of a felony).",
-        "request_deadline": "Received 5 days before the election",
-        "submission_deadline": "",
-        "ballot_application": "https://www.sos.alabama.gov/sites/default/files/Regular%20Absentee%20App%20Fillable.pdf",  
-        "send_to": "https://www.sos.alabama.gov/city-county-lookup/absentee-election-manager", 
-        "source": ""
-           
+            "types":"By mail or in person",
+            "mail_instructions": "<p>Request or <a href='https://www.sos.alabama.gov/sites/default/files/Regular%20Absentee%20App%20Fillable.pdf'>fill out a ballot application and send it/take it to <a href='https://www.sos.alabama.gov/city-county-lookup/absentee-election-manager'> your local election manager</a>. You'll need to provide:</p> <ul> <li>your name</li> <li>home address</li> <li>mailing address</li> <li>photo ID</li> <li>your signature</li></ul>",
+            "mail_request_deadline": "5 days before the election",
+            "in_person_request_instructions": "Delivered to <a href='https://www.sos.alabama.gov/city-county-lookup/absentee-election-manager'> your local election manager</a> by 5 p.m. the day before te election.",
+            "ballot_delivery": "By noon on election day.",
+            "requirements":"<p>You can vote absentee if you're</p><ul> <li>out of the country</li> <li>ill</li> <li>working a 10-hour shift</li> <li>caring for a family member who's confined to their home</li> <li>incarcerated (though not if you've been convicted of a felony)</li></ul>",
+            "source": "https://www.sos.alabama.gov/alabama-votes/voter/absentee-voting"
+            
         },
         "Arkansas":
         {
-        "instructions": "",
-        "requirements":"",
-        "request_deadline": "",
-        "submission_deadline": "",
-        "ballot_application": "",  
-        "send_to": "", 
-        "source": ""
-           
+            "types": "By mail or in person.",
+            "mail_instructions": "Request or <a href='https://www.sos.arkansas.gov/uploads/elections/county_clerks_for_website.pdf'>download an absentee ballot application</a> from your <a href='https://www.sos.arkansas.gov/uploads/elections/Absentee_Ballot_Application.pdf'>County Clerk</a>.",
+            "mail_request_deadline": "7 days before the election",
+            "in_person_request_instructions": "Deliver your absentee ballot application by the day before the election.",
+            "ballot_delivery": "In person: Before election day. By mail: Received by 7:30 p.m. on election day.",
+            "requirements":"<p>To vote absentee, you must:</p> <ul> <li>be unable to get to your polling site</li> <li>ill</li> <li>have a physical disability</li> <li> indicate if you'll be picking you your ballot in person, by mail, or bearer (i.e. someone else is getting it for you)",
+            "source": "https://www.sos.arkansas.gov/elections/voter-information/absentee-voting"
         },
         "Arizona": 
         {
-            
+            "types": "By mail or in person",
+            "mail_instructions": "<a href='https://www.azcleanelections.gov/register-to-vote'>Sign up online</a> or <a href='https://www.azcleanelections.gov/county-contact'>contact your County Recorder</a> to get added to AZ's \"permanent early voting list\".",
+            "mail_request_deadline": "11 days before the election.",
+            "in_person_request_instructions":"You can vote early in person starting 27 days before the election at an early voting location. <a href='https://www.azcleanelections.gov/how-to-vote/early-voting/in-person'>Learn more about how and where</a>.",
+            "ballot_delivery": "Election day. You can return ballots to your <a href='https://www.azcleanelections.gov/county-contact>County Recorder's Office</a>, any voting location, or any designated ballot return box.",
+            "requirements":"None.",
+            "source": " and https://recorder.maricopa.gov/site/faq.aspx"
         },
 
         "California": 
         {
-            
+            "types": "By mail or in person",
+            "mail_instructions": "Fill out <a href='https://elections.cdn.sos.ca.gov/vote-by-mail/pdf/vote-by-mail-application.pdf'>a vote-by-mail application</a> (or use the one that comes in your voter guide) and return it to <a href='http://www.sos.ca.gov/elections/voting-resources/county-elections-offices/'>your local elections office</a>.",
+            "mail_request_deadline": "7 days before the election. If you miss this deadline, you can still apply in person. Some counties even let you apply by phone!",
+            "in_person_request_instructions":"Some counties offer in-person early voting. <a href='https://www.sos.ca.gov/elections/voting-resources/county-elections-offices'>Find out if you can vote early.</a>",
+            "ballot_delivery": "Postmarked or returned in person by election day.",
+            "requirements":"None.",
+            "source": "https://www.sos.ca.gov/elections/voter-registration/vote-mail/"
         },
 
         "Colorado": 
         {
-            
-
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "Your <a href='https://www.sos.state.co.us/pubs/elections/Resources/CountyElectionOffices.html'>county clerk must receive your ballot by election day </a>.",
+            "requirements":"",
+            "source": ""
         },
 
         "Connecticut": 
         {
-            "inPerson":"April 27, 2020", 
-            "byMail":"postmarked by April 23, 2020", 
-            "online":"April 23, 2020",
-            "status":"https://portal.ct.gov/SOTS/Election-Services/Registration-Deadlines/Registration-Deadlines"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
+
         "Delaware":
         {
-            "inPerson":"April 4, 2020", 
-            "byMail":"April 4, 2020", 
-            "online":"April 4, 2020",
-            "status":"https://elections.delaware.gov/calendar/2020ElectionCalendar.pdf"
-        },
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
+                },
         "Florida":
         {
             "inPerson":"February 18, 2020", 

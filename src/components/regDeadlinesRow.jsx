@@ -26,7 +26,6 @@ class RegDeadlinesRow extends Component {
 
     handleDates(method) {
         return this.state.datesData[this.state.selectedElection.toLowerCase()][this.state.selectedState][method];
-
     }
 
     render() {
