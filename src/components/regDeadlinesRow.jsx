@@ -11,7 +11,7 @@ class RegDeadlinesRow extends Component {
             selectedElection: 'general',
             datesData: RegData,
         };
-
+        this.handleDates = this.handleDates.bind(this);
         this.handleSelectAState = this.handleSelectAState.bind(this);
         this.handleSelectElectionType = this.handleSelectElectionType.bind(this);
     }
@@ -22,6 +22,11 @@ class RegDeadlinesRow extends Component {
 
     handleSelectElectionType(electionValue) {
         this.setState({ selectedElection: electionValue});
+    }
+
+    handleDates(method) {
+        return this.state.datesData[this.state.selectedElection.toLowerCase()][this.state.selectedState][method];
+
     }
 
     render() {
@@ -47,24 +52,15 @@ class RegDeadlinesRow extends Component {
                 </div> 
                 <div className="row">
                     <div className="col-sm"><RegDateScorecard
-                            selectedState = {this.state.selectedState}
-                            method = 'inPerson'
-                            electionType = {this.state.selectedElection}
-                            regData = {this.state.datesData}
+                            passJson = {this.handleDates('inPerson')}
                             cardTitle= "In person deadline:" />
                     </div> 
                     <div className="col-sm middle-card"><RegDateScorecard
-                            selectedState = {this.state.selectedState}
-                            method = 'byMail'
-                            electionType = {this.state.selectedElection}
-                            regData = {this.state.datesData}
+                            passJson = {this.handleDates('byMail')}
                             cardTitle= "By mail deadline:"/>
                     </div>
                     <div className="col-sm"><RegDateScorecard
-                            selectedState = {this.state.selectedState}
-                            method = 'online'
-                            electionType = {this.state.selectedElection}
-                            regData = {this.state.datesData}
+                            passJson = {this.handleDates('online')}
                             cardTitle= "Online deadline:"/>
                     </div>
                 </div>

@@ -30,13 +30,7 @@ class RegDateScorecard extends Component {
 
                 </div>
                 <div className="card-body">
-                    <p>{this.handleDates(
-                        this.props.electionType,
-                        this.props.selectedState,
-                        this.props.method
-                        )
-                        }
-                    </p>
+                    <p dangerouslySetInnerHTML={{ __html: this.props.passJson}}></p>
                 </div>
             </div>
         );
