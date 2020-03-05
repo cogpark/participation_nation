@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import RegDeadlinesRow from './regDeadlinesRow'
 
 
-class Layout extends Component {
+function Layout(props) { 
 
-    render() { 
-        return (
+    return (
         <React.Fragment> 
             <div id="banner">
                 <div className="row" style={{maxWidth:'1300px', margin:'0 54px', width:"100%", marginRight:"auto", marginLeft:"auto"}}>
@@ -15,7 +14,7 @@ class Layout extends Component {
                 </div>
             </div>
                 
-  
+
             <div className="container" style={{maxWidth:'1300px'}}>
                 <div className="row">
                     <div className ="col">
@@ -25,9 +24,8 @@ class Layout extends Component {
                 </div>
             </div>
         </React.Fragment>
-          );
-    }
+    );
 }
 
 
-export default Layout
+export default Layout;
