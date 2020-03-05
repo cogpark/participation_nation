@@ -57,28 +57,94 @@
 
         "Colorado": 
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "Your <a href='https://www.sos.state.co.us/pubs/elections/Resources/CountyElectionOffices.html'>county clerk must receive your ballot by election day </a>.",
-            "requirements":"",
-            "source": ""
+            "types": "CO has a vote-by-mail system, in which ballots are automatically mailed to registered voters. You can also vote in person.",
+            "mail_instructions": "Every voter receives a mail ballot sent to the mailing address you listed when you registered.",
+            "mail_request_deadline": "You don't need to request a by-mail ballot in CO. They'll send it as long as youre registered.",
+            "in_person_request_instructions":"You can drop off your ballot in person before the election. Get in touch with <a href='https://www.sos.state.co.us/pubs/elections/Resources/CountyElectionOffices.html'>your county clerk</a> to learn where and when.",
+            "ballot_delivery": "Your <a href='https://www.sos.state.co.us/pubs/elections/Resources/CountyElectionOffices.html'>county clerk must receive your ballot by 7 p.m. on election day</a>.",
+            "requirements":"None.",
+            "source": "https://www.sos.state.co.us/pubs/elections/FAQs/mailBallotsFAQ.html"
         },
 
         "Connecticut": 
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": ""
+            "types": "By mail or in person",
+            "mail_instructions": "Fill out <a href='https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting'>an absentee ballot application</a> and send it to <a href='https://portal.ct.gov/-/media/SOTS/ElectionServices/lists/TownClerkListpdf.pdf?la=en'>your town clerk</a>.",
+            "mail_request_deadline": "The <a hrf='https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting'>CT Secretary of State isn't specific</a>, but the state needs to process your application, send you a ballot, and receive your filled out ballot. Give yourself at least 10 days.",
+            "in_person_request_instructions":"Fill out <a href='https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting'>an absentee ballot application</a> and deliver it to <a href='https://portal.ct.gov/-/media/SOTS/ElectionServices/lists/TownClerkListpdf.pdf?la=en'>your town clerk</a>.",
+            "ballot_delivery": "By election day.",
+            "requirements":"<p>You can vote absentee if you're:</p><ul><li>Out of town on election day</li> <li>ill</li> <li>celebrating a religious occasion that prevents you from voting</li> <li>physically incapable of getting to the polling place</li>",
+            "source": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting"
         },
 
         "Delaware":
         {
+            "types": "By mail or in person",
+            "mail_instructions": "Fill out <a href='https://elections.delaware.gov/pubs/pdfs/absentee_ballot_application.pdf'>an absentee ballot application and return it to your local <a href='https://elections.delaware.gov/locations.shtml'>Department of Elections</a>.",
+            "mail_request_deadline": "Deleware <a href='https://elections.delaware.gov/services/voter/absentee/citizen.shtml#dates'>stops issuing absentee ballots the day before the election</a>. We recommend getting your ballot request in at least 10 days early.",
+            "in_person_request_instructions":"Same as by mail: Fill out <a href='https://elections.delaware.gov/pubs/pdfs/absentee_ballot_application.pdf'>an absentee ballot application and bring it to your local <a href='https://elections.delaware.gov/locations.shtml'>Department of Elections</a>.",
+            "ballot_delivery": "The last day to deliver an absentee ballot by hand is 12 days before the election. Your mailed ballot has to be in by the time the polls close on election day.",
+            "requirements":"<p>You can vote absentee if you're:</p> <li>working</li> <li>away at school</li> <li>ill</li> <li>on vacation</li> <li>physically unable to get to the polls</li> <li>celebrating a religious occasion that prevents you from voting</li></ul>",
+            "source": "https://elections.delaware.gov/pubs/pdfs/AbsenteeVoting_CantGoToThePolls.pdf"
+        },
+
+        "Florida":
+        {
+            "types": "Florida has vote-by-mail and early voting.",
+            "mail_instructions": "Download or request a vote-by-mail application from your <a href='http://dos.elections.myflorida.com/supervisors/'>county Supervisor of Elections</a> and then send it back.",
+            "mail_request_deadline": "10 days before the election.",
+            "in_person_request_instructions":"As long as you're registered, you can vote early in person at <a href='https://dos.myflorida.com/elections/for-voters/voting/early-voting/'>an early voting site</a>.",
+            "ballot_delivery": "<ul><li>By-mail ballots must be returned by 7 p.m. on election day</li> <li>In person early voting happens between the 10th and 3rd days before an election. The period may be longer in your area; check with your <a href='http://dos.elections.myflorida.com/supervisors/'>county Supervisor of Elections</a></li>",
+            "requirements":"None.",
+            "source": "https://dos.myflorida.com/elections/for-voters/voting/vote-by-mail/"
+        },
+
+        "Georgia":
+        {
+            "types": "By mail and in person.",
+            "mail_instructions": "Fill out <a href='http://sos.ga.gov/admin/files/Absentee_Ballot_Application_2018.pdf'>an absentee ballot application</a> and mail/email/take it back to your <a href='http://elections.sos.ga.gov/Elections/countyregistrars.do'>local County Board of Registrar's Office</a>.",
+            "mail_request_deadline": "The <a href='https://sos.ga.gov/index.php/Elections/absentee_voting_in_georgia'>GA Secretary of State</a> doesn't specify, but leave enough time to submit your application, receive your ballot, and send it back. We recommend at least 10 days before the election.",
+            "in_person_request_instructions":"During the early voting period, you can vote at <a href=''>one of these early vote locations</a>. The early voting period starts 4 Mondays before the election and ends the Friday before election day. You'll fill out an absentee ballot at the early vote location.",
+            "ballot_delivery": "By election day.",
+            "requirements":"None",
+            "source": "https://georgia.gov/popular-topic/voting and https://sos.ga.gov/admin/uploads/Absentee_Voting_Guide_20142.pdf"
+        },
+
+        "Hawaii":
+        {
+            "types": "Hawaii has a vote-by-mail system, in which ballots are automatically mailed to registered voters.",
+            "mail_instructions": "Your local election clerk will mail you a ballot and an envelope in which to return it.",
+            "mail_request_deadline": "n/a",
+            "in_person_request_instructions":"You can register and vote early at a voter service center starting 10 days before the election.",
+            "ballot_delivery": "By 7 p.m. on election day.",
+            "requirements":"None.",
+            "source": "https://elections.hawaii.gov/frequently-asked-questions/voting-by-mail/"
+        },
+
+        "Iowa":
+        {
+            "types": "By mail and in person.",
+            "mail_instructions": "Fill out <a href='https://sos.iowa.gov/elections/pdf/absenteeballotapp.pdf'>an absentee ballot application</a> and mail/email/fax/take it to <a href='https://sos.iowa.gov/elections/auditors/auditorslist.html'>your county auditor</a>.",
+            "mail_request_deadline": "<p>If requesting by mail:</p><ul><li>For the general election: 10 days before</li> <li>For other elections: 11 days before</li></ul> <p>If requesting by email or fax, submit your application the Monday before an election.</p>",
+            "in_person_request_instructions":"Starting 29 days before an election, you can vote at <a href='https://sos.iowa.gov/elections/auditors/auditorslist.html'>your county auditor's office</a> until the day before an election.",
+            "ballot_delivery": "By the time the polls close on election day.",
+            "requirements":"",
+            "source": "https://sos.iowa.gov/elections/electioninfo/absenteeinfo.html"
+        },
+
+        "Idaho":
+        {
+            "types": "By mail and in person",
+            "mail_instructions": "Fill out <a href='https://sos.idaho.gov/elect/clerk/forms/2020_Primary_Absentee_Request_Fillable.pdf'>this absentee ballot application</a> and send it to <a href='https://idahovotes.gov/county-clerks/'>your county clerk</a>",
+            "mail_request_deadline": "11 days before the election.",
+            "in_person_request_instructions":"You can cast an early vote at an \"absent elector's polling place\" (ask <a href='https://idahovotes.gov/county-clerks/'>your county clerk</a> where this is) until 5 p.m. on the Friday before an election. The beginning of this early voting period seems to vary by county; check with your local clerk for specifics.", 
+            "ballot_delivery": "By election day.",
+            "requirements":"None.",
+            "source": "https://idahovotes.gov/absentee-voter-information/"
+        },
+        
+        "Illinois":
+        {
             "types": "",
             "mail_instructions": "",
             "mail_request_deadline": "",
@@ -86,179 +152,172 @@
             "ballot_delivery": "",
             "requirements":"",
             "source": ""
-                },
-        "Florida":
-        {
-            "inPerson":"February 18, 2020", 
-            "byMail":"February 18, 2020", 
-            "online":"February 18, 2020",
-            "status":"https://dos.myflorida.com/elections/for-voters/election-dates/"
-        },
-
-        "Georgia":
-        {
-            "inPerson":"February 24, 2020", 
-            "byMail":"February 24, 2020", 
-            "online":"February 24, 2020",
-            "status":"https://sos.ga.gov/admin/files/2020_Short_Calendar.pdf"
-        },
-
-        "Hawaii":
-        {
-            "inPerson":"March 5, 2020", 
-            "byMail":"March 5, 2020", 
-            "online":"March 5, 2020",
-            "status":"unverified",
-            "notes": "HI is 1 of 3 states with a 'Presidential preference primary.'"
-        },
-
-        "Iowa":
-        {
-            "inPerson":"Anytime", 
-            "byMail":"January 19, 2020", 
-            "online":"January 24, 2020",
-            "status":"unverified",
-            "notes": "IA is one of 2 states that hold caucuses instead of primary elections"
-        },
-
-        "Idaho":
-        {
-            "inPerson":"Anytime", 
-            "byMail":"received by February 14, 2020", 
-            "online":"February 14, 2020",
-            "status":"https://sos.idaho.gov/election-calendars/"
-        },
-        
-        "Illinois":
-        {
-            "inPerson":"Anytime", 
-            "byMail":"February 18, 2020", 
-            "online":"March 1, 2020",
-            "status":"https://www.elections.il.gov/Default.aspxf"
         },
 
         "Indiana":
         {
-            "inPerson":"April 6, 2020", 
-            "byMail":"April 6, 2020", 
-            "online":"April 6, 2020",
-            "status":"https://www.in.gov/sos/elections/2403.htm"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Kansas":
         {
-            "inPerson":"Anytime", 
-            "byMail":"Request a mail-in ballot by April 17, 2020", 
-            "online":"Unavailable",
-            "status":"https://kansasdems.org/2020primary"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Kentucky":
         {
-            "inPerson":"April 20, 2020", 
-            "byMail":"April 20, 2020", 
-            "online":"April 20, 2020",
-            "status":"https://elect.ky.gov/Resources/Documents/2020%20Election%20Calendar%20Edited.pdf"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },   
 
         "Louisiana":
         {
-            "inPerson":"March 4, 2020", 
-            "byMail":"March 4, 2020", 
-            "online":"March 14, 2020",
-            "status":"https://www.sos.la.gov/ElectionsAndVoting/GetElectionInformation/Pages/default.aspx",
-            "notes":"LA is 1 of 3 states with a 'Presidential preference primary.'"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Massachusetts":
         {
-            "inPerson":"February 12, 2020", 
-            "byMail":"February 12, 2020", 
-            "online":"February 12, 2020",
-            "status":"https://www.sec.state.ma.us/CalendarWeb/Pages/MonthWeekCalendar.aspx"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Maryland":
         {
-            "inPerson":"Anytime", 
-            "byMail":"April 7, 2020", 
-            "online":"April 7, 2020",
-            "status":"https://elections.maryland.gov/voter_registration/index.html"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Michigan":
         {
-            "inPerson":"Anytime", 
-            "byMail":"February 24, 2020", 
-            "online":"February 24, 2020",
-            "status":"https://www.michigan.gov/documents/sos/Pres_Prim_Date_2020_08022019_662286_7.pdf"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
         
         "Minnesota": 
         {
-            "inPerson": "Anytime",
-            "byMail": "February 11, 2020",
-            "online": "February 11, 2020",
-            "status": "https://www.sos.state.mn.us/election-administration-campaigns/elections-calendar/"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Mississippi":
         {
-            "inPerson":"February 10, 2020", 
-            "byMail":"February 10, 2020", 
-            "online":"February 10, 2020",
-            "status":"https://www.sos.ms.gov/Elections-Voting/Documents/VoterInformationGuide.pdf"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Missouri":
         {
-            "inPerson":"February 12, 2020", 
-            "byMail":"February 12, 2020", 
-            "online":"You can't in MO.",
-            "status":"https://www.sos.mo.gov/elections/calendar/2020cald"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "North Carolina":
         {
-            "inPerson":"Anytime.", 
-            "byMail":"February 7", 
-            "online":"You can't in NC.",
-            "status":"https://www.ncsbe.gov/Voters/Registering-to-Vote",
-            "notes": "You can register online here: https://www.vote.org/register-to-vote/north-carolina/"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
             
         },
 
         "North Dakota":
         {
-            "inPerson":"", 
-            "byMail":"", 
-            "online":"",
-            "status":"https://vip.sos.nd.gov/PortalListDetails.aspx?ptlhPKID=79&ptlPKID=7",
-            "notes": "North Dakota doesn't require voter registration."
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Nebraska":
         {
-            "inPerson":"May 1, 2020", 
-            "byMail":"April 24, 2020", 
-            "online":"April 24, 2020",
-            "status":"https://sos.nebraska.gov/sites/sos.nebraska.gov/files/doc/2020%20Election%20Calendar_0.pdf"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "New Jersey":
         {
-            "inPerson":"May 12, 2020", 
-            "byMail":"May 12, 2020", 
-            "online":"You can't in NJ.",
-            "status":"https://nj.gov/state/elections/assets/pdf/chrons/2020-chron-02-primary-election-011520.pdf"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "New Mexico":
         {
-            "inPerson":"May 5, 2020", 
-            "byMail":"May 5, 2020", 
-            "online":"May 5, 2020",
-            "status":"https://www.sos.state.nm.us/voting-and-elections/voting-faqs/voter-registration/"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
         
         "Nevada":
@@ -271,85 +330,112 @@
         
         "New York":
         {
-            "inPerson":"April 3, 2020", 
-            "byMail": "received by April 8, 2020", 
-            "online":"April 3, 2020",
-            "status":"https://www.elections.ny.gov/NYSBOE/law/2020PresidentialPrimaryCalendar.pdf"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Texas":
         {
-            "inPerson":"February 3, 2020", 
-            "byMail":"February 3, 2020", 
-            "online":"You can't in TX.",
-            "status":"https://www.sos.state.tx.us/elections/voter/2020-important-election-dates.shtml",
-            "notes": "TX doesn't have online registration, but you can try https://www.vote.org/register-to-vote/texas/"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Utah":
         {
-            "inPerson":"Anytime", 
-            "byMail":"February 3, 2020", 
-            "online":"February 25, 2020",
-            "status":"https://voteinfo.utah.gov/current-election-information/",
-            "notes": "If you miss the Feb. 25 deadline, you can register and vote on the same day furing early voting."
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Virginia":
         {
-            "inPerson":"February 10, 2020", 
-            "byMail":"February 10, 2020", 
-            "online":"February 10, 2020",
-            "status":"https://www.elections.virginia.gov/casting-a-ballot/calendars-schedules/"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
         
         "Vermont":
         {
-            "inPerson":"Anytime", 
-            "byMail":"Anytime", 
-            "online":"Anytime",
-            "status":"https://sos.vermont.gov/elections/voters/registration/"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
         
         "Washington":
         {
-            "inPerson":"Anytime", 
-            "byMail":"March 2, 2020", 
-            "online":"March 2, 2020",
-            "status":"https://www.sos.wa.gov/elections/dates-and-deadlines.aspx"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Washington, D.C.": 
         {
-            "inPerson":"Anytime", 
-            "byMail":"May 12, 2020", 
-            "online":"May 12, 2020",
-            "status":"https://www.dcboe.org/FAQS/Voter-Registration"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Wisconsin": 
         {
-            "inPerson":"February 14 at your clerk's office, or on election day at your polling place", 
-            "byMail":"January 29, 2020", 
-            "online":"January 29, 2020",
-            "status":"https://myvote.wi.gov/en-us/VoterDeadlines"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "West Virginia": 
         {
-            "inPerson":"April 21, 2020", 
-            "byMail":"April 21, 2020", 
-            "online":"April 21, 2020",
-            "status":"https://sos.wv.gov/FormSearch/Elections/Informational/West%20Virginia%20Election%20Calendar.pdf"
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         },
 
         "Wyoming": 
         {
-            "inPerson":"", 
-            "byMail":"", 
-            "online":"",
-            "status":"unverified",
-            "notes":"Wyoming holds caucuses for their Democratic Primary. We couldn't find much info about when you need to register to participate."
+            "types": "",
+            "mail_instructions": "",
+            "mail_request_deadline": "",
+            "in_person_request_instructions":"",
+            "ballot_delivery": "",
+            "requirements":"",
+            "source": ""
         }
     }
 }
