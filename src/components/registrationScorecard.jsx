@@ -10,7 +10,7 @@ function RegistrationScorecard(props) {
                 <h3>{props.cardTitle}</h3>
             </div>
             <div className="card-body">
-                    <p dangerouslySetInnerHTML={{ __html: this.props.passJson}}></p>
+                    <p dangerouslySetInnerHTML={{ __html: props.passJson}}></p>
             </div>
         </div>
     );
