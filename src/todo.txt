@@ -1,10 +1,18 @@
-TRY MOVING JSON UP TO PARENT and passing it down
 
-* Do general election registration dates
-* Finish primary dates
+
 * North Carolina in person primary date
-* MVP style
+
+* deploy
+* verify all json data
+
+* Try to figure out how serve works
+** How does routing work?
+** example "homepage"
+
+* North Carolina in person primary date
+
 * logo
 
 * deploy
 * verify all json data
+
