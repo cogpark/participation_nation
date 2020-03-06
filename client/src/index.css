@@ -18,9 +18,11 @@ body {
 
 .container {
   background-color: white;
+  margin-bottom: 20px;
   padding: 30px;
   border: 1px solid #606060;
   min-height: 500px;
+  max-width: 1300px;
 }
 
 code {
