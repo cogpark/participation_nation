@@ -12,12 +12,10 @@ function Feedback(props) {
         .then(res => res.json())
         .then(data => this.setState({data}, () => console.log("data fetched: ", data)));
     }
-    */ 
-
-    return (
-        <form method="POST" action="/api/feedback">
-          <h3>Feedback?</h3>
-          <h5>Contact</h5>
+    */
+   
+    /* Contat row 
+    <h5>Contact</h5>
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputEmail">Email</label>
@@ -28,10 +26,15 @@ function Feedback(props) {
               <input type="text" name="name" class="form-control" id="inputEmail" placeholder="Dude"></input>
             </div>
           </div>
-          <h5>Comment</h5>
+      */
+
+    return (
+        <form method="POST" action="/api/feedback">
+          <h2>See something wrong? Don't see something you want to see?</h2>          
+            <h3>Tell us about it:</h3>
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="inputState">State</label>
+              <label for="inputState">STATE:</label>
               <select id="inputState" name="selectedState" class="form-control">
                 <option key="0" value="other">None/other</option>
                 {props.usStates.map((value, i) =>
@@ -39,7 +42,7 @@ function Feedback(props) {
               </select>
             </div>
             <div class="form-group col-md-6">
-              <label for="inputElection">Election</label>
+              <label for="inputElection">ELECTION:</label>
               <select id="inputElection" name="selectedElection" class="form-control">
                 <option key="0" value="none">None/other</option>
                 {props.elections.map((value, i) =>
@@ -47,7 +50,7 @@ function Feedback(props) {
               </select>
             </div>
             <div class="form-group col-md-12">
-              <label for="comment">Comment</label>
+              <label for="comment">FEEDBACK:</label>
               <textarea class="form-control" name="comment" placeholder="Feedback" id="comment"></textarea>
             </div>
           </div>

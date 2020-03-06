@@ -3,7 +3,7 @@ import RegistrationScorecard from './registrationScorecard';
 import Picker from './picker';
 import RegData from '../data/RegDeadlines2020.json';
 
-class RegDeadlinesRow extends Component {
+class RegistrationDeadlinesRow extends Component {
     constructor(props) {
         super(props);
         this.state = { 
@@ -75,4 +75,4 @@ class RegDeadlinesRow extends Component {
     }
 }
 
-export default RegDeadlinesRow;
+export default RegistrationDeadlinesRow;

@@ -1,5 +1,5 @@
 import React from 'react';
-import RegDeadlinesRow from './regDeadlinesRow';
+import RegistrationDeadlinesRow from './registrationDeadlinesRow';
 import Feedback from './feedback';
 
 
@@ -12,8 +12,7 @@ function Layout(props) {
             'Louisiana','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri',
             'Montana','Nebraska','Nevada','New Hampshire','New Jersey',
             'New Mexico','New York','North Carolina','North Dakota',
-            'Northern Mariana Islands','Ohio','Oklahoma','Oregon',
-            'Pennsylvania','Rhode Island','South Carolina',
+            'Ohio','Oklahoma','Oregon', 'Pennsylvania','Rhode Island','South Carolina',
             'South Dakota','Tennessee','Texas','Utah','Vermont',
             'Virginia','Washington', 'Washington, D.C.','West Virginia','Wisconsin',
             'Wyoming'];
@@ -34,21 +33,22 @@ function Layout(props) {
             <div className="container" >
                 <div className="row">
                     <div className="col">
-                        <RegDeadlinesRow usStates={usStates} electionTypes={elections} />
+                        <RegistrationDeadlinesRow usStates={usStates} electionTypes={elections} />
                     </div>
 
                 </div>
-            </div>
-            <div className="container" >
+            </div> 
+        </React.Fragment>
+    );
+}
+ /* FEEDBACK FOR WHEN IT IS READY
+             <div className="container" >
                 <div className="row">
                     <div className="col">
                         <Feedback usStates={usStates} elections={elections} />
                     </div>
                 </div>
-            </div>  
-        </React.Fragment>
-    );
-}
-
+            </div> 
+*/
 
 export default Layout;
