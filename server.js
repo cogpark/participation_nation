@@ -9,6 +9,7 @@ app.get("/", (req, res) => res.send("You hit the Participation Nation backend"))
 
 // the only route we actually need
 app.post("/api/feedback", (req, res) => {
+    console.log(req.body);
     res.redirect("/");
 });
 

@@ -21,32 +21,34 @@ function Feedback(props) {
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputEmail">Email</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="e.g. jlebowski@earthlink.net"></input>
+              <input type="email" name="email" class="form-control" id="inputEmail" placeholder="e.g. jlebowski@earthlink.net"></input>
             </div>
             <div class="form-group col-md-6">
               <label for="inputName">Name</label>
-              <input type="text" class="form-control" id="inputEmail" placeholder="Dude"></input>
+              <input type="text" name="name" class="form-control" id="inputEmail" placeholder="Dude"></input>
             </div>
           </div>
           <h5>Comment</h5>
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputState">State</label>
-              <select id="inputState" class="form-control">
+              <select id="inputState" name="selectedState" class="form-control">
+                <option key="0" value="other">None/other</option>
                 {props.usStates.map((value, i) =>
-                    <option key={i} value={value}>{value}</option>)}
+                    <option key={i+1} value={value}>{value}</option>)}
               </select>
             </div>
             <div class="form-group col-md-6">
               <label for="inputElection">Election</label>
-              <select id="inputElection" class="form-control">
+              <select id="inputElection" name="selectedElection" class="form-control">
+                <option key="0" value="none">None/other</option>
                 {props.elections.map((value, i) =>
-                    <option key={i} value={value}>{value}</option>)}
+                    <option key={1+i} value={value}>{value}</option>)}
               </select>
             </div>
             <div class="form-group col-md-12">
               <label for="comment">Comment</label>
-              <textarea class="form-control" placeholder="Feedback" id="comment"></textarea>
+              <textarea class="form-control" name="comment" placeholder="Feedback" id="comment"></textarea>
             </div>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
