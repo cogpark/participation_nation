@@ -145,13 +145,13 @@
         
         "Illinois":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": ""
+            "types": "By mail or in person.",
+            "mail_instructions": "<a href>Apply for a by-mail ballot online</a>, and you'll get a ballot in the mail. Return it to <a href='https://www.elections.il.gov/ElectionOperations/ElectionAuthorities.aspx'>your county clerk</a>.",
+            "mail_request_deadline": "5 days before the election.",
+            "in_person_request_instructions":"You can vote in person at <a href='https://www.cookcountyclerk.com/service/early-voting-locations'>an early voting location</a> starting 15 days before an election.",
+            "ballot_delivery": "Return your ballot by election day.",
+            "requirements":"None.",
+            "source": "https://www.cookcountyclerk.com/agency/vote-mail"
         },
 
         "Indiana":
