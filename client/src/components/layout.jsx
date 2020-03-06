@@ -1,13 +1,12 @@
 import React from 'react';
 import RegDeadlinesRow from './regDeadlinesRow';
-import Customers from './customers/customers';
+import Feedback from './feedback';
 
 
 function Layout(props) { 
 
     return (
         <React.Fragment> 
-            <Customers />
             <div id="banner">
                 <div className="row" style={{maxWidth:'1300px', margin:'0 54px', width:"100%", marginRight:"auto", marginLeft:"auto"}}>
                     <div className="col">
@@ -25,6 +24,9 @@ function Layout(props) {
 
                 </div>
             </div>
+            <div className="container">
+                <Feedback />
+            </div>  
         </React.Fragment>
     );
 }
