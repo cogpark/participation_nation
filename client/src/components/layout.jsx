@@ -5,6 +5,21 @@ import Feedback from './feedback';
 
 function Layout(props) { 
 
+    const usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
+            'Colorado','Connecticut','Delaware',
+            'Florida','Georgia','Hawaii',
+            'Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky',
+            'Louisiana','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri',
+            'Montana','Nebraska','Nevada','New Hampshire','New Jersey',
+            'New Mexico','New York','North Carolina','North Dakota',
+            'Northern Mariana Islands','Ohio','Oklahoma','Oregon',
+            'Pennsylvania','Rhode Island','South Carolina',
+            'South Dakota','Tennessee','Texas','Utah','Vermont',
+            'Virginia','Washington', 'Washington, D.C.','West Virginia','Wisconsin',
+            'Wyoming'];
+
+    const elections = ['General', 'Democratic Primary'];
+
     return (
         <React.Fragment> 
             <div id="banner">
@@ -16,16 +31,20 @@ function Layout(props) {
             </div>
                 
 
-            <div className="container" style={{maxWidth:'1300px'}}>
+            <div className="container" >
                 <div className="row">
-                    <div className ="col">
-                        <RegDeadlinesRow />
+                    <div className="col">
+                        <RegDeadlinesRow usStates={usStates} electionTypes={elections} />
                     </div>
 
                 </div>
             </div>
-            <div className="container">
-                <Feedback />
+            <div className="container" >
+                <div className="row">
+                    <div className="col">
+                        <Feedback usStates={usStates} elections={elections} />
+                    </div>
+                </div>
             </div>  
         </React.Fragment>
     );

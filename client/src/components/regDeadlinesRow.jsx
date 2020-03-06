@@ -10,6 +10,8 @@ class RegDeadlinesRow extends Component {
             selectedState: 'Alabama',
             selectedElection: 'general',
             datesData: RegData,
+            usStates: this.props.usStates,
+            electionTypes: this.props.electionTypes
         };
     }
 
@@ -22,21 +24,6 @@ class RegDeadlinesRow extends Component {
     }
 
     render() {
-
-        const usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
-            'Colorado','Connecticut','Delaware',
-            'Florida','Georgia','Hawaii',
-            'Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky',
-            'Louisiana','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri',
-            'Montana','Nebraska','Nevada','New Hampshire','New Jersey',
-            'New Mexico','New York','North Carolina','North Dakota',
-            'Northern Mariana Islands','Ohio','Oklahoma','Oregon',
-            'Pennsylvania','Rhode Island','South Carolina',
-            'South Dakota','Tennessee','Texas','Utah','Vermont',
-            'Virginia','Washington', 'Washington, D.C.','West Virginia','Wisconsin',
-            'Wyoming']  
-
-        const electionTypes = ['General', 'Democratic Primary']
 
         return (
             <React.Fragment>
@@ -52,10 +39,10 @@ class RegDeadlinesRow extends Component {
                 </div>
                 <div className="form-group row">
                     <div className="col-8">
-                        <Picker onChange={event => this.handleSelectAState(event)} selection={this.selectedState} data={usStates} />
+                        <Picker onChange={event => this.handleSelectAState(event)} selection={this.selectedState} data={this.state.usStates} />
                     </div>
                     <div className="col-4">
-                        <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={electionTypes} />
+                        <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.state.electionTypes} />
                     </div>
                 </div> 
                 <div className="row">

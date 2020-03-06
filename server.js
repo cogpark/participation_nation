@@ -1,16 +1,15 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const app = express();
 
+app.use(bodyParser.urlencoded({extended: true}));
+
+// should never be seen
 app.get("/", (req, res) => res.send("You hit the Participation Nation backend"));
-app.get("/api/data", (req, res) => {
-    const data = [
-        {id: 1, fName: "john", lName: "smith"},
-        {id: 2, fName: "jane", lName: "doe"}
-    ]
-    res.json(data);
-});
+
+// the only route we actually need
 app.post("/api/feedback", (req, res) => {
-    res.send("hello from feedback");
+    res.redirect("/");
 });
 
 const port = 5000;

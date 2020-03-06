@@ -1,15 +1,8 @@
-import React, {Component} from "react";
+import React from "react";
 
-class Feedback extends Component {
+function Feedback(props) {
 
-    constructor() {
-        super();
-        this.state = {
-            data: []
-        };
-    }
-
-    // demo -- use fetch to send get/post requests to the backend
+    /* Retained from the original class I wrote -- shows how backend server interactions can go down
     componentDidMount() {
         fetch('/api/feedback', {method: "POST"})
         .then(res => res.text())
@@ -19,43 +12,46 @@ class Feedback extends Component {
         .then(res => res.json())
         .then(data => this.setState({data}, () => console.log("data fetched: ", data)));
     }
+    */ 
 
-    render () { 
-        return (
-            <form method="POST" action="/api/feedback">
-              <div class="form-group">
-                <label for="inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="optional"></input>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputCity">City</label>
-                  <input type="text" class="form-control" id="inputCity"></input>
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputState">State</label>
-                  <select id="inputState" class="form-control">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                  </select>
-                </div>
-                <div class="form-group col-md-2">
-                  <label for="inputZip">Zip</label>
-                  <input type="text" class="form-control" id="inputZip"></input>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck"></input>
-                  <label class="form-check-label" for="gridCheck">
-                    Check me out
-                  </label>
-                </div>
-              </div>
-              <button type="submit" class="btn btn-primary">Sign in</button>
-            </form>
+    return (
+        <form method="POST" action="/api/feedback">
+          <h3>Feedback?</h3>
+          <h5>Contact</h5>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="e.g. jlebowski@earthlink.net"></input>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputName">Name</label>
+              <input type="text" class="form-control" id="inputEmail" placeholder="Dude"></input>
+            </div>
+          </div>
+          <h5>Comment</h5>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                {props.usStates.map((value, i) =>
+                    <option key={i} value={value}>{value}</option>)}
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputElection">Election</label>
+              <select id="inputElection" class="form-control">
+                {props.elections.map((value, i) =>
+                    <option key={i} value={value}>{value}</option>)}
+              </select>
+            </div>
+            <div class="form-group col-md-12">
+              <label for="comment">Comment</label>
+              <textarea class="form-control" placeholder="Feedback" id="comment"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
         );
-    }
 }
 
 export default Feedback;
