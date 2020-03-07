@@ -230,7 +230,7 @@
             "ballot_delivery": "By 8 p.m. on election day.",
             "requirements":"None (exept that you're registered).",
             "source": "https://www.michigan.gov/sos/0,4670,7-127-1633_8716_8728-21037--,00.html",
-            "span_app": "<a href='https://www.michigan.gov/documents/sos/Spanish_Absent_Voter_Ballot_Application_-_March_Nov_2_681319_7.pdf'>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href='https://www.michigan.gov/documents/sos/Spanish_Absent_Voter_Ballot_Application_-_March_Nov_2_681319_7.pdf'>Solicitud para votar en ausencia</a>."
         },
         
         "Minnesota": 
@@ -256,7 +256,7 @@
             "ballot_delivery": "In person: 3 days before the election. By mail: Received the day before the election.",
             "requirements":"<p>You can vote absentee if you're</p> <ul><li>elderly</li><li>ill</li><li>working</li><li>out of the state for school</li></ul>",
             "source": "https://www.sos.ms.gov/Elections-Voting/Documents/VoterInformationGuide.pdf",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
 
         "Missouri":
@@ -268,101 +268,103 @@
             "ballot_delivery": "The day before the election.",
             "requirements":"<p>You can vote absentee if you're</p> <ul><li>ill</li><li>physically incapable of getting the the polls</li><li>working</li><li>out of the state</li><li>celebrating a religious occasion that prevents you from voting</li><li>incarcerated but not prevented from voting (e.g. you were convicted of a felony)</li><li>part of an address confidentiality program</li></ul>",
             "source": "https://www.sos.mo.gov/elections/goVoteMissouri/howtovote",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
 
         "North Carolina":
         {
             "types": "One-stop in-person early voting.",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
+            "mail_instructions": "Fill out an <a href='https://s3.amazonaws.com/dl.ncsbe.gov/Forms/NCAbsenteeBallotRequestForm.pdf'>absentee ballot request form</a> and send/take it to <a href='https://vt.ncsbe.gov/BOEInfo/'>your county board of elections</a>.",
+            "mail_request_deadline": "5 p.m. on the Tuesday before the election.",
             "in_person_request_instructions":"You can register and vote the same day at <a href='https://vt.ncsbe.gov/ossite/'>an early voting location</a>.",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": "",
-            "span_app": "<a href='https://www.ncsbe.gov/Portals/0/Forms/NCVoterRegForm09W.pdf'>Solicitud de boleta en ausencia española</a>."
-            
+            "ballot_delivery": "a href='https://vt.ncsbe.gov/BOEInfo/'>Your county board of elections</a>must receive your mailed ballot by 5 p.m. on election day.",
+            "requirements":"None (exept that you're registered).",
+            "source": "https://www.ncsbe.gov/Voting-Options/Absentee-Voting",
+            "span_app": "<a href='https://www.ncsbe.gov/Portals/0/Forms/NCVoterRegForm09W.pdf'>Solicitud para votar en ausencia</a>."
         },
 
         "North Dakota":
         {
             "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "mail_instructions": "You can <a href='https://vip.sos.nd.gov/absentee'>submit an application online</a> to your <a href='https://vip.sos.nd.gov/CountyAuditors.aspx'>county auditor's office</a>. You could also <a href='https://www.nd.gov/eforms/Doc/sfn51468.pdf'>download the ballot request form</a>, fill it out, and email/mail/take it back to them.",
+            "mail_request_deadline": "The day before the election.",
+            "in_person_request_instructions":"Find out about <a href='https://vip.sos.nd.gov/WhereToVote.aspx?tab=AddressandVotingTimes&ptlPKID=7&ptlhPKID=50'>in-person early voting locations online</a> or contact your <a href='https://vip.sos.nd.gov/CountyAuditors.aspx'>county auditor's office</a>.",
+            "ballot_delivery": "We couldn't find an official deadline. We recommend applying for a mail ballot at least 2 weeks in advance, or following the early vote in-person instructions.",
+            "requirements":"None.",
+            "source": "https://vip.sos.nd.gov/PortalListDetails.aspx?ptlhPKID=53&ptlPKID=7#content-start",
+            "span_app": ""
         },
 
         "Nebraska":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "types": "Early voting by mail.",
+            "mail_instructions": "Fill out an <a href='https://sos.nebraska.gov/elections/voter-forms'>early voting form</a> and send, fax, or email it to your <a href='https://sos.nebraska.gov/elections/election-officials-contact-information'>county elections office</a>.",
+            "mail_request_deadline": "By 6 p.m. 2 Fridays before the election.",
+            "in_person_request_instructions":"You can vote in person at your <a href='https://sos.nebraska.gov/elections/election-officials-contact-information'>county elections office</a> starting 30 days before a general election and 15 days before any other election. The last day to early vote is the day before the election.",
+            "ballot_delivery": "By the time the polls close on election day.",
+            "requirements":"None.",
+            "source": "https://sos.nebraska.gov/elections/early-voting",
+            "span_app": "<a href='https://sos.nebraska.gov/elections/voter-forms'>Solicitud para votar en ausencia</a>."
         },
 
         "New Jersey":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "types": "In, NJ \"vote by mail\" means both voting early by mail and voting early in person.",
+            "mail_instructions": "Send a vote-by-mail application to <a href='https://www.state.nj.us/state/elections/county-election-officals.shtml'>your county clerk</a>. You can find <a href='https://www.state.nj.us/state/elections/vote-by-mail.shtml'>your county's application here</a>.",
+            "mail_request_deadline": "7 days before the election.",
+            "in_person_request_instructions":"You can apply to vote early in person until 3 p.m. the day before the election at <a href='https://www.state.nj.us/state/elections/county-election-officals.shtml'>your county clerk's office</a>",
+            "ballot_delivery": "Postmarked by the election and received within 2 days of the polls closing.",
+            "requirements":"None.",
+            "source": "https://www.state.nj.us/state/elections/vote-by-mail.shtml",
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
 
         "New Mexico":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "types": "By mail and in-person early voting.",
+            "mail_instructions": "<a href='https://portal.sos.state.nm.us/OVR/WebPages/AbsenteeApplication.aspx?type=RA'>Request an absentee ballot online</a> or <a href='https://realfileee3072ab0d43456cb15a51f7d82c77a2.s3.amazonaws.com/97e1ee9d-281c-412a-9a85-0ea2e65f70ff?AWSAccessKeyId=AKIAJBKPT2UF7EZ6B7YA&Expires=1583596930&Signature=cx0R8BqyVtOMksrN6%2FG69qnSIE8%3D&response-content-disposition=inline%3B%20filename%3DNMAV%2009-2019.pdf&response-content-type=application%2Fpdf'>download the absentee application</a> and return it to your <a href='https://www.sos.state.nm.us/voting-and-elections/voter-information/county-clerk-information/'>your county clerk</a>.",
+            "mail_request_deadline": "4 days before the election.",
+            "in_person_request_instructions":"In 2020, you can vote early at your <a href='https://www.sos.state.nm.us/voting-and-elections/voter-information/county-clerk-information/'>county clerk's office</a> between Oct. 17 and Oct. 31",
+            "ballot_delivery": "By 7 p.m. on election day.",
+            "requirements":"None (as long as you're registered).",
+            "source": "https://www.sos.state.nm.us/voting-and-elections/voter-information/absentee-and-early-voting/",
+            "span_app": ""
         },
         
         "Nevada":
         {
-            "inPerson":"", 
-            "byMail":"", 
-            "online":"",
-            "status":"",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "types": "By mail and in-person early voting.",
+            "mail_instructions": "Fill out <a href='https://www.nvsos.gov/sos/home/showdocument?id=8262'>an absentee ballot request form</a> and submit it to your <a href='https://www.nvsos.gov/sos/elections/voters/county-clerk-contact-information'>local clerk or election official</a>. Clark county residents can <a href='http://www.clarkcountynv.gov/vote'>request a ballot online</a>.",
+            "mail_request_deadline": "14 days before the election.",
+            "in_person_request_instructions":"There's a 2 week period during which you can vote early at an <a href='https://www.nvsos.gov/sos/elections/voters/early-voting-information'>early voting location</a>.",
+            "ballot_delivery": "7 p.m. on election day.",
+            "requirements":"None (as long as you're registered).",
+            "source": "https://www.nvsos.gov/sos/elections/voters/early-voting-information and https://www.nvsos.gov/sos/elections/voters/absentee-voting",
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
         
         "New York":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "types": "By mail and in-person early voting.",
+            "mail_instructions": "Fill out <a href='https://www.elections.ny.gov/NYSBOE/download/voting/AbsenteeBallot-English.pdf'>an absentee ballot request application</a> and send it to your <a href='https://www.elections.ny.gov/CountyBoards.html'>county board of elections</a>.",
+            "mail_request_deadline": "Postmarked 5 days before the election (though you have to postmark the ballot itself by the day before, so it might be a good idea not to wait this long).",
+            "in_person_request_instructions":"You can vote early between 9 and 2 days before the election. Find out about<a href='https://voterlookup.elections.ny.gov/'>early vote locations online</a>, or try your <a href='https://www.elections.ny.gov/CountyBoards.html'>county board of elections</a>.",
+            "ballot_delivery": "Postmarked the day before the election. It can also be delivered by hand by someone else on election day.",
+            "requirements":"<p>You don't need a reason to vote early in person. You can vote absentee by mail if you're:</p><ul><li>away from home on election day</li><li>ill or physically incapable of getting to the polls</li><li>caring for someone who is ill or incapable of getting to the polls</li><li>a resident or patient of the Veterans Health Administration Hospital</li> <li>incarcerated but not convincted of a felony</li></ul>",
+            "source": "https://voterlookup.elections.ny.gov/" ,
+            "span_app": "<a href='https://www.elections.ny.gov/NYSBOE/download/voting/AbsenteeBallot-Spanish.pdf'>Solicitud para votar en ausencia</a>."
         },
 
         "Texas":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "types": "By mail",
+            "mail_instructions": "Fill out <a href='https://webservices.sos.state.tx.us/forms/5-15f.pdf'>an absentee ballot request form</a> or <a href='https://webservices.sos.state.tx.us/vrrequest/bbm.asp'>complete a request online</a> and send it back to your <a href='https://www.sos.texas.gov/elections/voter/county.shtml'>county clerk or elections official</a>.",
+            "mail_request_deadline": "11 days before the election.",
+            "in_person_request_instructions":"You can usually vote early in person between 17 and 4 days before the election. You can <a href='https://teamrv-mvp.sos.texas.gov/MVP/mvp.do'>find early voting locations on Texas's state website</a>.",
+            "ballot_delivery": "By 7 p.m. on election day.",
+            "requirements":"<p>You can vote absentee by mail if you're</p> <ul><li>65 years or older</li><li>physically incapable of getting to the polls</li><li>away from home</li><li>incarcerated not convicted of a felony</li></ul> ",
+            "source": "https://www.sos.texas.gov/elections/voter/reqabbm.shtml",
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
 
         "Utah":
@@ -374,7 +376,7 @@
             "ballot_delivery": "",
             "requirements":"",
             "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
 
         "Virginia":
@@ -386,7 +388,7 @@
             "ballot_delivery": "",
             "requirements":"",
             "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
         
         "Vermont":
@@ -398,7 +400,7 @@
             "ballot_delivery": "",
             "requirements":"",
             "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
         
         "Washington":
@@ -410,7 +412,7 @@
             "ballot_delivery": "",
             "requirements":"",
             "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
 
         "Washington, D.C.": 
@@ -422,7 +424,7 @@
             "ballot_delivery": "",
             "requirements":"",
             "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
 
         "Wisconsin": 
@@ -434,7 +436,7 @@
             "ballot_delivery": "",
             "requirements":"",
             "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
 
         "West Virginia": 
@@ -446,7 +448,7 @@
             "ballot_delivery": "",
             "requirements":"",
             "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         },
 
         "Wyoming": 
@@ -458,7 +460,7 @@
             "ballot_delivery": "",
             "requirements":"",
             "source": "",
-            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
+            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
         }
     }
 }
