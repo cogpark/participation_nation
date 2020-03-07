@@ -212,68 +212,75 @@
 
         "Maryland":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": ""
+            "types": "By mail or in person.",
+            "mail_instructions": "<a href='https://voterservices.elections.maryland.gov/OnlineVoterRegistration'>Request an absentee ballot online</a>, or <a href='https://elections.maryland.gov/voting/documents/Absentee_Ballot_Application_English.pdf'>download the application</a> and return it to your <a href='https://elections.maryland.gov/about/county_boards.html'>local board of elections</a>.",
+            "mail_request_deadline": "<ul><li>A week before the election if you want your ballot by mail or fax</li><li>4 days before the election if you'll be downloading it through MD's online system</li></ul>",
+            "in_person_request_instructions":"You can vote early at <https://elections.maryland.gov/elections/2020/2020%20Early%20Voting%20Centers.pdf'>an early voting center</a>. Check this <a href='https://elections.maryland.gov/voting/early_voting.html'>MD Board of Elections page for when you can vote early</a> in 2020.",
+            "ballot_delivery": "If you're turning in your ballot in person, ",
+            "requirements":"Your mailed ballot has to be postmarked by the election and received no later than 10 days after the election.",
+            "source": "https://elections.maryland.gov/voting/absentee.html"
         },
 
         "Michigan":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": ""
+            "types": "By mail and in person.",
+            "mail_instructions": "<a href='https://www.michigan.gov/documents/sos/AVApp_535884_7.pdf'>Download an application</a> (or request one) and return it to <a href='https://mvic.sos.state.mi.us/Clerk'>your town clerk</a>.",
+            "mail_request_deadline": "By 5 p.m. the Friday before an election.",
+            "in_person_request_instructions":"The in-person request deadline is later than the by-mail deadline: You can get an absentee application until 4 p.m. the day before an election.",
+            "ballot_delivery": "By 8 p.m. on election day.",
+            "requirements":"None (exept that you're registered).",
+            "source": "https://www.michigan.gov/sos/0,4670,7-127-1633_8716_8728-21037--,00.html",
+            "span_app": "<a href='https://www.michigan.gov/documents/sos/Spanish_Absent_Voter_Ballot_Application_-_March_Nov_2_681319_7.pdf'>Solicitud de boleta en ausencia española</a>."
         },
         
         "Minnesota": 
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": ""
+            "types": "Early voting by mail or or in person.",
+            "mail_instructions": "Fill out <a href='https://www.sos.state.mn.us/media/2444/english-regular-absentee-ballot-application.pdf'>an absentee ballot application</a> and return it to <a href='https://www.sos.state.mn.us/elections-voting/find-county-election-office/'>your county elections office</a>.",
+            "mail_request_deadline": "The deadline is the day before the election, but if you're mailing your ballot, make sure you leave time to receive it and return it by the deadline.",
+            "in_person_request_instructions":"Go to <a href='https://www.sos.state.mn.us/elections-voting/find-county-election-office/'>your county election office</a> to register and vote early. There may be other early voting locations, too; check with your local office to find out more.",
+            "ballot_delivery": "If voting by mail: By election day. The in-person early voting period are <a href='https://www.sos.state.mn.us/elections-voting/other-ways-to-vote/vote-early-in-person/'>open more than a month before the election</a>.",
+            "requirements":"None to apply, but you'll need a witness when you're filling out the ballot.",
+            "source": "https://www.sos.state.mn.us/elections-voting/other-ways-to-vote/vote-early-by-mail/",
+            "span_app": ""
         },
+
+        
 
         "Mississippi":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": ""
+            "types": "Mississippi makes it pretty difficult to learn how to vote absentee, but it is possible. You can vote by mail or in person if you meet the requirements.",
+            "mail_instructions": "Contact <a href='https://www.sos.ms.gov/Elections-Voting/Pages/County-Election-Info.aspx'>your county/municipal clerk</a>. They will probably have you fill out <a href='https://www.sos.ms.gov/Elections-Voting/Documents/Absentee%20Voting%20Forms17.pdf'>an absentee ballot form like this one</a>.",
+            "mail_request_deadline": "We couldn't find an official absentee ballot request deadline, but leave enough time to get your ballot, fill it out, and return it by the absentee voting deadline.",
+            "in_person_request_instructions":"Same as by mail: Go to <a href='https://www.sos.ms.gov/Elections-Voting/Pages/County-Election-Info.aspx'>your county/municipal clerk's office</a> and apply to vote absentee.",
+            "ballot_delivery": "In person: 3 days before the election. By mail: Received the day before the election.",
+            "requirements":"<p>You can vote absentee if you're</p> <ul><li>elderly</li><li>ill</li><li>working</li><li>out of the state for school</li></ul>",
+            "source": "https://www.sos.ms.gov/Elections-Voting/Documents/VoterInformationGuide.pdf",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "Missouri":
         {
             "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": ""
+            "mail_instructions": "Request an absentee ballot from your <a href ='https://www.sos.mo.gov/elections/govotemissouri/localelectionauthority'>local election authority</a>. You can ask them to mail you a request form, or <a href='https://www.sos.mo.gov/CMSImages/ElectionGoVoteMissouri//2019AbsenteeBallotrequestformfillable.pdf'>download this request form</a> and return it via email, mail, or fax.",
+            "mail_request_deadline": "By 5 p.m. 2 Wednesdays before the election.",
+            "in_person_request_instructions":"Go to your <a href ='https://www.sos.mo.gov/elections/govotemissouri/localelectionauthority'>local election authority</a> to vote an absentee ballot beginning 6 weeks before an election.",
+            "ballot_delivery": "The day before the election.",
+            "requirements":"<p>You can vote absentee if you're</p> <ul><li>ill</li><li>physically incapable of getting the the polls</li><li>working</li><li>out of the state</li><li>celebrating a religious occasion that prevents you from voting</li><li>incarcerated but not prevented from voting (e.g. you were convicted of a felony)</li><li>part of an address confidentiality program</li></ul>",
+            "source": "https://www.sos.mo.gov/elections/goVoteMissouri/howtovote",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "North Carolina":
         {
-            "types": "",
+            "types": "One-stop in-person early voting.",
             "mail_instructions": "",
             "mail_request_deadline": "",
-            "in_person_request_instructions":"",
+            "in_person_request_instructions":"You can register and vote the same day at <a href='https://vt.ncsbe.gov/ossite/'>an early voting location</a>.",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href='https://www.ncsbe.gov/Portals/0/Forms/NCVoterRegForm09W.pdf'>Solicitud de boleta en ausencia española</a>."
             
         },
 
@@ -285,7 +292,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "Nebraska":
@@ -296,7 +304,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "New Jersey":
@@ -307,7 +316,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "New Mexico":
@@ -318,7 +328,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
         
         "Nevada":
@@ -326,7 +337,8 @@
             "inPerson":"", 
             "byMail":"", 
             "online":"",
-            "status":""
+            "status":"",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
         
         "New York":
@@ -337,7 +349,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "Texas":
@@ -348,7 +361,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "Utah":
@@ -359,7 +373,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "Virginia":
@@ -370,7 +385,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
         
         "Vermont":
@@ -381,7 +397,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
         
         "Washington":
@@ -392,7 +409,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "Washington, D.C.": 
@@ -403,7 +421,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "Wisconsin": 
@@ -414,7 +433,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "West Virginia": 
@@ -425,7 +445,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         },
 
         "Wyoming": 
@@ -436,7 +457,8 @@
             "in_person_request_instructions":"",
             "ballot_delivery": "",
             "requirements":"",
-            "source": ""
+            "source": "",
+            "span_app": "<a href=''>Solicitud de boleta en ausencia española</a>."
         }
     }
 }
