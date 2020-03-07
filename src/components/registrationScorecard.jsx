@@ -1,14 +1,6 @@
 import React from "react";
 
 function RegistrationScorecard(props) {
-
-    /* Was this doing anything?
-    scorecardStyle = {
-        background: "red",
-        height: 300,
-    };
-    */
-
     // otherwise asking for e.g. Northern Mariana Islands throws an error
     const info = safeLookup(props.regData, props.electionType, props.selectedState, props.method); 
 
@@ -18,7 +10,7 @@ function RegistrationScorecard(props) {
                 <h3>{props.cardTitle}</h3>
             </div>
             <div className="card-body">
-                <p>{info}</p>
+                    <p dangerouslySetInnerHTML={{ __html: props.passJson}}></p>
             </div>
         </div>
     );

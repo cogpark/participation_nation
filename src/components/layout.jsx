@@ -1,6 +1,6 @@
 import React from 'react';
 import RegistrationDeadlinesRow from './registrationDeadlinesRow';
-import Feedback from './feedback';
+//ximport Feedback from './feedback';
 
 
 function Layout(props) { 
