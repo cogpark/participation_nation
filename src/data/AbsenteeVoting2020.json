@@ -167,46 +167,47 @@
 
         "Kansas":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
+            "types": "Advance voting by mail and in person",
+            "mail_instructions": "<a href='https://www.kssos.org/forms/elections/AV1.pdf'>Fill out an advance vote application</a> or request one and return itx` to <a href='https://www.sos.ks.gov/elections/county_election_officers.aspx'>your county elections office</a>.",
+            "mail_request_deadline": "5 days before the election.",
+            "in_person_request_instructions":"You can vote in person before the election at <a href='https://www.sos.ks.gov/elections/county_election_officers.aspx'>your county elections office</a>. Advance voting start dates vary by county.",
+            "ballot_delivery": "Received no later than 3 days after the election.",
             "requirements":"None (exept that you're registered).",
-            "source": ""
+            "source": "https://sos.kansas.gov/elections/registration-voting/"
         },
 
         "Kentucky":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": ""
+            "types":"By mail or in person.",
+            "mail_instructions": "Request an absentee application from <a href='https://elect.ky.gov/About-Us/Pages/County-Clerks.aspx'>your country clerk</a>.",
+            "mail_request_deadline": "7 days before an election.",
+            "in_person_request_instructions":"Same as by mail: Visit <a href='https://elect.ky.gov/About-Us/Pages/County-Clerks.aspx'>your country clerk</a>--request an application from your county clerk.",
+            "ballot_delivery": "Mail your ballot back by 6 p.m. on election day. Check with your county clerk to see when you can return your in-person absentee ballot.",
+            "requirements":"<p>Kentucky has You can vote absentee if you're</p><ul><li>ill</li><li>elderly</li><li>A <a href='https://elect.ky.gov/Voters/Pages/College-Students.aspx'>a student</a> who's out of the country</li><li>outside of the state but eligible to vote</li><li>incarcerated but not convicted</li><li>working</li>",
+            "source": "https://elect.ky.gov/Voters/Pages/Absentee-Voting.aspx"
         },   
 
+        
         "Louisiana":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": ""
+            "types": "By mail and early in person.",
+            "mail_instructions": "Submit <a href='https://www.sos.la.gov/ElectionsAndVoting/PublishedDocuments/GeneralApplicationForAbsenteeByMailBallot.pdf'>an application</a> to your <a href='https://voterportal.sos.la.gov/registrar'>registrar of voters</a>. You can also apply through <a href='https://voterportal.sos.la.gov/'>LA's online system</a>.",
+            "mail_request_deadline": "4 days before the election.",
+            "in_person_request_instructions":"Go to your <a href='https://voterportal.sos.la.gov/registrar'>local Registrars of Voters Office</a> to vote early.",
+            "ballot_delivery": "<ul><li>In person: You can vote between 14 and 7 days before the election</li><li> Early voting By mail: 4:30 p.m. the day before the election</li></ul>.",
+            "requirements":"<p>You can vote early for any reason. You can vote by mail if you're:</p> <ul><li>65 years old or older</li> <li>live or work away from home</li> <li>incarcerated by not convicted</li> <li>physically incapable of getting to the polls</li></ul>.",
+            "source": "https://www.sos.la.gov/electionsandvoting/vote/votebymail/pages/default.aspx"
         },
 
         "Massachusetts":
         {
-            "types": "",
-            "mail_instructions": "",
-            "mail_request_deadline": "",
-            "in_person_request_instructions":"",
-            "ballot_delivery": "",
-            "requirements":"",
-            "source": ""
+            "types": "The Secretary of state mostly gives instructions for absentee by-mail voting, but in-person is possible, too.",
+            "mail_instructions": "<a href='https://www.sec.state.ma.us/ele/elepdf/absentee/English-Absentee-Ballot-Application.pdf'>Download (or request) and fill out an absentee ballot application</a> from your <a href='https://www.sec.state.ma.us/ele/eleclk/clkidx.htm'>county clerk</a>.",
+            "mail_request_deadline": "By 12 p.m. on the day before the election. If the day before is a holiday or a Sunday, in which case by 5 p.m. the last business day before the election.",
+            "in_person_request_instructions":"If you want to vote absentee in person, get in touch with <a href='from your <a href='https://www.sec.state.ma.us/ele/eleclk/clkidx.htm'>county clerk</a>.'>your local election official</a>",
+            "ballot_delivery": "By the time the polls close on election day.",
+            "requirements":"You can vote absentee if you're going to be out of the state on election day, physically incapable of getting to the polls, or religious beliefs prevent you.",
+            "source": "https://www.sec.state.ma.us/ele/eleabsentee/absidx.htm"
         },
 
         "Maryland":
