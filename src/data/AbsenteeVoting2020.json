@@ -9,7 +9,8 @@
             "in_person_request_instructions": "Visit <a href='http://www.elections.alaska.gov/Core/AIPEVEvents.php'>an early/in-person absentee voting location</a> starting 15 days before the election.",
             "ballot_delivery": "Postmarked or delivered by election day.", 
             "requirements":"None (exept that you're registered).",
-            "source": "http://www.elections.alaska.gov/Core/votingbymail.php and http://www.elections.alaska.gov/Core/votingbymail.php"
+            "source": "http://www.elections.alaska.gov/Core/votingbymail.php and http://www.elections.alaska.gov/Core/votingbymail.php",
+            "span_app": ""
         },
         
         "Alabama": 
@@ -20,7 +21,8 @@
             "in_person_request_instructions": "Delivered to <a href='https://www.sos.alabama.gov/city-county-lookup/absentee-election-manager'> your local election manager</a> by 5 p.m. the day before te election.",
             "ballot_delivery": "By noon on election day.",
             "requirements":"<p>You can vote absentee if you're</p><ul> <li>out of the country</li> <li>ill</li> <li>working a 10-hour shift</li> <li>caring for a family member who's confined to their home</li> <li>incarcerated (though not if you've been convicted of a felony)</li></ul>",
-            "source": "https://www.sos.alabama.gov/alabama-votes/voter/absentee-voting"
+            "source": "https://www.sos.alabama.gov/alabama-votes/voter/absentee-voting",
+            "span_app": ""
             
         },
         "Arkansas":
@@ -31,17 +33,19 @@
             "in_person_request_instructions": "Deliver your absentee ballot application by the day before the election.",
             "ballot_delivery": "In person: Before election day. By mail: Received by 7:30 p.m. on election day.",
             "requirements":"<p>To vote absentee, you must:</p> <ul> <li>be unable to get to your polling site</li> <li>ill</li> <li>have a physical disability</li> <li> indicate if you'll be picking you your ballot in person, by mail, or bearer (i.e. someone else is getting it for you)",
-            "source": "https://www.sos.arkansas.gov/elections/voter-information/absentee-voting"
+            "source": "https://www.sos.arkansas.gov/elections/voter-information/absentee-voting",
+            "span_app": ""
         },
         "Arizona": 
         {
-            "types": "By mail or in person",
+            "types": "By mail or in person.",
             "mail_instructions": "<a href='https://www.azcleanelections.gov/register-to-vote'>Sign up online</a> or <a href='https://www.azcleanelections.gov/county-contact'>contact your County Recorder</a> to get added to AZ's \"permanent early voting list\".",
             "mail_request_deadline": "11 days before the election.",
             "in_person_request_instructions":"You can vote early in person starting 27 days before the election at an early voting location. <a href='https://www.azcleanelections.gov/how-to-vote/early-voting/in-person'>Learn more about how and where</a>.",
             "ballot_delivery": "Election day. You can return ballots to your <a href='https://www.azcleanelections.gov/county-contact>County Recorder's Office</a>, any voting location, or any designated ballot return box.",
             "requirements":"None (exept that you're registered). (exept that you're registered)..",
-            "source": " and https://recorder.maricopa.gov/site/faq.aspx"
+            "source": "https://recorder.maricopa.gov/site/faq.aspx",
+            "span_app": ""
         },
 
         "California": 
@@ -52,7 +56,8 @@
             "in_person_request_instructions":"Some counties offer in-person early voting. <a href='https://www.sos.ca.gov/elections/voting-resources/county-elections-offices'>Find out if you can vote early.</a>",
             "ballot_delivery": "Postmarked or returned in person by election day.",
             "requirements":"None (exept that you're registered). (exept that you're registered)..",
-            "source": "https://www.sos.ca.gov/elections/voter-registration/vote-mail/"
+            "source": "https://www.sos.ca.gov/elections/voter-registration/vote-mail/",
+            "span_app": ""
         },
 
         "Colorado": 
@@ -63,7 +68,8 @@
             "in_person_request_instructions":"You can drop off your ballot in person before the election. Get in touch with <a href='https://www.sos.state.co.us/pubs/elections/Resources/CountyElectionOffices.html'>your county clerk</a> to learn where and when.",
             "ballot_delivery": "Your <a href='https://www.sos.state.co.us/pubs/elections/Resources/CountyElectionOffices.html'>county clerk must receive your ballot by 7 p.m. on election day</a>.",
             "requirements":"None (exept that you're registered). (exept that you're registered)..",
-            "source": "https://www.sos.state.co.us/pubs/elections/FAQs/mailBallotsFAQ.html"
+            "source": "https://www.sos.state.co.us/pubs/elections/FAQs/mailBallotsFAQ.html",
+            "span_app": ""
         },
 
         "Connecticut": 
@@ -74,7 +80,8 @@
             "in_person_request_instructions":"Fill out <a href='https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting'>an absentee ballot application</a> and deliver it to <a href='https://portal.ct.gov/-/media/SOTS/ElectionServices/lists/TownClerkListpdf.pdf?la=en'>your town clerk</a>.",
             "ballot_delivery": "By election day.",
             "requirements":"<p>You can vote absentee if you're:</p><ul><li>Out of town on election day</li> <li>ill</li> <li>celebrating a religious occasion that prevents you from voting</li> <li>physically incapable of getting to the polling place</li>",
-            "source": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting"
+            "source": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting",
+            "span_app": ""
         },
 
         "Delaware":
@@ -85,7 +92,8 @@
             "in_person_request_instructions":"Same as by mail: Fill out <a href='https://elections.delaware.gov/pubs/pdfs/absentee_ballot_application.pdf'>an absentee ballot application and bring it to your local <a href='https://elections.delaware.gov/locations.shtml'>Department of Elections</a>.",
             "ballot_delivery": "The last day to deliver an absentee ballot by hand is 12 days before the election. Your mailed ballot has to be in by the time the polls close on election day.",
             "requirements":"<p>You can vote absentee if you're:</p> <li>working</li> <li>away at school</li> <li>ill</li> <li>on vacation</li> <li>physically unable to get to the polls</li> <li>celebrating a religious occasion that prevents you from voting</li></ul>",
-            "source": "https://elections.delaware.gov/pubs/pdfs/AbsenteeVoting_CantGoToThePolls.pdf"
+            "source": "https://elections.delaware.gov/pubs/pdfs/AbsenteeVoting_CantGoToThePolls.pdf",
+            "span_app": ""
         },
 
         "Florida":
@@ -96,7 +104,8 @@
             "in_person_request_instructions":"As long as you're registered, you can vote early in person at <a href='https://dos.myflorida.com/elections/for-voters/voting/early-voting/'>an early voting site</a>.",
             "ballot_delivery": "<ul><li>By-mail ballots must be returned by 7 p.m. on election day</li> <li>In person early voting happens between the 10th and 3rd days before an election. The period may be longer in your area; check with your <a href='http://dos.elections.myflorida.com/supervisors/'>county Supervisor of Elections</a></li>",
             "requirements":"None (exept that you're registered). (exept that you're registered)..",
-            "source": "https://dos.myflorida.com/elections/for-voters/voting/vote-by-mail/"
+            "source": "https://dos.myflorida.com/elections/for-voters/voting/vote-by-mail/",
+            "span_app": ""
         },
 
         "Georgia":
@@ -107,7 +116,8 @@
             "in_person_request_instructions":"During the early voting period, you can vote at <a href=''>one of these early vote locations</a>. The early voting period starts 4 Mondays before the election and ends the Friday before election day. You'll fill out an absentee ballot at the early vote location.",
             "ballot_delivery": "By election day.",
             "requirements":"None (exept that you're registered). (exept that you're registered).",
-            "source": "https://georgia.gov/popular-topic/voting and https://sos.ga.gov/admin/uploads/Absentee_Voting_Guide_20142.pdf"
+            "source": "https://georgia.gov/popular-topic/voting and https://sos.ga.gov/admin/uploads/Absentee_Voting_Guide_20142.pdf",
+            "span_app": ""
         },
 
         "Hawaii":
@@ -118,7 +128,8 @@
             "in_person_request_instructions":"You can register and vote early at a voter service center starting 10 days before the election.",
             "ballot_delivery": "By 7 p.m. on election day.",
             "requirements":"None (exept that you're registered). (exept that you're registered).",
-            "source": "https://elections.hawaii.gov/frequently-asked-questions/voting-by-mail/"
+            "source": "https://elections.hawaii.gov/frequently-asked-questions/voting-by-mail/",
+            "span_app": ""
         },
 
         "Iowa":
@@ -129,7 +140,8 @@
             "in_person_request_instructions":"Starting 29 days before an election, you can vote at <a href='https://sos.iowa.gov/elections/auditors/auditorslist.html'>your county auditor's office</a> until the day before an election.",
             "ballot_delivery": "By the time the polls close on election day.",
             "requirements":"",
-            "source": "https://sos.iowa.gov/elections/electioninfo/absenteeinfo.html"
+            "source": "https://sos.iowa.gov/elections/electioninfo/absenteeinfo.html",
+            "span_app": ""
         },
 
         "Idaho":
@@ -140,7 +152,8 @@
             "in_person_request_instructions":"You can cast an early vote at an \"absent elector's polling place\" (ask <a href='https://idahovotes.gov/county-clerks/'>your county clerk</a> where this is) until 5 p.m. on the Friday before an election. The beginning of this early voting period seems to vary by county; check with your local clerk for specifics.", 
             "ballot_delivery": "By election day.",
             "requirements":"None (exept that you're registered). (exept that you're registered).",
-            "source": "https://idahovotes.gov/absentee-voter-information/"
+            "source": "https://idahovotes.gov/absentee-voter-information/",
+            "span_app": ""
         },
         
         "Illinois":
@@ -151,7 +164,8 @@
             "in_person_request_instructions":"You can vote in person at <a href='https://www.cookcountyclerk.com/service/early-voting-locations'>an early voting location</a> starting 15 days before an election.",
             "ballot_delivery": "Return your ballot by election day.",
             "requirements":"None (exept that you're registered). (exept that you're registered).",
-            "source": "https://www.cookcountyclerk.com/agency/vote-mail"
+            "source": "https://www.cookcountyclerk.com/agency/vote-mail",
+            "span_app": ""
         },
 
         "Indiana":
@@ -162,7 +176,8 @@
             "in_person_request_instructions":"Same as by mail: <a href='https://www.in.gov/sos/elections/2402.htm'>Fill out the in-person applicaton</a> and take it to your <a href='https://indianavoters.in.gov/CountyContact/Index'>county election board</a>",
             "ballot_delivery": "By election day.",
             "requirements":"<p>You can vote absentee if you're: <ul> <li>away ot working while the polls are open (6 a.m until 6 pm)</li><li>physically unable to get to the polls</li><li>at least 65 years old</li><li>working at polls outside your voting precinct</li><li>ill or injured, or caring for someone who's ill or injured</li> <li>celebrating a religious occasion that prevents you from voting</li><li>part of the state's address confidentiality program.</li> <li>a member of the military or a public safety officer.</li> <li>a \"serious sex offender\" per Indiana's law (35-42-4-14(a)).</li><li>have no transportation to the polls</li></ul>",
-            "source": "https://www.in.gov/sos/elections/2402.htm"
+            "source": "https://www.in.gov/sos/elections/2402.htm",
+            "span_app": ""
         },
 
         "Kansas":
@@ -173,7 +188,8 @@
             "in_person_request_instructions":"You can vote in person before the election at <a href='https://www.sos.ks.gov/elections/county_election_officers.aspx'>your county elections office</a>. Advance voting start dates vary by county.",
             "ballot_delivery": "Received no later than 3 days after the election.",
             "requirements":"None (exept that you're registered).",
-            "source": "https://sos.kansas.gov/elections/registration-voting/"
+            "source": "https://sos.kansas.gov/elections/registration-voting/",
+            "span_app": ""
         },
 
         "Kentucky":
@@ -184,7 +200,8 @@
             "in_person_request_instructions":"Same as by mail: Visit <a href='https://elect.ky.gov/About-Us/Pages/County-Clerks.aspx'>your country clerk</a>--request an application from your county clerk.",
             "ballot_delivery": "Mail your ballot back by 6 p.m. on election day. Check with your county clerk to see when you can return your in-person absentee ballot.",
             "requirements":"<p>Kentucky has You can vote absentee if you're</p><ul><li>ill</li><li>elderly</li><li>A <a href='https://elect.ky.gov/Voters/Pages/College-Students.aspx'>a student</a> who's out of the country</li><li>outside of the state but eligible to vote</li><li>incarcerated but not convicted</li><li>working</li>",
-            "source": "https://elect.ky.gov/Voters/Pages/Absentee-Voting.aspx"
+            "source": "https://elect.ky.gov/Voters/Pages/Absentee-Voting.aspx",
+            "span_app": ""
         },   
 
         
@@ -196,7 +213,8 @@
             "in_person_request_instructions":"Go to your <a href='https://voterportal.sos.la.gov/registrar'>local Registrars of Voters Office</a> to vote early.",
             "ballot_delivery": "<ul><li>In person: You can vote between 14 and 7 days before the election</li><li> Early voting By mail: 4:30 p.m. the day before the election</li></ul>.",
             "requirements":"<p>You can vote early for any reason. You can vote by mail if you're:</p> <ul><li>65 years old or older</li> <li>live or work away from home</li> <li>incarcerated by not convicted</li> <li>physically incapable of getting to the polls</li></ul>.",
-            "source": "https://www.sos.la.gov/electionsandvoting/vote/votebymail/pages/default.aspx"
+            "source": "https://www.sos.la.gov/electionsandvoting/vote/votebymail/pages/default.aspx",
+            "span_app": ""
         },
 
         "Massachusetts":
@@ -207,7 +225,8 @@
             "in_person_request_instructions":"If you want to vote absentee in person, get in touch with <a href='from your <a href='https://www.sec.state.ma.us/ele/eleclk/clkidx.htm'>county clerk</a>.'>your local election official</a>",
             "ballot_delivery": "By the time the polls close on election day.",
             "requirements":"You can vote absentee if you're going to be out of the state on election day, physically incapable of getting to the polls, or religious beliefs prevent you.",
-            "source": "https://www.sec.state.ma.us/ele/eleabsentee/absidx.htm"
+            "source": "https://www.sec.state.ma.us/ele/eleabsentee/absidx.htm",
+            "span_app": ""
         },
 
         "Maryland":
@@ -218,7 +237,8 @@
             "in_person_request_instructions":"You can vote early at <https://elections.maryland.gov/elections/2020/2020%20Early%20Voting%20Centers.pdf'>an early voting center</a>. Check this <a href='https://elections.maryland.gov/voting/early_voting.html'>MD Board of Elections page for when you can vote early</a> in 2020.",
             "ballot_delivery": "If you're turning in your ballot in person, ",
             "requirements":"Your mailed ballot has to be postmarked by the election and received no later than 10 days after the election.",
-            "source": "https://elections.maryland.gov/voting/absentee.html"
+            "source": "https://elections.maryland.gov/voting/absentee.html",
+            "span_app": ""
         },
 
         "Michigan":
@@ -442,8 +462,6 @@
 
         "West Virginia": 
         {
-
-
             "types": "Absentee by mail and early in person.",
             "mail_instructions": "Send an <a href='https://sos.wv.gov/FormSearch/Elections/Voter/Absentee%20Ballot%20Application.pdf'>absentee ballot application</a> to the office of <a href='https://sos.wv.gov/elections/Pages/CountyClerkDirectory.aspx'>your county clerk</a>",
             "mail_request_deadline": "6 days before the election.",
@@ -463,7 +481,7 @@
             "ballot_delivery": "7 p.m. on election day.",
             "requirements":"None (except that you're registered).",
             "source": "https://soswy.state.wy.us/Elections/AbsenteeVoting.aspx",
-            "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+            "span_app": ""
         }
     }
 }
