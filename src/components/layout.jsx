@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import RegistrationDeadlinesRow from './registrationDeadlinesRow';
+
 //import Feedback from './feedback';
 import Picker from './picker'
 import RegData from '../data/RegDeadlines2020.json';
