@@ -17,7 +17,7 @@
         },
         "Arkansas":
         {
-            "inPerson":"<b>February 3, 2020</b>", 
+            "inPerson":"February 3, 2020", 
             "byMail":"February 3, 2020", 
             "online":"You can't in AR.",
             "status":"https://www.sos.arkansas.gov/elections"
@@ -32,9 +32,9 @@
 
         "California": 
         {
-            "inPerson":"Anytime*", 
+            "inPerson":"Anytime", 
             "byMail":"February 18, 2020", 
-            "online":"February 18, 2020.",
+            "online":"February 18, 2020",
             "status":"https://www.sos.ca.gov/elections/voting-resources/voting-california/election-dates-and-resources/",
             "notes":"If you miss the main registration deadline, you can still register in person."
         },
