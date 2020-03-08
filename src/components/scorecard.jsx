@@ -1,6 +1,6 @@
 import React from "react";
 
-function RegistrationScorecard(props) {
+function Scorecard(props) {
     // otherwise asking for e.g. Northern Mariana Islands throws an error
     const info = safeLookup(props.regData, props.electionType, props.selectedState, props.method); 
 
@@ -17,7 +17,7 @@ function RegistrationScorecard(props) {
 
 }
 
-export default RegistrationScorecard;
+export default Scorecard;
 
 function safeLookup(data, election, state, method) {
     var result = "no data for " + election + ": " + state + ": " + method;

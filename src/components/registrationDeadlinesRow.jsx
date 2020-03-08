@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import RegistrationScorecard from './registrationScorecard';
+import Scorecard from './scorecard';
 
 
 function RegistrationDeadlinesRow(props) { 
@@ -9,15 +9,15 @@ function RegistrationDeadlinesRow(props) {
             <hr />
             
             <div className="row">
-                <div className="col-sm"><RegistrationScorecard
+                <div className="col-sm"><Scorecard
                         passJson = {lookupDates(props.datesData, props.selectedElection, props.selectedState,'inPerson')}
                         cardTitle= "In person deadline:" />
                 </div> 
-                <div className="col-sm middle-card"><RegistrationScorecard
+                <div className="col-sm middle-card"><Scorecard
                         passJson = {lookupDates(props.datesData, props.selectedElection, props.selectedState,'byMail')}
                         cardTitle= "By mail deadline:"/>
                 </div>
-                <div className="col-sm"><RegistrationScorecard
+                <div className="col-sm"><Scorecard
                         passJson = {lookupDates(props.datesData, props.selectedElection, props.selectedState,'online')}
                         cardTitle= "Online deadline:"/>
                 </div>
