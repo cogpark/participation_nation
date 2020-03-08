@@ -9,15 +9,15 @@ function RegistrationDeadlinesRow(props) {
             <hr />
             
             <div className="row">
-                <div className="col-sm"><Scorecard
+                <div className="col-sm-4"><Scorecard
                         passJson = {lookupDates(props.datesData, props.selectedElection, props.selectedState,'inPerson')}
                         cardTitle= "In person deadline:" />
                 </div> 
-                <div className="col-sm middle-card"><Scorecard
+                <div className="col-sm-4 middle-card"><Scorecard
                         passJson = {lookupDates(props.datesData, props.selectedElection, props.selectedState,'byMail')}
                         cardTitle= "By mail deadline:"/>
                 </div>
-                <div className="col-sm"><Scorecard
+                <div className="col-sm-4"><Scorecard
                         passJson = {lookupDates(props.datesData, props.selectedElection, props.selectedState,'online')}
                         cardTitle= "Online deadline:"/>
                 </div>

@@ -12,19 +12,59 @@ function AbsenteeEarlyVotingRow(props) {
                 </ul>
                 <hr />
             </div>
-            
-            <div className='row'>
-                <div className='col-8'>
+
+            <h3>INSTRUCTIONS</h3> 
+            <div className='row' style={{ paddingBottom: '10px;'}}>
+
+                <div className='col-md-6'>
                     <Scorecard 
-                    cardTitle="Types"/>
+                    cardTitle={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'mail_title')}
+                    passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'mail_instructions')}
+                    />
                 </div>
-                <div>
-                    <p>rail</p>
+                <div className='col-md-6'>
+                    <Scorecard 
+                    cardTitle={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'in_person_title')}
+                    passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'in_person_instructions')}
+                    />  
+                    
                 </div>
             </div>
+            <br />
+            <h3>DEADLINES & REQUIREMENTS</h3> 
+            <div className='row' style={{ paddingBottom: '10px;'}}>
+                <div className='col-sm-4'>
+                <Scorecard 
+                    cardTitle={"Deadline: Mail ballot requests"}
+                    passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'mail_request_deadline')}
+                />
+                </div>
+                <div className='col-sm-4'>
+                    <Scorecard 
+                    cardTitle = {'Deadline: Ballot submissions'}
+                    passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'ballot_delivery')}
+                />
+                </div>
+            <div className ='col-sm-4'>
+                <Scorecard 
+                    cardTitle = {'Requirements'}
+                    passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'requirements')}
+                />
+            </div>
+            </div>
+            <br />
+            <h3>LEARN MORE</h3> 
+            <div className='row' style={{ paddingBottom: '10px;'}}>
 
-        </React.Fragment>
+
+            </div>
+
+    </React.Fragment>
     )
 }
 
 export default AbsenteeEarlyVotingRow;
+
+function lookupAbsenteeInfo(data, state, attribute ) {
+    return data[state][attribute]
+}
