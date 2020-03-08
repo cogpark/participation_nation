@@ -1,8 +1,11 @@
 import React from "react";
 
 function Scorecard(props) {
-    // otherwise asking for e.g. Northern Mariana Islands throws an error
+    /*let's do this test elsewhere -->
+        
+    // otherwise asking for e.g. Northern Mariana Islands throws an error 
     const info = safeLookup(props.regData, props.electionType, props.selectedState, props.method); 
+    */
 
     return (
         <div className="card">
@@ -10,7 +13,7 @@ function Scorecard(props) {
                 <h3>{props.cardTitle}</h3>
             </div>
             <div className="card-body">
-                    <p dangerouslySetInnerHTML={{ __html: props.passJson}}></p>
+                <p dangerouslySetInnerHTML={{ __html: props.passJson}}></p>
             </div>
         </div>
     );
@@ -18,7 +21,7 @@ function Scorecard(props) {
 }
 
 export default Scorecard;
-
+/*
 function safeLookup(data, election, state, method) {
     var result = "no data for " + election + ": " + state + ": " + method;
     
@@ -29,4 +32,4 @@ function safeLookup(data, election, state, method) {
         result = data[election.toLowerCase()][state][method];
 
     return result;
-}
+} */

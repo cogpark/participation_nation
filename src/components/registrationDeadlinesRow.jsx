@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import Scorecard from './scorecard';
 
 
 function RegistrationDeadlinesRow(props) { 
     return (
-        <React.Fragment>
+        <React.Fragment >
             <h2>Registration deadlines</h2>
             <hr />
             

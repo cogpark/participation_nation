@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import RegistrationDeadlinesRow from './registrationDeadlinesRow';
-
+import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
 //import Feedback from './feedback';
 import Picker from './picker'
 import RegData from '../data/RegDeadlines2020.json';
@@ -74,12 +74,18 @@ class Layout extends Component {
                         </div>
                     </div> 
 
-                    <div className="row">
+                    <div className="row padded-down">
                         <div className="col">
                             <RegistrationDeadlinesRow 
                             selectedState={this.state.selectedState}
                             selectedElection={this.state.selectedElection}
                             datesData={this.state.datesData} />
+                        </div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='col'>
+                            <AbsenteeEarlyVotingRow />
                         </div>
                     </div>
                 </div> 
