@@ -11,9 +11,14 @@ body {
 }
 #banner {
   background: #8C0813; 
-  height: 150px; 
+  min-height: 150px; 
   margin-bottom: 25px;
   padding: 35px;
+}
+
+h1.header-text {
+  color:#ECECEC;
+  margin-bottom: 5px;
 }
 
 .container {
@@ -65,9 +70,6 @@ p , li {
   font-size: 18px;
 }
 
-h1.header-text {
-  color:#ECECEC;
-}
 
 .card-header {
   background-color: #426480;
