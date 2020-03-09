@@ -32,9 +32,9 @@
 
         "California": 
         {
-            "inPerson":"Anytime*", 
+            "inPerson":"Anytime", 
             "byMail":"February 18, 2020", 
-            "online":"February 18, 2020.",
+            "online":"February 18, 2020",
             "status":"https://www.sos.ca.gov/elections/voting-resources/voting-california/election-dates-and-resources/",
             "notes":"If you miss the main registration deadline, you can still register in person."
         },

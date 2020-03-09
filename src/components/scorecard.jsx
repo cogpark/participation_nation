@@ -1,32 +1,27 @@
 import React from "react";
 
-function RegistrationScorecard(props) {
-
-    /* Was this doing anything?
-    scorecardStyle = {
-        background: "red",
-        height: 300,
-    };
-    */
-
-    // otherwise asking for e.g. Northern Mariana Islands throws an error
+function Scorecard(props) {
+    /*let's do this test elsewhere -->
+        
+    // otherwise asking for e.g. Northern Mariana Islands throws an error 
     const info = safeLookup(props.regData, props.electionType, props.selectedState, props.method); 
+    */
 
     return (
         <div className="card">
             <div className="card-header">
-                <h3>{props.cardTitle}</h3>
+                <h5>{props.cardTitle}</h5>
             </div>
             <div className="card-body">
-                <p>{info}</p>
+                <p dangerouslySetInnerHTML={{ __html: props.passJson}}></p>
             </div>
         </div>
     );
 
 }
 
-export default RegistrationScorecard;
-
+export default Scorecard;
+/*
 function safeLookup(data, election, state, method) {
     var result = "no data for " + election + ": " + state + ": " + method;
     
@@ -37,4 +32,4 @@ function safeLookup(data, election, state, method) {
         result = data[election.toLowerCase()][state][method];
 
     return result;
-}
+} */
