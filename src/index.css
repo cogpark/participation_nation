@@ -36,19 +36,29 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-  font-size: 58px;
+  font-size: 62px;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 44x;
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 42px;
 }
 
-p {
-  font-size: 20px;
+h4 {
+  font-size: 34px;
+}
+
+h5 {
+  font-size: 28px;
+}
+
+p , li {
+  font-size: 18px;
 }
 
 .form-control, .form-control * {
@@ -64,18 +74,39 @@ h1.header-text {
   padding: 15px;
 }
 
-.card-header > h3 {
+.card-header > h5 {
   color: white;
 }
 
-.card-body {
+.card-body, .card {
   background-color: #C5D1D9;
+  min-height: 100%;
 }
 
-.col-sm {
+.scorecard-holder {
+  background-color: #C5D1D9;
+  padding: 20px;
+}
+
+.col-sm-4, .col-md-6 {
   padding: 5px;
 }
 
-.col-8 {
+.col-lg-8 {
   padding-left: 5px;
 }
+
+.padded-down {
+  padding-bottom: 30px;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+

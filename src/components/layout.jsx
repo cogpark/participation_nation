@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import RegistrationDeadlinesRow from './registrationDeadlinesRow';
-
+import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
 //import Feedback from './feedback';
 import Picker from './picker'
 import RegData from '../data/RegDeadlines2020.json';
+import AbsenteeData from '../data/AbsenteeVoting.json'
 //import { ReactComponent } from '*.svg';
 
 
@@ -29,6 +30,7 @@ class Layout extends Component {
             selectedState: 'Alabama',
             selectedElection: 'general',
             datesData: RegData,
+            absenteeData: AbsenteeData,
         }
 
         this.handleSelectAState = this.handleSelectAState.bind(this);
@@ -74,12 +76,21 @@ class Layout extends Component {
                         </div>
                     </div> 
 
-                    <div className="row">
+                    <div className="row padded-down">
                         <div className="col">
                             <RegistrationDeadlinesRow 
                             selectedState={this.state.selectedState}
                             selectedElection={this.state.selectedElection}
                             datesData={this.state.datesData} />
+                        </div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='col'>
+                            <AbsenteeEarlyVotingRow 
+                            selectedState={this.state.selectedState}
+                            selectedElection={this.state.selectedElection}
+                            absenteeData={this.state.absenteeData}/>
                         </div>
                     </div>
                 </div> 
