@@ -3,7 +3,9 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const app = express();
 
-mongoose.connect('mongodb+srv://partnat:2rYz6YSjYlqUuRdb@cluster0-bfrfd.mongodb.net/test?retryWrites=true&w=majority', { 
+require('dotenv').config();
+
+mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASS+'@cluster0-bfrfd.mongodb.net/test?retryWrites=true&w=majority', { 
 	useUnifiedTopology: true,
 	useNewUrlParser: true
 }).then(() => {
