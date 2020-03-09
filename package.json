@@ -1,6 +1,10 @@
 {
   "name": "participation-nation",
+<<<<<<< HEAD
   "version": "0.3.0",
+=======
+  "version": "0.2.0",
+>>>>>>> master
   "private": true,
   "description":"This project wants to simplify public sector info about elections.",
   "dependencies": {
@@ -11,7 +15,10 @@
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
+<<<<<<< HEAD
     "react-router": "^5.1.2",
+=======
+>>>>>>> master
     "react-scripts": "3.4.0",
     "body-parser": "^1.19.0",
     "concurrently": "^5.1.0",
