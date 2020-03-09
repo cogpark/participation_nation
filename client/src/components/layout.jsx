@@ -7,12 +7,7 @@ import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
 //import { ReactComponent } from '*.svg';
 
-
-class Layout extends Component { 
-    constructor() {
-        super()
-
-        this.usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
+const usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
         'Colorado','Connecticut','Delaware',
         'Florida','Georgia','Hawaii',
         'Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky',
@@ -24,8 +19,13 @@ class Layout extends Component {
         'Virginia','Washington', 'Washington, D.C.','West Virginia','Wisconsin',
         'Wyoming'];
 
-        this.electionTypes = ['General', 'Democratic Primary'];
-        this.methods = 
+
+const electionTypes = ['General', 'Democratic Primary'];
+
+class Layout extends Component { 
+    constructor() {
+        super()
+
         this.state = {
             selectedState: 'Alabama',
             selectedElection: 'general',
@@ -69,10 +69,10 @@ class Layout extends Component {
             
                     <div className="form-group row">
                         <div className="col-8">
-                            <Picker onChange={event => this.handleSelectAState(event)} selection={this.selectedState} data={this.usStates} />
+                            <Picker onChange={event => this.handleSelectAState(event)} selection={this.selectedState} data={usStates} />
                         </div>
                         <div className="col-4">
-                            <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} />
+                            <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.state.selectedElection} data={electionTypes} />
                         </div>
                     </div> 
 

@@ -2,17 +2,8 @@
   "name": "participation-nation",
   "version": "0.3.0",
   "private": true,
-  "description":"This project wants to simplify public sector info about elections.",
+  "description": "This project wants to simplify public sector info about elections.",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.1",
-    "@testing-library/user-event": "^7.2.1",
-    "bootstrap": "^4.4.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-bootstrap": "^1.0.0-beta.16",
-    "react-router": "^5.1.2",
-    "react-scripts": "3.4.0",
     "body-parser": "^1.19.0",
     "concurrently": "^5.1.0",
     "express": "^4.17.1",
@@ -20,19 +11,12 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start-backend": "node server.js",
+    "install": "npm install && npm install --prefix client",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "proxy": "http://localhost:5000",
-  "eslintConfig": {
-    "extends": "react-app"
-  },
+  "proxy": "5000",
   "browserslist": {
     "production": [
       ">0.2%",
