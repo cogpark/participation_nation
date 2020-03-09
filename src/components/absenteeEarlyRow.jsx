@@ -13,7 +13,7 @@ function AbsenteeEarlyVotingRow(props) {
                 <hr />
             </div>
 
-            <h3>INSTRUCTIONS</h3> 
+            <h3>Instructions</h3> 
             <div className='row' style={{ paddingBottom: '10px;'}}>
 
                 <div className='col-md-6'>
@@ -31,18 +31,21 @@ function AbsenteeEarlyVotingRow(props) {
                 </div>
             </div>
             <br />
-            <h3>DEADLINES & REQUIREMENTS</h3> 
-            <div className='row' style={{ paddingBottom: '10px;'}}>
-                <div className='col-sm-4'>
+            <h3>Deadlines & requirements</h3> 
+            <div className='row' style={{ paddingBottom: '10px'}}>
+                <div className='col-sm-4' >
                 <Scorecard 
                     cardTitle={"Deadline: Mail ballot requests"}
                     passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'mail_request_deadline')}
+                    
+                   
                 />
                 </div>
                 <div className='col-sm-4'>
                     <Scorecard 
                     cardTitle = {'Deadline: Ballot submissions'}
                     passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'ballot_delivery')}
+                    
                 />
                 </div>
             <div className ='col-sm-4'>
@@ -55,10 +58,10 @@ function AbsenteeEarlyVotingRow(props) {
             <br />
             <h3>LEARN MORE</h3> 
             <div className='row' style={{ paddingBottom: '10px;'}}>
-
-
+                <div className='col-lg-12'>
+                <p>If you need to learn more, start here: {lookupAbsenteeInfo(props.absenteeData, props.selectedState,'source')}</p>
+                </div>
             </div>
-
     </React.Fragment>
     )
 }

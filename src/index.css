@@ -37,10 +37,12 @@ h1,h2,h3,h4,h5 {
 
 h1 {
   font-size: 62px;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 50px;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -76,8 +78,14 @@ h1.header-text {
   color: white;
 }
 
-.card-body {
+.card-body, .card {
   background-color: #C5D1D9;
+  min-height: 100%;
+}
+
+.scorecard-holder {
+  background-color: #C5D1D9;
+  padding: 20px;
 }
 
 .col-sm-4, .col-md-6 {
@@ -91,3 +99,14 @@ h1.header-text {
 .padded-down {
   padding-bottom: 30px;
 }
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+

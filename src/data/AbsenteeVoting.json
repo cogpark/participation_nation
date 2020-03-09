@@ -16,7 +16,7 @@
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote absentee in person",
-        "mail_instructions": "<p>Request or <a href='https://www.sos.alabama.gov/sites/default/files/Regular%20Absentee%20App%20Fillable.pdf'>fill out a ballot application and send it/take it to <a href='https://www.sos.alabama.gov/city-county-lookup/absentee-election-manager'> your local election manager</a>. You'll need to provide:</p> <ul> <li>your name</li> <li>home address</li> <li>mailing address</li> <li>photo ID</li> <li>your signature</li></ul>",
+        "mail_instructions": "<p>Request or <a href='https://www.sos.alabama.gov/sites/default/files/Regular%20Absentee%20App%20Fillable.pdf'>fill out a ballot application and send it/take it to <a href='https://www.sos.alabama.gov/city-county-lookup/absentee-election-manager'> your local election manager</a>.", 
         "mail_request_deadline": "5 days before the election",
         "in_person_instructions": "Delivered to <a href='https://www.sos.alabama.gov/city-county-lookup/absentee-election-manager'> your local election manager</a> by 5 p.m. the day before te election.",
         "ballot_delivery": "By noon on election day.",
@@ -188,7 +188,7 @@
         "mail_request_deadline": "2 weeks before the election.",
         "in_person_instructions":"Same as by mail: <a href='https://www.in.gov/sos/elections/2402.htm'>Fill out the in-person applicaton</a> and take it to your <a href='https://indianavoters.in.gov/CountyContact/Index'>county election board</a>",
         "ballot_delivery": "By election day.",
-        "requirements":"<p>You can vote absentee if you're: <ul> <li>away ot working while the polls are open (6 a.m until 6 pm)</li><li>physically unable to get to the polls</li><li>at least 65 years old</li><li>working at polls outside your voting precinct</li><li>ill or injured, or caring for someone who's ill or injured</li> <li>celebrating a religious occasion that prevents you from voting</li><li>part of the state's address confidentiality program.</li> <li>a member of the military or a public safety officer.</li> <li>a \"serious sex offender\" per Indiana's law (35-42-4-14(a)).</li><li>have no transportation to the polls</li></ul>",
+        "requirements":"<p>You can vote absentee if you're: <ul> <li>away or working while the polls are open (6 a.m until 6 pm)</li><li>physically unable to get to the polls</li><li>65 years or older</li><li>ill or injured, or caring for someone else who is/li> <li>celebrating a religious occasion that prevents you from voting</li><li>part of the state's address confidentiality program.</li> <li>a member of the military or a public safety officer.</li> <li>a \"serious sex offender\" per Indiana's law (35-42-4-14(a)).</li><li>have no transportation to the polls</li></ul>",
         "source": "https://www.in.gov/sos/elections/2402.htm",
         "span_app": ""
     },
