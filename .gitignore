@@ -25,3 +25,6 @@ goorm.manifest
 .gitignore
 .ENV
 .env
+client/node_modules/
+client/build/
+.gitignore

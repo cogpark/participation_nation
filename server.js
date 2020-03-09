@@ -5,6 +5,7 @@ const app = express();
 
 require('dotenv').config();
 
+console.log('Connecting to mongoDB...');
 mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASS+'@cluster0-bfrfd.mongodb.net/test?retryWrites=true&w=majority', { 
 	useUnifiedTopology: true,
 	useNewUrlParser: true
@@ -32,4 +33,4 @@ app.post('/api/feedback', (req, res) => {
 
 const port = process.env.PORT || 5000;
 
-app.listen(port, () => console.log('listening on ', port));
+app.listen(port, () => console.log('listening on', port));
