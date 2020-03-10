@@ -1,13 +1,18 @@
 import React, { Component } from "react";
 import RegistrationDeadlinesRow from './registrationDeadlinesRow';
 import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
-import Feedback from './feedback';
+//import Feedback from './feedback';
 import Picker from './picker'
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
 //import { ReactComponent } from '*.svg';
 
-const usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
+
+class Layout extends Component { 
+    constructor() {
+        super()
+
+        this.usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
         'Colorado','Connecticut','Delaware',
         'Florida','Georgia','Hawaii',
         'Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky',
@@ -19,13 +24,8 @@ const usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
         'Virginia','Washington', 'Washington, D.C.','West Virginia','Wisconsin',
         'Wyoming'];
 
-
-const electionTypes = ['General', 'Democratic Primary'];
-
-class Layout extends Component { 
-    constructor(props) {
-        super(props)
-
+        this.electionTypes = ['General', 'Democratic Primary'];
+        this.methods = 
         this.state = {
             selectedState: 'Alabama',
             selectedElection: 'general',
@@ -59,23 +59,16 @@ class Layout extends Component {
 
                 <div className="container" >
                     <div className="row">
-                        <div className="col-8">
+                        <div className="col-md-6">
                             <p>SELECT A STATE:</p>
+                            <Picker onChange={event => this.handleSelectAState(event)} selection={this.selectedState} data={this.usStates} />
                         </div>
-                        <div className="col-4">
+                        <div className="col-sm-4">
                             <p>SELECT AN ELECTION:</p>
+                            <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} />
                         </div>
                     </div>
-            
-                    <div className="form-group row">
-                        <div className="col-8">
-                            <Picker onChange={event => this.handleSelectAState(event)} selection={this.selectedState} data={usStates} />
-                        </div>
-                        <div className="col-4">
-                            <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.state.selectedElection} data={electionTypes} />
-                        </div>
-                    </div> 
-
+                    <br />
                     <div className="row padded-down">
                         <div className="col">
                             <RegistrationDeadlinesRow 
@@ -93,17 +86,19 @@ class Layout extends Component {
                             absenteeData={this.state.absenteeData}/>
                         </div>
                     </div>
-		     <div className="container" >
-			<div className="row">
-			    <div className="col">
-				<Feedback usStates={usStates} elections={electionTypes} />
-			    </div>
-			</div>
-		    </div> 
                 </div> 
             </React.Fragment>
         );
     }
 }
+ /* FEEDBACK FOR WHEN IT IS READY
+             <div className="container" >
+                <div className="row">
+                    <div className="col">
+                        <Feedback usStates={usStates} elections={elections} />
+                    </div>
+                </div>
+            </div> 
+*/
 
 export default Layout;

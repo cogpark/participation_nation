@@ -7,7 +7,6 @@ function Scorecard(props) {
     const info = safeLookup(props.regData, props.electionType, props.selectedState, props.method); 
     */
 
-	/* setInnerHTML is rarely the best plan -- come back to this */
     return (
         <div className="card">
             <div className="card-header">
@@ -22,7 +21,7 @@ function Scorecard(props) {
 }
 
 export default Scorecard;
-/* What the hey, this is going to be superceded by mongoDB anyway
+/*
 function safeLookup(data, election, state, method) {
     var result = "no data for " + election + ": " + state + ": " + method;
     
