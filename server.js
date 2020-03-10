@@ -15,15 +15,7 @@ mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASS+'@
 	console.log('no mongodb conection: ', err);
 });
 
-
 app.use(bodyParser.urlencoded({extended: true}));
-
-// should never be seen
-app.get('/', (req, res) => res.send('You hit the Participation Nation backend'));
-
-app.get('/app/feedback', (req, res) => {
-	res.send('Hi');
-});
 
 // the only route we actually need
 app.post('/api/feedback', (req, res) => {

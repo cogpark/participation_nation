@@ -23,8 +23,8 @@ const usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
 const electionTypes = ['General', 'Democratic Primary'];
 
 class Layout extends Component { 
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
 
         this.state = {
             selectedState: 'Alabama',
