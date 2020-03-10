@@ -305,15 +305,16 @@
 
     "Montana":
     {
-        "mail_title": "Still researching this one!",
-        "in_person_title": "",
-        "mail_instructions": "",
-        "mail_request_deadline": "",
-        "in_person_instructions":"",
-        "ballot_delivery": "",
-        "requirements":"",
-        "source": "",
-        "span_app": ""
+        "mail_title": "Vote early by mail",
+        "in_person_title": "Vote early in person",
+        "mail_instructions": "Fill out an <a href='https://sosmt.gov/Portals/142/Elections/Forms/Application-for-Absentee-Ballot.pdf?dt=1523473411709'>absentee ballot application</a> and send it to your <a href='https://sosmt.gov/Portals/142/Elections/Forms/electionadministrators.pdf'>county elections office</a>.",
+        "mail_request_deadline": "Noon the day before the election.",
+        "in_person_instructions":"Same as by mail: Fill out an <a href='https://sosmt.gov/Portals/142/Elections/Forms/Application-for-Absentee-Ballot.pdf?dt=1523473411709'>absentee ballot application</a> and send/take it to your <a href='https://sosmt.gov/Portals/142/Elections/Forms/electionadministrators.pdf'>county elections office</a>. If you're dropping off in person, you can pick up your ballot right then.",
+        "ballot_delivery": "8 p.m. on Election Day.",
+        "requirements":"None (except that you're registered).",
+        "source": "https://sosmt.gov/elections/absentee/",
+        "span_app": "",
+        "last_checked": "March 10, 2020"
     },
 
     "Mississippi":
