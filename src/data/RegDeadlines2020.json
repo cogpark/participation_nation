@@ -195,10 +195,10 @@
         },
 
         "Montana": {
-            "inPerson":"Still reaching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"May 4, 2020. If you miss the deadline, you can <a href=' https://sosmt.gov/Portals/142/Elections/Documents/2018LateRegistrationLocations.pdf'>register late at one of these locations</a>.", 
+            "byMail":"May 4, 2020", 
+            "online":"MT doesn't have online voter registration.",
+            "status":"Register late at these locations:"
         },
 
         "North Carolina":
@@ -218,7 +218,7 @@
             "status":"https://vip.sos.nd.gov/PortalListDetails.aspx?ptlhPKID=79&ptlPKID=7",
             "notes": "North Dakota doesn't require voter registration."
         },
-
+        
         "Nebraska":
         {
             "inPerson":"May 1, 2020", 
@@ -609,10 +609,10 @@
         },
 
         "Montana": {
-            "inPerson":"Still reaching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"October 5, 2020. If you miss the deadline, you can <a href=' https://sosmt.gov/Portals/142/Elections/Documents/2018LateRegistrationLocations.pdf'>register late at one of these locations</a>.", 
+            "byMail":"October 5, 2020", 
+            "online":"MT doesn't have online voter registration.",
+            "status":"Register late at these locations: https://sosmt.gov/Portals/142/Elections/Documents/2018LateRegistrationLocations.pdf"
         },
         "New Hampshire": {
             "inPerson":"Still reaching this one!", 
@@ -787,7 +787,7 @@
         },
 
         "Washington, D.C.": 
-        {
+     {
             "inPerson":"Anytime", 
             "byMail":"October 13, 2020", 
             "online":"October 13, 2020",
