@@ -372,13 +372,14 @@
     "New Hampshire": {
         "mail_title": "",
         "in_person_title": "",
-        "mail_instructions": "",
-        "mail_request_deadline": "",
-        "in_person_instructions":"",
-        "ballot_delivery": "",
-        "requirements":"",
-        "source": "",
-        "span_app": ""
+        "mail_instructions": "You'll need to fill out <a href='https://sos.nh.gov/ElecForms2.aspx>'an absentee ballot request</a> and send or email it to <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your city clerk</a>.",
+        "mail_request_deadline": "There's no deadline, but leave time for the clerk to receive and process your request, send you a ballot, and then receive your completed ballot.",
+        "in_person_instructions":"Same as by mail: You'll need to fill out <a href='https://sos.nh.gov/ElecForms2.aspx>'an absentee ballot request</a> and send it to <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your city clerk</a>.",
+        "ballot_delivery": "<ul><li>By mail: By Election Day at your Clerk's Office (or on Election Day to your polling place)</li><li>In person: The day before the election at your clerk's office</li></ul>",
+        "requirements":"<p>You can vote absentee if you're <ul><li>Physically incapable of getting to the polls</li><li>Celebrating a religious occasion that prevents you from voting</li><li>Away from home on Election Day</li><li>Working, including caring for children or \"infirm\" adults</li></ul>",
+        "source": "We looked at county clerks' websites like this one: https://lebanonnh.gov/564/Absentee-Ballots-Voting",
+        "span_app": "",
+        "last_checked": "March 10, 2020"
     },
 
     "Nebraska":

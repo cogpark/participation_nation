@@ -200,24 +200,6 @@
             "online":"MT doesn't have online voter registration.",
             "status":"Register late at these locations:"
         },
-
-        "North Carolina":
-        {
-            "inPerson":"Anytime.", 
-            "byMail":"February 7", 
-            "online":"You can't in NC.",
-            "status":"https://www.ncsbe.gov/Voters/Registering-to-Vote",
-            "notes": "You can register online here: https://www.vote.org/register-to-vote/north-carolina/"       
-        },
-
-        "North Dakota":
-        {
-            "inPerson":"", 
-            "byMail":"", 
-            "online":"",
-            "status":"https://vip.sos.nd.gov/PortalListDetails.aspx?ptlhPKID=79&ptlPKID=7",
-            "notes": "North Dakota doesn't require voter registration."
-        },
         
         "Nebraska":
         {
@@ -244,9 +226,9 @@
         },
         
         "New Hampshire": {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
+            "inPerson":"Check with <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your county clerk</a> to learn when the last day to register is in your county. You can also register and vote on election day.", 
+            "byMail":"Check with <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your county clerk</a> to learn when the last day to register is in your county.", 
+            "online":"NH doesn't have online voter registration.",
             "status":""
         },
 
@@ -266,8 +248,17 @@
             "status":"https://www.elections.ny.gov/NYSBOE/law/2020PresidentialPrimaryCalendar.pdf"
         },
 
+        "North Carolina":
+        {
+            "inPerson":"Anytime.", 
+            "byMail":"February 7", 
+            "online":"You can't in NC.",
+            "status":"https://www.ncsbe.gov/Voters/Registering-to-Vote",
+            "notes": "You can register online here: https://www.vote.org/register-to-vote/north-carolina/"       
+        },
+
         "North Dakota": {
-            "inPerson":"ND doesn't have voter registration.", 
+            "inPerson":"You don't need to register to vote in North Dakota.", 
             "byMail":"", 
             "online":"",
             "status":""
@@ -614,10 +605,11 @@
             "online":"MT doesn't have online voter registration.",
             "status":"Register late at these locations: https://sosmt.gov/Portals/142/Elections/Documents/2018LateRegistrationLocations.pdf"
         },
+        
         "New Hampshire": {
-            "inPerson":"Still reaching this one!", 
-            "byMail":"", 
-            "online":"",
+            "inPerson":"Check with <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your county clerk</a> to learn when the last day to register is in your county. You can also register and vote on election day.", 
+            "byMail":"Check with <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your county clerk</a> to learn when the last day to register is in your county.", 
+            "online":"NH doesn't have online voter registration.",
             "status":""
         },
 
