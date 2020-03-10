@@ -28,3 +28,4 @@ goorm.manifest
 client/node_modules/
 client/build/
 .gitignore
+package2.json
