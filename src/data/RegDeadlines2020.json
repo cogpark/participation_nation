@@ -52,7 +52,7 @@
         "Connecticut": 
         {
             "inPerson":"April 27, 2020", 
-            "byMail":"postmarked by April 23, 2020", 
+            "byMail":"Postmarked by April 23, 2020", 
             "online":"April 23, 2020",
             "status":"https://portal.ct.gov/SOTS/Election-Services/Registration-Deadlines/Registration-Deadlines"
         },
@@ -100,7 +100,7 @@
         "Idaho":
         {
             "inPerson":"Anytime", 
-            "byMail":"received by February 14, 2020", 
+            "byMail":"Received by February 14, 2020", 
             "online":"February 14, 2020",
             "status":"https://sos.idaho.gov/election-calendars/"
         },
@@ -194,14 +194,20 @@
             "status":"https://www.sos.mo.gov/elections/calendar/2020cald"
         },
 
+        "Montana": {
+            "inPerson":"Still reaching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
         "North Carolina":
         {
             "inPerson":"Anytime.", 
             "byMail":"February 7", 
             "online":"You can't in NC.",
             "status":"https://www.ncsbe.gov/Voters/Registering-to-Vote",
-            "notes": "You can register online here: https://www.vote.org/register-to-vote/north-carolina/"
-            
+            "notes": "You can register online here: https://www.vote.org/register-to-vote/north-carolina/"       
         },
 
         "North Dakota":
@@ -237,9 +243,16 @@
             "status":"https://www.sos.state.nm.us/voting-and-elections/voting-faqs/voter-registration/"
         },
         
+        "New Hampshire": {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
         "Nevada":
         {
-            "inPerson":"", 
+            "inPerson":"Still researching this one!", 
             "byMail":"", 
             "online":"",
             "status":""
@@ -251,6 +264,78 @@
             "byMail": "received by April 8, 2020", 
             "online":"April 3, 2020",
             "status":"https://www.elections.ny.gov/NYSBOE/law/2020PresidentialPrimaryCalendar.pdf"
+        },
+
+        "North Dakota": {
+            "inPerson":"ND doesn't have voter registration.", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "Ohio": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+         },
+
+         
+        "Oklahoma": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "Oregon": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "Pennsylvania": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "Rhode Island": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "South Carolina": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "South Dakota": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "Tennessee": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
         },
 
         "Texas":
@@ -305,7 +390,7 @@
 
         "Wisconsin": 
         {
-            "inPerson":"February 14 at your clerk's office, or on election day at your polling place", 
+            "inPerson":"February 14 at your clerk's office, or on Election Day at your polling place", 
             "byMail":"January 29, 2020", 
             "online":"January 29, 2020",
             "status":"https://myvote.wi.gov/en-us/VoterDeadlines"
@@ -414,7 +499,7 @@
 
         "Hawaii":
         {
-            "inPerson":"October 5, 2020 or on election day", 
+            "inPerson":"October 5, 2020 or on Election Day", 
             "byMail":"October 5, 2020", 
             "online":"October 5, 2020",
             "status":"https://elections.hawaii.gov/voters/registration/"
@@ -523,6 +608,18 @@
             "status":"https://www.sos.mo.gov/elections/calendar/2020cal"
         },
 
+        "Montana": {
+            "inPerson":"Still reaching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+        "New Hampshire": {
+            "inPerson":"Still reaching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
 
         "North Carolina":
         {
@@ -535,7 +632,7 @@
 
         "North Dakota":
         {
-            "inPerson":"", 
+            "inPerson":"North Dakota doesn't require voter registration.", 
             "byMail":"", 
             "online":"",
             "status":"https://vip.sos.nd.gov/PortalListDetails.aspx?ptlhPKID=79&ptlPKID=7",
@@ -568,7 +665,7 @@
         
         "Nevada":
         {
-            "inPerson":"October 6, 2020 and on election day", 
+            "inPerson":"October 6, 2020 and on Election Day", 
             "byMail":"Postmarked by October 6, 2020", 
             "online":"October 29, 2020",
             "status":"https://www.nvsos.gov/sos/home/showdocument?id=8206"
@@ -582,6 +679,72 @@
             "status":"https://www.elections.ny.gov/NYSBOE/law/2020PoliticalCalendar.pdf"
         },
 
+        "Ohio": 
+        {
+            "inPerson":"Still reaching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+         },
+
+                  
+        "Oklahoma": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "Oregon": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+                
+        "Pennsylvania": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "Rhode Island": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "South Carolina": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "South Dakota": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
+        "Tennessee": 
+        {
+            "inPerson":"Still researching this one!", 
+            "byMail":"", 
+            "online":"",
+            "status":""
+        },
+
         "Texas":
         {
             "inPerson":"October 5, 2020", 
@@ -593,7 +756,7 @@
 
         "Utah":
         {
-            "inPerson":"October 27, 2020 and on election day", 
+            "inPerson":"October 27, 2020 and on Election Day", 
             "byMail":"Sent by October 4, 2020", 
             "online":"October 27, 2020",
             "status":"https://www.rockthevote.org/voting-information/election-dates-deadlines/utah/"
@@ -633,7 +796,7 @@
 
         "Wisconsin": 
         {
-            "inPerson":"October 30, 2020 at your clerk's office or on election day at your polling place.", 
+            "inPerson":"October 30, 2020 at your clerk's office or on Election Day at your polling place.", 
             "byMail":"Sent by October 14, 2020", 
             "online":"October 30, 2020",
             "status":"https://www.rockthevote.org/voting-information/election-dates-deadlines/wisconsin/"
@@ -653,7 +816,7 @@
             "byMail":"October 19, 2020", 
             "online":"You can't in WY.",
             "status":"https://soswy.state.wy.us/Elections/Docs/2020/2020_Key_Election_Dates.pdf",
-            "notes": "If you miss the election deadline, you can register on election day (and fill out an absentee ballot"
+            "notes": "If you miss the election deadline, you can register on Election Day (and fill out an absentee ballot"
         }
     }
 }

@@ -59,23 +59,16 @@ class Layout extends Component {
 
                 <div className="container" >
                     <div className="row">
-                        <div className="col-8">
+                        <div className="col-md-6">
                             <p>SELECT A STATE:</p>
-                        </div>
-                        <div className="col-4">
-                            <p>SELECT AN ELECTION:</p>
-                        </div>
-                    </div>
-            
-                    <div className="form-group row">
-                        <div className="col-8">
                             <Picker onChange={event => this.handleSelectAState(event)} selection={this.selectedState} data={this.usStates} />
                         </div>
-                        <div className="col-4">
+                        <div className="col-sm-4">
+                            <p>SELECT AN ELECTION:</p>
                             <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} />
                         </div>
-                    </div> 
-
+                    </div>
+                    <br />
                     <div className="row padded-down">
                         <div className="col">
                             <RegistrationDeadlinesRow 
