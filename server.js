@@ -3,7 +3,10 @@ const mongoose = require('mongoose');
 const path = require('path');
 const app = express();
 
-require('dotenv').config();
+
+// use dotenv if not on heroku
+if (! process.env.NODE_ENV === 'production')
+    require('dotenv').config();
 
 
 // connect mongoDB
