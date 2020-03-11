@@ -266,10 +266,10 @@
 
         "Ohio": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"February 18, 2020", 
+            "byMail":"February 18, 2020", 
+            "online":"February 18, 2020",
+            "status":"https://www.ohiosos.gov/elections/voters/register/#register"
          },
 
          
@@ -673,10 +673,10 @@
 
         "Ohio": 
         {
-            "inPerson":"Still reaching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"October 5, 2020", 
+            "byMail":"October 5, 2020", 
+            "online":"October 5, 2020",
+            "status":"https://www.ohiosos.gov/elections/voters/register/#gref"
          },
 
                   
