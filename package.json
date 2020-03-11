@@ -2,7 +2,7 @@
   "name": "participation-nation",
   "version": "0.3.0",
   "private": true,
-  "description": "This project wants to simplify public sector info about elections.",
+  "description": "This project simplifies public sector info about elections.",
   "dependencies": {
     "concurrently": "^5.1.0",
     "dotenv": "^8.2.0",
@@ -19,6 +19,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "install-server": "npm install express mongoose concurrently"
   }
 }
