@@ -462,28 +462,31 @@
 
     "Oklahoma":
     {
-        "mail_title": "Still researching this one!",
-        "in_person_title": "",
-        "mail_instructions": "",
-        "mail_request_deadline": "",
-        "in_person_instructions":"",
-        "ballot_delivery": "",
-        "requirements":"",
-        "source": "",
-        "span_app": ""
+        "mail_title": "Vote early by mail",
+        "in_person_title": "Vote early in person",
+        "mail_instructions": "<a href='https://www.ok.gov/elections/OVP.html'>Apply to vote absentee online</a> or download <a href='ahttps://www.ok.gov/elections/documents/Oklahoma%20Absentee%20Ballot%20Application%20-%20fillable.pdf'>a ballot request form</a> and send it to your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a>. You can also just write a letter! Include your name, date of birth, address you're registered at, mailing address, election you're registering for, and signature.>",
+        "mail_request_deadline": "5 p.m. on the Wednesday before the election.",
+        "in_person_instructions":"You can vote early at your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a> on the Thursday and Friday before elections from 8 a.m. to 6 p.m. For state and national elections, you can also vote on Saturday from 9 a.m. to 2 p.m.",
+        "ballot_delivery": "7 p.m. on Election Day.",
+        "requirements":"None (except that you're registered).",
+        "source": "https://www.ok.gov/elections/Voter_Info/Absentee_Voting/",
+        "span_app": "",
+        "last_checked":"March 11, 2020"        
+
     },
 
     "Oregon":
     {
-        "mail_title": "Still researching this one!",
-        "in_person_title": "",
-        "mail_instructions": "",
-        "mail_request_deadline": "",
-        "in_person_instructions":"",
-        "ballot_delivery": "",
-        "requirements":"",
-        "source": "",
-        "span_app": ""
+        "mail_title": "Vote by mail",
+        "in_person_title": "Vote by ",
+        "mail_instructions": "If you're registered, you'll get a ballot 2-3 weeks before the election. Mail it to a <a href='https://sos.oregon.gov/voting/Pages/drop-box-locator.aspx'>ballot drop box location</a> anywhere in the state</a>.",
+        "mail_request_deadline": "You don't need to request an mail ballot in Oregon. They'll send you one as long as you're registered.",
+        "in_person_instructions":"You'll get a ballot 2-3 weeks before the election. Take it to a <a href='https://sos.oregon.gov/voting/Pages/drop-box-locator.aspx'>ballot drop box location</a>.",
+        "ballot_delivery": "8 p.m. on Election Day",
+        "requirements":"If for some reason you're not able to pick up your ballot, you can still <a href='https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS'>request an absentee ballot online</a>, or download the <a href='https://sos.oregon.gov/elections/Documents/SEL111.pdf'>ballot request form</a> and return it to your <a href='https://sos.oregon.gov/elections/Pages/countyofficials.aspx'>elections office</a>, ",
+        "source": "https://sos.oregon.gov/voting/pages/voteinor.aspx",
+        "span_app": "",
+        "last_checked":"March 11, 2020"
     },
 
     "Pennsylvania":
