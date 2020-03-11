@@ -449,14 +449,15 @@
 
     "Ohio": {
         "mail_title": "Still researching this",
-        "in_person_title": "",
-        "mail_instructions": "",
-        "mail_request_deadline": "",
-        "in_person_instructions":"",
-        "ballot_delivery": "",
-        "requirements":"",
-        "source": "https://www.ohiosos.gov/elections/voters/absentee-voting/#gref",
-        "span_app": ""
+        "in_person_title": "Vote early in person",
+        "mail_instructions": "Fill out an <a href='https://www.ohiosos.gov/publications/#abr'>absentee ballot request</a> and send it to your <a href='https://www.ohiosos.gov/elections/elections-officials/county-boards-of-elections-directory/'>county board of elections to vote early</a>.",
+        "mail_request_deadline": "3 days before the election",
+        "in_person_instructions":"As soon as voter registration is over, you can go to your <a href='https://www.ohiosos.gov/elections/elections-officials/county-boards-of-elections-directory/'>county board of elections to vote early</a>.",
+        "ballot_delivery": "Return your ballot to your board of elections by 7:30 p.m. on Election Day or make sure it's postmarked the day before Election Day.",
+        "requirements":"None (except that you're registered).",
+        "source": "https://www.ohiosos.gov/elections/voters/absentee-voting",
+        "span_app": "",
+        "last_checked":"March 10, 2020"
     },
 
     "Oklahoma":
