@@ -2,7 +2,7 @@
   "name": "participation-nation",
   "version": "0.3.0",
   "private": true,
-  "description": "This project wants to simplify public sector info about elections.",
+  "description": "This project simplifies public sector info about elections.",
   "dependencies": {
     "concurrently": "^5.1.0",
     "dotenv": "^8.2.0",
