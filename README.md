@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### To install in Powershell without any configuration changes 
+* Pull the branch
+* In the root, run `npm install express mongoose concurrently`
+* In /client, you'll to manually install bootstrap, react, react-dom, react-scripts
+* Then, you can run npm run dev from the root directory
