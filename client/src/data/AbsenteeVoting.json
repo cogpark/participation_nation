@@ -497,7 +497,7 @@
         "mail_request_deadline": "7 days before the election.",
         "in_person_instructions":"You can apply to vote absentee in person at your <a href='https://www.votespa.com/Resources/Pages/Contact-Your-Election-Officials.aspx'>county elections office</a>.",
         "ballot_delivery": "8 p.m. on Election Day.",
-        "requirements":"<p>You can vote by mail if you're registered. You can vote absentee in person if you're:</p> <ul><li>Away for school, work, or vacation</li> <li>Physically incapable of getting the polls</li> <li></li>Celebrating a religious occasion that prevents you from voting on Election Day</li> <li></li>Incarcerated but not convicted of a felony</ul>",
+        "requirements":"<p>You can vote by mail if you're registered. You can vote absentee in person if you're:</p> <ul><li>Away for school, work, or vacation</li> <li>Physically incapable of getting the polls</li> <li>Celebrating a religious occasion that prevents you from voting on Election Day</li> <li>Incarcerated but not convicted of a felony</li></ul>",
         "source": "https://www.votespa.com/Voting-in-PA/Pages/Mail-and-Absentee-Ballot.aspx",
         "span_app": "https://www.votespa.com/Register-to-Vote/Documents/PADOS_MailInApplication_Spanish.pdf",
         "last_checked": "March 11, 2020"
