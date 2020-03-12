@@ -234,8 +234,8 @@
 
         "Nevada":
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
+            "inPerson":"", 
+            "byMail":"Nevada's 2020 presidential caucus is over.", 
             "online":"",
             "status":""
         },
@@ -275,26 +275,28 @@
          
         "Oklahoma": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"February 7, 2020", 
+            "byMail":"February 7, 2020", 
+            "online":"February 7, 2020  ",
+            "status":"https://www.ok.gov/elections/Election_Info/2020_Election_Calendar.html"
         },
 
         "Oregon": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"April 28, 2020", 
+            "byMail":"April 28, 2020", 
+            "online":"April 28, 2020",
+            "status":"https://sos.oregon.gov/voting/Pages/registration.aspx?lang=en",
+            "notes": "21 days before the election"
         },
 
         "Pennsylvania": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"April 13, 2020", 
+            "byMail":"April 13, 2020", 
+            "online":"April 13, 2020",
+            "status":"https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
+            "notes": "15 days before the election"
         },
 
         "Rhode Island": 
@@ -682,27 +684,29 @@
                   
         "Oklahoma": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"October 12, 2020", 
+            "byMail":"October 12, 2020", 
+            "online":"October 12, 2020",
+            "status":"",
+            "notes": "24 days before the election"
         },
 
         "Oregon": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"October 13, 2020", 
+            "byMail":"October 13, 2020", 
+            "online":"October 13, 2020",
+            "status":"https://sos.oregon.gov/voting/Pages/registration.aspx?lang=en",
+            "notes":"21 days before the election"
         },
 
                 
         "Pennsylvania": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"October 19, 2020", 
+            "byMail":"October 19, 2020", 
+            "online":"October 19, 2020",
+            "status":"https://www.votespa.com/About-Elections/Pages/Upcoming-Elections.aspx"
         },
 
         "Rhode Island": 
