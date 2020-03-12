@@ -505,41 +505,44 @@
 
     "Rhode Island":
     {
-        "mail_title": "Still researching this one!",
-        "in_person_title": "",
-        "mail_instructions": "",
-        "mail_request_deadline": "",
-        "in_person_instructions":"",
-        "ballot_delivery": "",
-        "requirements":"",
-        "source": "",
-        "span_app": ""
+        "mail_title": "Vote by mail",
+        "in_person_title": "Vote absentee in person",
+        "mail_instructions": "Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application</a> (it looks like RI's Secretary of State will post the right form before each election) and send it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>.<b>Note:</b>You'll send the ballot itself to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
+        "mail_request_deadline": "21 days before the election.",
+        "in_person_instructions":"Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application and send/deliver it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>. Then, deliver your filled-out ballot to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
+        "ballot_delivery": "8 p.m. on Election Day.",
+        "requirements":"None (except that you're registered)",
+        "source": "https://vote.sos.ri.gov/Voter/VotebyMail",
+        "span_app": "",
+        "last_checked":"March 11, 2020"
     },
 
     "South Carolina":
     {
-        "mail_title": "Still researching this one!",
-        "in_person_title": "",
-        "mail_instructions": "",
-        "mail_request_deadline": "",
-        "in_person_instructions":"",
-        "ballot_delivery": "",
-        "requirements":"",
-        "source": "",
-        "span_app": ""
+        "mail_title": "Vote absentee by mail",
+        "in_person_title": "Vote absentee in person",
+        "mail_instructions": "Fill out an <a href='https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=AbsenteeRequest'>online absentee ballot request</a> or ask your <a href='https://www.scvotes.org/how-register-absentee-voting'>county voter registration office</a> to email/send you one. Fill it out and email/fax/send it back to your county office.",
+        "mail_request_deadline": "4 days before the election.",
+        "in_person_instructions":"Same as by mail: Fill out an <a href='https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=AbsenteeRequest'>online absentee ballot request</a> or ask your <a href='https://www.scvotes.org/how-register-absentee-voting'>county voter registration office</a> to email/send you one. Then, deliver it to your county office.",
+        "ballot_delivery": "Your <a href='https://www.scvotes.org/how-register-absentee-voting'>county elections office </a> needs to receive your ballot by 7 p.m. on Election Day.",
+        "requirements":"You can vote absentee if you're: <ul><li>Living outside the county you're registered in</li> <li>Physically incapable of getting to the polls</li><li>Caring for someone who's ill or immobilized</li><li>Working on Election Day and can't get to the polls</li><li>Temporarily away (e.g. on vacation) from home on Election Day</li><li>On jury duty</li><li>Grieving a family member's passing away within 3 days of the election</li> <li>Incarcerated but not convicted</li><li>65 years old or older</li><li>Celebrating a religious occasion that prevents you from voting</li></ul>",
+        "source": "https://www.scvotes.org/absentee-voting",
+        "span_app": "",
+        "last_checked": "March 12, 2020"
     },
 
     "South Dakota":
     {
-        "mail_title": "Still researching this one!",
-        "in_person_title": "",
-        "mail_instructions": "",
-        "mail_request_deadline": "",
-        "in_person_instructions":"",
-        "ballot_delivery": "",
-        "requirements":"",
-        "source": "",
-        "span_app": ""
+        "mail_title": "Vote absentee by mail",
+        "in_person_title": "Vote absentee in person",
+        "mail_instructions": "Request or fill out an <a href='https://sdsos.gov/elections-voting/assets/AbsenteeBallotApplicationFillable.pdf'>absentee ballot application</a> and send it to your <a href='https://vip.sdsos.gov/CountyAuditors.aspx'>county election official</a>.",
+        "mail_request_deadline": "Your <a href='https://vip.sdsos.gov/CountyAuditors.aspx'>county election official</a> must receive your application by 5 p.m. the day before the election.",
+        "in_person_instructions":"You'll <a href='https://vip.sdsos.gov/CountyAuditors.aspx'>request a ballot by mail</a> or <a href='https://sdsos.gov/elections-voting/assets/AbsenteeBallotApplicationFillable.pdf'>fill out a ballot online</a>. Then, you can deliver it to your county election official during <a href='<a href='https://sdsos.gov/elections-voting/upcoming-elections/general-information/2020-Election-Information.aspx'>'>the absentee voting period</a> (which begins about 45 days before each election).",
+        "ballot_delivery": "By Election Day.",
+        "requirements":"None (except that you're registered).",
+        "source": "https://sdsos.gov/elections-voting/voting/absentee-voting.aspx",
+        "span_app": "",
+        "last_checked": "March 12, 2020"
     },
 
     "Tennessee":
