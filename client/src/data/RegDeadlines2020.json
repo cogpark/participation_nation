@@ -309,26 +309,29 @@
 
         "South Carolina": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"January 30, 2020", 
+            "byMail":"January 30, 2020", 
+            "online":"January 30, 2020",
+            "status":"January 30, 2020",
+            "notes":"30 days before the election"
         },
 
         "South Dakota": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"May 18, 2020", 
+            "byMail":"May 18, 2020", 
+            "online":"SD doesn't have online voter registration.",
+            "status":"https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
+            "notes":"15 days before the election"
         },
 
         "Tennessee": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"February 3, 2020", 
+            "byMail":"Postmarked or delivered by February 3, 2020", 
+            "online":"February 3, 2020",
+            "status":"https://ovr.govote.tn.gov/",
+            "notes":"30 days before the election"
         },
 
         "Texas":
@@ -719,26 +722,29 @@
 
         "South Carolina": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"October 4, 2020", 
+            "byMail":"October 4, 2020", 
+            "online":"October 4, 2020",
+            "status":"October 4, 2020",
+            "notes":"30 days before the election"
         },
 
         "South Dakota": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"October 19, 2020", 
+            "byMail":"October 19, 2020", 
+            "online":"SD doesn't have online voter registration.",
+            "status":"https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
+            "notes":"15 days before the election"
         },
 
         "Tennessee": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"October 4, 2020", 
+            "byMail":"Postmarked or delivered by October 4, 2020", 
+            "online":"October 4, 2020",
+            "status":"https://ovr.govote.tn.gov/",
+            "notes":"30 days before the election"
         },
 
         "Texas":
@@ -812,7 +818,7 @@
             "byMail":"October 19, 2020", 
             "online":"You can't in WY.",
             "status":"https://soswy.state.wy.us/Elections/Docs/2020/2020_Key_Election_Dates.pdf",
-            "notes": "If you miss the election deadline, you can register on Election Day (and fill out an absentee ballot"
+            "notes": "If you miss the election deadline, you can register on Election Day (and fill out an absentee ballot)"
         }
     }
 }
