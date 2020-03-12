@@ -292,10 +292,11 @@
 
         "Pennsylvania": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"April 13, 2020", 
+            "byMail":"April 13, 2020", 
+            "online":"April 13, 2020",
+            "status":"https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
+            "notes": "15 days before the election"
         },
 
         "Rhode Island": 
@@ -702,10 +703,10 @@
                 
         "Pennsylvania": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"October 19, 2020", 
+            "byMail":"October 19, 2020", 
+            "online":"October 19, 2020",
+            "status":"https://www.votespa.com/About-Elections/Pages/Upcoming-Elections.aspx"
         },
 
         "Rhode Island": 
