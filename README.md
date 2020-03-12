@@ -1,3 +1,14 @@
+## To install in Powershell without any configuration changes 
+* Clone the repo
+* In the root directory, run `npm install express mongoose concurrently`
+* In /client, you'll to manually install bootstrap, react, react-dom, react-scripts
+* Then, you can run npm run dev from the root directory
+
+## To start a local copy of the site on Windows:
+* Pull heroku-dev
+* From root run `npm run powershell-install`
+* From root, run `npm run dev`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -67,13 +78,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### To install in Powershell without any configuration changes 
-* Pull the branch
-* In the root, run `npm install express mongoose concurrently`
-* In /client, you'll to manually install bootstrap, react, react-dom, react-scripts
-* Then, you can run npm run dev from the root directory
 
-### To start a local copy of the site on Windows:
-* Pull heroku-dev
-* From root run `npm run powershell-install`
-* From root, run `npm run dev`
