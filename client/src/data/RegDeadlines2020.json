@@ -301,10 +301,10 @@
 
         "Rhode Island": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"March 29, 2020", 
+            "byMail":"March 29, 2020", 
+            "online":"March 29, 2020",
+            "status":"https://elections.ri.gov/elections/upcoming/index.php"
         },
 
         "South Carolina": 
@@ -711,10 +711,10 @@
 
         "Rhode Island": 
         {
-            "inPerson":"Still researching this one!", 
-            "byMail":"", 
-            "online":"",
-            "status":""
+            "inPerson":"October 4, 2020", 
+            "byMail":"October 4, 2020", 
+            "online":"October 4, 2020",
+            "status":"https://elections.ri.gov/elections/upcoming/index.php"
         },
 
         "South Carolina": 

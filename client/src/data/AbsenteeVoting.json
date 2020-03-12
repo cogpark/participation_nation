@@ -505,15 +505,16 @@
 
     "Rhode Island":
     {
-        "mail_title": "Still researching this one!",
-        "in_person_title": "",
-        "mail_instructions": "",
-        "mail_request_deadline": "",
-        "in_person_instructions":"",
-        "ballot_delivery": "",
-        "requirements":"",
-        "source": "",
-        "span_app": ""
+        "mail_title": "Vote by mail",
+        "in_person_title": "Vote absentee in person",
+        "mail_instructions": "Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application</a> (it looks like RI's Secretary of State will post the right form before each election) and send it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>.<b>Note:</b>You'll send the ballot itself to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
+        "mail_request_deadline": "21 days before the election.",
+        "in_person_instructions":"Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application and send/deliver it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>. Then, deliver your filled-out ballot to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
+        "ballot_delivery": "8 p.m. on Election Day.",
+        "requirements":"None (except that you're registered)",
+        "source": "https://vote.sos.ri.gov/Voter/VotebyMail",
+        "span_app": "",
+        "last_checked":"March 11, 2020"
     },
 
     "South Carolina":
