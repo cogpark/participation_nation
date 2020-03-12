@@ -547,15 +547,16 @@
 
     "Tennessee":
     {
-        "mail_title": "Still researching this one!",
-        "in_person_title": "",
-        "mail_instructions": "",
-        "mail_request_deadline": "",
-        "in_person_instructions":"",
-        "ballot_delivery": "",
-        "requirements":"",
-        "source": "",
-        "span_app": ""
+        "mail_title": "Vote early by mail (if you meet certain requirements)",
+        "in_person_title": "Vote early in person",
+        "mail_instructions": "<p>Request an mail ballot from you <a href='https://sos-tn-gov-files.s3.amazonaws.com/5%20Request%20for%20Absentee%20Ballot.pdf'>county election commission</a>. You can fill out the <a href='https://sos-tn-gov-files.s3.amazonaws.com/5%20Request%20for%20Absentee%20Ballot.pdf'>online form</a>, or you can write a letter with the following information:</p> <ul><li>Name</li><li>Address you're registered at</li><li>Your social security number</li> <li>Your date of birth</li><li>Mailing address </li><li>The election you want to vote absentee by mail in</li><li>If the election is a primary: Which political party's primary you want to participate in</li><li>Reason for voting by mail (see requirements)</li> <li>Yout signature</li></ul>",
+        "mail_request_deadline": "7 days before the election",
+        "in_person_instructions":"Get in touch with your <a href='http://tnsos.org/elections/election_commissions.php'>county elections office</a> and find out when and where you can vote early in person. The early voting period is usually between 20 and 5 days before an election.",
+        "ballot_delivery": "By the time polls close on Election Day.",
+        "requirements":"<p>You can vote by mail if you're:</p> <ul><li>Away from the county you're registered in during the early voting period and all day on election day (e.g. for school, work, etc.)</li><li>Your doctor <a href='http://sharetngov.tnsosfiles.com/sos/election/forms/ss-3023.pdf'>files a statement</a> with the county election commission at least 7 days before the election that says you're physically incapable of in-person voting</li><li>Physically incapable of getting to the polls (note: TN lists this and the previous item separately. It's not clear if they should actually be the same, or if the difference is people who are temporarily immobilized vs. always immobilized. If you think either might apply to you, check with your county election official.)<li>Caring for someone who is ill or physically incapable of getting to the polls</li><li>You live outside the county you're registered in</li><li>On jury duty</li><li>60 years old or older</li> <li>Running for office in the election</li><li>Celebrating a religious occasion that prevents you from voting in person during early voting or on Election Day</li></ul>",
+        "source": "https://sos.tn.gov/products/elections/absentee-voting and https://sos.tn.gov/products/elections/early-voting-person",
+        "span_app": "",
+        "last_checked":"March 12, 2020"
     },
     "Texas":
     {
