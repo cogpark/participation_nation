@@ -44,7 +44,7 @@ function Feedback(props) {
             <div class="form-group col-md-6">
               <label for="inputElection">ELECTION:</label>
               <select id="inputElection" name="selectedElection" class="form-control">
-                <option key="0" value="none">None/other</option>
+                <option key="0" value="other">None/other</option>
                 {props.elections.map((value, i) =>
                     <option key={1+i} value={value}>{value}</option>)}
               </select>

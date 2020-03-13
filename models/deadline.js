@@ -9,4 +9,4 @@ const deadlineSchema = new Schema({
     notes: String
 });
 
-module.export(mongoose.model('Deadline', deadlineSchema));
+module.exports = mongoose.model('Deadline', deadlineSchema);
