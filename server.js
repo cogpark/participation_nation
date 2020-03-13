@@ -1,21 +1,18 @@
+// initial imports
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const app = express();
-
-
+const Feedback = require('./models/feedback.js');
+const Deadline = require('./models/deadline.js');
+const Absentee = require('./models/absentee.js');
 // use dotenv if not on heroku
 if (! process.env.NODE_ENV === 'production')
     require('dotenv').config();
 
-// schemas
-const Feedback = require('./models/feedback.js');
-const Deadline = require('./models/deadline.js');
-const Absentee = require('./models/absentee.js');
-
-var mongoIsConnected = false;
 
 // connect mongoDB
+var mongoIsConnected = false;
 console.log('Connecting to mongoDB...');
 mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASS+'@cluster0-bfrfd.mongodb.net/test?retryWrites=true&w=majority', { 
     useUnifiedTopology: true,
@@ -28,7 +25,8 @@ mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASS+'@
 });
 
 
-// middleware -- we no longer need body-parser
+// middleware -- no longer need body-parser
+app.use(express.json({type: 'application/json'}));
 app.use(express.urlencoded({extended: true}));
 
 
@@ -47,7 +45,7 @@ app.post('/api/feedback', (req, res) => {
     else
 	console.log('mongoDB unconnected; received feedback:', feedback);
 
-    res.redirect('/');	
+    res.send('Thanks for your feedback!');
 });
 
 

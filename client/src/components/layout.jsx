@@ -9,8 +9,8 @@ import AbsenteeData from '../data/AbsenteeVoting.json'
 
 
 class Layout extends Component { 
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
 
         this.usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
         'Colorado','Connecticut','Delaware',
