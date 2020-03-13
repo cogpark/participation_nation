@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const path = require('path');
 const app = express();
 
+
 // use dotenv if not on heroku
 if (! process.env.NODE_ENV === 'production')
     require('dotenv').config();
@@ -40,7 +41,7 @@ app.post('/api/feedback', (req, res) => {
     const election = req.body.selectedElection;
     const comment = req.body.comment;
     const timestamp = new Date();
-    const feedback = new Feedback({state: state, election: election, comment: comment, timestamp: timestamp, status: "todo"});
+    const feedback = new Feedback({state: state, election: election, comment: comment, timestamp: timestamp, status: 'todo'});
     if (mongoIsConnected) 
 	feedback.save(err => console.log('mongoDB connected but could not save feedback:', feedback));
     else
