@@ -53,14 +53,14 @@ class Layout extends Component {
         return (
             <React.Fragment> 
                 <div id="banner">
-                    <div className="row" style={{maxWidth:'1300px', margin:'0 54px', width:"100%", marginRight:"auto", marginLeft:"auto"}}>
-                        <img src={Title} alt='Participation Nation' style={{maxHeight:'150px'}}/>
+                    <div className="row" style={{maxWidth:'1100px', margin:'0 54px', width:"100%", marginRight:"auto", marginLeft:"auto"}}>
+                        <img src={Title} alt='Participation Nation' style={{maxHeight:'100px'}}/>
                     </div>
                 </div>
 
                 <div className="container" >
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-sm-4">
                             <p>SELECT A STATE:</p>
                             <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.selectedState} data={this.usStates} />
                         </div>
