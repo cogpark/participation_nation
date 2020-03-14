@@ -21,6 +21,7 @@ function RegistrationDeadlinesRow(props) {
                         passJson = {lookupDates(props.datesData, props.selectedElection, props.selectedState,'online')}
                         cardTitle= "Online deadline:"/>
                 </div>
+    <p>{testdata(props.datesData, props.selectedElection, props.selectedState)}</p>
             </div>
         </React.Fragment>
     );

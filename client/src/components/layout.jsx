@@ -31,6 +31,7 @@ class Layout extends Component {
             selectedElection: 'general',
             datesData: RegData,
             absenteeData: AbsenteeData,
+            
         }
 
         this.handleSelectAState = this.handleSelectAState.bind(this);
