@@ -22,6 +22,11 @@ class Feedback extends React.Component {
 
     setMessage(message) {
 	this.setState({message});
+		if (message.slice(0,1)==="T") {
+			document.querySelector('#comment').value='Add another comment.';
+			document.querySelector("#inputState").value ='other'
+			document.querySelector("#inputElection").value ='other'
+		}
     }
 
     setUsState(e) {
@@ -41,8 +46,9 @@ class Feedback extends React.Component {
 	const data = {
 	    comment: this.state.comment,
 	    selectedState: this.state.state,
-	    selectedElection: this.state.election,
-	};
+		selectedElection: this.state.election
+		};
+		
 	console.log(data);
 
 	fetch('/api/feedback', {
@@ -53,18 +59,19 @@ class Feedback extends React.Component {
 	    },
 	    body: JSON.stringify(data),
 	}).then(dat => {
-	    this.setMessage('Thanks for your feedback!');
+	    this.setMessage('Thanks for letting us know.');
 	}).catch(err => {
 	    console.log(err);
-	    this.setMessage('Feedback not received--please try again');
+	    this.setMessage('Something went wrong--please try again');
 	});
+
     }
 
     render() {
 	return (
 	    <form onSubmit={this.handleSubmit}>
-	      <h2>See something wrong? Don't see something you want to see?</h2>          
-		<h3>Tell us about it:</h3>
+	      <h2>Feedback</h2>          
+		<h3>See something wrong? Don't see info you need? Tell us about it:</h3>
 		{this.state.message &&
 		    <div className="alert alert-success">{this.state.message}</div>
 		}
@@ -86,8 +93,9 @@ class Feedback extends React.Component {
 		  </select>
 		</div>
 		<div className="form-group col-md-12">
-		  <label htmlFor="comment">FEEDBACK:</label>
-		  <textarea className="form-control" onChange={this.setComment} name="comment" placeholder="Feedback" id="comment"></textarea>
+		  <label htmlFor="comment">YOUR FEEDBACK:</label>
+		  <textarea className="form-control" onChange={this.setComment} name="comment" 
+		  			placeholder="See something wrong? Don't see info you need? Tell us about it:" id="comment"></textarea>
 		</div>
 	      </div>
 	      <button type="submit" className="btn btn-primary">Submit</button>
