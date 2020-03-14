@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import RegistrationDeadlinesRow from './registrationDeadlinesRow';
 import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
-//import Feedback from './feedback';
+import Feedback from './feedback';
 import Picker from './picker'
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
@@ -9,8 +9,8 @@ import AbsenteeData from '../data/AbsenteeVoting.json'
 
 
 class Layout extends Component { 
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
 
         this.usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
         'Colorado','Connecticut','Delaware',
@@ -88,18 +88,16 @@ class Layout extends Component {
                         </div>
                     </div>
                 </div> 
+		<div className="container" >
+		   <div className="row">
+		       <div className="col">
+		           <Feedback usStates={this.usStates} elections={this.electionTypes} />
+		       </div>
+		   </div>
+		</div> 
             </React.Fragment>
         );
     }
 }
- /* FEEDBACK FOR WHEN IT IS READY
-             <div className="container" >
-                <div className="row">
-                    <div className="col">
-                        <Feedback usStates={usStates} elections={elections} />
-                    </div>
-                </div>
-            </div> 
-*/
 
 export default Layout;
