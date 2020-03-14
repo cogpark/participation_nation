@@ -3,6 +3,7 @@ import RegistrationDeadlinesRow from './registrationDeadlinesRow';
 import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
 import Feedback from './feedback';
 import Picker from './picker'
+import OnlineRegistrationController from './onlineRegistrationControl';
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
 //import { ReactComponent } from '*.svg';
@@ -29,9 +30,9 @@ class Layout extends Component {
         this.state = {
             selectedState: 'Alabama',
             selectedElection: 'general',
+            onlineRegistration: 'https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action',
             datesData: RegData,
             absenteeData: AbsenteeData,
-            
         }
 
         this.handleSelectAState = this.handleSelectAState.bind(this);
@@ -39,13 +40,13 @@ class Layout extends Component {
     } 
 
     handleSelectAState(event) {
-        this.setState({ selectedState: event.target.value });
+        this.setState({ selectedState: event.target.value,
+                        onlineRegistration: RegData[this.state.selectedElection][event.target.value]['onlineRegistration']})
     }
 
     handleSelectElectionType(event) {
         this.setState({ selectedElection: event.target.value });
     }
-
 
     render() {
         return (
@@ -70,12 +71,19 @@ class Layout extends Component {
                         </div>
                     </div>
                     <br />
-                    <div className="row padded-down">
+                    <div className="row">
                         <div className="col">
                             <RegistrationDeadlinesRow 
                             selectedState={this.state.selectedState}
                             selectedElection={this.state.selectedElection}
                             datesData={this.state.datesData} />
+                        </div>
+                    </div>
+                    <div className="row padded-down">
+                        <div className="col">
+                           <OnlineRegistrationController 
+                           selectedState = {this.state.selectedState}
+                           onlineRegistration = {this.state.onlineRegistration}/>
                         </div>
                     </div>
 

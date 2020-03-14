@@ -1,25 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-function testdata(data, election, state, site="online_registration") {
-    if (data[election.toLowerCase()][state][site]) {
-        return "<a href='data[election.toLowerCase()][state][site]>'" + "Register to vote online" + "</a>.";
+
+function OnlineRegistrationController(props) {
+    if (props.onlineRegistration.length > 1) { 
+        return <OnlineRegistration onlineRegistration = {props.onlineRegistration} selectedState = {props.selectedState} /> ;
     } else {
-        return state + " doesn't have online registration."
-    };
-       
+        return <NoOnlineRegistration selectedState = {props.selectedState}/>
+    }
 }
 
 
 function OnlineRegistration(props) {
     return (
-        <p><a href=''>Register to vote online</a></p>
+    <p><a href={props.onlineRegistration}>Register to vote online in {props.selectedState}.</a></p>
     );
 }
 
 function NoOnlineRegistration(props) {
     return (
-        <p>No online registration.</p>
+    <p>{props.selectedState} doesn't have online registration.</p>
     )
 }
 
+export default OnlineRegistrationController;
 
