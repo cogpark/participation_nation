@@ -6,6 +6,7 @@ import Picker from './picker'
 import OnlineRegistrationController from './onlineRegistrationControl';
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
+import Title from './title.png'
 //import { ReactComponent } from '*.svg';
 
 
@@ -53,9 +54,7 @@ class Layout extends Component {
             <React.Fragment> 
                 <div id="banner">
                     <div className="row" style={{maxWidth:'1300px', margin:'0 54px', width:"100%", marginRight:"auto", marginLeft:"auto"}}>
-                        <div className="col">
-                            <h1 className="header-text">Participation Nation</h1>
-                        </div>
+                        <img src={Title} alt='Participation Nation' style={{maxHeight:'150px'}}/>
                     </div>
                 </div>
 
