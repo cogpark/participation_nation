@@ -39,9 +39,9 @@ class Layout extends Component {
         this.handleSelectElectionType = this.handleSelectElectionType.bind(this);
     } 
 
-    handleSelectAState(event) {
+    handleSelectAState(event, election) {
         this.setState({ selectedState: event.target.value,
-                        onlineRegistration: RegData[this.state.selectedElection][event.target.value]['onlineRegistration']})
+                        onlineRegistration: RegData[election][event.target.value]['onlineRegistration']})
     }
 
     handleSelectElectionType(event) {
@@ -63,7 +63,7 @@ class Layout extends Component {
                     <div className="row">
                         <div className="col-md-6">
                             <p>SELECT A STATE:</p>
-                            <Picker onChange={event => this.handleSelectAState(event)} selection={this.selectedState} data={this.usStates} />
+                            <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.selectedState} data={this.usStates} />
                         </div>
                         <div className="col-sm-4">
                             <p>SELECT AN ELECTION:</p>

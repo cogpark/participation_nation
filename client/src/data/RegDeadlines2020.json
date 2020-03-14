@@ -62,7 +62,7 @@
             "byMail":"Postmarked by April 23, 2020", 
             "online":"April 23, 2020",
             "status":"https://portal.ct.gov/SOTS/Election-Services/Registration-Deadlines/Registration-Deadlines",
-            "onlineRegistration":""
+            "onlineRegistration":"https://voterregistration.ct.gov/OLVR/welcome.do"
         },
         "Delaware":
         {
@@ -70,7 +70,7 @@
             "byMail":"April 4, 2020", 
             "online":"April 4, 2020",
             "status":"https://elections.delaware.gov/calendar/2020ElectionCalendar.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://ivote.de.gov/voterview"
         },
         "Florida":
         {
@@ -78,7 +78,7 @@
             "byMail":"February 18, 2020", 
             "online":"February 18, 2020",
             "status":"https://dos.myflorida.com/elections/for-voters/election-dates/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://registertovoteflorida.gov/"
         },
 
         "Georgia":
@@ -87,7 +87,7 @@
             "byMail":"February 24, 2020", 
             "online":"February 24, 2020",
             "status":"https://sos.ga.gov/admin/files/2020_Short_Calendar.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button"
         },
 
         "Hawaii":
@@ -97,7 +97,7 @@
             "online":"March 5, 2020",
             "status":"unverified",
             "notes": "HI is 1 of 3 states with a \"Presidential preference primary.\"",
-            "onlineRegistration":""
+            "onlineRegistration":"https://olvr.hawaii.gov/"
         },
 
         "Iowa":
@@ -107,7 +107,7 @@
             "online":"January 24, 2020",
             "status":"unverified",
             "notes": "IA is one of 2 states that hold caucuses instead of primary elections",
-            "onlineRegistration":""
+            "onlineRegistration":"https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration"
         },
 
         "Idaho":
@@ -116,7 +116,7 @@
             "byMail":"Received by February 14, 2020", 
             "online":"February 14, 2020",
             "status":"https://sos.idaho.gov/election-calendars/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://apps.idahovotes.gov/OnlineVoterRegistration/"
         },
         
         "Illinois":
@@ -125,7 +125,7 @@
             "byMail":"February 18, 2020", 
             "online":"March 1, 2020",
             "status":"https://www.elections.il.gov/Default.aspxf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://ova.elections.il.gov/RegistrationClosed.aspx"
         },
 
         "Indiana":
@@ -134,7 +134,7 @@
             "byMail":"April 6, 2020", 
             "online":"April 6, 2020",
             "status":"https://www.in.gov/sos/elections/2403.htm",
-            "onlineRegistration":""
+            "onlineRegistration":"https://indianavoters.in.gov/"
         },
 
         "Kansas":
@@ -143,7 +143,7 @@
             "byMail":"Request a mail-in ballot by April 17, 2020", 
             "online":"Unavailable",
             "status":"https://kansasdems.org/2020primary",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.kdor.ks.gov/apps/voterreg/secure/default.aspx"
         },
 
         "Kentucky":
@@ -152,7 +152,7 @@
             "byMail":"April 20, 2020", 
             "online":"April 20, 2020",
             "status":"https://elect.ky.gov/Resources/Documents/2020%20Election%20Calendar%20Edited.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://vrsws.sos.ky.gov/ovrweb/"
         },   
 
         "Louisiana":
@@ -162,7 +162,7 @@
             "online":"March 14, 2020",
             "status":"https://www.sos.la.gov/ElectionsAndVoting/GetElectionInformation/Pages/default.aspx",
             "notes":"LA is 1 of 3 states with a 'Presidential preference primary.'",
-            "onlineRegistration":""
+            "onlineRegistration":"https://voterportal.sos.la.gov/VoterRegistration"
         },
 
         "Massachusetts":
@@ -171,7 +171,7 @@
             "byMail":"February 12, 2020", 
             "online":"February 12, 2020",
             "status":"https://www.sec.state.ma.us/CalendarWeb/Pages/MonthWeekCalendar.aspx",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.sec.state.ma.us/ovr/"
         },
 
         "Maryland":
@@ -180,7 +180,7 @@
             "byMail":"April 7, 2020", 
             "online":"April 7, 2020",
             "status":"https://elections.maryland.gov/voter_registration/index.html",
-            "onlineRegistration":""
+            "onlineRegistration":"https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1"
         },
 
         "Michigan":
@@ -189,7 +189,7 @@
             "byMail":"February 24, 2020", 
             "online":"February 24, 2020",
             "status":"https://www.michigan.gov/documents/sos/Pres_Prim_Date_2020_08022019_662286_7.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://mvic.sos.state.mi.us/RegisterVoter"
         },
         
         "Minnesota": 
@@ -198,14 +198,14 @@
             "byMail": "February 11, 2020",
             "online": "February 11, 2020",
             "status": "https://www.sos.state.mn.us/election-administration-campaigns/elections-calendar/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx"
         },
 
         "Mississippi":
         {
             "inPerson":"February 10, 2020", 
             "byMail":"February 10, 2020", 
-            "online":"February 10, 2020",
+            "online":"MI doesn't offer online registration.",
             "status":"https://www.sos.ms.gov/Elections-Voting/Documents/VoterInformationGuide.pdf",
             "onlineRegistration":""
         },
@@ -214,7 +214,7 @@
         {
             "inPerson":"February 12, 2020", 
             "byMail":"February 12, 2020", 
-            "online":"You can't in MO.",
+            "online":"MO doesn't offer online voter registration..",
             "status":"https://www.sos.mo.gov/elections/calendar/2020cald",
             "onlineRegistration":""
         },
@@ -222,7 +222,7 @@
         "Montana": {
             "inPerson":"May 4, 2020. If you miss the deadline, you can <a href=' https://sosmt.gov/Portals/142/Elections/Documents/2018LateRegistrationLocations.pdf'>register late at one of these locations</a>.", 
             "byMail":"May 4, 2020", 
-            "online":"MT doesn't have online voter registration.",
+            "online":"MT doesn't offer online voter registration.",
             "status":"Register late at these locations:",
             "onlineRegistration":""
         },
@@ -233,14 +233,14 @@
             "byMail":"April 24, 2020", 
             "online":"April 24, 2020",
             "status":"https://sos.nebraska.gov/sites/sos.nebraska.gov/files/doc/2020%20Election%20Calendar_0.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.nebraska.gov/apps-sos-voter-registration/"
         },
 
         "New Jersey":
         {
             "inPerson":"May 12, 2020", 
             "byMail":"May 12, 2020", 
-            "online":"You can't in NJ.",
+            "online":"NJ doesn't offer online registration.",
             "status":"https://nj.gov/state/elections/assets/pdf/chrons/2020-chron-02-primary-election-011520.pdf",
             "onlineRegistration":""
         },
@@ -251,13 +251,13 @@
             "byMail":"May 5, 2020", 
             "online":"May 5, 2020",
             "status":"https://www.sos.state.nm.us/voting-and-elections/voting-faqs/voter-registration/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://portal.sos.state.nm.us/ovr/webpages/instructionsstep1.aspx"
         },
         
         "New Hampshire": {
             "inPerson":"Check with <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your county clerk</a> to learn when the last day to register is in your county. You can also register and vote on election day.", 
             "byMail":"Check with <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your county clerk</a> to learn when the last day to register is in your county.", 
-            "online":"NH doesn't have online voter registration.",
+            "online":"NH doesn't offer online voter registration.",
             "status":"",
             "onlineRegistration":""
         },
@@ -268,7 +268,7 @@
             "byMail":"Nevada's 2020 presidential caucus is over.", 
             "online":"",
             "status":"",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.nvsos.gov/SOSVoterServices/Registration/Step0.aspx"
         },
         
         "New York":
@@ -277,14 +277,14 @@
             "byMail": "received by April 8, 2020", 
             "online":"April 3, 2020",
             "status":"https://www.elections.ny.gov/NYSBOE/law/2020PresidentialPrimaryCalendar.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://voterreg.dmv.ny.gov/MotorVoter/"
         },
 
         "North Carolina":
         {
             "inPerson":"Anytime.", 
             "byMail":"February 7", 
-            "online":"You can't in NC.",
+            "online":"NC doesn't offer online voter registration.",
             "status":"https://www.ncsbe.gov/Voters/Registering-to-Vote",
             "notes": "You can register online here: https://www.vote.org/register-to-vote/north-carolina/" ,
             "onlineRegistration":"" 
@@ -304,7 +304,7 @@
             "byMail":"February 18, 2020", 
             "online":"February 18, 2020",
             "status":"https://www.ohiosos.gov/elections/voters/register/#register",
-            "onlineRegistration":""
+            "onlineRegistration":"https://olvr.ohiosos.gov/"
          },
 
          
@@ -312,7 +312,7 @@
         {
             "inPerson":"February 7, 2020", 
             "byMail":"February 7, 2020", 
-            "online":"February 7, 2020  ",
+            "online":"Oklahoma doesn't offer online registration--but they're working on it!",
             "status":"https://www.ok.gov/elections/Election_Info/2020_Election_Calendar.html",
             "onlineRegistration":""
         },
@@ -324,7 +324,7 @@
             "online":"April 28, 2020",
             "status":"https://sos.oregon.gov/voting/Pages/registration.aspx?lang=en",
             "notes": "21 days before the election",
-            "onlineRegistration":""
+            "onlineRegistration":"https://sos.oregon.gov/voting/Pages/registration.aspx?lang=en"
         },
 
         "Pennsylvania": 
@@ -334,7 +334,7 @@
             "online":"April 13, 2020",
             "status":"https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
             "notes": "15 days before the election",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx"
         },
 
         "Rhode Island": 
@@ -343,7 +343,7 @@
             "byMail":"March 29, 2020", 
             "online":"March 29, 2020",
             "status":"https://elections.ri.gov/elections/upcoming/index.php",
-            "onlineRegistration":""
+            "onlineRegistration":"https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1"
         },
 
         "South Carolina": 
@@ -353,14 +353,14 @@
             "online":"January 30, 2020",
             "status":"January 30, 2020",
             "notes":"30 days before the election",
-            "onlineRegistration":""
+            "onlineRegistration":"https://info.scvotes.sc.gov/eng/ovr/start.aspx"
         },
 
         "South Dakota": 
         {
             "inPerson":"May 18, 2020", 
             "byMail":"May 18, 2020", 
-            "online":"SD doesn't have online voter registration.",
+            "online":"SD doesn't offer online voter registration.",
             "status":"https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
             "notes":"15 days before the election",
             "onlineRegistration":""
@@ -373,17 +373,17 @@
             "online":"February 3, 2020",
             "status":"https://ovr.govote.tn.gov/",
             "notes":"30 days before the election",
-            "onlineRegistration":""
+            "onlineRegistration":"https://ovr.govote.tn.gov/"
         },
 
         "Texas":
         {
             "inPerson":"February 3, 2020", 
             "byMail":"February 3, 2020", 
-            "online":"You can't in TX.",
+            "online":"TX doesn't offer online registration.",
             "status":"https://www.sos.state.tx.us/elections/voter/2020-important-election-dates.shtml",
-            "notes": "TX doesn't have online registration, but you can try https://www.vote.org/register-to-vote/texas/",
-            "onlineRegistration":""
+            "notes": "TX doesn't offer online registration, but you can try https://www.vote.org/register-to-vote/texas/",
+            "onlineRegistration":" "
         },
 
         "Utah":
@@ -393,7 +393,7 @@
             "online":"February 25, 2020",
             "status":"https://voteinfo.utah.gov/current-election-information/",
             "notes": "If you miss the Feb. 25 deadline, you can register and vote on the same day furing early voting.",
-            "onlineRegistration":""
+            "onlineRegistration":"https://secure.utah.gov/voterreg/login.html?selection=REGISTER"
         },
 
         "Virginia":
@@ -402,7 +402,7 @@
             "byMail":"February 10, 2020", 
             "online":"February 10, 2020",
             "status":"https://www.elections.virginia.gov/casting-a-ballot/calendars-schedules/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.elections.virginia.gov/citizen-portal/"
         },
         
         "Vermont":
@@ -411,7 +411,7 @@
             "byMail":"Anytime", 
             "online":"Anytime",
             "status":"https://sos.vermont.gov/elections/voters/registration/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://olvr.sec.state.vt.us/"
         },
         
         "Washington":
@@ -420,7 +420,7 @@
             "byMail":"March 2, 2020", 
             "online":"March 2, 2020",
             "status":"https://www.sos.wa.gov/elections/dates-and-deadlines.aspx",
-            "onlineRegistration":""
+            "onlineRegistration":"https://voter.votewa.gov/WhereToVote.aspx"
         },
 
         "Washington, D.C.": 
@@ -429,7 +429,7 @@
             "byMail":"May 12, 2020", 
             "online":"May 12, 2020",
             "status":"https://www.dcboe.org/FAQS/Voter-Registration",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.vote4dc.com/ApplyInstructions/Register"
         },
 
         "Wisconsin": 
@@ -438,7 +438,7 @@
             "byMail":"January 29, 2020", 
             "online":"January 29, 2020",
             "status":"https://myvote.wi.gov/en-us/VoterDeadlines",
-            "onlineRegistration":""
+            "onlineRegistration":"https://myvote.wi.gov/en-US/RegisterToVote"
         },
 
         "West Virginia": 
@@ -447,17 +447,17 @@
             "byMail":"April 21, 2020", 
             "online":"April 21, 2020",
             "status":"https://sos.wv.gov/FormSearch/Elections/Informational/West%20Virginia%20Election%20Calendar.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://ovr.sos.wv.gov/Register/Landing#Qualifications"
         },
 
         "Wyoming": 
         {
-            "inPerson":"", 
-            "byMail":"", 
-            "online":"",
+            "inPerson":"Wyoming holds caucuses for their Democratic Primary. We couldn't find much info about when you need to register to participate. However, they do offer day-of registration for regular elections.", 
+            "byMail":" ", 
+            "online":" ",
             "status":"unverified",
-            "notes":"Wyoming holds caucuses for their Democratic Primary. We couldn't find much info about when you need to register to participate.",
-            "onlineRegistration":""
+            "notes":"",
+            "onlineRegistration":"WY doesn't offer online registration."
         }
     },
     "general":
@@ -523,7 +523,7 @@
             "byMail":"postmarked by October 27, 2020", 
             "online":"October 27, 2020",
             "status":"https://portal.ct.gov/SOTS/Election-Services/Registration-Deadlines/Registration-Deadlines",
-            "onlineRegistration":""
+            "onlineRegistration":"https://voterregistration.ct.gov/OLVR/welcome.do"
         },
 
         "Delaware":
@@ -533,7 +533,7 @@
             "online":"October 10, 2020 ",
             "status":"https://elections.delaware.gov/calendar/2020ElectionCalendar.pdf",
             "notes": "Service members living outside the U.S. have until October 19 to register.",
-            "onlineRegistration":""
+            "onlineRegistration":"https://ivote.de.gov/voterview"
         },
 
         "Florida":
@@ -542,7 +542,7 @@
             "byMail":"October 5, 2020", 
             "online":"October 5, 2020",
             "status":"https://dos.myflorida.com/elections/for-voters/election-dates/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://registertovoteflorida.gov/"
         },
 
         "Georgia":
@@ -551,7 +551,7 @@
             "byMail":"October 5, 2020", 
             "online":"Octobe 5, 2020",
             "status":"https://sos.ga.gov/admin/files/2020_Short_Calendar.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button"
         },
 
         "Hawaii":
@@ -560,7 +560,7 @@
             "byMail":"October 5, 2020", 
             "online":"October 5, 2020",
             "status":"https://elections.hawaii.gov/voters/registration/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://olvr.hawaii.gov/"
         },
 
         "Iowa":
@@ -569,7 +569,7 @@
             "byMail":"October 24, 2020", 
             "online":"October 24",
             "status":"https://sos.iowa.gov/elections/electioninfo/3yrelectioncal.html",
-            "onlineRegistration":""
+            "onlineRegistration":"https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration"
         },
 
         "Idaho":
@@ -578,7 +578,7 @@
             "byMail":"received by October 9, 2020", 
             "online":"October 9, 2020",
             "status":"https://sos.idaho.gov/election-calendars/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://apps.idahovotes.gov/OnlineVoterRegistration/"
         },
 
         "Illinois":
@@ -587,7 +587,7 @@
             "byMail":"October 6, 2020", 
             "online":"October 18, 2020",
             "status":"https://www.elections.il.gov/Default.aspxf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://ova.elections.il.gov/RegistrationClosed.aspx"
         },
         "Indiana":
         {
@@ -595,7 +595,7 @@
             "byMail":"October 5, 2020", 
             "online":"October 5, 2020",
             "status":"https://www.in.gov/sos/elections/2403.htm",
-            "onlineRegistration":""
+            "onlineRegistration":"https://indianavoters.in.gov/"
         },
 
         "Kansas":
@@ -605,7 +605,7 @@
             "online":"October 13, 2020",
             "status":"https://sos.kansas.gov/elections/registration-voting/",
             "notes": "Also saw some reports that you could register in person.",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.kdor.ks.gov/apps/voterreg/secure/default.aspx"
         },
 
         "Kentucky":
@@ -614,7 +614,7 @@
             "byMail":"October 5, 2020", 
             "online":"October 5, 2020",
             "status":"https://elect.ky.gov/Resources/Documents/2020%20Election%20Calendar%20Edited.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://vrsws.sos.ky.gov/ovrweb/"
         },    
         "Louisiana":
         {
@@ -623,7 +623,7 @@
             "online":"October 13, 2020",
             "status":"https://www.sos.la.gov/ElectionsAndVoting/GetElectionInformation/Pages/default.aspx",
             "notes":"LA is 1 of 3 states with a 'Presidential preference primary.'",
-            "onlineRegistration":""
+            "onlineRegistration":"https://voterportal.sos.la.gov/VoterRegistration"
         },
         "Massachusetts":
         {
@@ -631,7 +631,7 @@
             "byMail":"October 14, 2020", 
             "online":"October 14, 2020",
             "status":"https://www.sec.state.ma.us/CalendarWeb/Pages/MonthWeekCalendar.aspx",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.sec.state.ma.us/ovr/"
         },
 
         "Maryland":
@@ -640,7 +640,7 @@
             "byMail":"October 13, 2020", 
             "online":"October 13, 2020",
             "status":"https://elections.maryland.gov/voter_registration/index.html",
-            "onlineRegistration":""
+            "onlineRegistration":"https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1"
         },
 
         "Michigan":
@@ -649,7 +649,7 @@
             "byMail":"October 19, 2020", 
             "online":"October 19, 2020",
             "status":"https://www.michigan.gov/documents/sos/2020_Elec-Dates-Booklet_ED-12_10-09-19_668275_7.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://mvic.sos.state.mi.us/RegisterVoter"
         },
 
         "Minnesota": 
@@ -658,14 +658,14 @@
             "byMail": "October 13, 2020",
             "online": "October 13, 2020",
             "status": "https://www.sos.state.mn.us/election-administration-campaigns/elections-calendar/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx"
         },
 
         "Mississippi":
         {
             "inPerson":"October 5, 2020", 
             "byMail":"October 5, 2020", 
-            "online":"You can't in MS.",
+            "online":"MS doesn't offer online voter registration.",
             "status":"https://www.sos.ms.gov/Elections-Voting/Documents/VoterInformationGuide.pdf",
             "onlineRegistration":""
         },
@@ -674,7 +674,7 @@
         {
             "inPerson":"October 7, 2020", 
             "byMail":"October 7, 2020", 
-            "online":"You can't in MO.",
+            "online":"MO doesn't offer online voter registration.",
             "status":"https://www.sos.mo.gov/elections/calendar/2020cal",
             "onlineRegistration":""
         },
@@ -682,7 +682,7 @@
         "Montana": {
             "inPerson":"October 5, 2020. If you miss the deadline, you can <a href=' https://sosmt.gov/Portals/142/Elections/Documents/2018LateRegistrationLocations.pdf'>register late at one of these locations</a>.", 
             "byMail":"October 5, 2020", 
-            "online":"MT doesn't have online voter registration.",
+            "online":"MT doesn't offer online voter registration.",
             "status":"Register late at these locations: https://sosmt.gov/Portals/142/Elections/Documents/2018LateRegistrationLocations.pdf",
             "onlineRegistration":""
         },
@@ -690,7 +690,7 @@
         "New Hampshire": {
             "inPerson":"Check with <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your county clerk</a> to learn when the last day to register is in your county. You can also register and vote on election day.", 
             "byMail":"Check with <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your county clerk</a> to learn when the last day to register is in your county.", 
-            "online":"NH doesn't have online voter registration.",
+            "online":"NH doesn't offer online voter registration.",
             "status":"",
             "onlineRegistration":""
         },
@@ -701,7 +701,7 @@
             "byMail":"October 9, 2020", 
             "online":"You can't in NC.",
             "status":"https://www.ncsbe.gov/Voters/Registering-to-Vote",
-            "notes": "You can register online here: https://www.vote.org/register-to-vote/north-carolina/",
+            "notes": "",
             "onlineRegistration":""
         },
 
@@ -721,14 +721,14 @@
             "byMail":"October 16, 2020", 
             "online":"October 16, 2020",
             "status":"https://sos.nebraska.gov/sites/sos.nebraska.gov/files/doc/2020%20Election%20Calendar_0.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.nebraska.gov/apps-sos-voter-registration/"
         },
 
         "New Jersey":
         {
             "inPerson":"October 13, 2020", 
             "byMail":"October 13, 2020", 
-            "online":"You can't in NJ.",
+            "online":"NJ doesn't offer online registration.",
             "status":"https://nj.gov/state/elections/assets/pdf/chrons/2020-chron-01-general-election-012220.pdf",
             "onlineRegistration":""
         },
@@ -739,7 +739,7 @@
             "byMail":"October 6, 2020", 
             "online":"October 6, 2020",
             "status":"https://www.sos.state.nm.us/voting-and-elections/voting-faqs/voter-registration/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://portal.sos.state.nm.us/ovr/webpages/instructionsstep1.aspx"
         },
         
         "Nevada":
@@ -748,7 +748,7 @@
             "byMail":"Postmarked by October 6, 2020", 
             "online":"October 29, 2020",
             "status":"https://www.nvsos.gov/sos/home/showdocument?id=8206",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.nvsos.gov/SOSVoterServices/Registration/Step0.aspx"
         },
         
         "New York":
@@ -757,7 +757,7 @@
             "byMail":"Received by October 14, 2020", 
             "online":"October 9, 2020",
             "status":"https://www.elections.ny.gov/NYSBOE/law/2020PoliticalCalendar.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://voterreg.dmv.ny.gov/MotorVoter/"
         },
 
         "Ohio": 
@@ -766,7 +766,7 @@
             "byMail":"October 5, 2020", 
             "online":"October 5, 2020",
             "status":"https://www.ohiosos.gov/elections/voters/register/#gref",
-            "onlineRegistration":""
+            "onlineRegistration":"https://olvr.ohiosos.gov/"
          },
 
                   
@@ -774,7 +774,7 @@
         {
             "inPerson":"October 12, 2020", 
             "byMail":"October 12, 2020", 
-            "online":"October 12, 2020",
+            "online":"Oklahoma doesn't offer online registration--but they're working on it",
             "status":"",
             "notes": "24 days before the election",
             "onlineRegistration":""
@@ -787,7 +787,7 @@
             "online":"October 13, 2020",
             "status":"https://sos.oregon.gov/voting/Pages/registration.aspx?lang=en",
             "notes":"21 days before the election",
-            "onlineRegistration":""
+            "onlineRegistration":"https://sos.oregon.gov/voting/Pages/registration.aspx?lang=en"
         },
 
                 
@@ -797,7 +797,7 @@
             "byMail":"October 19, 2020", 
             "online":"October 19, 2020",
             "status":"https://www.votespa.com/About-Elections/Pages/Upcoming-Elections.aspx",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx"
         },
 
         "Rhode Island": 
@@ -806,7 +806,7 @@
             "byMail":"October 4, 2020", 
             "online":"October 4, 2020",
             "status":"https://elections.ri.gov/elections/upcoming/index.php",
-            "onlineRegistration":""
+            "onlineRegistration":"https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1"
         },
 
         "South Carolina": 
@@ -816,14 +816,14 @@
             "online":"October 4, 2020",
             "status":"October 4, 2020",
             "notes":"30 days before the election",
-            "onlineRegistration":""
+            "onlineRegistration":"https://info.scvotes.sc.gov/eng/ovr/start.aspx"
         },
 
         "South Dakota": 
         {
             "inPerson":"October 19, 2020", 
             "byMail":"October 19, 2020", 
-            "online":"SD doesn't have online voter registration.",
+            "online":"SD doesn't offer online voter registration.",
             "status":"https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
             "notes":"15 days before the election",
             "onlineRegistration":""
@@ -836,16 +836,16 @@
             "online":"October 4, 2020",
             "status":"https://ovr.govote.tn.gov/",
             "notes":"30 days before the election",
-            "onlineRegistration":""
+            "onlineRegistration":"https://ovr.govote.tn.gov/"
         },
 
         "Texas":
         {
             "inPerson":"October 5, 2020", 
             "byMail":"October 5, 2020", 
-            "online":"You can't in TX.",
+            "online":"TX doesn't offer online registration.",
             "status":"https://www.sos.state.tx.us/elections/voter/2020-important-election-dates.sthtml",
-            "notes": "TX doesn't have online registration, but you can try https://www.vote.org/register-to-vote/texas/",
+            "notes": "TX doesn't offer online registration, but you can try https://www.vote.org/register-to-vote/texas/",
             "onlineRegistration":""
         },
 
@@ -855,7 +855,7 @@
             "byMail":"Sent by October 4, 2020", 
             "online":"October 27, 2020",
             "status":"https://www.rockthevote.org/voting-information/election-dates-deadlines/utah/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://secure.utah.gov/voterreg/login.html?selection=REGISTER"
         },
 
         "Virginia":
@@ -864,7 +864,7 @@
             "byMail":"October 13, 2020", 
             "online":"October 13, 2020",
             "status":"https://www.elections.virginia.gov/casting-a-ballot/calendars-schedules/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.elections.virginia.gov/citizen-portal/"
         },
         
         "Vermont":
@@ -873,7 +873,7 @@
             "byMail":"Anytime", 
             "online":"Anytime",
             "status":"https://sos.vermont.gov/elections/voters/registration/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://olvr.sec.state.vt.us/"
         },
         
         "Washington":
@@ -882,7 +882,7 @@
             "byMail":"October 26, 2020", 
             "online":"October 26, 2020",
             "status":"https://www.sos.wa.gov/elections/dates-and-deadlines.aspx",
-            "onlineRegistration":""
+            "onlineRegistration":"https://voter.votewa.gov/WhereToVote.aspx"
         },
 
         "Washington, D.C.": 
@@ -891,7 +891,7 @@
             "byMail":"October 13, 2020", 
             "online":"October 13, 2020",
             "status":"https://www.dcboe.org/FAQS/Voter-Registration",
-            "onlineRegistration":""
+            "onlineRegistration":"https://www.vote4dc.com/ApplyInstructions/Register"
         },
 
         "Wisconsin": 
@@ -900,7 +900,7 @@
             "byMail":"Sent by October 14, 2020", 
             "online":"October 30, 2020",
             "status":"https://www.rockthevote.org/voting-information/election-dates-deadlines/wisconsin/",
-            "onlineRegistration":""
+            "onlineRegistration":"https://myvote.wi.gov/en-US/RegisterToVote"
         },
 
         "West Virginia": 
@@ -909,14 +909,14 @@
             "byMail":"October 13, 2020", 
             "online":"October 13, 2020",
             "status":"https://sos.wv.gov/FormSearch/Elections/Informational/West%20Virginia%20Election%20Calendar.pdf",
-            "onlineRegistration":""
+            "onlineRegistration":"https://ovr.sos.wv.gov/Register/Landing#Qualifications"
         },
 
         "Wyoming": 
         {
-            "inPerson":"October 19, 2020", 
+            "inPerson":"October 19, 2020 or on Election Day.", 
             "byMail":"October 19, 2020", 
-            "online":"You can't in WY.",
+            "online":"WY doesn't offer online registration.",
             "status":"https://soswy.state.wy.us/Elections/Docs/2020/2020_Key_Election_Dates.pdf",
             "notes": "If you miss the election deadline, you can register on Election Day (and fill out an absentee ballot)",
             "onlineRegistration":""

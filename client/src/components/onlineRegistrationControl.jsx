@@ -18,7 +18,7 @@ function OnlineRegistration(props) {
 
 function NoOnlineRegistration(props) {
     return (
-    <p>{props.selectedState} doesn't have online registration.</p>
+    <p> </p>
     )
 }
 
