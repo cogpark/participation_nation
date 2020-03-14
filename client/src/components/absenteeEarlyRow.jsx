@@ -10,7 +10,7 @@ function AbsenteeEarlyVotingRow(props) {
             </div>
 
             <h3>Instructions</h3> 
-            <div className='row' style={{ paddingBottom: '10px;'}}>
+            <div className='row' style={{ paddingBottom: '10px'}}>
 
                 <div className='col-md-6'>
                     <Scorecard 
@@ -53,7 +53,7 @@ function AbsenteeEarlyVotingRow(props) {
             </div>
             <br />
             <h3>LEARN MORE</h3> 
-            <div className='row' style={{ paddingBottom: '10px;'}}>
+            <div className='row' style={{ paddingBottom: '10px' }}>
                 <div className='col-lg-12'>
                 <p>Want to learn more? Start here: {lookupAbsenteeInfo(props.absenteeData, props.selectedState,'source')}</p>
                 </div>

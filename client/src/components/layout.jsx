@@ -3,6 +3,7 @@ import RegistrationDeadlinesRow from './registrationDeadlinesRow';
 import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
 import Feedback from './feedback';
 import Picker from './picker'
+import OnlineRegistrationController from './onlineRegistrationControl';
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
 //import { ReactComponent } from '*.svg';
@@ -29,6 +30,7 @@ class Layout extends Component {
         this.state = {
             selectedState: 'Alabama',
             selectedElection: 'general',
+            onlineRegistration: 'https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action',
             datesData: RegData,
             absenteeData: AbsenteeData,
         }
@@ -37,14 +39,14 @@ class Layout extends Component {
         this.handleSelectElectionType = this.handleSelectElectionType.bind(this);
     } 
 
-    handleSelectAState(event) {
-        this.setState({ selectedState: event.target.value });
+    handleSelectAState(event, election) {
+        this.setState({ selectedState: event.target.value,
+                        onlineRegistration: RegData[election][event.target.value]['onlineRegistration']})
     }
 
     handleSelectElectionType(event) {
         this.setState({ selectedElection: event.target.value });
     }
-
 
     render() {
         return (
@@ -61,7 +63,7 @@ class Layout extends Component {
                     <div className="row">
                         <div className="col-md-6">
                             <p>SELECT A STATE:</p>
-                            <Picker onChange={event => this.handleSelectAState(event)} selection={this.selectedState} data={this.usStates} />
+                            <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.selectedState} data={this.usStates} />
                         </div>
                         <div className="col-sm-4">
                             <p>SELECT AN ELECTION:</p>
@@ -69,12 +71,19 @@ class Layout extends Component {
                         </div>
                     </div>
                     <br />
-                    <div className="row padded-down">
+                    <div className="row">
                         <div className="col">
                             <RegistrationDeadlinesRow 
                             selectedState={this.state.selectedState}
                             selectedElection={this.state.selectedElection}
                             datesData={this.state.datesData} />
+                        </div>
+                    </div>
+                    <div className="row padded-down">
+                        <div className="col">
+                           <OnlineRegistrationController 
+                           selectedState = {this.state.selectedState}
+                           onlineRegistration = {this.state.onlineRegistration}/>
                         </div>
                     </div>
 
