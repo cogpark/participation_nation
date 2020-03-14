@@ -17,7 +17,7 @@
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote absentee in person",
-        "mail_instructions": "<p>Request or <a href='https://www.sos.alabama.gov/sites/default/files/Regular%20Absentee%20App%20Fillable.pdf'>fill out a ballot application and send it/take it to <a href='https://www.sos.alabama.gov/city-county-lookup/absentee-election-manager'> your local election manager</a>.", 
+        "mail_instructions": "<p>Request or <a href='https://www.sos.alabama.gov/sites/default/files/Regular%20Absentee%20App%20Fillable.pdf'>fill out a ballot application</a> and send it/take it to <a href='https://www.sos.alabama.gov/city-county-lookup/absentee-election-manager'> your local election manager</a>.", 
         "mail_request_deadline": "5 days before the election.",
         "in_person_instructions": "Delivered to <a href='https://www.sos.alabama.gov/city-county-lookup/absentee-election-manager'> your local election manager</a> by 5 p.m. the day before the election.",
         "ballot_delivery": "By noon on Election Day.",
