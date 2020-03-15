@@ -87,6 +87,7 @@ p , li {
 .header-row a {
   color: white;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .card-header {
