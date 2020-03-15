@@ -83,6 +83,12 @@ p , li {
   margin-left:auto;
   display:flex;
 }
+
+.header-row a {
+  color: white;
+  text-transform: uppercase;
+}
+
 .card-header {
   background-color: #426480;
   padding: 15px;

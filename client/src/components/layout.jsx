@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import RegistrationDeadlinesRow from './registrationDeadlinesRow';
 import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
-import Feedback from './feedback';
+//import Feedback from './feedback';
 import Picker from './picker'
 import OnlineRegistrationController from './onlineRegistrationControl';
 import RegData from '../data/RegDeadlines2020.json';
@@ -57,12 +57,13 @@ class Layout extends Component {
                         <div className="col-sm-4" >
                             <img src={Title} alt='Participation Nation' style={{maxHeight:'100px'}}/>
                         </div>
-                        <div className="col-sm-2" style={{ display:"flex", alignItems:'end'}}> 
-                            <a href="#absentee-row">Absentee & early voting</a>
-                        </div>
-                        <div className="col-sm-2" style={{ display:"flex", alignItems:'end'}}> 
+                        <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
                             <a href="#registration-row">Registratation deadlines</a>
                         </div>
+                        <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
+                            <a href="#absentee-row">Absentee & early voting</a>
+                        </div>
+
                     </div>
                 </div>
 
@@ -104,16 +105,18 @@ class Layout extends Component {
                         </div>
                     </div>
                 </div> 
-		<div className="container" >
-		   <div className="row">
-		       <div className="col">
-		           <Feedback usStates={this.usStates} elections={this.electionTypes} />
-		       </div>
-		   </div>
-		</div> 
+
             </React.Fragment>
         );
     }
 }
 
 export default Layout;
+
+//<div className="container" >
+//<div className="row">
+//    <div className="col">
+//        <Feedback usStates={this.usStates} elections={this.electionTypes} />
+//    </div>
+//</div>
+// </div> 
