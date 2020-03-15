@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import RegistrationDeadlinesRow from './registrationDeadlinesRow';
 import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
-//import Feedback from './feedback';
+import Feedback from './feedback';
 import Picker from './picker'
 import OnlineRegistrationController from './onlineRegistrationControl';
 import RegData from '../data/RegDeadlines2020.json';
@@ -104,6 +104,17 @@ class Layout extends Component {
                             />
                         </div>
                     </div>
+
+
+		    <div className="container" >
+			<div className="row">
+			    <div className="col">
+				<Feedback usStates={this.usStates} elections={this.electionTypes} />
+			    </div>
+			</div>
+		    </div> 
+
+
                 </div> 
 
             </React.Fragment>
@@ -112,11 +123,3 @@ class Layout extends Component {
 }
 
 export default Layout;
-
-//<div className="container" >
-//<div className="row">
-//    <div className="col">
-//        <Feedback usStates={this.usStates} elections={this.electionTypes} />
-//    </div>
-//</div>
-// </div> 
