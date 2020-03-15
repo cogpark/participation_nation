@@ -40,9 +40,6 @@ class Layout extends Component {
         this.handleSelectAState = this.handleSelectAState.bind(this);
         this.handleSelectElectionType = this.handleSelectElectionType.bind(this);
     } 
-    componentDidMount(){
-        history.push('/home')
-    };
 
      //   pathname: '/template',
      //   search: '?query=abc',
