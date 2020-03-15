@@ -6,14 +6,15 @@ import Picker from './picker'
 import OnlineRegistrationController from './onlineRegistrationControl';
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
-import Title from './title-optimized.png'
+import Title from './title-optimized.png';
+import history from './history';
 //import { ReactComponent } from '*.svg';
 
 
 class Layout extends Component { 
     constructor(props) {
         super(props)
-
+        
         this.usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
         'Colorado','Connecticut','Delaware',
         'Florida','Georgia','Hawaii',
@@ -39,18 +40,31 @@ class Layout extends Component {
         this.handleSelectAState = this.handleSelectAState.bind(this);
         this.handleSelectElectionType = this.handleSelectElectionType.bind(this);
     } 
+    componentDidMount(){
+        history.push('/home')
+    };
 
+     //   pathname: '/template',
+     //   search: '?query=abc',
+     //   state: { detail: response.data }
+     
     handleSelectAState(event, election) {
         this.setState({ selectedState: event.target.value,
-                        onlineRegistration: RegData[election][event.target.value]['onlineRegistration']})
-    }
+                        onlineRegistration: RegData[election][event.target.value]['onlineRegistration']});
+        var fixElectionName = (election === "general") ? "general" : "democratic_primary"
+        var url = fixElectionName + '_' + event.target.value
+        history.push(url)
+        }
 
     handleSelectElectionType(event) {
         this.setState({ selectedElection: event.target.value });
+        var election = (event.target.value === "General") ? "general" : "democratic_primary"
+        var url = election + '_' + this.state.selectedState
+        history.push(url) 
     }
 
     render() {
-        return (
+        return ( 
             <React.Fragment> 
                 <div id="banner">
                     <div className="row header-row">
@@ -89,9 +103,9 @@ class Layout extends Component {
                     </div>
                     <div className="row padded-down">
                         <div className="col-sm-5">
-                           <OnlineRegistrationController 
-                           selectedState = {this.state.selectedState}
-                           onlineRegistration = {this.state.onlineRegistration}/>
+                        <OnlineRegistrationController 
+                        selectedState = {this.state.selectedState}
+                        onlineRegistration = {this.state.onlineRegistration}/>
                         </div>
                     </div>
 
@@ -105,7 +119,6 @@ class Layout extends Component {
                         </div>
                     </div>
                 </div> 
-
             </React.Fragment>
         );
     }

@@ -8,7 +8,7 @@ function Picker(props) {
             value={props.selection}
             className="form-control">
             {props.data.map((value, index) =>
-                    <option key={index} value={value}>{value}</option>)}
+                <option key={index} value={value}>{value}</option>)}
         </select>
     );
 }
