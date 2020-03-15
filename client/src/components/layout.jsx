@@ -49,14 +49,14 @@ class Layout extends Component {
         this.setState({ selectedState: event.target.value,
                         onlineRegistration: RegData[election][event.target.value]['onlineRegistration']});
         var fixElectionName = (election === "general") ? "general" : "democratic_primary"
-        var url = fixElectionName + '_' + event.target.value
+        var url = "?" + fixElectionName + '_' + event.target.value
         history.push(url)
         }
 
     handleSelectElectionType(event) {
         this.setState({ selectedElection: event.target.value });
         var election = (event.target.value === "General") ? "general" : "democratic_primary"
-        var url = election + '_' + this.state.selectedState
+        var url =  "?" + election + '_' + this.state.selectedState
         history.push(url) 
     }
 
