@@ -9,10 +9,9 @@ function OnlineRegistrationController(props) {
     }
 }
 
-
 function OnlineRegistration(props) {
     return (
-    <p><a href={props.onlineRegistration}>Register to vote online in {props.selectedState}.</a></p>
+    <a className="btn btn-secondary btn-lg btn-block" href={props.onlineRegistration}>Register to vote online in <b>{props.selectedState}.</b></a>
     );
 }
 

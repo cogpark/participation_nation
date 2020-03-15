@@ -53,8 +53,16 @@ class Layout extends Component {
         return (
             <React.Fragment> 
                 <div id="banner">
-                    <div className="row" style={{maxWidth:'1100px', margin:'0 54px', width:"100%", marginRight:"auto", marginLeft:"auto"}}>
-                        <img src={Title} alt='Participation Nation' style={{maxHeight:'100px'}}/>
+                    <div className="row header-row">
+                        <div className="col-sm-4" >
+                            <img src={Title} alt='Participation Nation' style={{maxHeight:'100px'}}/>
+                        </div>
+                        <div className="col-sm-2" style={{ display:"flex", alignItems:'end'}}> 
+                            <a href="#absentee-row">Absentee & early voting</a>
+                        </div>
+                        <div className="col-sm-2" style={{ display:"flex", alignItems:'end'}}> 
+                            <a href="#registration-row">Registratation deadlines</a>
+                        </div>
                     </div>
                 </div>
 
@@ -70,7 +78,7 @@ class Layout extends Component {
                         </div>
                     </div>
                     <br />
-                    <div className="row">
+                    <div className="row" id="registration-row">
                         <div className="col">
                             <RegistrationDeadlinesRow 
                             selectedState={this.state.selectedState}
@@ -79,19 +87,20 @@ class Layout extends Component {
                         </div>
                     </div>
                     <div className="row padded-down">
-                        <div className="col">
+                        <div className="col-sm-5">
                            <OnlineRegistrationController 
                            selectedState = {this.state.selectedState}
                            onlineRegistration = {this.state.onlineRegistration}/>
                         </div>
                     </div>
 
-                    <div className='row'>
+                    <div className='row' id="absentee-row">
                         <div className='col'>
                             <AbsenteeEarlyVotingRow 
                             selectedState={this.state.selectedState}
                             selectedElection={this.state.selectedElection}
-                            absenteeData={this.state.absenteeData}/>
+                            absenteeData={this.state.absenteeData}
+                            />
                         </div>
                     </div>
                 </div> 
