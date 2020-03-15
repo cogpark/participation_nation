@@ -6,7 +6,7 @@ import Picker from './picker'
 import OnlineRegistrationController from './onlineRegistrationControl';
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
-import Title from './title.png'
+import Title from './title-optimized.png'
 //import { ReactComponent } from '*.svg';
 
 
