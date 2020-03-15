@@ -4,11 +4,6 @@
 * In /client, you'll to manually install bootstrap, react, react-dom, react-scripts
 * Then, you can run npm run dev from the root directory
 
-## To start a local copy of the site on Windows:
-* Pull heroku-dev
-* From root run `npm run powershell-install`
-* From root, run `npm run dev`
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

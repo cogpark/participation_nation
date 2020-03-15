@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import RegistrationDeadlinesRow from './registrationDeadlinesRow';
 import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
-import Feedback from './feedback';
+//import Feedback from './feedback';
 import Picker from './picker'
 import OnlineRegistrationController from './onlineRegistrationControl';
 import RegData from '../data/RegDeadlines2020.json';
@@ -53,14 +53,23 @@ class Layout extends Component {
         return (
             <React.Fragment> 
                 <div id="banner">
-                    <div className="row" style={{maxWidth:'1300px', margin:'0 54px', width:"100%", marginRight:"auto", marginLeft:"auto"}}>
-                        <img src={Title} alt='Participation Nation' style={{maxHeight:'150px'}}/>
+                    <div className="row header-row">
+                        <div className="col-sm-4" >
+                            <img src={Title} alt='Participation Nation' style={{maxHeight:'100px'}}/>
+                        </div>
+                        <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
+                            <a href="#registration-row">Registratation deadlines</a>
+                        </div>
+                        <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
+                            <a href="#absentee-row">Absentee & early voting</a>
+                        </div>
+
                     </div>
                 </div>
 
                 <div className="container" >
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-sm-4">
                             <p>SELECT A STATE:</p>
                             <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.selectedState} data={this.usStates} />
                         </div>
@@ -70,7 +79,7 @@ class Layout extends Component {
                         </div>
                     </div>
                     <br />
-                    <div className="row">
+                    <div className="row" id="registration-row">
                         <div className="col">
                             <RegistrationDeadlinesRow 
                             selectedState={this.state.selectedState}
@@ -79,32 +88,35 @@ class Layout extends Component {
                         </div>
                     </div>
                     <div className="row padded-down">
-                        <div className="col">
+                        <div className="col-sm-5">
                            <OnlineRegistrationController 
                            selectedState = {this.state.selectedState}
                            onlineRegistration = {this.state.onlineRegistration}/>
                         </div>
                     </div>
 
-                    <div className='row'>
+                    <div className='row' id="absentee-row">
                         <div className='col'>
                             <AbsenteeEarlyVotingRow 
                             selectedState={this.state.selectedState}
                             selectedElection={this.state.selectedElection}
-                            absenteeData={this.state.absenteeData}/>
+                            absenteeData={this.state.absenteeData}
+                            />
                         </div>
                     </div>
                 </div> 
-		<div className="container" >
-		   <div className="row">
-		       <div className="col">
-		           <Feedback usStates={this.usStates} elections={this.electionTypes} />
-		       </div>
-		   </div>
-		</div> 
+
             </React.Fragment>
         );
     }
 }
 
 export default Layout;
+
+//<div className="container" >
+//<div className="row">
+//    <div className="col">
+//        <Feedback usStates={this.usStates} elections={this.electionTypes} />
+//    </div>
+//</div>
+// </div> 

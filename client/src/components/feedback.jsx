@@ -70,13 +70,13 @@ class Feedback extends React.Component {
     render() {
 	return (
 	    <form onSubmit={this.handleSubmit}>
-	      <h2>Feedback</h2>          
-		<h3>See something wrong? Don't see info you need? Tell us about it:</h3>
+	      <h2>Help us improve</h2>          
 		{this.state.message &&
 		    <div className="alert alert-success">{this.state.message}</div>
 		}
 	      <div className="form-row">
-		<div className="form-group col-md-6">
+
+		<div className="form-group col-sm-4">
 		  <label htmlFor="inputState">STATE:</label>
 		  <select id="inputState" onChange={this.setUsState} name="selectedState" className="form-control">
 		    <option key="0" value="other">None/other</option>
@@ -84,7 +84,7 @@ class Feedback extends React.Component {
 			<option key={i+1} value={value}>{value}</option>)}
 		  </select>
 		</div>
-		<div className="form-group col-md-6">
+		<div className="form-group col-sm-4">
 		  <label htmlFor="inputElection">ELECTION:</label>
 		  <select id="inputElection" onChange={this.setElection} name="selectedElection" className="form-control">
 		    <option key="0" value="other">None/other</option>
@@ -92,7 +92,7 @@ class Feedback extends React.Component {
 			<option key={1+i} value={value}>{value}</option>)}
 		  </select>
 		</div>
-		<div className="form-group col-md-12">
+		<div className="form-group col-md-8">
 		  <label htmlFor="comment">YOUR FEEDBACK:</label>
 		  <textarea className="form-control" onChange={this.setComment} name="comment" 
 		  			placeholder="See something wrong? Don't see info you need? Tell us about it:" id="comment"></textarea>
