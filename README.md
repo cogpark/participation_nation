@@ -1,7 +1,7 @@
 ## To install in Powershell without any configuration changes 
 * Clone the repo
 * In the root directory, run `npm install express mongoose concurrently`
-* In /client, you'll to manually install bootstrap, react, react-dom, react-scripts
+* In /client, you'll to manually install bootstrap, react, react-dom, react-scripts, and react-router
 * Then, you can run npm run dev from the root directory
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
