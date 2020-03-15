@@ -75,6 +75,7 @@ class Feedback extends React.Component {
 		    <div className="alert alert-success">{this.state.message}</div>
 		}
 	      <div className="form-row">
+
 		<div className="form-group col-sm-4">
 		  <label htmlFor="inputState">STATE:</label>
 		  <select id="inputState" onChange={this.setUsState} name="selectedState" className="form-control">
