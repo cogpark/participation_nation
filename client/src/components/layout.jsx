@@ -70,6 +70,7 @@ class Layout extends Component {
                         </div>
                         <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
                             <a href="#registration-row">Registratation deadlines</a>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                         </div>
                         <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
                             <a href="#absentee-row">Absentee & early voting</a>
