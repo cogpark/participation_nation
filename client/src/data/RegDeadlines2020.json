@@ -473,7 +473,7 @@
         "Alabama": 
         {
             "inPerson":"October 19, 2020", 
-            "byMail":"received by October 19, 2020", 
+            "byMail":"Received by October 19, 2020", 
             "online":"October 20, 2020",
             "status":"unverified",
             "onlineRegistration":"https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action"
