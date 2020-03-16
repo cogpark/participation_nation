@@ -65,11 +65,12 @@ class Layout extends Component {
             <React.Fragment> 
                 <div id="banner">
                     <div className="row header-row">
-                        <div className="col-sm-4" >
-                            <img src={Title} alt='Participation Nation' style={{maxHeight:'100px'}}/>
+                        <div className="col-sm-4" style={{ display:"flex", alignItems:'end'}} >
+                            <img src={Title} alt='Participation Nation' style={{maxHeight:'100px' }}/>
                         </div>
                         <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
                             <a href="#registration-row">Registratation deadlines</a>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                         </div>
                         <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
                             <a href="#absentee-row">Absentee & early voting</a>
