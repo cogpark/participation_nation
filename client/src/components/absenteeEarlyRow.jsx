@@ -6,6 +6,14 @@ function AbsenteeEarlyVotingRow(props) {
         <React.Fragment>
             <div>
                 <h2>Early & absentee voting</h2>
+                <div className='row' style={{ paddingBottom: '10px'}}>
+
+                    <div className='col-md-8'>
+                        <p>In most states, you can vote before election day. Sometimes this is called "early" voting, and sometimes
+                        it's "absentee." The difference is when the vote is counted: Early votes are counted early, absentee votes are 
+                        counted after the election. Some states also require an excuse to vote before Election Day.</p>
+                    </div>
+                </div>
                 <hr />
             </div>
 
@@ -55,7 +63,7 @@ function AbsenteeEarlyVotingRow(props) {
             <h3>LEARN MORE</h3> 
             <div className='row' style={{ paddingBottom: '10px' }}>
                 <div className='col-sm-6'>
-                     <a className="btn btn-secondary btn-lg btn-block" href={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'source')}>Learn more about voting absentee in <b>{props.selectedState}</b>.</a>
+                     <a className="btn btn-secondary btn-lg btn-block" href={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'source')}>Learn more about voting early/absentee in <b>{props.selectedState}</b>.</a>
                 </div>
             </div>
     </React.Fragment>
