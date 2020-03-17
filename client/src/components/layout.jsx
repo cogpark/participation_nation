@@ -15,16 +15,16 @@ class Layout extends Component {
         super(props)
 
         this.usStates = ['Alabama','Alaska', 'Arizona','Arkansas','California',
-        'Colorado','Connecticut','Delaware',
-        'Florida','Georgia','Hawaii',
-        'Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky',
-        'Louisiana','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri',
-        'Montana','Nebraska','Nevada','New Hampshire','New Jersey',
-        'New Mexico','New York','North Carolina','North Dakota',
-        'Ohio','Oklahoma','Oregon', 'Pennsylvania','Rhode Island','South Carolina',
-        'South Dakota','Tennessee','Texas','Utah','Vermont',
-        'Virginia','Washington', 'Washington, D.C.','West Virginia','Wisconsin',
-        'Wyoming'];
+	    'Colorado','Connecticut','Delaware',
+	    'Florida','Georgia','Hawaii',
+	    'Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky',
+	    'Louisiana','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri',
+	    'Montana','Nebraska','Nevada','New Hampshire','New Jersey',
+	    'New Mexico','New York','North Carolina','North Dakota',
+	    'Ohio','Oklahoma','Oregon', 'Pennsylvania','Rhode Island','South Carolina',
+	    'South Dakota','Tennessee','Texas','Utah','Vermont',
+	    'Virginia','Washington', 'Washington, D.C.','West Virginia','Wisconsin',
+	    'Wyoming'];
 
         this.electionTypes = ['General', 'Democratic Primary'];
         this.methods = 
