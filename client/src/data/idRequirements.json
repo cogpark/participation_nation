@@ -1,0 +1,357 @@
+{   
+    "Alaska": 
+    {
+        "at_polls":"<ul><li>Voter ID card</li><li>Driver's license</li><li>State ID</li><li></li>Military ID</li> <li>Passport </li>,<li>Hunting or fishing license or other current or valid photo ID</li></ul>",
+        "other_options": "<ul><li>Current utility bill</li><li>Paycheck</li><li>Government check</li><li>Bank statement</li><li>Other government issued document</li></ul>",
+        "no_id":"<p>If you don't have an ID or a document thay proves your current address, you can still vote a question ballot. Then, a review board will decide if your vote counts</p>.",
+        "source":"http://www.elections.alaska.gov/Core/votingatthepollsonelectionday.php"
+    },
+    
+    "Alabama": 
+    {
+        "at_polls":"Photo ID, such as a driver's license, state ID, passport, tribal ID, or student ID from an Alabama school.",
+        "other_options": "If you don't have a voter ID, you can apply for one. <a href='https://www.sos.alabama.gov/sites/default/files/voter-pdfs/candidate-resources/ApplicationForFreeALPhotoVoterIdCard.pdf'>Fill out an application</a> and send it to the <a href='https://www.sos.alabama.gov/'>Secretary of State</a>.",
+        "no_id":"If you don't have an ID, you can vote a <a href='https://www.sos.alabama.gov/sites/default/files/voter-pdfs/ProvisionalInstructionBooklet.pdf'>provisional ballot</a>.",
+        "source":"https://www.sos.alabama.gov/alabama-votes/voter/voter-id"
+    },
+    
+    "Arkansas":
+    {  
+        "at_polls":"You'll need to verify your registration with an Alabama- or federally-issued ID that shows your name & photo.",
+        "other_options": "",
+        "no_id":"If you don't have an ID, you can vote a provisional ballot. This means that you'll have until the first Monday after the election to show an ID or document that has your name, a photo of you, is issued by either Arkansas or federal government, and expired fewer than 4 years ago.",
+        "source":"https://www.sos.arkansas.gov/elections/voter-information/voter-registration-information"
+    },
+
+    "Arizona": 
+    {
+        "at_polls":"Arizona driver's license or state ID, tribal ID, or other federal- or Arizona-issued photo ID.",
+        "other_options": "<p>If you don't have a photo ID, you can also bring 2 of the following:</p><ul><li>Utility bill dates from the last 90 days of </li><li>Bank or credit union statement</li><li>AZ vehicle registration or insurance card</li><li>Property tax statement</li><li>Tribal card</li><li>Recorder's Certificate</li><li>Government-issued ID</li><li>\"Official Election\" mail</li></ul>",
+        "no_id":"If you don't have ID, you can still vote a provisional ballot. Then, you'll have 7 days to show an ID at your polling place so that your vote can be counted.",
+        "source":"https://azsos.gov/elections/voting-election"
+    },
+
+    "California": 
+    {
+        "at_polls":"You only need to show ID if you're voting for the first time by mail & you didn't provide a driver's license number or social security number when you registered.",
+        "other_options": "If you do have to show ID, you can use a photo ID (driver's license, passport, student ID, health club membership, public housing card) or 2 documents that include your name and address (such as a utility bill, lease, paycheck, vehicle registration).",
+        "no_id":"If you have to show an ID but can't, you can vote a provisional ballot. Then, your ballot will be counted counted after election officials verify that you're eligible to vote.",
+        "source":"https://www.sos.ca.gov/elections/voting-resources/voting-california/what-bring/"
+    },
+
+    "Colorado": 
+    {
+        "at_polls":"If you're voting by mail for the first time or votin<li>Passpport</li><li>Government ID</li><li>Military ID</li><li>Pilot's license</li><li>Utility bill</li><li>Certificate of Indian or Alaskan Native Blood or a tribal ID</li><li>Medicare/medicaid card</li>Certified copy of your birth certificate<li>Naturalization document</li>/</ul>",
+        "other_options": "You can also show one of these if they apply: <ul><li>Proof that you live in a group home</li><li>Written evidence from the county sherrif that you're confined in a county jail.</li></ul>",
+        "no_id":"",
+        "source":""
+    },
+
+    "Connecticut": 
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":"",
+        "source":""
+    },
+
+    "Delaware":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":"",
+        "source":""
+    },
+
+    "Florida":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":"",
+        "source":""
+    },
+
+    "Georgia":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Hawaii":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Iowa":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Idaho":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+    
+    "Illinois":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Indiana":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Kansas":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Kentucky":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },   
+
+    
+    "Louisiana":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Massachusetts":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Maryland":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Michigan":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+    
+    "Minnesota": 
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Montana":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Mississippi":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Missouri":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "North Carolina":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""    },
+
+    "North Dakota":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "New Hampshire": {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Nebraska":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "New Jersey":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "New Mexico":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+    
+    "Nevada":
+    {        
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+    
+    "New York":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Ohio": {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Oklahoma":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""        
+    },
+
+    "Oregon":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+   
+    "Pennsylvania":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Rhode Island":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "South Carolina":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "South Dakota":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Tennessee":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+    "Texas":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Utah":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Virginia":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""    },
+    
+    "Vermont":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+    
+    "Washington":
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Washington, D.C.": 
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Wisconsin": 
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "West Virginia": 
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    },
+
+    "Wyoming": 
+    {
+        "at_polls":"",
+        "other_options": "",
+        "no_id":""
+    }
+}
+   
