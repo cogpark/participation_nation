@@ -457,7 +457,7 @@
             "online":" ",
             "status":"unverified",
             "notes":"",
-            "onlineRegistration":"WY doesn't offer online registration."
+            "onlineRegistration":""
         }
     },
     "general":
@@ -520,10 +520,11 @@
         "Connecticut": 
         {
             "inPerson":"November 2, 2020 before noon", 
-            "byMail":"postmarked by October 27, 2020", 
+            "byMail":"Postmarked by October 27, 2020", 
             "online":"October 27, 2020",
             "status":"https://portal.ct.gov/SOTS/Election-Services/Registration-Deadlines/Registration-Deadlines",
-            "onlineRegistration":"https://voterregistration.ct.gov/OLVR/welcome.do"
+            "onlineRegistration":"https://voterregistration.ct.gov/OLVR/welcome.do",
+            "last_checked": "March 17, 2020"
         },
 
         "Delaware":
@@ -919,6 +920,7 @@
             "online":"WY doesn't offer online registration.",
             "status":"https://soswy.state.wy.us/Elections/Docs/2020/2020_Key_Election_Dates.pdf",
             "notes": "If you miss the election deadline, you can register on Election Day (and fill out an absentee ballot)",
-            "onlineRegistration":""        }
+            "onlineRegistration":""        
+        }
     }
 }
