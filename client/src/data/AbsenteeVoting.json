@@ -117,7 +117,7 @@
         "mail_instructions": "Download or request a vote-by-mail application from your <a href='http://dos.elections.myflorida.com/supervisors/'>county Supervisor of Elections</a> and then send it back.",
         "mail_request_deadline": "10 days before the election.",
         "in_person_instructions":"As long as you're registered, you can vote early in person at <a href='https://dos.myflorida.com/elections/for-voters/voting/early-voting/'>an early voting site</a>.",
-        "ballot_delivery": "<ul><li>By-mail ballots must be returned by 7 p.m. on Election Day</li> <li>In-person early voting happens between the 10th and 3rd days before an election. The period may be longer in your area; check with your <a href='http://dos.elections.myflorida.com/supervisors/'>county Supervisor of Elections</a></li>",
+        "ballot_delivery": "<ul><li>By-mail ballots must be returned by 7 p.m. on Election Day</li> <li>In-person early voting happens between 10 and 3 days before an election. The period may be longer in your area; check with your <a href='http://dos.elections.myflorida.com/supervisors/'>county Supervisor of Elections</a></li>",
         "requirements":"None (except that you're registered).",
         "source": "https://dos.myflorida.com/elections/for-voters/voting/vote-by-mail/",
         "span_app": "",
@@ -230,10 +230,10 @@
         "mail_request_deadline": "7 days before an election.",
         "in_person_instructions":"Same as by mail: Visit <a href='https://elect.ky.gov/About-Us/Pages/County-Clerks.aspx'>your country clerk</a> and request an application.",
         "ballot_delivery": "Mail your ballot back by 6 p.m. on Election Day. Check with your county clerk to see when you can return your in-person absentee ballot.",
-        "requirements":"<p>Kentucky has You can vote absentee if you're</p><ul><li>ill</li><li>elderly</li><li>A <a href='https://elect.ky.gov/Voters/Pages/College-Students.aspx'>a student</a> who's out of the country</li><li>outside of the state but eligible to vote</li><li>incarcerated but not convicted</li><li>working</li>",
+        "requirements":"<p>Kentucky has You can vote absentee if you're</p><ul><li>Ill</li><li>Elderly</li><li><a href='https://elect.ky.gov/Voters/Pages/College-Students.aspx'>A student</a> who's out of the country</li><li>Outside of the state but eligible to vote</li><li>Incarcerated but not convicted</li><li>Working</li>",
         "source": "https://elect.ky.gov/Voters/Pages/Absentee-Voting.aspx",
         "span_app": "",
-        "last_checked":""
+        "last_checked": "March 16, 2020 -- just proofed"
     },   
 
     
@@ -338,9 +338,10 @@
         "mail_request_deadline": "By 5 p.m. 2 Wednesdays before the election.",
         "in_person_instructions":"Go to your <a href ='https://www.sos.mo.gov/elections/govotemissouri/localelectionauthority'>local election authority</a> to vote an absentee ballot beginning 6 weeks before an election.",
         "ballot_delivery": "The day before the election.",
-        "requirements":"<p>You can vote absentee if you're</p> <ul><li>ill</li><li>Physically incapable of getting the the polls</li><li>Working</li><li>Out of the state</li><li>Celebrating a religious occasion that prevents you from voting</li><li>Incarcerated but not prevented from voting (e.g. you were convicted of a felony)</li><li>Part of an address confidentiality program</li></ul>",
+        "requirements":"<p>You can vote absentee if you're</p> <ul><li>Il</li><li>Physically incapable of getting the the polls</li><li>Working</li><li>Out of the state</li><li>Celebrating a religious occasion that prevents you from voting</li><li>Incarcerated but not prevented from voting (e.g. you were convicted of a felony)</li><li>Part of an address confidentiality program</li></ul>",
         "source": "https://www.sos.mo.gov/elections/goVoteMissouri/howtovote",
-        "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
+        "last_checked": "March 16, 2020 -- just proofed"
     },
 
     "North Carolina":
@@ -480,13 +481,13 @@
         "mail_title": "Vote by mail",
         "in_person_title": "Vote early in person",
         "mail_instructions": "If you're registered, you'll get a ballot 2-3 weeks before the election. Mail it to a <a href='https://sos.oregon.gov/voting/Pages/drop-box-locator.aspx'>ballot drop box location</a> anywhere in the state</a>.",
-        "mail_request_deadline": "You don't need to request an mail ballot in Oregon. They'll send you one as long as you're registered.",
+        "mail_request_deadline": "You don't need to request a mail ballot in Oregon. They'll send you one as long as you're registered.",
         "in_person_instructions":"You'll get a ballot 2-3 weeks before the election. Take it to a <a href='https://sos.oregon.gov/voting/Pages/drop-box-locator.aspx'>ballot drop box location</a>.",
         "ballot_delivery": "8 p.m. on Election Day",
-        "requirements":"If for some reason you're not able to pick up your ballot, you can still <a href='https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS'>request an absentee ballot online</a>, or download the <a href='https://sos.oregon.gov/elections/Documents/SEL111.pdf'>ballot request form</a> and return it to your <a href='https://sos.oregon.gov/elections/Pages/countyofficials.aspx'>elections office</a>, ",
+        "requirements":"If for some reason you're not able to pick up your ballot, you can still <a href='https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS'>request an absentee ballot online</a>, or download the <a href='https://sos.oregon.gov/elections/Documents/SEL111.pdf'>ballot request form</a> and return it to your <a href='https://sos.oregon.gov/elections/Pages/countyofficials.aspx'>elections office</a>. ",
         "source": "https://sos.oregon.gov/voting/pages/voteinor.aspx",
         "span_app": "",
-        "last_checked":"March 11, 2020"
+        "last_checked": "March 16, 2020 -- just proofed"
     },
    
     "Pennsylvania":
@@ -500,14 +501,15 @@
         "requirements":"<p>You can vote by mail if you're registered. You can vote absentee in person if you're:</p> <ul><li>Away for school, work, or vacation</li> <li>Physically incapable of getting the polls</li> <li>Celebrating a religious occasion that prevents you from voting on Election Day</li> <li>Incarcerated but not convicted of a felony</li></ul>",
         "source": "https://www.votespa.com/Voting-in-PA/Pages/Mail-and-Absentee-Ballot.aspx",
         "span_app": "https://www.votespa.com/Register-to-Vote/Documents/PADOS_MailInApplication_Spanish.pdf",
-        "last_checked": "March 11, 2020"
+        "last_checked": "March 16, 2020 -- just proofed"
+        
     },
 
     "Rhode Island":
     {
         "mail_title": "Vote by mail",
         "in_person_title": "Vote absentee in person",
-        "mail_instructions": "Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application</a> (it looks like RI's Secretary of State will post the right form before each election) and send it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>.<b>Note:</b>You'll send the ballot itself to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
+        "mail_instructions": "Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application</a> (it looks like RI's Secretary of State will post the right form before each election) and send it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>. <b>Note:</b>You'll send the ballot itself to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
         "mail_request_deadline": "21 days before the election.",
         "in_person_instructions":"Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application and send/deliver it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>. Then, deliver your filled-out ballot to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
         "ballot_delivery": "8 p.m. on Election Day.",
@@ -588,13 +590,14 @@
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "You can <a href='https://vote.elections.virginia.gov/VoterInformation'>apply online for an absentee ballot</a>, or you can <a href='https://www.elections.virginia.gov/media/formswarehouse/absentee-voting/applications/SBE-701-Absentee-Ballot-Application-Rev7-17-long.pdf>download the form</a> and send it to your <a href='https://vote.elections.virginia.gov/VoterInformation/PublicContactLookup'>local registrar</a>.",
+        "mail_instructions": "You can <a href='https://vote.elections.virginia.gov/VoterInformation'>apply online for an absentee ballot</a>, or you can <a href='https://www.elections.virginia.gov/media/formswarehouse/absentee-voting/applications/SBE-701-Absentee-Ballot-Application-Rev7-17-long.pdf'>download the form</a> and send it to your <a href='https://vote.elections.virginia.gov/VoterInformation/PublicContactLookup'>local registrar</a>.",
         "mail_request_deadline": "Return your ballot request by 5 p.m. the Tuesday before the election by mail, fax, or email. If you miss this deadline, you can still go in person to apply and vote until the Saturday before the election.",
-        "in_person_instructions":"Starting 45 days before the election, you can go to your <a href='https://vote.elections.virginia.gov/VoterInformation/PublicContactLookup'>local registrar and vote. It's a good idea to <a href='https://www.elections.virginia.gov/media/formswarehouse/absentee-voting/applications/SBE-701-Absentee-Ballot-Application-Rev7-17-long.pdf'>review the ballot application</a> before you get there make sure you have everything you need.</a>",
+        "in_person_instructions":"Starting 45 days before the election, you can go to your <a href='https://vote.elections.virginia.gov/VoterInformation/PublicContactLookup'>local registrar</a> and vote. It's a good idea to <a href='https://www.elections.virginia.gov/media/formswarehouse/absentee-voting/applications/SBE-701-Absentee-Ballot-Application-Rev7-17-long.pdf'>review the ballot application</a> before you get there make sure you have everything you need.",
         "ballot_delivery": "We couldn't find a deadline. Aim to mail your absentee ballot back for before Election Day, or vote in-person absentee.",
         "requirements":"If you're a first-time voter, you'll have to give a reason to absentee vote. You can find <a href='https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/'>a list of authorized reasons on Virginia's elections website</a>.",
         "source": "https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/",
-        "span_app": "<a href='https://www.elections.virginia.gov/media/formswarehouse/absentee-voting/applications/absenteeballotapplication-espanol.pdf'>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href='https://www.elections.virginia.gov/media/formswarehouse/absentee-voting/applications/absenteeballotapplication-espanol.pdf'>Solicitud para votar en ausencia</a>.",
+        "last_checked": "March 16, 2020 -- just proofed"
     },
     
     "Vermont":
@@ -633,14 +636,15 @@
         "ballot_delivery": "8 p.m. on Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://www.dcboe.org/Voters/How-to-Vote/Voter-Assistance",
-        "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
+        "last_checked": "March 16, 2020 -- just proofed"
     },
 
     "Wisconsin": 
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "You can <a href='http://www.myvote.wi.gov/'>request an absentee ballot online</a>, or you can download <a href='https://elections.wi.gov/forms/el-121-english'>a ballot request form</a> and returning it to <a href='https://myvote.wi.gov/en-us/MyMunicipalClerk'>your municipal clerk</a>.",
+        "mail_instructions": "You can <a href='http://www.myvote.wi.gov/'>request an absentee ballot online</a>, or you can download <a href='https://elections.wi.gov/forms/el-121-english'>a ballot request form</a> and return it to <a href='https://myvote.wi.gov/en-us/MyMunicipalClerk'>your municipal clerk</a>.",
         "mail_request_deadline": "5 p.m. on the Thursday before the election.",
         "in_person_instructions":"In-person early voting is different town-by-town in WI. Contact <a href='https://myvote.wi.gov/en-us/MyMunicipalClerk'>your municipal clerk</a> to learn about places/times near you.",
         "ballot_delivery": "Received by 8 p.m. on Election Day.",
