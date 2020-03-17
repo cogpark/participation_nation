@@ -12,8 +12,6 @@ if (! (process.env.NODE_ENV === 'production'))
 
 require('dotenv').config();
 
-console.log(process.env.DB_USER);
-
 // connect mongoDB
 var mongoIsConnected = false;
 console.log('Connecting to mongoDB...');

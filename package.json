@@ -15,9 +15,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "install": "npm install express mongoose && npm install react --prefix client",
-    "install-dev": "npm install express mongoose concurrently && npm install react --prefix client",
-    "powershell-install": "npm install express mongoose concurrently; cd client; npm install react react-dom react-scripts bootstrap",
+    "install": "npm install && npm install react --prefix client",
+    "install-dev": "npm install && npm install react --prefix client",
+    "powershell-install": "npm install; cd client; npm install; cd ..",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
