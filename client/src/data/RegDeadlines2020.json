@@ -520,10 +520,11 @@
         "Connecticut": 
         {
             "inPerson":"November 2, 2020 before noon", 
-            "byMail":"postmarked by October 27, 2020", 
+            "byMail":"Postmarked by October 27, 2020", 
             "online":"October 27, 2020",
             "status":"https://portal.ct.gov/SOTS/Election-Services/Registration-Deadlines/Registration-Deadlines",
-            "onlineRegistration":"https://voterregistration.ct.gov/OLVR/welcome.do"
+            "onlineRegistration":"https://voterregistration.ct.gov/OLVR/welcome.do",
+            "last_checked": "March 17, 2020"
         },
 
         "Delaware":

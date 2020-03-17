@@ -60,12 +60,12 @@
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out <a href='https://elections.cdn.sos.ca.gov/vote-by-mail/pdf/vote-by-mail-application.pdf'>a vote-by-mail application</a> (or use the one that comes in your voter guide) and return it to <a href='http://www.sos.ca.gov/elections/voting-resources/county-elections-offices/'>your local elections office</a>.",
         "mail_request_deadline": "7 days before the election. If you miss this deadline, you can still apply in person. Some counties even let you apply by phone!",
-        "in_person_instructions":"Some counties offer in-person early voting. <a href='https://www.sos.ca.gov/elections/voting-resources/county-elections-offices'>Find out if you can vote early.</a>",
+        "in_person_instructions":"Some counties offer in-person early voting. Check with your<a href='https://www.sos.ca.gov/elections/voting-resources/county-elections-offices'>county election office</a> to find your county's early voting locations & times.",
         "ballot_delivery": "Postmarked or returned in person by Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://www.sos.ca.gov/elections/voter-registration/vote-mail/",
         "span_app": "",
-        "last_checked":""
+        "last_checked":"March 17, 2020"
     },
 
     "Colorado": 

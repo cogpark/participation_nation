@@ -9,9 +9,9 @@ function AbsenteeEarlyVotingRow(props) {
                 <div className='row' style={{ paddingBottom: '10px'}}>
 
                     <div className='col-md-8'>
-                        <p>In most states, you can vote before election day. Sometimes this is called "early" voting, and sometimes
-                        it's "absentee." The difference is when the vote is counted: Early votes are counted early, absentee votes are 
-                        counted after the election. Some states also require an excuse to vote before Election Day.</p>
+                        <p style={{borderLeft:"2px solid #8C0813", paddingLeft:"20px"}}>In most states, you can vote before election day. Sometimes this is called "early" voting, and sometimes
+                        it's "absentee." Early means the state counts your vote before the election, absentee means they count it after.
+                        Some states also require an excuse to vote before Election Day.</p>
                     </div>
                 </div>
                 <hr />
