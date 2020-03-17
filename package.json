@@ -15,7 +15,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "install": "npm install && npm install react --prefix client",
     "install-dev": "npm install && npm install react --prefix client",
     "powershell-install": "npm install; cd client; npm install; cd ..",
     "server": "nodemon server.js",
