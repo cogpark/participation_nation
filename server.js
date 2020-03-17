@@ -7,9 +7,12 @@ const Feedback = require('./models/feedback.js');
 const Deadline = require('./models/deadline.js');
 const Absentee = require('./models/absentee.js');
 // use dotenv if not on heroku
-if (! process.env.NODE_ENV === 'production')
+if (! (process.env.NODE_ENV === 'production'))
     require('dotenv').config();
 
+require('dotenv').config();
+
+console.log(process.env.DB_USER);
 
 // connect mongoDB
 var mongoIsConnected = false;
