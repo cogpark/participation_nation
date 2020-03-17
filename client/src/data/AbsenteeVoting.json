@@ -60,12 +60,12 @@
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out <a href='https://elections.cdn.sos.ca.gov/vote-by-mail/pdf/vote-by-mail-application.pdf'>a vote-by-mail application</a> (or use the one that comes in your voter guide) and return it to <a href='http://www.sos.ca.gov/elections/voting-resources/county-elections-offices/'>your local elections office</a>.",
         "mail_request_deadline": "7 days before the election. If you miss this deadline, you can still apply in person. Some counties even let you apply by phone!",
-        "in_person_instructions":"Some counties offer in-person early voting. <a href='https://www.sos.ca.gov/elections/voting-resources/county-elections-offices'>Find out if you can vote early.</a>",
+        "in_person_instructions":"Some counties offer in-person early voting. Check with your<a href='https://www.sos.ca.gov/elections/voting-resources/county-elections-offices'>county election office</a> to find your county's early voting locations & times.",
         "ballot_delivery": "Postmarked or returned in person by Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://www.sos.ca.gov/elections/voter-registration/vote-mail/",
         "span_app": "",
-        "last_checked":""
+        "last_checked":"March 17, 2020"
     },
 
     "Colorado": 
@@ -657,13 +657,14 @@
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "Send an <a href='https://sos.wv.gov/FormSearch/Elections/Voter/Absentee%20Ballot%20Application.pdf'>absentee ballot application</a> to the office of <a href='https://sos.wv.gov/elections/Pages/CountyClerkDirectory.aspx'>your county clerk</a>",
+        "mail_instructions": "Send an <a href='https://sos.wv.gov/FormSearch/Elections/Voter/Absentee%20Ballot%20Application.pdf'>absentee ballot application</a> to the office of <a href='https://sos.wv.gov/elections/Pages/CountyClerkDirectory.aspx'>your county clerk</a>.",
         "mail_request_deadline": "6 days before the election.",
-        "in_person_instructions":"<a href='https://sos.wv.gov/elections/Pages/GoVoteWV.aspx'>According to WV's Secretary of State</a>, you can vote early in person between the 13th and 3rd days before the election at \"the county courthouse, annex or designated community voting location\"",
+        "in_person_instructions":"<a href='https://sos.wv.gov/elections/Pages/GoVoteWV.aspx'>According to WV's Secretary of State</a>, you can vote early in person between the 13th and 3rd days before the election at \"the county courthouse, annex or designated community voting location\".",
         "ballot_delivery": "Postmarked by Election Day.",
-        "requirements":"<p>You can vote absentee if WV if you're</p> <ul><li>ill or injured</li> <li>elderly</li> <li>incarcerated but not convicted of a felony</li> <li>away from home, e.g. for work or school</li><li>living outside the county where you're registered to vote</li></ul>",
+        "requirements":"<p>You can vote absentee if WV if you're</p> <ul><li>Ill or injured</li> <li>Elderly</li> <li>Incarcerated but not convicted of a felony</li> <li>Away from home, e.g. for work or school</li><li>Living outside the county where you're registered to vote</li></ul>",
         "source": "https://sos.wv.gov/elections/Pages/AbsenteeVotingInformation.aspx",
-        "span_app": ""
+        "span_app": "",
+        "last_checked": "March 17, 2020"
     },
 
     "Wyoming": 
@@ -677,7 +678,7 @@
         "requirements":"None (except that you're registered).",
         "source": "https://soswy.state.wy.us/Elections/AbsenteeVoting.aspx",
         "span_app": "",
-        "last_checked": "March 16, 2020 -- just proofed"
+        "last_checked": "March 17, 2020"
     }
 }
    
