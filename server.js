@@ -25,7 +25,7 @@ mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASS+'@
 });
 
 
-// middleware -- no longer need body-parser
+// middleware -- we no longer need body-parser
 app.use(express.json({type: 'application/json'}));
 app.use(express.urlencoded({extended: true}));
 
@@ -41,7 +41,10 @@ app.post('/api/feedback', (req, res) => {
     const timestamp = new Date();
     const feedback = new Feedback({state: state, election: election, comment: comment, timestamp: timestamp, status: 'todo'});
     if (mongoIsConnected) 
-	feedback.save(err => console.log('mongoDB connected but could not save feedback:', feedback));
+	feedback.save(err => {
+	    console.log('Error:', err);
+	    console.log('due to the above error mongoDB could not save this feedback:', feedback)
+	});
     else
 	console.log('mongoDB unconnected; received feedback:', feedback);
 

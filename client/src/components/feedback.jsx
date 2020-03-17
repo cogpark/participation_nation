@@ -54,7 +54,6 @@ class Feedback extends React.Component {
 	fetch('/api/feedback', {
 	    method: 'POST',
 	    headers: {
-		// 'application/json' turned out to be the wrong value for this field
 		'Content-Type': 'application/json', 
 	    },
 	    body: JSON.stringify(data),
