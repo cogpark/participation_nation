@@ -578,12 +578,13 @@
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
         "mail_instructions": "<a href='https://secure.utah.gov/voterreg/login.html?selection=VOTE_BY_MAIL'>Request a mail ballot online</a> or <a href='https://voteinfo.utah.gov/wp-content/uploads/sites/42/2019/11/Absentee-Ballot-Application.pdf'>download the request form</a> and mail it to <a href='https://voteinfo.utah.gov/county-clerk-contact-information'>your county clerk</a>.",
-        "mail_request_deadline": "7 days before the election",
+        "mail_request_deadline": "7 days before the election.",
         "in_person_instructions":"You can vote early, usually starting 2 weeks before the election. <a href='https://votesearch.utah.gov/voter-search/search/search-by-address/how-and-where-can-i-vote'>Here's an online tool to find locations and dates</a>.",
         "ballot_delivery": "Postmarked the day before the election. You can also drop it off in person at a polling location, clerk's office, or a ballot drop box.",
         "requirements":"None (except that you're registered).",
-        "source": "https://vote.utah.gov/",
-        "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+        "source": "https://ssl.utahcounty.gov/dept/clerkaud/elections/Absentee.asp",
+        "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
+        "last_checked":"2020-03-18"
     },
 
     "Virginia":
@@ -597,7 +598,7 @@
         "requirements":"If you're a first-time voter, you'll have to give a reason to absentee vote. You can find <a href='https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/'>a list of authorized reasons on Virginia's elections website</a>.",
         "source": "https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/",
         "span_app": "<a href='https://www.elections.virginia.gov/media/formswarehouse/absentee-voting/applications/absenteeballotapplication-espanol.pdf'>Solicitud para votar en ausencia</a>.",
-        "last_checked": "March 16, 2020 -- just proofed"
+        "last_checked": "2020-03-16"
     },
     
     "Vermont":
@@ -605,25 +606,27 @@
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
         "mail_instructions": "<a href='http://mvp.sec.state.vt.us/'>Request an early ballot online</a> or <a href='https://sos.vermont.gov/media/3opimqn2/vtabsenteerequestgeneric.pdf'>download the request form</a> and send it to <a href='https://sos.vermont.gov/media/vh1jv3oj/2019townclerkguide.pdf'>your town clerk</a>.",
-        "mail_request_deadline": "Before your clerk's office closes the day before the election.",
+        "mail_request_deadline": "The day before the election.",
         "in_person_instructions":"Same as by mail: <a href='http://mvp.sec.state.vt.us/'>Request an early ballot online</a> or <a href='https://sos.vermont.gov/media/3opimqn2/vtabsenteerequestgeneric.pdf'>download the request form</a> and take it to <a href='https://sos.vermont.gov/media/vh1jv3oj/2019townclerkguide.pdf'>your town clerk</a>.",
-        "ballot_delivery": "Before your clerk's office closes the day before the election (or to the polling place on Election Day).",
+        "ballot_delivery": "The day before the election (or to the polling place on Election Day).",
         "requirements":"None (except that you're registered).",
         "source": "https://sos.vermont.gov/elections/voters/early-absentee-voting/",
-        "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
+        "last_checked":"2020-03-18"
     },
     
     "Washington":
     {
         "mail_title": "Vote by mail",
         "in_person_title": "In-person voting",
-        "mail_instructions": "Every voter receives a mail ballot sent to the mailing address you listed when you registered.",
-        "mail_request_deadline": "You don't need to request a by-mail ballot in WA. They'll send it as long as you're registered.",
-        "in_person_instructions":"If you'd rather vote in person, you can do so in person at a <a href='http://myvote.wa.gov/'>voting center</a> or at your <a href='https://www.sos.wa.gov/elections/auditors.aspx'>county's elections department</a>.",
-        "ballot_delivery": "Postmark your ballot or return it to a ballot dropbox by election.",
+        "mail_instructions": "Every voter receives a mail ballot sent to the mailing address they listed when they registered.",
+        "mail_request_deadline": "You don't need to request a by-mail ballot in WA. They'll send one as long as you're registered.",
+        "in_person_instructions":"If you'd rather vote in person, you can go to a <a href='https://www.sos.wa.gov/_assets/elections/voting%20centers%202019%20general%20election.pdf'>voting center</a> or to your <a href='https://www.sos.wa.gov/elections/auditors.aspx'>county's elections department</a>.",
+        "ballot_delivery": "Postmark your ballot or return it to a ballot dropbox by Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://www.sos.wa.gov/elections/faq_vote_by_mail.aspx",
-        "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
+        "last_checked":"2020-03-18"
     },
 
     "Washington, D.C.": 
@@ -637,7 +640,7 @@
         "requirements":"None (except that you're registered).",
         "source": "https://www.dcboe.org/Voters/How-to-Vote/Voter-Assistance",
         "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
-        "last_checked": "March 16, 2020 -- just proofed"
+        "last_checked": "2020-03-16"
     },
 
     "Wisconsin": 
@@ -650,7 +653,8 @@
         "ballot_delivery": "Received by 8 p.m. on Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://elections.wi.gov/voters/absentee",
-        "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
+        "last_checked":"2020-03-16"
     },
 
     "West Virginia": 
@@ -664,7 +668,7 @@
         "requirements":"<p>You can vote absentee if WV if you're</p> <ul><li>Ill or injured</li> <li>Elderly</li> <li>Incarcerated but not convicted of a felony</li> <li>Away from home, e.g. for work or school</li><li>Living outside the county where you're registered to vote</li></ul>",
         "source": "https://sos.wv.gov/elections/Pages/AbsenteeVotingInformation.aspx",
         "span_app": "",
-        "last_checked": "March 17, 2020"
+        "last_checked": "2020-03-17"
     },
 
     "Wyoming": 
@@ -678,7 +682,7 @@
         "requirements":"None (except that you're registered).",
         "source": "https://soswy.state.wy.us/Elections/AbsenteeVoting.aspx",
         "span_app": "",
-        "last_checked": "March 17, 2020"
+        "last_checked": "2020-03-17"
     }
 }
    
