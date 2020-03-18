@@ -669,6 +669,7 @@
         "source": "https://sos.wv.gov/elections/Pages/AbsenteeVotingInformation.aspx",
         "span_app": "",
         "last_checked": "2020-03-17"
+
     },
 
     "Wyoming": 
@@ -683,6 +684,7 @@
         "source": "https://soswy.state.wy.us/Elections/AbsenteeVoting.aspx",
         "span_app": "",
         "last_checked": "2020-03-17"
+
     }
 }
    
