@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Layout from './components/layout';
+import App from './components/app'
 import './index.css'
 import {
     BrowserRouter as Router,
@@ -12,11 +12,8 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
     <Router>
         <div>
-        <Route path="/">
-            <Layout />
-        </Route>
-        <Route path="/home">
-            <Layout />
+        <Route exact path="/">
+            <App />
         </Route>
         </div>
     </Router>, 
