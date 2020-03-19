@@ -142,14 +142,14 @@
     {
         "mail_title": "Vote by mail",
         "in_person_title": "In-person voting",
-        "mail_instructions": "Your local election clerk will mail you a ballot and an envelope in which to return it.",
+        "mail_instructions": "Your local election clerk will mail you a ballot and an envelope to return it in.",
         "mail_request_deadline": "You don't need to request a by-mail ballot in HI. They'll send it as long as you're registered.",
-        "in_person_instructions":"You can register and vote early at a voter service center starting 10 days before the election.",
+        "in_person_instructions":"You can register and vote early at a voter service center starting 10 days before the election. (Hawaii next publishes voter service center locations & times in May 2020.)",
         "ballot_delivery": "By 7 p.m. on Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://elections.hawaii.gov/frequently-asked-questions/voting-by-mail/",
         "span_app": "",
-        "last_checked":""
+        "last_checked":"2020-03-19"
     },
 
     "Iowa":

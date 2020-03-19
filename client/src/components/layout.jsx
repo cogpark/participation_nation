@@ -30,7 +30,7 @@ class Layout extends Component {
         this.electionTypes = ['General', 'Democratic Primary'];
         this.methods = 
         this.state = {
-            selectedState: 'Alabama',
+            selectedState: 'Hawaii',
             selectedElection: 'general',
             onlineRegistration: 'https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action',
             datesData: RegData,
@@ -40,19 +40,23 @@ class Layout extends Component {
         this.handleSelectAState = this.handleSelectAState.bind(this);
         this.handleSelectElectionType = this.handleSelectElectionType.bind(this);
     } 
+
+    componentDidMount(props) {
+        this.setState({selectedState: this.props.selectedState})
+    }
      
     handleSelectAState(event, election) {
         this.setState({ selectedState: event.target.value,
                         onlineRegistration: RegData[election][event.target.value]['onlineRegistration']});
         var fixElectionName = (election === "general") ? "general" : "democratic_primary"
-        var url = "?" + fixElectionName + '_' + event.target.value
+        var url = "?election=" + fixElectionName + '&state=' + event.target.value
         history.push(url)
         }
 
     handleSelectElectionType(event) {
         this.setState({ selectedElection: event.target.value });
         var election = (event.target.value === "General") ? "general" : "democratic_primary"
-        var url =  "?" + election + '_' + this.state.selectedState
+        var url =  "?election=" + election + '&state=' + this.state.selectedState
         history.push(url) 
     }
 
@@ -78,7 +82,7 @@ class Layout extends Component {
                     <div className="row">
                         <div className="col-sm-4">
                             <p>SELECT A STATE:</p>
-                            <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.selectedState} data={this.usStates} />
+                            <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} />
                         </div>
                         <div className="col-sm-4">
                             <p>SELECT AN ELECTION:</p>
