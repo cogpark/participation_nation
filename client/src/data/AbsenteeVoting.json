@@ -129,13 +129,13 @@
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out <a href='http://sos.ga.gov/admin/files/Absentee_Ballot_Application_2018.pdf'>an absentee ballot application</a> and mail/email/take it back to your <a href='http://elections.sos.ga.gov/Elections/countyregistrars.do'>local County Board of Registrar's Office</a>.",
-        "mail_request_deadline": "The <a href='https://sos.ga.gov/index.php/Elections/absentee_voting_in_georgia'>GA Secretary of State</a> doesn't specify, but leave enough time to submit your application, receive your ballot, and send it back. We recommend at least 10 days before the election.",
+        "mail_request_deadline": "The <a href='https://sos.ga.gov/index.php/Elections/absentee_voting_in_georgia'>GA Secretary of State</a> doesn't specify exactly when you need to return your application, but leave enough time to submit your application, receive your ballot, and send it back. We recommend at least 10 days before the election.",
         "in_person_instructions":"During the early voting period, you can vote at <a href=''>one of these early vote locations</a>. The early voting period starts 4 Mondays before the election and ends the Friday before Election Day. You'll fill out an absentee ballot at the early vote location.",
         "ballot_delivery": "By Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://georgia.gov/popular-topic/voting and https://sos.ga.gov/admin/uploads/Absentee_Voting_Guide_20142.pdf",
         "span_app": "",
-        "last_checked":""
+        "last_checked":"2020-03-20"
     },
 
     "Hawaii":
@@ -156,8 +156,8 @@
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "Fill out <a href='https://sos.iowa.gov/elections/pdf/absenteeballotapp.pdf'>an absentee ballot application</a> and mail/email/fax/take it to <a href='https://sos.iowa.gov/elections/auditors/auditorslist.html'>your county auditor</a>.",
-        "mail_request_deadline": "<p>If requesting by mail:</p><ul><li>For the general election: 10 days before</li> <li>For other elections: 11 days before</li></ul> <p>If requesting by email or fax, submit your application the Monday before an election.</p>",
+        "mail_instructions": "Fill out <a href='https://sos.iowa.gov/elections/pdf/absenteeballotapp.pdf'>an absentee ballot application</a> and mail, email, fax, or take it to <a href='https://sos.iowa.gov/elections/auditors/auditorslist.html'>your county auditor</a>.",
+        "mail_request_deadline": "<p>If requesting through the mail:</p><ul><li>For the general election: 10 days before</li> <li>For other elections: 11 days before</li></ul> <p>If requesting by email or fax, submit your application the Monday before the election.</p>",
         "in_person_instructions":"Starting 29 days before an election, you can vote at <a href='https://sos.iowa.gov/elections/auditors/auditorslist.html'>your county auditor's office</a> until the day before an election.",
         "ballot_delivery": "By the time the polls close on Election Day.",
         "requirements":"None (except that you're registered).",

@@ -141,7 +141,7 @@
         {
             "inPerson":"Anytime", 
             "byMail":"Request a mail-in ballot by April 17, 2020", 
-            "online":"Unavailable",
+            "online":"We're not sure. Check the <a href='https://kansasdems.org/2020primar'>KS Democratic Party site</a>.",
             "status":"https://kansasdems.org/2020primary",
             "onlineRegistration":"https://www.kdor.ks.gov/apps/voterreg/secure/default.aspx"
         },
@@ -568,7 +568,7 @@
         {
             "inPerson":"Anytime", 
             "byMail":"October 24, 2020", 
-            "online":"October 24",
+            "online":"October 24, 2020",
             "status":"https://sos.iowa.gov/elections/electioninfo/3yrelectioncal.html",
             "onlineRegistration":"https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration"
         },
