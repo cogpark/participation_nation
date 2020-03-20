@@ -75,7 +75,7 @@
     {
         "at_polls":"<p>You'll be asked to show a photo ID <em>with a signature</em>. You can show:</p>   <li>Florida driver’s license or state ID</li><li> Passport</li> <li> Debit or credit card (with a photo)</li> <li>Military or veteran health ID</li> <li>Student ID</li><li> Retirement center ID</li>   <li>Neighborhood association ID</li>    <li>Public assistance ID </li><li>Gun license</li><li>Government-issued employee ID</li></ul>",
         "other_options": "",
-        "no_id":"If you don't have ID, you can stil vote a provisional ballot. After the election, officials will make sure that you're actually registered, and your vote will be counted.",
+        "no_id":"If you don't have ID, you can still vote a provisional ballot. After the election, officials will make sure that you're actually registered, and your vote will be counted.",
         "source":"https://dos.myflorida.com/elections/for-voters/voting/election-day-voting/",
         "last_checked":"2020-03-18"
     },
@@ -83,58 +83,74 @@
     
     "Georgia":
     {
-        "at_polls":"",
-        "other_options": "",
-        "no_id":""
+        "at_polls":"<p>You'll need to show a photo ID, such as:</p><ul> <li>Driver's license (even an expired one) or state ID</li> <li>Military ID</li>  <li>Passport</li> <li>Tribal ID</li><li>State or federal government photo ID</li></ul>",
+        "other_options": "<p>If you don't have a photo ID, you can get a free voter ID. For this, you'll need a document that shows your name and date of birth and evidence that you're registered to vote. Take these to your county registrar or local Department of Driver Services.</p>",
+        "no_id":"If you can't show ID, you can still vote a <a href='https://sos.ga.gov/admin/files/GAInfoguide.pdf'>provisional ballot</a>. Then, you'll have 3 days to take proof that you are who you say you are to your local county registrar.",
+        "source":"https://sos.ga.gov/index.php/elections/georgia_voter_identification_requirements2",
+        "last_checked":"2020-03-20"
     },
-
+   
     "Hawaii":
     {
-        "at_polls":"",
-        "other_options": "",
-        "no_id":""
+        "at_polls":"<p>If you're voting in person (e.g. voting early at a Voter Service Center), you should take an ID with you. Acceptable IDs include:</p><ul><li>State driver's license or ID</li> <li>Passport</li> <li>Utility bill, bank statement, paycheck, or other document that shows your name and address</li> </ul>",
+        "other_options": "If you don't have ID, you might be asked for other information that would confirm your identity and registration status.",
+        "no_id":"If for some reason you can't prove your identity, you can still vote a provisional ballot. Then, you have 2 days to prove your identity to your local Clerk's Office.",
+        "source":"https://www.honolulu.gov/elections/voter-info.html",
+        "last_checked":"2020-03-20"
     },
 
     "Iowa":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Idaho":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
     
     "Illinois":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Indiana":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Kansas":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Kentucky":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },   
 
     
@@ -142,82 +158,107 @@
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Massachusetts":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Maryland":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Michigan":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
     
     "Minnesota": 
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Montana":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Mississippi":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Missouri":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "North Carolina":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""    },
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+        },
 
     "North Dakota":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "New Hampshire": {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Nebraska":
     {
         "at_polls":"",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "New Jersey":
