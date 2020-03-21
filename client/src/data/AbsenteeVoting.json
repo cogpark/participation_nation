@@ -157,13 +157,13 @@
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out <a href='https://sos.iowa.gov/elections/pdf/absenteeballotapp.pdf'>an absentee ballot application</a> and mail, email, fax, or take it to <a href='https://sos.iowa.gov/elections/auditors/auditorslist.html'>your county auditor</a>.",
-        "mail_request_deadline": "<p>If requesting through the mail:</p><ul><li>For the general election: 10 days before</li> <li>For other elections: 11 days before</li></ul> <p>If requesting by email or fax, submit your application the Monday before the election.</p>",
+        "mail_request_deadline": "<p>If you're requesting a ballot through the mail:</p><ul><li>For the general election: 10 days before</li> <li>For other elections: 11 days before</li></ul> <p>If you're requesting a ballot by email or fax, submit your application the Monday before the election.</p>",
         "in_person_instructions":"Starting 29 days before an election, you can vote at <a href='https://sos.iowa.gov/elections/auditors/auditorslist.html'>your county auditor's office</a> until the day before an election.",
         "ballot_delivery": "By the time the polls close on Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://sos.iowa.gov/elections/electioninfo/absenteeinfo.html",
         "span_app": "",
-        "last_checked":""
+        "last_checked":"2020-03-21"
     },
 
     "Idaho":
@@ -177,35 +177,35 @@
         "requirements":"None (except that you're registered).",
         "source": "https://idahovotes.gov/absentee-voter-information/",
         "span_app": "",
-        "last_checked":""
+        "last_checked":"2020-03-21"
     },
     
     "Illinois":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "<a href>Apply for a by-mail ballot online</a>, and you'll get a ballot in the mail. Return it to <a href='https://www.elections.il.gov/ElectionOperations/ElectionAuthorities.aspx'>your county clerk</a>.",
+        "mail_instructions": "Apply for a by-mail ballot online through your <a href='https://www.elections.il.gov/ElectionOperations/ElectionAuthorities.aspx'>your county clerk</a>, and you'll get a ballot in the mail. Return it to the clerk when you've filled it out.",
         "mail_request_deadline": "5 days before the election.",
         "in_person_instructions":"You can vote in person at <a href='https://www.cookcountyclerk.com/service/early-voting-locations'>an early voting location</a> starting 15 days before an election.",
         "ballot_delivery": "Return your ballot by Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://www.cookcountyclerk.com/agency/vote-mail",
         "span_app": "",
-        "last_checked":""
+        "last_checked":"2020-03-21"
     },
 
     "Indiana":
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote absentee in person",
-        "mail_instructions": "<a href='https://www.in.gov/sos/elections/2402.htm'>The bottom of this page</a> includes forms for mail and in-person absentee voting. Then, mail it to your <a href='https://indianavoters.in.gov/CountyContact/Index'>county election board</a>. ",
+        "mail_instructions": "<a href='https://www.in.gov/sos/elections/2402.htm'>The bottom of this Indiana Secretary of State webpage</a> includes forms for mail and in-person absentee voting. Fill one out and mail it to your <a href='https://indianavoters.in.gov/CountyContact/Index'>county election board</a>. ",
         "mail_request_deadline": "2 weeks before the election.",
-        "in_person_instructions":"Same as by mail: <a href='https://www.in.gov/sos/elections/2402.htm'>Fill out the in-person applicaton</a> and take it to your <a href='https://indianavoters.in.gov/CountyContact/Index'>county election board</a>",
+        "in_person_instructions":"Same as by mail: <a href='https://www.in.gov/sos/elections/2402.htm'>Fill out the in-person applicaton</a> and take it to your <a href='https://indianavoters.in.gov/CountyContact/Index'>county election board</a>.",
         "ballot_delivery": "By Election Day.",
-        "requirements":"<p>You can vote absentee if you're: <ul> <li>Away or working while the polls are open (6 a.m until 6 pm)</li><li>Physically unable to get to the polls</li><li>65 years or older</li><li>ill or injured, or caring for someone else who is/li> <li>Celebrating a religious occasion that prevents you from voting</li><li>Part of the state's address confidentiality program</li> <li>A member of the military or a public safety officer</li> <li>A \"serious sex offender\" per Indiana's law (35-42-4-14(a)).</li><li>Have no transportation to the polls</li></ul>",
+        "requirements":"<p>You can vote absentee if you're: <ul> <li>Away or working while the polls are open (6 a.m until 6 pm)</li><li>Physically unable to get to the polls</li><li>65 years or older</li><li>Ill, injured, or caring for someone else who is</li> <li>Celebrating a religious occasion that prevents you from voting</li><li>In an address confidentiality program</li> <li>In the military or public safety</li> <li>A \"serious sex offender\" per Indiana's law.</li><li>Have no way to get to the polls</li></ul>",
         "source": "https://www.in.gov/sos/elections/2402.htm",
         "span_app": "",
-        "last_checked":""
+        "last_checked":"2020-03-21"
     },
 
     "Kansas":
