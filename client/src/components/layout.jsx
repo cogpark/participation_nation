@@ -62,22 +62,7 @@ class Layout extends Component {
 
     render() {
         return ( 
-            <React.Fragment> 
-                <div id="banner">
-                    <div className="row header-row">
-                        <div className="col-sm-4" style={{ display:"flex", alignItems:'end'}} >
-                            <img src={Title} alt='Participation Nation' style={{maxHeight:'100px' }}/>
-                        </div>
-                        <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
-                            <a href="#registration-row">Registratation deadlines</a>
-                        </div>
-                        <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
-                            <a href="#absentee-row">Absentee & early voting</a>
-                        </div>
-
-                    </div>
-                </div>
-
+            <main> 
                 <div className="container" >
                     <div className="row">
                         <div className="col-sm-4">
@@ -116,7 +101,7 @@ class Layout extends Component {
                         </div>
                     </div>
                 </div> 
-            </React.Fragment>
+            </main>
         );
     }
 }
