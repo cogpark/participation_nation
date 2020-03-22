@@ -3,7 +3,7 @@ import React from "react";
 function Picker(props) { 
 
     return (
-        <select
+        <select name = {props.name}
             onChange={props.onChange}
             value={props.selection}
             className="form-control">

@@ -6,7 +6,6 @@ import Picker from './picker'
 import OnlineRegistrationController from './onlineRegistrationControl';
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
-import Title from './title-optimized.png';
 import history from './history';
 //import { ReactComponent } from '*.svg';
 
@@ -62,31 +61,16 @@ class Layout extends Component {
 
     render() {
         return ( 
-            <React.Fragment> 
-                <div id="banner">
-                    <div className="row header-row">
-                        <div className="col-sm-4" style={{ display:"flex", alignItems:'end'}} >
-                            <img src={Title} alt='Participation Nation' style={{maxHeight:'100px' }}/>
-                        </div>
-                        <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
-                            <a href="#registration-row">Registratation deadlines</a>
-                        </div>
-                        <div className="col-sm-3" style={{ display:"flex", alignItems:'end'}}> 
-                            <a href="#absentee-row">Absentee & early voting</a>
-                        </div>
-
-                    </div>
-                </div>
-
+            <main> 
                 <div className="container" >
                     <div className="row">
                         <div className="col-sm-4">
                             <p>SELECT A STATE:</p>
-                            <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} />
+                            <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} name="state selector"/>
                         </div>
                         <div className="col-sm-4">
                             <p>SELECT AN ELECTION:</p>
-                            <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} />
+                            <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} name="election selector" />
                         </div>
                     </div>
                     <br />
@@ -116,7 +100,7 @@ class Layout extends Component {
                         </div>
                     </div>
                 </div> 
-            </React.Fragment>
+            </main>
         );
     }
 }
