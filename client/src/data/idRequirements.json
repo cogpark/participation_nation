@@ -146,62 +146,87 @@
 
     "Kentucky":
     {
-        "at_polls":"",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>You need to show ID (unless your polling place's officer knows you). You can show:</p><ul><li>Driver's license or state ID</li> <li>Credit card with a photo and signature</li> <li>Social security card</li> <li>ID issued by state or federal government</li></ul>",
+        "other_options": "You can also show another form of ID that has your photo and your signature.",
+        "no_id":"If you don't have ID, you can still vote a <a href='https://vrsws.sos.ky.gov/provweb/Default.aspx'>provisional ballot</a>. Then, contact your<a href='http://elect.ky.gov/countyclerks.htm'>county clerk</a> to find out what you need to do to make sure your vote is counted.",
+        "source":"https://elect.ky.gov/Frequently-Asked-Questions/Pages/Election-Day-Information.aspx",
+        "last_checked":"2020-03-21"
     },   
 
-    
     "Louisiana":
     {
-        "at_polls":"",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>You should take a photo ID to the polls. You can show:</p><ul><li>Driver's license or state ID</li><li>A Louisiana <a href='https://www.lawallet.com/'>digital driver's license</a></li><li>Military photo ID</li> </ul>",
+        "other_options": "You can also show another official form of documentation that includes your photo, name, and signature. Finally,",
+        "no_id":"If you don't have an ID, you can vote by signing a \"voter affidavit,\" or a sworm statement that you are who you say you are.",
+        "source":"https://www.sos.la.gov/ElectionsAndVoting/Vote/VoteOnElectionDay/Pages/default.aspx",
+        "last_checked":"2020-03-21"
     },
 
     "Massachusetts":
     {
-        "at_polls":"",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>You'll be asked to show ID if you're voting for the first time (or the first time in a long time, or if a pull worker \"suspects\" something. We're not sure what this means exactly either. Anyway, you can show:</p><ul><li>Driver's license or state ID</li><li>Utililty bill</li><li>Lease or morgage</li><li>Copy of your voter registration confirmation</li></ul>",
+        "other_options": "The <a href='https://www.sec.state.ma.us/ele/eleidreq/idrequirementsidx.htm'>Secretary of State</a> says you can also bring any printed ID that has your name and address.",
+        "no_id":"If you can't show an ID when you get to the polls, you can vote a provisional ballot. Then, you have until the polls close to return and prove your identity.",
+        "source":"https://www.sec.state.ma.us/ele/eleidreq/idrequirementsidx.htm",
+        "last_checked":"2020-03-21"
     },
 
     "Maryland":
     {
-        "at_polls":"",
+        "at_polls":"<p>You'll need to prove your identity if you're voting for the first time and you registered by mail. You can provide</p><ul><li>Driver's license or state ID</li><li>The last 4 digits of your social security number</li> <li>Student or employee photo ID</li> <li>Passport</li> <li>State or federal ID</li> <li>Military ID</li></ul>",
         "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "no_id":"If you don't have an ID, you can still vote a provisional ballot, which means that you'll need to prove your identity to election officials or that they'll try to find some way to verify it. Maryland provides this site to <a href='https://voterservices.elections.maryland.gov/VoterSearch'>check the status of your recently cast provisonal ballot</a>",
+        "source":"https://elections.maryland.gov/vote_act_2002/general_requirements.html",
+        "last_checked":"2020-03-21"
     },
 
     "Michigan":
     {
-        "at_polls":"",
+        "at_polls":"<p>You need to take an ID at the polls. You can show</p><ul><li>Driver's license or state ID (from MI or another state)</li><li>Passport</li><li>Military ID</li> <li>Student ID</li> <li>Tribal ID</li> </ul>",
         "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "no_id":"If you don't have an ID, you can still vote if you sign a sworn statement attesting to your identity.",
+        "source":"https://www.michigan.gov/sos/0,4670,7-127-5647_12539_29836-202520--,00.html",
+        "last_checked":"2020-03-21"
     },
     
     "Minnesota": 
     {
-        "at_polls":"",
+        "at_polls":"<p>You only need to show an ID or if you're registering at the polls or if you haven't voted in 4 years. You can show:</p><ul><li>Driver's license or state ID</li> <li>Tribal ID </li></ul>",
         "other_options": "",
         "no_id":"",
         "source":"",
         "last_checked":""
     },
 
+    
+Approved photo IDs (choose one)
+
+The ID can be expired.
+
+    Driver's license, state ID or learner’s permit issued by any state
+    U.S. Passport
+    U.S. Military or Veteran ID
+    Tribal ID with name, signature and photo
+    Minnesota university, college or technical college ID
+    Minnesota high school ID
+
+Approved documents (choose one)
+
+Can be shown on electronic device.
+
+    Bill, account or start-of-service statement due or dated within 30 days of the election for:
+        Phone, TV or internet
+        Solid waste, sewer, electric, gas or water
+        Banking or credit card
+        Rent or mortgage
+    Residential lease or rent agreement valid through Election Day
+    Current student fee statement
+
+
+
     "Montana":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
         "no_id":"",
         "source":"",
@@ -210,7 +235,7 @@
 
     "Mississippi":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
         "no_id":"",
         "source":"",
@@ -219,7 +244,7 @@
 
     "Missouri":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
         "no_id":"",
         "source":"",
@@ -228,16 +253,16 @@
 
     "North Carolina":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
         "no_id":"",
         "source":"",
         "last_checked":""
-        },
+    },
 
     "North Dakota":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
         "no_id":"",
         "source":"",
@@ -245,7 +270,7 @@
     },
 
     "New Hampshire": {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
         "no_id":"",
         "source":"",
@@ -254,7 +279,7 @@
 
     "Nebraska":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
         "no_id":"",
         "source":"",
@@ -263,146 +288,190 @@
 
     "New Jersey":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "New Mexico":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
     
     "Nevada":
     {        
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
     
     "New York":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
-    "Ohio": {
-        "at_polls":"",
+    "Ohio": 
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Oklahoma":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""        
+        "no_id":"",
+        "source":"",
+        "last_checked":""       
     },
 
     "Oregon":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
    
     "Pennsylvania":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Rhode Island":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "South Carolina":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "South Dakota":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Tennessee":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
     "Texas":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Utah":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Virginia":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""    },
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
     
     "Vermont":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
     
     "Washington":
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Washington, D.C.": 
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Wisconsin": 
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "West Virginia": 
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     },
 
     "Wyoming": 
     {
-        "at_polls":"",
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
-        "no_id":""
+        "no_id":"",
+        "source":"",
+        "last_checked":""
     }
 }
    
