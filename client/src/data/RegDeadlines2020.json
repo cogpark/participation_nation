@@ -141,7 +141,7 @@
         {
             "inPerson":"Anytime", 
             "byMail":"Request a mail-in ballot by April 17, 2020", 
-            "online":"We're not sure. Check the <a href='https://kansasdems.org/2020primar'>KS Democratic Party site</a>.",
+            "online":"We're not sure. Check the <a href='https://kansasdems.org/2020primary'>KS Democratic Party site</a>.",
             "status":"https://kansasdems.org/2020primary",
             "onlineRegistration":"https://www.kdor.ks.gov/apps/voterreg/secure/default.aspx"
         },
