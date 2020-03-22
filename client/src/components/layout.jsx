@@ -6,7 +6,6 @@ import Picker from './picker'
 import OnlineRegistrationController from './onlineRegistrationControl';
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
-import Title from './title-optimized.png';
 import history from './history';
 //import { ReactComponent } from '*.svg';
 
@@ -67,11 +66,11 @@ class Layout extends Component {
                     <div className="row">
                         <div className="col-sm-4">
                             <p>SELECT A STATE:</p>
-                            <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} />
+                            <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} name="state selector"/>
                         </div>
                         <div className="col-sm-4">
                             <p>SELECT AN ELECTION:</p>
-                            <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} />
+                            <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} name="election selector" />
                         </div>
                     </div>
                     <br />
