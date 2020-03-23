@@ -312,12 +312,12 @@
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out an <a href='https://sosmt.gov/Portals/142/Elections/Forms/Application-for-Absentee-Ballot.pdf?dt=1523473411709'>absentee ballot application</a> and send it to your <a href='https://sosmt.gov/Portals/142/Elections/Forms/electionadministrators.pdf'>county elections office</a>.",
         "mail_request_deadline": "Noon the day before the election.",
-        "in_person_instructions":"Same as by mail: Fill out an <a href='https://sosmt.gov/Portals/142/Elections/Forms/Application-for-Absentee-Ballot.pdf?dt=1523473411709'>absentee ballot application</a> and send/take it to your <a href='https://sosmt.gov/Portals/142/Elections/Forms/electionadministrators.pdf'>county elections office</a>. If you're dropping off in person, you can pick up your ballot right then.",
+        "in_person_instructions":"Same as by mail: Fill out an <a href='https://sosmt.gov/Portals/142/Elections/Forms/Application-for-Absentee-Ballot.pdf?dt=1523473411709'>absentee ballot application</a> and send/take it to your <a href='https://sosmt.gov/Portals/142/Elections/Forms/electionadministrators.pdf'>county elections office</a>. If you're it dropping off in person, you can pick up your ballot right then.",
         "ballot_delivery": "8 p.m. on Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://sosmt.gov/elections/absentee/",
         "span_app": "",
-        "last_checked": "March 10, 2020"
+        "last_checked": "2020-03-23"
     },
 
     "Mississippi":
@@ -328,9 +328,10 @@
         "mail_request_deadline": "We couldn't find an official absentee ballot request deadline, but leave enough time to get your ballot, fill it out, and return it by the absentee voting deadline.",
         "in_person_instructions":"<ul>Same as by mail: Go to <a href='https://www.sos.ms.gov/Elections-Voting/Pages/County-Election-Info.aspx'>your county/municipal clerk's office</a> and apply to vote absentee.",
         "ballot_delivery": "<ul><li>In person: 3 days before the election</li> <li>By mail: Received the day before the election</li></ul>",
-        "requirements":"<p>You can vote absentee if you're</p> <ul><li>elderly</li><li>Ill</li><li>Working</li><li>Out of the state for school</li></ul>",
+        "requirements":"<p>You can vote absentee if you're</p> <ul><li>Elderly</li><li>Ill</li><li>Working</li><li>Out of the state for school</li></ul>",
         "source": "https://www.sos.ms.gov/Elections-Voting/Documents/VoterInformationGuide.pdf",
-        "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
+        "last_checked":"2020-03-23"
     },
 
     "Missouri":
@@ -338,13 +339,13 @@
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote absentee in person",
         "mail_instructions": "Request an absentee ballot from your <a href ='https://www.sos.mo.gov/elections/govotemissouri/localelectionauthority'>local election authority</a>. You can ask them to mail you a request form, or <a href='https://www.sos.mo.gov/CMSImages/ElectionGoVoteMissouri//2019AbsenteeBallotrequestformfillable.pdf'>download this request form</a> and return it via email, mail, or fax.",
-        "mail_request_deadline": "By 5 p.m. 2 Wednesdays before the election.",
+        "mail_request_deadline": "2 Wednesdays before the election by 5 p.m..",
         "in_person_instructions":"Go to your <a href ='https://www.sos.mo.gov/elections/govotemissouri/localelectionauthority'>local election authority</a> to vote an absentee ballot beginning 6 weeks before an election.",
         "ballot_delivery": "The day before the election.",
         "requirements":"<p>You can vote absentee if you're</p> <ul><li>Il</li><li>Physically incapable of getting the the polls</li><li>Working</li><li>Out of the state</li><li>Celebrating a religious occasion that prevents you from voting</li><li>Incarcerated but not prevented from voting (e.g. you were convicted of a felony)</li><li>Part of an address confidentiality program</li></ul>",
         "source": "https://www.sos.mo.gov/elections/goVoteMissouri/howtovote",
         "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
-        "last_checked": "March 16, 2020 -- just proofed"
+        "last_checked": "2020-03-23"
     },
 
     "North Carolina":

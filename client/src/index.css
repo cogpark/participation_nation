@@ -91,9 +91,10 @@ p , li {
 
 .header-row a {
   color: white;
+  font-size: 18px;
   text-transform: uppercase;
   border-bottom: 1px solid white;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 .header-row a:hover {
