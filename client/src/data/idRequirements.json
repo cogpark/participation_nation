@@ -216,22 +216,23 @@
         "last_checked":"2020-03-22"
     },
 
+
     "Missouri":
     {
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>You'll need to show an ID and sign the poll book. IDs you can show are:</p><ul><li>Any ID issued by the U.S. or Missouri government, including driver's licenses, public college student IDs, and passports</li><li>Utility bill> <li>Bank or credit card statement</li> <li>Paycheck or government check</li></ul>",
+        "other_options": "You can also show a government document that includes your name and address.",
+        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, you can either come back to the polling placwewith an ID, or the local election authority will try to match the signature you added to the poll book to the one from your registration.",
+        "source":"https://www.sos.mo.gov/showit2vote",
+        "last_checked":"2020-03-23"
     },
 
     "North Carolina":
     {
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "at_polls":"You don't have to show ID at the polls.",
         "other_options": "",
         "no_id":"",
         "source":"",
-        "last_checked":""
+        "last_checked":"2020-03-23"
     },
 
     "North Dakota":
@@ -239,26 +240,27 @@
         "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
         "other_options": "",
         "no_id":"",
-        "source":"",
+        "source":"https://www.ncsbe.gov/Voter-ID",
         "last_checked":""
     },
 
     "New Hampshire": {
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>You'll be asked to show ID at the polls. You can show:</p><ul><li>Driver's license or state ID (from any state or from the federal government)</li><li>Military ID</li> <li>Passport</li> <li>Student ID from a school in New Hampshire</li> </ul>",
+        "other_options": "Your <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>town clerk</a> may allow for other forms of ID.",
+        "no_id":"If you can't show ID, you can fill out a \"challenged voter affadavit,\" or a sworn statement that you are who you say you are. The clerk will take your picture & attach it to your statement. (They have to delete the photo from the camera after this.)",
+        "source":"file:///C:/Users/16109/AppData/Local/Temp/VOTER%20ID%20LAW%202019.pdf",
+        "last_checked":"03-23-2020"
     },
 
     "Nebraska":
     {
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>You only need an ID if you're voting for the first time, you registered by mail, and didn't verify your address. In that case, you can show any document that has your name and address on it.",
+        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election commissioner will try to verify that you are who you say you are. Contact your <a href='https://sos.nebraska.gov/elections/election-officials-contact-information'>election official</a> if you have questions about this process.",
+        "source":"https://sos.nebraska.gov/elections/election-day-faq",
+        "last_checked":"2020-03-23"
     },
+
+
 
     "New Jersey":
     {
