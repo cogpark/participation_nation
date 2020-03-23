@@ -1,0 +1,453 @@
+{   
+    "Alaska": 
+    {
+        "at_polls":"<ul><li>Voter ID card</li><li>Driver's license</li><li>State ID</li><li></li>Military ID</li> <li>U.S. passport </li>,<li>Hunting or fishing license or other current or valid photo ID</li></ul>",
+        "other_options": "<ul><li>Current utility bill</li><li>Paycheck</li><li>Government check</li><li>Bank statement</li><li>Other government issued document</li></ul>",
+        "no_id":"<p>If you don't have an ID or a document thay proves your current address, you can still vote a question ballot. Then, a review board will decide if your vote counts</p>.",
+        "source":"http://www.elections.alaska.gov/Core/votingatthepollsonelectionday.php",
+        "last_checked":"2020-03-15"
+    },
+    
+    "Alabama": 
+    {
+        "at_polls":"Photo ID, such as a driver's license, state ID, passport, tribal ID, or student ID from an Alabama school.",
+        "other_options": "If you don't have a voter ID, you can apply for one. <a href='https://www.sos.alabama.gov/sites/default/files/voter-pdfs/candidate-resources/ApplicationForFreeALPhotoVoterIdCard.pdf'>Fill out an application</a> and send it to the <a href='https://www.sos.alabama.gov/'>Secretary of State</a>.",
+        "no_id":"If you don't have an ID, you can vote a <a href='https://www.sos.alabama.gov/sites/default/files/voter-pdfs/ProvisionalInstructionBooklet.pdf'>provisional ballot</a>.",
+        "source":"https://www.sos.alabama.gov/alabama-votes/voter/voter-id",
+        "last_checked":"2020-03-16"
+    },
+    
+    "Arkansas":
+    {  
+        "at_polls":"You'll need to verify your registration with an Alabama- or federally-issued ID that shows your name & photo.",
+        "other_options": "",
+        "no_id":"If you don't have an ID, you can vote a provisional ballot. This means that you'll have until the first Monday after the election to show an ID or document that has your name, a photo of you, is issued by either Arkansas or federal government, and expired fewer than 4 years ago.",
+        "source":"https://www.sos.arkansas.gov/elections/voter-information/voter-registration-information",
+        "last_checked":"2020-03-16"
+    },
+
+    "Arizona": 
+    {
+        "at_polls":"Arizona driver's license or state ID, tribal ID, or other federal- or Arizona-issued photo ID.",
+        "other_options": "<p>If you don't have a photo ID, you can also bring 2 of the following:</p><ul><li>Utility bill dates from the last 90 days of </li><li>Bank or credit union statement</li><li>AZ vehicle registration or insurance card</li><li>Property tax statement</li><li>Tribal card</li><li>Recorder's Certificate</li><li>Government-issued ID</li><li>\"Official Election\" mail</li></ul>",
+        "no_id":"If you don't have ID, you can still vote a provisional ballot. Then, you'll have 7 days to show an ID at your polling place so that your vote can be counted.",
+        "source":"https://azsos.gov/elections/voting-election",
+        "last_checked":"2020-03-16"
+    },
+
+    "California": 
+    {
+        "at_polls":"You only need to show ID if you're voting for the first time by mail & you didn't provide a driver's license number or social security number when you registered.",
+        "other_options": "If you do have to show ID, you can use a photo ID (driver's license, passport, student ID, health club membership, public housing card) or 2 documents that include your name and address (such as a utility bill, lease, paycheck, vehicle registration).",
+        "no_id":"If you have to show an ID but can't, you can vote a provisional ballot. Then, your ballot will be counted counted after election officials verify that you're eligible to vote.",
+        "source":"https://www.sos.ca.gov/elections/voting-resources/voting-california/what-bring/",
+        "last_checked":"2020-03-17"
+    },
+
+    "Colorado": 
+    {
+        "at_polls":"If you're voting by mail or for the first time, you'll need to show ID. You can show: <li>Passpport</li><li>Government ID</li><li>Military ID</li><li>Pilot's license</li><li>Utility bill</li><li>Certificate of Indian or Alaskan Native Blood or a tribal ID</li><li>Medicare/medicaid card</li>Certified copy of your birth certificate<li>Naturalization document</li>/</ul>",
+        "other_options": "You can also show one of these if they apply: <ul><li>Proof that you live in a group home</li><li>Written evidence from the county sherrif that you're confined in a county jail.</li></ul>",
+        "no_id":"If you don't have an ID, you can still vote a <a href='https://www.sos.state.co.us/pubs/elections/FAQs/ProvisionalBallots.html'>provisional ballot</a>. After the election, officials will investigate and decide if your vote counts.",
+        "source":"https://www.sos.state.co.us/pubs/elections/vote/acceptableFormsOfID.html",
+        "last_checked":"2020-03-17"
+    },
+
+    "Connecticut": 
+    {
+        "at_polls":"<p>You'll be asked to show ID. You can use any form ID that shows your:</p> <ul><li>Name and photo</li><li>Name and address</li><li>Name and signature</li></ul>. <p>You could also show a social security card. <b>Note:</b>If you're a first time voter who registered by mail, you need identification that includes your name & address</p>. ",
+        "other_options": "",
+        "no_id":"If you don't have ID, you can sign a statement swearing under CT law that you're the person whose name appears on the voter registration checklist at your polling place.",
+        "source":"https://portal.ct.gov/SOTS/Election-Services/FAQ/FAQ---Voter-Identification",
+        "last_checked":"2020-03-17"
+    },
+
+    "Delaware":
+    {
+        "at_polls":"You'll be asked to show ID. You can show: <ul><li>U.S. passport</li><li>Delaware driver's license or state ID</li> <li>Social security card</li> <li>Polling place card</li> <li>Signed vehicle registration</li> <li>Credit card with a signature and a photo</li> <li>Another ID that includes your photo and signature</li> </ul>",
+        "other_options": "If you can't bring one of the above, take something that shows your name and address: A utility bill, bank statement, or paycheck, etc. This will at least allow you to vote a provisional ballot.",
+        "no_id":"If poll workers can't confirm that you're registered, you can still vote a provisional ballot (for federal elections). Then, election officials will try to verify that you really are registered in your district. If they can, they'll count your vote.",
+        "source":"https://electionsncc.delaware.gov/faqs/voting.shtml",
+        "last_checked":"2020-03-18"
+    },
+
+    "Florida":
+    {
+        "at_polls":"<p>You'll be asked to show a photo ID <em>with a signature</em>. You can show:</p>   <li>Florida driver’s license or state ID</li><li> U.S. passport</li> <li> Debit or credit card (with a photo)</li> <li>Military or veteran health ID</li> <li>Student ID</li><li> Retirement center ID</li>   <li>Neighborhood association ID</li>    <li>Public assistance ID </li><li>Gun license</li><li>Government-issued employee ID</li></ul>",
+        "other_options": "",
+        "no_id":"If you don't have ID, you can still vote a provisional ballot. After the election, officials will make sure that you're actually registered, and your vote will be counted.",
+        "source":"https://dos.myflorida.com/elections/for-voters/voting/election-day-voting/",
+        "last_checked":"2020-03-18"
+    },
+
+    
+    "Georgia":
+    {
+        "at_polls":"<p>You'll need to show a photo ID, such as:</p><ul> <li>Driver's license (even an expired one) or state ID</li> <li>Military ID</li>  <li>U.S. passport</li> <li>Tribal ID</li><li>State or federal government photo ID</li></ul>",
+        "other_options": "<p>If you don't have a photo ID, you can get a free voter ID. For this, you'll need a document that shows your name and date of birth and evidence that you're registered to vote. Take these to your county registrar or local Department of Driver Services.</p>",
+        "no_id":"If you can't show ID, you can still vote a <a href='https://sos.ga.gov/admin/files/GAInfoguide.pdf'>provisional ballot</a>. Then, you'll have 3 days to take proof that you are who you say you are to your local county registrar.",
+        "source":"https://sos.ga.gov/index.php/elections/georgia_voter_identification_requirements2",
+        "last_checked":"2020-03-20"
+    },
+   
+    "Hawaii":
+    {
+        "at_polls":"<p>If you're voting in person (e.g. voting early at a Voter Service Center), you should take an ID with you. Acceptable IDs include:</p><ul><li>State driver's license or ID</li> <li>U.S. passport</li> <li>Utility bill, bank statement, paycheck, or other document that shows your name and address</li> </ul>",
+        "other_options": "If you don't have ID, you might be asked for other information that would confirm your identity and registration status.",
+        "no_id":"If for some reason you can't prove your identity, you can still vote a provisional ballot. Then, you have 2 days to prove your identity to your local Clerk's Office.",
+        "source":"https://www.honolulu.gov/elections/voter-info.html",
+        "last_checked":"2020-03-20"
+    },
+
+    "Iowa":
+    {
+        "at_polls":"<p>Take a photo ID to the polls. You can show:</p><ul> <li>IA driver's license or state ID</li> </li> <li>Military or veteran's ID</li> <li>U.S. passport</li> <li>Tribal ID</li><li>Voter ID card</li></ul>",
+        "other_options": "<p>The<a href='https://sos.iowa.gov/elections/voterinformation/voterIDfaq.html'>Iowa Secretary of State's website</a> says that if you don't have a driver's license or state ID, they'll mail you a voter ID card when you register. If they don't, try <a href='https://sos.iowa.gov/contactus.html'>contacting them</a></p>.<p>If you don't have ID on Election Day, you can have another registered voter testify to your identity</p>.",
+        "no_id":"If you can't prove your identity, you can still vote a provisional ballot.",
+        "source":"https://sos.iowa.gov/elections/voterinformation/voterIDfaq.html",
+        "last_checked":"2020-03-20"
+    },
+
+    "Idaho":
+    {
+        "at_polls":"<p>Take a photo ID to the polls. You can show:</p><ul><li> An ID driver's license or state ID </li> <li>A student identification card from a college in Idaho along with a fee statement that shows the address where you're registered </li> <li>Any other document that contains a photo and an address</li> </ul>",
+        "other_options": "",
+        "no_id":"We couldn't find much on the <a href='https://sos.idaho.gov'>Idaho Secretary of State's website</a>, but if you can't prove that you're registered, you're legally allowed to ask for a provisonal ballot.",
+        "source":"https://sos.idaho.gov/citizenship-voting/",
+        "last_checked":"2020-03-20"
+    },
+    
+    "Illinois":
+    {
+        "at_polls":"<p>You might be asked to show one form of ID if you didn't have an Illinois ID when you registered. If you're registering at the polls, you need two forms of ID. Here's what you can show:</p><ul> <li>Driver's license or state ID</li><li>U.S. passport</li> <li>Military ID</li> <li>Colleg/school ID</li> <li>Lease, mortgage, or deed to your home</li><li>Credit or debit card</li><li>Social security card</li> <li>Medicare, medicaid, or health insurance card</li><li>Card that shows you're a member of a union or professional organization</li><li>LINK, Public Aid, or Department of Human Services Card</li><li>IL FOID card</li> </ul>",
+        "other_options": "</p>You can also show one of these if they were mailed to you:</p><ul><li>Bank, pension, or credit card statement</li> <li>Paycheck</li> <li>Utility bill</li> <li>Document from a government agency</li> </ul>",
+        "no_id":"If you can't prove your identity, you can still vote a provisional ballot. Then, you have 7 days to take identification that proves your identity to your county clerk's office. ",
+        "source":"https://www.cookcountyclerk.com/service/when-voters-do-and-dont-need-identification-id",
+        "last_checked":"2020-03-21"
+    },
+
+    "Indiana":
+    {
+        "at_polls":"<p>You'll need to show a \"government-issued photo ID\" at the polls. This means that it includes your name and photo, and that it was issued by a U.S. state, the federal government, or a public college/school in Indiana. It can be expired as long as its expiration date was <i>before</i> the most recent election.",
+        "other_options": "If you don't have an ID, you can get a voter ID through the <a href='https://www.in.gov/bmv/'>Indiana Bureau of Motor Vehicles</a>.",
+        "no_id":"If you can't prove your identity, you can still vote a provisional ballot. Then, you have 10 days to confirm your identify with your local county board of elections.",
+        "source":"https://www.in.gov/sos/elections/2401.htm",
+        "last_checked":"2020-03-21"
+    },
+
+    "Kansas":
+    {
+        "at_polls":"<p>You'll need to show an unexpired photo ID at the polls. You can show</p>:<ul><li>A driver's license or state ID</li> <li>Gun license</li><li>U.S. passport</li><li>Government ID</li> <li>Military ID</li> <li>Student ID from a school in Kansas</li> <li>Government-issued public assistance card</li><li>Tribal ID</li> </ul>",
+        "other_options": "You can get a <a href='http://www.gotvoterid.com/valid-photo-ids.html#feewaver'>free voter ID</a> through Kansas's <a href='https://www.ksrevenue.org/dovindex.html'>Divison of Vehicles</a>.",
+        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election, contact your county election office to find out what you need to do to prove your identity.",
+        "source":"http://www.gotvoterid.com/valid-photo-ids.html",
+        "last_checked":"2020-03-11"
+    },
+
+    "Kentucky":
+    {
+        "at_polls":"<p>You need to show ID (unless your polling place's officer knows you). You can show:</p><ul><li>Driver's license or state ID</li> <li>Credit card with a photo and signature</li> <li>Social security card</li> <li>ID issued by state or federal government</li></ul>",
+        "other_options": "You can also show another form of ID that has your photo and your signature.",
+        "no_id":"If you don't have ID, you can still vote a <a href='https://vrsws.sos.ky.gov/provweb/Default.aspx'>provisional ballot</a>. Then, contact your<a href='http://elect.ky.gov/countyclerks.htm'>county clerk</a> to find out what you need to do to make sure your vote is counted.",
+        "source":"https://elect.ky.gov/Frequently-Asked-Questions/Pages/Election-Day-Information.aspx",
+        "last_checked":"2020-03-21"
+    },   
+
+    "Louisiana":
+    {
+        "at_polls":"<p>You should take a photo ID to the polls. You can show:</p><ul><li>Driver's license or state ID</li><li>A Louisiana <a href='https://www.lawallet.com/'>digital driver's license</a></li><li>Military photo ID</li> </ul>",
+        "other_options": "You can also show another official form of documentation that includes your photo, name, and signature. Finally,",
+        "no_id":"If you don't have an ID, you can vote by signing a \"voter affidavit,\" or a sworm statement that you are who you say you are.",
+        "source":"https://www.sos.la.gov/ElectionsAndVoting/Vote/VoteOnElectionDay/Pages/default.aspx",
+        "last_checked":"2020-03-21"
+    },
+
+    "Massachusetts":
+    {
+        "at_polls":"<p>You'll be asked to show ID if you're voting for the first time (or the first time in a long time, or if a pull worker \"suspects\" something. We're not sure what this means exactly either. Anyway, you can show:</p><ul><li>Driver's license or state ID</li><li>Utililty bill</li><li>Lease or morgage</li><li>Copy of your voter registration confirmation</li></ul>",
+        "other_options": "The <a href='https://www.sec.state.ma.us/ele/eleidreq/idrequirementsidx.htm'>Secretary of State</a> says you can also bring any printed ID that has your name and address.",
+        "no_id":"If you can't show an ID when you get to the polls, you can vote a provisional ballot. Then, you have until the polls close to return and prove your identity.",
+        "source":"https://www.sec.state.ma.us/ele/eleidreq/idrequirementsidx.htm",
+        "last_checked":"2020-03-21"
+    },
+
+    "Maryland":
+    {
+        "at_polls":"<p>You'll need to prove your identity if you're voting for the first time and you registered by mail. You can provide</p><ul><li>Driver's license or state ID</li><li>The last 4 digits of your social security number</li> <li>Student or employee photo ID</li> <li>U.S. passport</li> <li>State or federal ID</li> <li>Military ID</li></ul>",
+        "other_options": "",
+        "no_id":"If you don't have an ID, you can still vote a provisional ballot, which means that you'll need to prove your identity to election officials or that they'll try to find some way to verify it. Maryland provides this site to <a href='https://voterservices.elections.maryland.gov/VoterSearch'>check the status of your recently cast provisonal ballot</a>",
+        "source":"https://elections.maryland.gov/vote_act_2002/general_requirements.html",
+        "last_checked":"2020-03-21"
+    },
+
+    "Michigan":
+    {
+        "at_polls":"<p>You need to take an ID at the polls. You can show</p><ul><li>Driver's license or state ID (from MI or another state)</li><li>U.S. passport</li><li>Military ID</li> <li>Student ID</li> <li>Tribal ID</li> </ul>",
+        "other_options": "",
+        "no_id":"If you don't have an ID, you can still vote if you sign a sworn statement attesting to your identity.",
+        "source":"https://www.michigan.gov/sos/0,4670,7-127-5647_12539_29836-202520--,00.html",
+        "last_checked":"2020-03-21"
+    },
+    
+    "Minnesota": 
+    {
+        "at_polls":"<p>You only need to show an ID or if you're registering at the polls or if you haven't voted in 4 years. If you have a Minnesota driver's license, Minnesota state ID, or a Tribal ID that includes your name and photo, you can just bring that.</p><p>If you don't have one of those, you'llm neeed to bring one of these photo IDs:</p><ul><li>Driver's license, state ID, or learner's permit</li><li>Student ID from a school in Minnesota</li><li>Tribal ID </li> <li>U.S. passport</li> <li>Military or veteran's ID</li></ul> <p>And one of these documents with your name and address (you can show it on your phone</p> <ul><li>Utility bill, including for phone, TV, or internet</li><li>Bank or credit card statement</li><li>Rent or mortgage paperwork</li><li>Current student loan statement</li></ul>",
+        "other_options": "Minnesota allows for a few other options, too. <ul> <li>You may also bring somebody else from your precinct who is registered and can \"vouch\" for you.</li><li>If you registered later, you might've gotten a \"Notice of late registration\" in the mail. You can take that to the polls.</li><li>If you recently moved but stayed within your voting precinct, you can just tell election officials your old address</li>",
+        "no_id":"If you can't prove your registration by any of the above means, you can still vote a provisional ballot, or a ballot that is counted after election officials verify that you are really registered. Ask at your polling place what you'll need to do to confirm that your vote should count.",
+        "source":"https://www.sos.state.mn.us/elections-voting/register-to-vote/register-on-election-day/",
+        "last_checked":"2020-03-22"
+    },
+
+    "Montana":
+    {
+        "at_polls":"<p>You'll be asked to show ID at the polls. You can show: </p><ul><li>Driver's license, state ID, or other photo ID that also has your name on it</li> <li>Utility bill</li> <li>Bank or credit card statement</li> <li>Paycheck or government check</li> <li>Your voter registration confirmation</li> <li>Government-issued document that shows your name and address where you're registered</li></ul>",
+        "other_options": "If you don't have any of these, you can fill out a \"Polling place elector ID\" form. Then, an official will call a local election office to verify that you're registered.",
+        "no_id":"If you can't prove your registration, you can still vote a provisional ballot, or a ballot that is counted after election officials verify that you are really registered. Ask at your polling place what you'll need to do to confirm that your vote should count.",
+        "source":"https://sosmt.gov/elections/faq/#identification",
+        "last_checked":"2020-03-22"
+    },
+
+    "Mississippi":
+    {
+        "at_polls":"<p>You'll be asked to show ID at the polls. You can show:</p><ul><li>MS driver's license or state ID</li><li>U.S. passport</li> <li>Student ID from a school in MS</li> <li>Government-issued ID (e.g. employee ID)</li> <li>Tribal ID</li> <li>Gun license</li> <li>MS voter ID</li> </ul>",
+        "other_options": "If you don't have an ID, you can apply for a voter ID at a <a href='https://courts.ms.gov/trialcourts/circuitcourt/circuitclerks.pdf'>Mississippi Circuit Court</a>.",
+        "no_id":"If you can't prove your registration, you can still vote a provisional ballot, or a ballot that is counted after election officials verify that you are really registered. Ask at your polling place what you'll need to do to confirm that your vote should count.",
+        "source":"http://msvoterid.ms.gov/Pages/VoterIDAcceptID.htm",
+        "last_checked":"2020-03-22"
+    },
+
+
+    "Missouri":
+    {
+        "at_polls":"<p>You'll need to show an ID and sign the poll book. IDs you can show are:</p><ul><li>Any ID issued by the U.S. or Missouri government, including driver's licenses, public college student IDs, and passports</li><li>Utility bill> <li>Bank or credit card statement</li> <li>Paycheck or government check</li></ul>",
+        "other_options": "You can also show a government document that includes your name and address.",
+        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, you can either come back to the polling placwewith an ID, or the local election authority will try to match the signature you added to the poll book to the one from your registration.",
+        "source":"https://www.sos.mo.gov/showit2vote",
+        "last_checked":"2020-03-23"
+    },
+
+    "North Carolina":
+    {
+        "at_polls":"You don't have to show ID at the polls.",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":"2020-03-23"
+    },
+
+    "North Dakota":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"https://www.ncsbe.gov/Voter-ID",
+        "last_checked":""
+    },
+
+    "New Hampshire": {
+        "at_polls":"<p>You'll be asked to show ID at the polls. You can show:</p><ul><li>Driver's license or state ID (from any state or from the federal government)</li><li>Military ID</li> <li>Passport</li> <li>Student ID from a school in New Hampshire</li> </ul>",
+        "other_options": "Your <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>town clerk</a> may allow for other forms of ID.",
+        "no_id":"If you can't show ID, you can fill out a \"challenged voter affadavit,\" or a sworn statement that you are who you say you are. The clerk will take your picture & attach it to your statement. (They have to delete the photo from the camera after this.)",
+        "source":"file:///C:/Users/16109/AppData/Local/Temp/VOTER%20ID%20LAW%202019.pdf",
+        "last_checked":"03-23-2020"
+    },
+
+    "Nebraska":
+    {
+        "at_polls":"<p>You only need an ID if you're voting for the first time, you registered by mail, and didn't verify your address. In that case, you can show any document that has your name and address on it.",
+        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election commissioner will try to verify that you are who you say you are. Contact your <a href='https://sos.nebraska.gov/elections/election-officials-contact-information'>election official</a> if you have questions about this process.",
+        "source":"https://sos.nebraska.gov/elections/election-day-faq",
+        "last_checked":"2020-03-23"
+    },
+
+
+
+    "New Jersey":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "New Mexico":
+    {
+        "at_polls":"<p></p><ul></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+    
+    "Nevada":
+    {        
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+    
+    "New York":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "Ohio": 
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "Oklahoma":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""       
+    },
+
+    "Oregon":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+   
+    "Pennsylvania":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "Rhode Island":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "South Carolina":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "South Dakota":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "Tennessee":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+    "Texas":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "Utah":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "Virginia":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+    
+    "Vermont":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+    
+    "Washington":
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "Washington, D.C.": 
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "Wisconsin": 
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "West Virginia": 
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    },
+
+    "Wyoming": 
+    {
+        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
+        "other_options": "",
+        "no_id":"",
+        "source":"",
+        "last_checked":""
+    }
+}
+   
