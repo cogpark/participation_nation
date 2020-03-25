@@ -237,11 +237,11 @@
 
     "North Dakota":
     {
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
-        "other_options": "",
-        "no_id":"",
-        "source":"https://www.ncsbe.gov/Voter-ID",
-        "last_checked":""
+        "at_polls":"<p>You'll to show an ID that lists your name, address, and birthdate. You can show:</p><ul><li>Driver's license or state ID</li><li>Tribal ID</li><li>ID from a long term care facility</li></ul>",
+        "other_options": "<p>If you need to supplement one of the main items, you can also show:</p><ul><li>Utility bill</li> <li>Government- or Tribal-issued check or document</li><li>Paycheck</li><li>Credit card or bank statement</li> </ul>",
+        "no_id":"If you can't provide ID, you can vote a \"set aside ballot.\" Then, after the election, you'll prove your identity to the canvassing board, and your ballot will be counted.",
+        "source":"https://vip.sos.nd.gov/idrequirements.aspx",
+        "last_checked":"2020-03-25"
     },
 
     "New Hampshire": {
@@ -264,31 +264,33 @@
 
     "New Jersey":
     {
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>You only need to show ID if you didn't when you registered. If that's the case, you can show: </p><ul><li>Driver's license or state ID</li><li>Military ID</li> <li>Student or employee ID</li> <li>Passport</li><li>Utility bill</li> <li>Bank or credit card statement</li> <li>Car registration</li> <li>Government heck or paycheck</li> <li>Lease, rent receipt, or mortgage</li></ul>",
+        "other_options": "Any other document that lists your name and address.",
+        "no_id":"If you don't have an ID, you can vote a provisional ballot. Then, you'll have 2 days to prove your identity to the county election office.",
+        "source":"https://www.njisj.org/accordion_6",
+        "last_checked":"2020-03-25n "
     },
+
 
     "New Mexico":
     {
-        "at_polls":"<p></p><ul></ul>",
+        "at_polls":"<p>You only need voter ID if you didn't when you registered. You can show:</p><ul><li>A photo ID, such as a driver's license or state ID</li><li>Utility bill</li><li>Bank or credit card statement</li> <li>Government check</li> <li>Paycheck</li> <li>Student ID</li><li>Tribal ID</li> <li>Any government document that lists your name and address</li></ul> <p>Also, some New Mexico cities (e.g. Albuquerque) ask for ID at city elections. </p>",
         "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "no_id":"If you don't have an ID, you can vote a provisional ballot. Ask at your polling place what you need to do to make sure your vote is counted. After the election, you can <a href='https://voterportal.servis.sos.state.nm.us/ProvisionalSearch.aspx'>check the status of your provisional ballot</a> to make sure they've counted it.",
+        "source":"https://www.sos.state.nm.us/voting-and-elections/voting-faqs/voting/",
+        "last_checked":"2020-03-25"
     },
-    
+
+
     "Nevada":
     {        
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>When it's your turn at the polls, you'll sign your name and the election official will compare it to the signature you provided when you registered.</p><",
+        "other_options": "<p>You can also show another form of ID that includes your signature, such as</p>ul><li>Driver's license or state ID</li> <li>Military ID</li> <li>Any government-issued document has your photo and signature</li></ul>",
+        "no_id":"If you can't prove your identity, you can still vote a provisional ballot. Ask at your polling place what you need to do to make sure your vote is counted, or contact your <a href='https://www.nvsos.gov/sos/elections/voters/county-clerk-contact-information'>county election office</a>.",
+        "source":"https://www.nvsos.gov/sos/sos-information/office-facts/faqs-all-division/elections",
+        "last_checked":"2020-03-25"
     },
-    
+
     "New York":
     {
         "at_polls":"<p></p><ul><li>Driver's license or state ID</li></ul>",
