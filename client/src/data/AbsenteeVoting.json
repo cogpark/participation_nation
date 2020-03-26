@@ -395,12 +395,13 @@
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out an <a href='https://sos.nebraska.gov/elections/voter-forms'>early voting form</a> and send, fax, or email it to your <a href='https://sos.nebraska.gov/elections/election-officials-contact-information'>county elections office</a>.",
-        "mail_request_deadline": "By 6 p.m. 2 Fridays before the election.",
+        "mail_request_deadline": "2 Fridays before the election by 6 p.m.",
         "in_person_instructions":"You can vote in person at your <a href='https://sos.nebraska.gov/elections/election-officials-contact-information'>county elections office</a> starting 30 days before a general election and 15 days before any other election. The last day to early vote is the day before the election.",
         "ballot_delivery": "By the time the polls close on Election Day.",
         "requirements":"None.",
         "source": "https://sos.nebraska.gov/elections/early-voting",
-        "span_app": "<a href='https://sos.nebraska.gov/elections/voter-forms'>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href='https://sos.nebraska.gov/elections/voter-forms'>Solicitud para votar en ausencia</a>.",
+        "last_checked": "2020-03-26"
     },
 
     "New Jersey":
@@ -409,37 +410,40 @@
         "in_person_title": "Vote early in person",
         "mail_instructions": "Send a vote-by-mail application to <a href='https://www.state.nj.us/state/elections/county-election-officals.shtml'>your county clerk</a>. You can find <a href='https://www.state.nj.us/state/elections/vote-by-mail.shtml'>your county's application here</a>.",
         "mail_request_deadline": "7 days before the election.",
-        "in_person_instructions":"You can apply to vote early in person until 3 p.m. the day before the election at <a href='https://www.state.nj.us/state/elections/county-election-officals.shtml'>your county clerk's office</a>",
+        "in_person_instructions":"You can apply in-person to vote early until 3 p.m. the day before the election at <a href='https://www.state.nj.us/state/elections/county-election-officals.shtml'>your county clerk's office</a>.",
         "ballot_delivery": "Postmarked by the election and received within 2 days of the polls closing.",
         "requirements":"None (except that you're registered).",
         "source": "https://www.state.nj.us/state/elections/vote-by-mail.shtml",
-        "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
+        "last_checked":"2020-03-26"
     },
 
     "New Mexico":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "<a href='https://portal.sos.state.nm.us/OVR/WebPages/AbsenteeApplication.aspx?type=RA'>Request an absentee ballot online</a> or <a href='https://realfileee3072ab0d43456cb15a51f7d82c77a2.s3.amazonaws.com/97e1ee9d-281c-412a-9a85-0ea2e65f70ff?AWSAccessKeyId=AKIAJBKPT2UF7EZ6B7YA&Expires=1583596930&Signature=cx0R8BqyVtOMksrN6%2FG69qnSIE8%3D&response-content-disposition=inline%3B%20filename%3DNMAV%2009-2019.pdf&response-content-type=application%2Fpdf'>download the absentee application</a> and return it to your <a href='https://www.sos.state.nm.us/voting-and-elections/voter-information/county-clerk-information/'>your county clerk</a>.",
+        "mail_instructions": "<a href='https://portal.sos.state.nm.us/OVR/WebPages/AbsenteeApplication.aspx?type=RA'>Request an absentee ballot online</a> or <a href='https://www.sos.state.nm.us/voting-and-elections/voter-information/absentee-and-early-voting/#>download the absentee application</a> and return it to your <a href='https://www.sos.state.nm.us/voting-and-elections/voter-information/county-clerk-information/'>your county clerk</a>.",
         "mail_request_deadline": "4 days before the election.",
         "in_person_instructions":"In 2020, you can vote early at your <a href='https://www.sos.state.nm.us/voting-and-elections/voter-information/county-clerk-information/'>county clerk's office</a> between Oct. 17 and Oct. 31",
         "ballot_delivery": "By 7 p.m. on Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://www.sos.state.nm.us/voting-and-elections/voter-information/absentee-and-early-voting/",
-        "span_app": ""
+        "span_app": "",
+        "last_checked":"2020-03-26"
     },
     
     "Nevada":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "Fill out <a href='https://www.nvsos.gov/sos/home/showdocument?id=8262'>an absentee ballot request form</a> and submit it to your <a href='https://www.nvsos.gov/sos/elections/voters/county-clerk-contact-information'>local clerk or election official</a>. Clark county residents can <a href='http://www.clarkcountynv.gov/vote'>request a ballot online</a>.",
+        "mail_instructions": "Fill out <a href='https://www.nvsos.gov/sos/home/showdocument?id=8262'>an absentee ballot request form</a> and submit it to your <a href='https://www.nvsos.gov/sos/elections/voters/county-clerk-contact-information'>local clerk or election official</a>. Clark County residents can <a href='http://www.clarkcountynv.gov/vote'>request a ballot online</a>.",
         "mail_request_deadline": "14 days before the election.",
-        "in_person_instructions":"There's a 2 week period during which you can vote early at an <a href='https://www.nvsos.gov/sos/elections/voters/early-voting-information'>early voting location</a>.",
+        "in_person_instructions":"There's a 2-week period during which you can vote early at an <a href='https://www.nvsos.gov/sos/elections/voters/early-voting-information'>early voting location</a>.",
         "ballot_delivery": "7 p.m. on Election Day.",
         "requirements":"None (as long as you're registered).",
-        "source": "https://www.nvsos.gov/sos/elections/voters/early-voting-information and https://www.nvsos.gov/sos/elections/voters/absentee-voting",
-        "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+        "source": "https://www.nvsos.gov/sos/elections/voters/early-voting-information",
+        "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
+        "last_checked":"2020-03-26"
     },
     
     "New York":
