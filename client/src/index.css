@@ -84,11 +84,17 @@ p , li {
   display:flex;
 }
 
+.header-row img {
+  max-height: 100px;
+  padding-bottom: 0px;
+}
+
 .header-row a {
   color: white;
+  font-size: 18px;
   text-transform: uppercase;
-  padding-bottom: 6px;
   border-bottom: 1px solid white;
+  margin-bottom: 6px;
 }
 
 .header-row a:hover {
@@ -118,6 +124,11 @@ p , li {
 
 .col-sm-4, .col-sm-5, .col-md-6 {
   padding: 5px;
+}
+
+.header-row .col-sm-3, .header-row .col-sm-4 {
+  display:flex; 
+  align-items: flex-end;
 }
 
 .col-lg-8 {

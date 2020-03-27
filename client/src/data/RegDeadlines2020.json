@@ -141,7 +141,7 @@
         {
             "inPerson":"Anytime", 
             "byMail":"Request a mail-in ballot by April 17, 2020", 
-            "online":"We're not sure. Check the <a href='https://kansasdems.org/2020primar'>KS Democratic Party site</a>.",
+            "online":"We're not sure. Check the <a href='https://kansasdems.org/2020primary'>KS Democratic Party site</a>.",
             "status":"https://kansasdems.org/2020primary",
             "onlineRegistration":"https://www.kdor.ks.gov/apps/voterreg/secure/default.aspx"
         },
@@ -205,7 +205,7 @@
         {
             "inPerson":"February 10, 2020", 
             "byMail":"February 10, 2020", 
-            "online":"MI doesn't offer online registration.",
+            "online":"MS doesn't offer online registration.",
             "status":"https://www.sos.ms.gov/Elections-Voting/Documents/VoterInformationGuide.pdf",
             "onlineRegistration":""
         },
@@ -214,13 +214,13 @@
         {
             "inPerson":"February 12, 2020", 
             "byMail":"February 12, 2020", 
-            "online":"MO doesn't offer online voter registration..",
+            "online":"MO doesn't offer online voter registration.",
             "status":"https://www.sos.mo.gov/elections/calendar/2020cald",
             "onlineRegistration":""
         },
 
         "Montana": {
-            "inPerson":"May 4, 2020. If you miss the deadline, you can <a href=' https://sosmt.gov/Portals/142/Elections/Documents/2018LateRegistrationLocations.pdf'>register late at one of these locations</a>.", 
+            "inPerson":"May 4, 2020. If you miss the deadline, you can register late at <a href=' https://sosmt.gov/Portals/142/Elections/Forms/electionadministrators.pdf'>your local election office</a>.", 
             "byMail":"May 4, 2020", 
             "online":"MT doesn't offer online voter registration.",
             "status":"Register late at these locations:",
@@ -576,7 +576,7 @@
         "Idaho":
         {
             "inPerson":"Anytime", 
-            "byMail":"received by October 9, 2020", 
+            "byMail":"Received by October 9, 2020", 
             "online":"October 9, 2020",
             "status":"https://sos.idaho.gov/election-calendars/",
             "onlineRegistration":"https://apps.idahovotes.gov/OnlineVoterRegistration/"
@@ -681,7 +681,7 @@
         },
 
         "Montana": {
-            "inPerson":"October 5, 2020. If you miss the deadline, you can <a href=' https://sosmt.gov/Portals/142/Elections/Documents/2018LateRegistrationLocations.pdf'>register late at one of these locations</a>.", 
+            "inPerson":"October 5, 2020. If you miss the deadline, you can register late at <a href='https://sosmt.gov/Portals/142/Elections/Forms/electionadministrators.pdf'>your local election office</a>.", 
             "byMail":"October 5, 2020", 
             "online":"MT doesn't offer online voter registration.",
             "status":"Register late at these locations: https://sosmt.gov/Portals/142/Elections/Documents/2018LateRegistrationLocations.pdf",
