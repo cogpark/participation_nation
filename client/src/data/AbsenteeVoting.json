@@ -451,39 +451,40 @@
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out <a href='https://www.elections.ny.gov/NYSBOE/download/voting/AbsenteeBallot-English.pdf'>an absentee ballot request application</a> and send it to your <a href='https://www.elections.ny.gov/CountyBoards.html'>county board of elections</a>.",
-        "mail_request_deadline": "Postmarked 5 days before the election (though you have to postmark the ballot itself by the day before, so it might be a good idea not to wait this long).",
-        "in_person_instructions":"You can vote early between 9 and 2 days before the election. Find out about<a href='https://voterlookup.elections.ny.gov/'>early vote locations online</a>, or try your <a href='https://www.elections.ny.gov/CountyBoards.html'>county board of elections</a>.",
+        "mail_request_deadline": "Postmarked 5 days before the election (though you have to postmark the ballot itself by the day before, so don't wait this long!).",
+        "in_person_instructions":"You can vote early from 9 to 2 days before the election at an <a href='https://voterlookup.elections.ny.gov/'>early vote locations</a>. You can also ask your <a href='https://www.elections.ny.gov/CountyBoards.html'>county board of elections</a> about places and times to early vote.",
         "ballot_delivery": "Postmarked the day before the election. It can also be delivered by hand by someone else on Election Day.",
-        "requirements":"<p>You don't need a reason to vote early in person. You can vote absentee by mail if you're:</p><ul><li>away from home on Election Day</li><li>ill or physically incapable of getting to the polls</li><li>caring for someone who is ill or incapable of getting to the polls</li><li>a resident or patient of the Veterans Health Administration Hospital</li> <li>incarcerated but not convincted of a felony</li></ul>",
+        "requirements":"<p>You don't need a reason to vote early in person. You can vote absentee by mail if you're:</p><ul><li>Away from home on Election Day</li><li>Ill or physically incapable of getting to the polls</li><li>Caring for someone who is ill or incapable of getting to the polls</li><li>A resident or patient of the Veterans Health Administration Hospital</li> <li>Incarcerated but not convincted of a felony</li></ul>",
         "source": "https://voterlookup.elections.ny.gov/" ,
-        "span_app": "<a href='https://www.elections.ny.gov/NYSBOE/download/voting/AbsenteeBallot-Spanish.pdf'>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href='https://www.elections.ny.gov/NYSBOE/download/voting/AbsenteeBallot-Spanish.pdf'>Solicitud para votar en ausencia</a>.",
+        "last_checked": "2020-03-27"
     },
 
     "Ohio": {
         "mail_title": "Still researching this",
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out an <a href='https://www.ohiosos.gov/publications/#abr'>absentee ballot request</a> and send it to your <a href='https://www.ohiosos.gov/elections/elections-officials/county-boards-of-elections-directory/'>county board of elections to vote early</a>.",
-        "mail_request_deadline": "3 days before the election",
-        "in_person_instructions":"As soon as voter registration is over, you can go to your <a href='https://www.ohiosos.gov/elections/elections-officials/county-boards-of-elections-directory/'>county board of elections to vote early</a>.",
+        "mail_request_deadline": "3 days before the election.",
+        "in_person_instructions":"As soon as voter registration is over (see deadlines above!), you can go to your <a href='https://www.ohiosos.gov/elections/elections-officials/county-boards-of-elections-directory/'>county board of elections to vote early</a>.",
         "ballot_delivery": "Return your ballot to your board of elections by 7:30 p.m. on Election Day or make sure it's postmarked the day before Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://www.ohiosos.gov/elections/voters/absentee-voting",
         "span_app": "",
-        "last_checked":"March 10, 2020"
+        "last_checked":"2020-03-27"
     },
 
     "Oklahoma":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "<a href='https://www.ok.gov/elections/OVP.html'>Apply to vote absentee online</a> or download <a href='ahttps://www.ok.gov/elections/documents/Oklahoma%20Absentee%20Ballot%20Application%20-%20fillable.pdf'>a ballot request form</a> and send it to your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a>. You can also just write a letter! Include your name, date of birth, address you're registered at, mailing address, election you're registering for, and signature.>",
+        "mail_instructions": "<a href='https://www.ok.gov/elections/OVP.html'>Apply online to vote absentee </a> or download <a href='https://www.ok.gov/elections/documents/Oklahoma%20Absentee%20Ballot%20Application%20-%20fillable.pdf'>a ballot request form</a> and send it to your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a>. You can also just write a letter! Include your name, date of birth, address you're registered at, mailing address, election you're registering for, and signature.",
         "mail_request_deadline": "5 p.m. on the Wednesday before the election.",
         "in_person_instructions":"You can vote early at your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a> on the Thursday and Friday before elections from 8 a.m. to 6 p.m. For state and national elections, you can also vote on Saturday from 9 a.m. to 2 p.m.",
         "ballot_delivery": "7 p.m. on Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://www.ok.gov/elections/Voter_Info/Absentee_Voting/",
         "span_app": "",
-        "last_checked":"March 11, 2020"        
+        "last_checked":"2020-03-27"        
 
     },
 
