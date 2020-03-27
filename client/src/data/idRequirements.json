@@ -395,11 +395,11 @@
 
     "Virginia":
     {
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li><li></li> <li></li><li></li> <li></li></ul>",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>You'll need to show a photo ID. You can show:</p><ul><li>Virginia's driver's license or state ID</li> <li>Passport</li> <li>Veteran's ID</li> <li>Tribal ID</li> <li>Student ID</li><li>Employee ID (that includes a photo)</li> <li>Credit card with a photograph</li> <li>Nursing home card</li><li>Other government-issued ID</li> </ul>",
+        "other_options": "If you don't have an ID, you can <a href='https://www.elections.virginia.gov/media/formswarehouse/voter-photo-id/outreach-materials/ELECT-404-ID-VoPhoIDCardApp-Long.pdf'>apply for a VA photo ID</a> from your general registrar's office.",
+        "no_id":"If you need to show ID but can't, you can vote a provisional ballot. Then, you'll be told how you can prove your identity to your local election officials.",
+        "source":"https://www.elections.virginia.gov/casting-a-ballot/in-person-voting/",
+        "last_checked":"2020-03-26"
     },
     
     "Vermont":
@@ -432,29 +432,31 @@
 
     "Wisconsin": 
     {
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li><li></li> <li></li><li></li> <li></li></ul>",
+        "at_polls":"<p>You'll be asked to show ID. You may show an ID, such as:</p><ul><li>Wisconsin driver's license or state ID (or a receipt for one from the last 45 days)</li><li>Military or veteran's ID</li> <li>Passport</li><li>Tribal ID</li> <li>Student ID that includes your signature, the date it was issued, and is less than 2 years old</li><li>Certificate of naturalization</li></ul>",
         "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, you can go back to your polling place before it closes with ID, or you can take an ID to your municipal clerk by the Friday follwoing the electon.",
+        "source":"https://myvote.wi.gov/en-us/PhotoIDRequired",
+        "last_checked":"2020-03-26"
     },
 
     "West Virginia": 
     {
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li><li></li> <li></li><li></li> <li></li></ul>",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>You'll be asked to show ID. You may show an ID, such as:</p><ul><li>Driver's license or state ID</li><li>Passport or passport card</li> <li>Military ID</li><li>Government-issued ID</li> <li>Student ID</li> <li>Concealed carry permit</li> <li>Voter reigstration card</li> <li>Medicare, medicaid, or social security card</li><li>Hunting license</li> <li>Government-issued ID (e.g. SNAP or TANF)</li> <li>Bank statement</li> <li>Utility bill that's fewer than 6 months old</li> <li>Health insurance card</li></ul>",
+        "other_options": "<p>You're also qualified to vote if:</p> <ul><li>You know a poll worker</li> <li>You live and vote in a state care facility</li> <li>Another voter vouches for you. The other voter needs to have ID and sign a statement swearing that they know you </li></ul>.",
+        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election, election officials will try to determine if your vote counts (based on the information in your provisional ballot).",
+        "source":"https://sos.wv.gov/FormSearch/Elections/Informational/VOTER%20ID%20SOCIAL%20MEDIA%20GRAPHIC.pdfx",
+        "last_checked":"2020-03-26"
     },
-
+    
     "Wyoming": 
     {
-        "at_polls":"<p></p><ul><li>Driver's license or state ID</li><li></li> <li></li><li></li> <li></li></ul>",
-        "other_options": "",
-        "no_id":"",
-        "source":"",
-        "last_checked":""
+        "at_polls":"<p>You only need to show ID if you're voting for the first time and registered by mail. You can show:</p><ul><li>Driver's license or state ID</li> <li>Passport</li> <li>Other government-issued ID</li> <li>Student ID</li> <li>Military ID</li></ul>",
+        "other_options": "<p>If you don't have a photo ID, you can show 2 of these:</p> <ul> <li>Social security card</li> <li>Birth certificate or Certification of Abroad Birth</li> <li>U.S. Draft record/li> <li>Voter registration card</li> <li>Certificate of naturalization</li> <li>Utility bill</li> <li>Bank statement</li> <li>Government check or paycheck</li> </ul>",
+        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election, election officials will try to determine if your vote counts (based on the information in your provisional ballot).",
+        "source":"http://soswy.state.wy.us/faqs.aspx?root=ELEC",
+        "last_checked":"2020-03-26"
     }
 }
-   
+
+
+
