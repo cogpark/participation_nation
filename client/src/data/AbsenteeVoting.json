@@ -499,21 +499,21 @@
         "requirements":"If for some reason you're not able to pick up your ballot, you can still <a href='https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS'>request an absentee ballot online</a>, or download the <a href='https://sos.oregon.gov/elections/Documents/SEL111.pdf'>ballot request form</a> and return it to your <a href='https://sos.oregon.gov/elections/Pages/countyofficials.aspx'>elections office</a>. ",
         "source": "https://sos.oregon.gov/voting/pages/voteinor.aspx",
         "span_app": "",
-        "last_checked": "March 16, 2020 -- just proofed"
+        "last_checked": "2020-03-27"
     },
    
     "Pennsylvania":
     {
         "mail_title": "Vote by mail",
         "in_person_title": "Vote absentee in person",
-        "mail_instructions": "<a href=''https://www.pavoterservices.pa.gov/OnlineAbsenteeApplication/#/OnlineAbsenteeBegin>Apply online </a>for an absentee ballot. You can also download an <a href='https://www.votespa.com/Register-to-Vote/Documents/PADOS_MailInApplication.pdf'>absentee ballot request form</a>, fill it out, and send it to your <a href='https://www.votespa.com/Resources/Pages/Contact-Your-Election-Officials.aspx'>county elections office</a>.",
+        "mail_instructions": "<a href='https://www.pavoterservices.pa.gov/OnlineAbsenteeApplication/#/OnlineAbsenteeBegin'>Apply online </a>for an absentee ballot. You can also download an <a href='https://www.votespa.com/Register-to-Vote/Documents/PADOS_MailInApplication.pdf'>absentee ballot request form</a>, fill it out, and send it to your <a href='https://www.votespa.com/Resources/Pages/Contact-Your-Election-Officials.aspx'>county elections office</a>.",
         "mail_request_deadline": "7 days before the election.",
         "in_person_instructions":"You can apply to vote absentee in person at your <a href='https://www.votespa.com/Resources/Pages/Contact-Your-Election-Officials.aspx'>county elections office</a>.",
         "ballot_delivery": "8 p.m. on Election Day.",
         "requirements":"<p>You can vote by mail if you're registered. You can vote absentee in person if you're:</p> <ul><li>Away for school, work, or vacation</li> <li>Physically incapable of getting the polls</li> <li>Celebrating a religious occasion that prevents you from voting on Election Day</li> <li>Incarcerated but not convicted of a felony</li></ul>",
         "source": "https://www.votespa.com/Voting-in-PA/Pages/Mail-and-Absentee-Ballot.aspx",
         "span_app": "https://www.votespa.com/Register-to-Vote/Documents/PADOS_MailInApplication_Spanish.pdf",
-        "last_checked": "March 16, 2020 -- just proofed"
+        "last_checked": "2020-03-28"
         
     },
 
@@ -521,14 +521,14 @@
     {
         "mail_title": "Vote by mail",
         "in_person_title": "Vote absentee in person",
-        "mail_instructions": "Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application</a> (it looks like RI's Secretary of State will post the right form before each election) and send it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>. <b>Note:</b>You'll send the ballot itself to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
+        "mail_instructions": "Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application</a> (RI's Secretary of State will post the right form before each election) and send it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>. <b>Note: </b>You'll send the ballot itself to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
         "mail_request_deadline": "21 days before the election.",
-        "in_person_instructions":"Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application and send/deliver it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>. Then, deliver your filled-out ballot to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
+        "in_person_instructions":"Download a <a href='https://vote.sos.ri.gov/DataInformation/Publications'>mail ballot application</a> and send/deliver it to your <a href='https://elections.ri.gov/canvassers/index.php'>Board of Canvassers</a>. Then, deliver your filled-out ballot to the <a href='https://elections.ri.gov/contact/'>Board of Elections</a>.",
         "ballot_delivery": "8 p.m. on Election Day.",
         "requirements":"None (except that you're registered)",
         "source": "https://vote.sos.ri.gov/Voter/VotebyMail",
         "span_app": "",
-        "last_checked":"March 11, 2020"
+        "last_checked":"2020-03-28"
     },
 
     "South Carolina":
@@ -539,10 +539,10 @@
         "mail_request_deadline": "4 days before the election.",
         "in_person_instructions":"Same as by mail: Fill out an <a href='https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=AbsenteeRequest'>online absentee ballot request</a> or ask your <a href='https://www.scvotes.org/how-register-absentee-voting'>county voter registration office</a> to email/send you one. Then, deliver it to your county office.",
         "ballot_delivery": "Your <a href='https://www.scvotes.org/how-register-absentee-voting'>county elections office </a> needs to receive your ballot by 7 p.m. on Election Day.",
-        "requirements":"You can vote absentee if you're: <ul><li>Living outside the county you're registered in</li> <li>Physically incapable of getting to the polls</li><li>Caring for someone who's ill or immobilized</li><li>Working on Election Day and can't get to the polls</li><li>Temporarily away (e.g. on vacation) from home on Election Day</li><li>On jury duty</li><li>Grieving a family member's passing away within 3 days of the election</li> <li>Incarcerated but not convicted</li><li>65 years old or older</li><li>Celebrating a religious occasion that prevents you from voting</li></ul>",
+        "requirements":"You can vote absentee if you're: <ul><li>Living outside the county you're registered in</li> <li>Physically incapable of getting to the polls</li><li>Caring for someone who's ill or immobilized</li><li>Working on Election Day and can't get to the polls</li><li>Temporarily away from home (e.g. on vacation)  on Election Day</li><li>On jury duty</li><li>Grieving a family member's passing away within 3 days of the election</li> <li>Incarcerated but not convicted</li><li>65 years old or older</li><li>Celebrating a religious occasion that prevents you from voting</li></ul>",
         "source": "https://www.scvotes.org/absentee-voting",
         "span_app": "",
-        "last_checked": "March 12, 2020"
+        "last_checked": "2020-03-28"
     },
 
     "South Dakota":
@@ -551,26 +551,26 @@
         "in_person_title": "Vote absentee in person",
         "mail_instructions": "Request or fill out an <a href='https://sdsos.gov/elections-voting/assets/AbsenteeBallotApplicationFillable.pdf'>absentee ballot application</a> and send it to your <a href='https://vip.sdsos.gov/CountyAuditors.aspx'>county election official</a>.",
         "mail_request_deadline": "Your <a href='https://vip.sdsos.gov/CountyAuditors.aspx'>county election official</a> must receive your application by 5 p.m. the day before the election.",
-        "in_person_instructions":"You'll <a href='https://vip.sdsos.gov/CountyAuditors.aspx'>request a ballot by mail</a> or <a href='https://sdsos.gov/elections-voting/assets/AbsenteeBallotApplicationFillable.pdf'>fill out a ballot online</a>. Then, you can deliver it to your county election official during <a href='<a href='https://sdsos.gov/elections-voting/upcoming-elections/general-information/2020-Election-Information.aspx'>'>the absentee voting period</a> (which begins about 45 days before each election).",
+        "in_person_instructions":"You'll <a href='https://vip.sdsos.gov/CountyAuditors.aspx'>request a ballot by mail</a> or <a href='https://sdsos.gov/elections-voting/assets/AbsenteeBallotApplicationFillable.pdf'>fill out a ballot online</a>. Then, you can deliver it to your county election official during <a href='<a href='https://sdsos.gov/elections-voting/upcoming-elections/general-information/2020-Election-Information.aspx'>the absentee voting period</a> (which begins about 45 days before each election).",
         "ballot_delivery": "By Election Day.",
         "requirements":"None (except that you're registered).",
         "source": "https://sdsos.gov/elections-voting/voting/absentee-voting.aspx",
         "span_app": "",
-        "last_checked": "March 12, 2020"
+        "last_checked": "2020-03-28"
     },
 
     "Tennessee":
     {
         "mail_title": "Vote early by mail (if you meet certain requirements)",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "<p>Request an mail ballot from you <a href='https://sos-tn-gov-files.s3.amazonaws.com/5%20Request%20for%20Absentee%20Ballot.pdf'>county election commission</a>. You can fill out the <a href='https://sos-tn-gov-files.s3.amazonaws.com/5%20Request%20for%20Absentee%20Ballot.pdf'>online form</a>, or you can write a letter with the following information:</p> <ul><li>Name</li><li>Address you're registered at</li><li>Your social security number</li> <li>Your date of birth</li><li>Mailing address </li><li>The election you want to vote absentee by mail in</li><li>If the election is a primary: Which political party's primary you want to participate in</li><li>Reason for voting by mail (see requirements)</li> <li>Yout signature</li></ul>",
+        "mail_instructions": "<p>Request an mail ballot from you <a href='http://tnsos.org/elections/election_commissions.php'>county election commission</a>. You can fill out the <a href='https://sos-tn-gov-files.s3.amazonaws.com/5%20Request%20for%20Absentee%20Ballot.pdf'>online form</a>, or you can write a letter with the following information:</p> <ul><li>Name</li><li>Address you're registered at</li><li>Your social security number</li> <li>Your date of birth</li><li>Mailing address </li><li>The election you want to vote absentee by mail in</li><li>If the election is a primary: Which political party's primary you want to participate in</li><li>Reason for voting by mail (see requirements)</li> <li>Yout signature</li></ul>",
         "mail_request_deadline": "7 days before the election",
-        "in_person_instructions":"Get in touch with your <a href='http://tnsos.org/elections/election_commissions.php'>county elections office</a> and find out when and where you can vote early in person. The early voting period is usually between 20 and 5 days before an election.",
+        "in_person_instructions":"Get in touch with your <a href='http://tnsos.org/elections/election_commissions.php'>county election commission</a> and find out when and where you can vote early in person. The early voting period is usually from 20 to 5 days before an election.",
         "ballot_delivery": "By the time polls close on Election Day.",
-        "requirements":"<p>You can vote by mail if you're:</p> <ul><li>Away from the county you're registered in during the early voting period and all day on election day (e.g. for school, work, etc.)</li><li>Your doctor <a href='http://sharetngov.tnsosfiles.com/sos/election/forms/ss-3023.pdf'>files a statement</a> with the county election commission at least 7 days before the election that says you're physically incapable of in-person voting</li><li>Physically incapable of getting to the polls (note: TN lists this and the previous item separately. It's not clear if they should actually be the same, or if the difference is people who are temporarily immobilized vs. always immobilized. If you think either might apply to you, check with your county election official.)<li>Caring for someone who is ill or physically incapable of getting to the polls</li><li>You live outside the county you're registered in</li><li>On jury duty</li><li>60 years old or older</li> <li>Running for office in the election</li><li>Celebrating a religious occasion that prevents you from voting in person during early voting or on Election Day</li></ul>",
-        "source": "https://sos.tn.gov/products/elections/absentee-voting and https://sos.tn.gov/products/elections/early-voting-person",
+        "requirements":"<p>You can vote by mail if you're:</p> <ul><li>Away from the county you're registered in during the early voting period and all day on Election Day (e.g. for school, work, etc.)</li><li>Your doctor <a href='http://sharetngov.tnsosfiles.com/sos/election/forms/ss-3023.pdf'>files a statement</a> with the county election commission at least 7 days before the election that says you're physically incapable of in-person voting</li><li>Physically incapable of getting to the polls (note: TN lists this and the previous item separately. It's not clear if they should actually be the same, or if the difference is people who are temporarily immobilized vs. always immobilized. If you think either might apply to you, check with your county election commission.)<li>Caring for someone who is ill or physically incapable of getting to the polls</li><li>You live outside the county you're registered in</li><li>On jury duty</li><li>60 years old or older</li> <li>Running for office in the election</li><li>Celebrating a religious occasion that prevents you from voting in person during early voting or on Election Day</li></ul>",
+        "source": "https://sos.tn.gov/products/elections/absentee-voting",
         "span_app": "",
-        "last_checked":"March 12, 2020"
+        "last_checked":"2020-03-28"
     },
     "Texas":
     {
@@ -578,11 +578,12 @@
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out <a href='https://webservices.sos.state.tx.us/forms/5-15f.pdf'>an absentee ballot request form</a> or <a href='https://webservices.sos.state.tx.us/vrrequest/bbm.asp'>complete a request online</a> and send it back to your <a href='https://www.sos.texas.gov/elections/voter/county.shtml'>county clerk or elections official</a>.",
         "mail_request_deadline": "11 days before the election.",
-        "in_person_instructions":"You can usually vote early in person between 17 and 4 days before the election. You can <a href='https://teamrv-mvp.sos.texas.gov/MVP/mvp.do'>find early voting locations on Texas's state website</a>.",
+        "in_person_instructions":"You can usually vote early in person from 17 to 4 days before the election. You can <a href='https://teamrv-mvp.sos.texas.gov/MVP/mvp.do'>find early voting locations on Texas's state website</a>.",
         "ballot_delivery": "By 7 p.m. on Election Day.",
-        "requirements":"<p>You can vote absentee by mail if you're</p> <ul><li>65 years or older</li><li>physically incapable of getting to the polls</li><li>away from home</li><li>incarcerated not convicted of a felony</li></ul> ",
+        "requirements":"<p>You can vote absentee by mail if you're</p> <ul><li>65 years or older</li><li>Physically incapable of getting to the polls</li><li>Away from home</li><li>Incarcerated not convicted of a felony</li></ul> ",
         "source": "https://www.sos.texas.gov/elections/voter/reqabbm.shtml",
-        "span_app": "<a href=''>Solicitud para votar en ausencia</a>."
+        "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
+        "last_checked":"2020-03-28"
     },
 
     "Utah":
