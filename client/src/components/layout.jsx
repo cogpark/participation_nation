@@ -4,7 +4,7 @@ import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
 //import Feedback from './feedback';
 import Picker from './picker'
 import OnlineRegistrationController from './registration/onlineRegistrationControl';
-import IdRequirementsRow from './idRequirementsRow';
+//import IdRequirementsRow from './idRequirementsRow';
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
 import IdData from '../data/idRequirements.json';
@@ -36,7 +36,7 @@ class Layout extends Component {
             onlineRegistration: 'https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action',
             datesData: RegData,
             absenteeData: AbsenteeData,
-            idData: IdData,
+            //idData: IdData,
         }
 
         this.handleSelectAState = this.handleSelectAState.bind(this);
@@ -103,14 +103,6 @@ class Layout extends Component {
                         </div>
                     </div>
 
-                    <div className='row' id="absentee-row">
-                        <div className='col'>
-                            <IdRequirementsRow
-                                selectedState={this.state.selectedState}
-                            />
-                        </div>
-                    </div>
-
                 </div> 
             </main>
         );
@@ -126,3 +118,13 @@ export default Layout;
 //    </div>
 //</div>
 // </div> 
+
+/**
+<div className='row' id="absentee-row">
+    <div className='col'>
+        <IdRequirementsRow
+            selectedState={this.state.selectedState}
+            IdData={this.state.idData}
+        />
+    </div>
+</div> */

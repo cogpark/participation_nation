@@ -1,7 +1,7 @@
 {   
     "Alaska": 
     {
-        "at_polls":"<ul><li>Voter ID card</li><li>Driver's license</li><li>State ID</li><li></li>Military ID</li> <li>U.S. passport </li>,<li>Hunting or fishing license or other current or valid photo ID</li></ul>",
+        "at_polls":"<p>You'll be asked to show ID. You can show </p>:<ul><li>Voter ID card</li><li>Driver's license</li><li>State ID</li><li></li>Military ID</li> <li>U.S. passport </li>,<li>Hunting or fishing license or other current or valid photo ID</li></ul>",
         "other_options": "<ul><li>Current utility bill</li><li>Paycheck</li><li>Government check</li><li>Bank statement</li><li>Other government issued document</li></ul>",
         "no_id":"<p>If you don't have an ID or a document thay proves your current address, you can still vote a question ballot. Then, a review board will decide if your vote counts</p>.",
         "source":"http://www.elections.alaska.gov/Core/votingatthepollsonelectionday.php",
@@ -10,7 +10,7 @@
     
     "Alabama": 
     {
-        "at_polls":"Photo ID, such as a driver's license, state ID, passport, tribal ID, or student ID from an Alabama school.",
+        "at_polls":"<p>You'll be asked to show ID. You can show: </p><ul><li>Driver's license or state ID</li> <li>Passport</li> <li>Tribal ID</li> <li>Student ID from an Alabama school</li>",
         "other_options": "If you don't have a voter ID, you can apply for one. <a href='https://www.sos.alabama.gov/sites/default/files/voter-pdfs/candidate-resources/ApplicationForFreeALPhotoVoterIdCard.pdf'>Fill out an application</a> and send it to the <a href='https://www.sos.alabama.gov/'>Secretary of State</a>.",
         "no_id":"If you don't have an ID, you can vote a <a href='https://www.sos.alabama.gov/sites/default/files/voter-pdfs/ProvisionalInstructionBooklet.pdf'>provisional ballot</a>.",
         "source":"https://www.sos.alabama.gov/alabama-votes/voter/voter-id",
@@ -148,7 +148,7 @@
     {
         "at_polls":"<p>You need to show ID (unless your polling place's officer knows you). You can show:</p><ul><li>Driver's license or state ID</li> <li>Credit card with a photo and signature</li> <li>Social security card</li> <li>ID issued by state or federal government</li></ul>",
         "other_options": "You can also show another form of ID that has your photo and your signature.",
-        "no_id":"If you don't have ID, you can still vote a <a href='https://vrsws.sos.ky.gov/provweb/Default.aspx'>provisional ballot</a>. Then, contact your<a href='http://elect.ky.gov/countyclerks.htm'>county clerk</a> to find out what you need to do to make sure your vote is counted.",
+        "no_id":"If you don't have ID, you can still vote a <a href='https://vrsws.sos.ky.gov/provweb/Default.aspx'>provisional ballot</a>. Then, contact your <a href='http://elect.ky.gov/countyclerks.htm'>county clerk</a> to find out what you need to do to make sure your vote is counted.",
         "source":"https://elect.ky.gov/Frequently-Asked-Questions/Pages/Election-Day-Information.aspx",
         "last_checked":"2020-03-21"
     },   

@@ -30,7 +30,6 @@ function AbsenteeEarlyVotingRow(props) {
                     cardTitle={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'in_person_title')}
                     passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'in_person_instructions')}
                     />  
-                    
                 </div>
             </div>
             <br />
@@ -58,7 +57,7 @@ function AbsenteeEarlyVotingRow(props) {
             </div>
             </div>
             <br />
-            <h3>LEARN MORE</h3> 
+            <h3>Learn more</h3> 
             <div className='row' style={{ paddingBottom: '10px' }}>
                 <div className='col-sm-6'>
                      <a className="btn btn-secondary btn-lg btn-block" href={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'source')}>Learn more about voting early/absentee in <b>{props.selectedState}</b>.</a>

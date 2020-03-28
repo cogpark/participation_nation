@@ -7,6 +7,7 @@ function IdRequirementsRow(props) {
         <React.Fragment>
             <div>
                 <h2>Voter ID requirements</h2>
+                <p style= {{ fontStyle: "italic" }}>Last updated: {lookupIDInfo(props.IdData, props.selectedState, 'last_checked')}</p>
             </div>
             <div className='row'>
                 <div className='col-md-8'>
@@ -17,12 +18,31 @@ function IdRequirementsRow(props) {
             <hr />
 
             <div className='row' id='at-the-polls'>
-                <div className='col-md-8'>
+                <div className='col-sm-8'>
                     <Scorecard 
-                     cardTitle= "ID requirements at the polls"
-                     passJson = ''
-                    
+                     cardTitle= {formScorecardTitle(props.selectedState)}
+                     passJson = {lookupIDInfo(props.IdData, props.selectedState, 'at_polls')}
                     />
+                </div>
+                <div className='col-sm-4'>
+                    <Scorecard
+                    cardTitle= "Other ID options"
+                    passJson = {lookupIDInfo(props.IdData, props.selectedState, 'other_options')}
+                    />
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-sm-8'>
+                    <Scorecard 
+                     cardTitle= "Can't show ID?"
+                     passJson = {lookupIDInfo(props.IdData, props.selectedState, 'no_id')}
+                    />
+                </div>
+            </div>
+            <h3>LEARN MORE</h3> 
+            <div className='row' style={{ paddingBottom: '10px' }}>
+                <div className='col-sm-6'>  
+                     <a style={{ fontSize:"18px"}}className="btn btn-secondary btn-lg btn-block" href={lookupIDInfo(props.IdData, props.selectedState,'source')}>Get more info about voter ID requirements in <b>{props.selectedState}</b>.</a>
                 </div>
             </div>
         </React.Fragment>
@@ -31,6 +51,10 @@ function IdRequirementsRow(props) {
 
 export default IdRequirementsRow;
 
-function lookupAbsenteeInfo(data, state, attribute ) {
+function lookupIDInfo(data, state, attribute ) {
     return data[state][attribute]
+}
+
+function formScorecardTitle(state) {
+    return "Voter ID requirements in " + state
 }
