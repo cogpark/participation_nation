@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import RegistrationDeadlinesRow from './registrationDeadlinesRow';
+import RegistrationDeadlinesRow from './registration/registrationDeadlinesRow';
 import AbsenteeEarlyVotingRow from './absenteeEarlyRow';
 //import Feedback from './feedback';
 import Picker from './picker'
-import OnlineRegistrationController from './onlineRegistrationControl';
+import OnlineRegistrationController from './registration/onlineRegistrationControl';
+import IdRequirementsRow from './idRequirementsRow';
 import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
+import IdData from '../data/idRequirements.json';
 import history from './history';
 //import { ReactComponent } from '*.svg';
 
@@ -34,6 +36,7 @@ class Layout extends Component {
             onlineRegistration: 'https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action',
             datesData: RegData,
             absenteeData: AbsenteeData,
+            idData: IdData,
         }
 
         this.handleSelectAState = this.handleSelectAState.bind(this);
@@ -84,21 +87,30 @@ class Layout extends Component {
                     </div>
                     <div className="row padded-down">
                         <div className="col-sm-5">
-                        <OnlineRegistrationController 
-                        selectedState = {this.state.selectedState}
-                        onlineRegistration = {this.state.onlineRegistration}/>
+                            <OnlineRegistrationController 
+                            selectedState = {this.state.selectedState}
+                            selectedElection={this.state.selectedElection}
+                            onlineRegistration = {this.state.onlineRegistration}/>
+                            </div>
+                    </div>
+
+                    <div className='row padded-down' id="absentee-row">
+                        <div className='col'>
+                            <AbsenteeEarlyVotingRow 
+                            selectedState={this.state.selectedState}
+                            absenteeData={this.state.absenteeData}
+                            />
                         </div>
                     </div>
 
                     <div className='row' id="absentee-row">
                         <div className='col'>
-                            <AbsenteeEarlyVotingRow 
-                            selectedState={this.state.selectedState}
-                            selectedElection={this.state.selectedElection}
-                            absenteeData={this.state.absenteeData}
+                            <IdRequirementsRow
+                                selectedState={this.state.selectedState}
                             />
                         </div>
                     </div>
+
                 </div> 
             </main>
         );

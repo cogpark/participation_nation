@@ -7,10 +7,8 @@ function AbsenteeEarlyVotingRow(props) {
             <div>
                 <h2>Early & absentee voting</h2>
                 <div className='row' style={{ paddingBottom: '10px'}}>
-
                     <div className='col-md-8'>
-
-                        <p style={{borderLeft:"2px solid #8C0813", paddingLeft:"20px"}}>In most states, you can vote before Election Day. Sometimes this is called "early" voting, and sometimes
+                        <p className='explainer'>In most states, you can vote before Election Day. Sometimes this is called "early" voting, and sometimes
                         it's "absentee." Early means the state counts your vote before the election, absentee means they count it after.
                         Some states also require an excuse to vote before Election Day.</p>
                     </div>
@@ -43,7 +41,6 @@ function AbsenteeEarlyVotingRow(props) {
                     cardTitle={"Deadline: Mail ballot requests"}
                     passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'mail_request_deadline')}
                     
-                   
                 />
                 </div>
                 <div className='col-sm-4'>
