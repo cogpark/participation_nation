@@ -27,7 +27,7 @@ class Layout extends Component {
         'Wyoming'];
 
         this.electionTypes = ['General', 'Democratic Primary'];
-        this.methods = 
+
         this.state = {
             selectedState: 'Hawaii',
             selectedElection: 'general',
