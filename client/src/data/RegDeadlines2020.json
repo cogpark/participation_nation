@@ -274,7 +274,7 @@
         "New York":
         {
             "inPerson":"April 3, 2020", 
-            "byMail": "received by April 8, 2020", 
+            "byMail": "Received by April 8, 2020", 
             "online":"April 3, 2020",
             "status":"https://www.elections.ny.gov/NYSBOE/law/2020PresidentialPrimaryCalendar.pdf",
             "onlineRegistration":"https://voterreg.dmv.ny.gov/MotorVoter/"
@@ -775,7 +775,7 @@
         {
             "inPerson":"October 12, 2020", 
             "byMail":"October 12, 2020", 
-            "online":"Oklahoma doesn't offer online registration--but they're working on it",
+            "online":"Oklahoma doesn't offer online registration--but they're working on it!",
             "status":"",
             "notes": "24 days before the election",
             "onlineRegistration":""
