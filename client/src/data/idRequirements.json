@@ -1,11 +1,11 @@
 {   
     "Alaska": 
     {
-        "at_polls":"<p>You'll be asked to show ID. You can show </p>:<ul><li>Voter ID card</li><li>Driver's license</li><li>State ID</li><li></li>Military ID</li> <li>U.S. passport </li>,<li>Hunting or fishing license or other current or valid photo ID</li></ul>",
+        "at_polls":"<p>You'll be asked to show ID. You can show: </p><ul><li>Voter ID card</li><li>Driver's license or state ID</li><li>Military ID</li> <li>U.S. passport </li><li>Hunting or fishing license or other current or valid photo ID</li></ul>",
         "other_options": "<ul><li>Current utility bill</li><li>Paycheck</li><li>Government check</li><li>Bank statement</li><li>Other government issued document</li></ul>",
-        "no_id":"<p>If you don't have an ID or a document thay proves your current address, you can still vote a question ballot. Then, a review board will decide if your vote counts</p>.",
+        "no_id":"<p>If you don't have an ID or a document that proves your current address, you can still vote a \"questioned\" ballot. Then, a review board will decide if your vote counts</p>.",
         "source":"http://www.elections.alaska.gov/Core/votingatthepollsonelectionday.php",
-        "last_checked":"2020-03-15"
+        "last_checked":"2020-03-29"
     },
     
     "Alabama": 

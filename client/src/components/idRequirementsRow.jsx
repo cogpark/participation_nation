@@ -7,7 +7,6 @@ function IdRequirementsRow(props) {
         <React.Fragment>
             <div>
                 <h2>Voter ID requirements</h2>
-                <p style= {{ fontStyle: "italic" }}>Last updated: {lookupIDInfo(props.IdData, props.selectedState, 'last_checked')}</p>
             </div>
             <div className='row'>
                 <div className='col-md-8'>
@@ -16,7 +15,12 @@ function IdRequirementsRow(props) {
                 </div>
             </div>
             <hr />
-
+            <div className='row'>
+                <div className='col-md-8'>
+                <p style= {{ fontStyle: "italic" }}> {props.selectedState} info last updated: {lookupIDInfo(props.IdData, props.selectedState, 'last_checked')}</p>
+                </div>
+            </div>
+      
             <div className='row' id='at-the-polls'>
                 <div className='col-sm-8'>
                     <Scorecard 
