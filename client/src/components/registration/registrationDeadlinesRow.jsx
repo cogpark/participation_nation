@@ -1,5 +1,5 @@
 import React from "react";
-import Scorecard from './scorecard';
+import Scorecard from '../scorecard';
 
 
 function RegistrationDeadlinesRow(props) { 
@@ -7,7 +7,6 @@ function RegistrationDeadlinesRow(props) {
         <React.Fragment >
             <h2>Registration deadlines</h2>
             <hr />
-            
             <div className="row">
                 <div className="col-sm-4"><Scorecard
                         passJson = {lookupDates(props.datesData, props.selectedElection, props.selectedState,'inPerson')}

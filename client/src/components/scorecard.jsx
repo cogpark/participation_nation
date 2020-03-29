@@ -10,7 +10,7 @@ function Scorecard(props) {
     return (
         <div className="card">
             <div className="card-header">
-                <h5>{props.cardTitle}</h5>
+                <h4>{props.cardTitle}</h4>
             </div>
             <div className="card-body">
                 <p dangerouslySetInnerHTML={{ __html: props.passJson}}></p>
