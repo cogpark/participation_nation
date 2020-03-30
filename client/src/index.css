@@ -126,7 +126,7 @@ p , li {
   padding: 5px;
 }
 
-.header-row .col-sm-3, .header-row .col-sm-4 {
+.header-row [class*='col-']  {
   display:flex; 
   align-items: flex-end;
 }
