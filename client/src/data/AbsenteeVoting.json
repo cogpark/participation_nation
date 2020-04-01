@@ -348,7 +348,7 @@
         "last_checked": "2020-03-23"
     },
 
-    "North Carolina":
+    "NorthCarolina":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "One-stop in-person early voting",
@@ -362,7 +362,7 @@
         "last_checked": "2020-03-25"
     },
 
-    "North Dakota":
+    "NorthDakota":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
@@ -376,7 +376,7 @@
         "last_checked":"2020-03-25"
     },
 
-    "New Hampshire": 
+    "NewHampshire": 
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote absentee in person",
@@ -404,7 +404,7 @@
         "last_checked": "2020-03-26"
     },
 
-    "New Jersey":
+    "NewJersey":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
@@ -418,7 +418,7 @@
         "last_checked":"2020-03-26"
     },
 
-    "New Mexico":
+    "NewMexico":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
@@ -446,7 +446,7 @@
         "last_checked":"2020-03-26"
     },
     
-    "New York":
+    "NewYork":
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote early in person",
@@ -517,7 +517,7 @@
         
     },
 
-    "Rhode Island":
+    "RhodeIsland":
     {
         "mail_title": "Vote by mail",
         "in_person_title": "Vote absentee in person",
@@ -531,7 +531,7 @@
         "last_checked":"2020-03-28"
     },
 
-    "South Carolina":
+    "SouthCarolina":
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote absentee in person",
@@ -545,7 +545,7 @@
         "last_checked": "2020-03-28"
     },
 
-    "South Dakota":
+    "SouthDakota":
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote absentee in person",
@@ -642,7 +642,7 @@
         "last_checked":"2020-03-18"
     },
 
-    "Washington, D.C.": 
+    "WashingtonDC": 
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
@@ -670,7 +670,7 @@
         "last_checked":"2020-03-16"
     },
 
-    "West Virginia": 
+    "WestVirginia": 
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote early in person",

@@ -226,7 +226,7 @@
         "last_checked":"2020-03-30"
     },
 
-    "North Carolina":
+    "NorthCarolina":
     {
         "at_polls":"<p>There's an ongoing legal battle about if North Carolina constituents need to show a photo ID. At the time we're writing this (March 2020), you don't--though you will have to prove your residency if you're registering at the polls. You can show one of these as long as it has your name & address: </p> <ul><li>North Carolina driver's license or state ID</li> <li>Other government ID</li> <li>Utility bill</li> <li>Bank statement</li> <li>Paycheck or government check</li> <li>Student ID and proof that you live on campus</li></ul> ",
         "other_options": "",
@@ -235,7 +235,7 @@
         "last_checked":"2020-03-30"
     },
 
-    "North Dakota":
+    "NorthDakota":
     {
         "at_polls":"<p>You'll be asked to show an ID that lists your name, address, and birthdate. You can show:</p><ul><li>Driver's license or state ID</li><li>Tribal ID</li><li>ID from a long term care facility</li></ul>",
         "other_options": "<p>If the main items are missing a your address or birthdate, you can supplement them with:</p><ul><li>Utility bill</li> <li>Government- or tribal-issued check or document</li><li>Paycheck</li><li>Credit card or bank statement</li> </ul>",
@@ -244,7 +244,7 @@
         "last_checked":"2020-03-30"
     },
 
-    "New Hampshire": {
+    "NewHampshire": {
         "at_polls":"<p>You'll be asked to show ID at the polls. You can show:</p><ul><li>Driver's license or state ID (from any state or from the federal government)</li><li>Military ID</li> <li>Passport</li> <li>Student ID from a school in New Hampshire</li> </ul>",
         "other_options": "Your <a href=https://app.sos.nh.gov/Public/ClerkDetails.aspx'>town clerk</a> may allow for other forms of ID.",
         "no_id":"If you can't show ID, you can fill out a \"challenged voter affadavit,\" or a sworn statement that you are who you say you are. The clerk will take your picture & attach it to your statement. (They have to delete the photo from the camera after this.)",
@@ -262,7 +262,7 @@
 
 
 
-    "New Jersey":
+    "NewJersey":
     {
         "at_polls":"<p>You only need to show ID if you didn't when you registered. If that's the case, you can show: </p><ul><li>Driver's license or state ID</li><li>Military ID</li> <li>Student or employee ID</li> <li>Passport</li><li>Utility bill</li> <li>Bank or credit card statement</li> <li>Car registration</li> <li>Government check or paycheck</li> <li>Lease, rent receipt, or mortgage</li></ul>",
         "other_options": "Any other document that lists your name and address.",
@@ -272,7 +272,7 @@
     },
 
 
-    "New Mexico":
+    "NewMexico":
     {
         "at_polls":"<p>You only need voter ID for federal and state elections* if you didn't when you registered. You can show:</p><ul><li>A photo ID, such as a driver's license or state ID</li><li>Utility bill</li><li>Bank or credit card statement</li> <li>Government check</li> <li>Paycheck</li> <li>Student ID</li><li>Tribal ID</li> <li>Any government document that lists your name and address</li></ul> <p>*Some New Mexico cities (e.g. Albuquerque) ask for ID at city elections. </p>",
         "other_options": "",
@@ -291,7 +291,7 @@
         "last_checked":"2020-03-30"
     },
 
-    "New York":
+    "NewYork":
     {
         "at_polls":"<p>You don't need an ID unless you didn't verify your identity when you registered. If that's the case, you can show:</p><ul><li>Driver's license or state ID</li><li>Utility bill</li> <li>Bank statement</li> <li>Government check or paycheck</li> <li>Other government document that shows your name and address</li></ul>",
         "other_options": "",
@@ -337,7 +337,7 @@
         "last_checked":"2020-03-31"
     },
 
-    "Rhode Island":
+    "RhodeIsland":
     {
         "at_polls":"<p>You'll need to show ID, such as:</p><ul><li>Driver's license or state ID</li> <li>Other government-issued ID</li> <li>Voter ID card</li> <li>Passport</li> <li>Student ID</li> <li>Military ID</li> <li>Medical card (e.g. Medicaid or Medicare)</li> </ul>",
         "other_options": "You can get a free voter ID from the <a href='https://vote.sos.ri.gov/'>Secretary of State</a>.",
@@ -346,7 +346,7 @@
         "last_checked":"2020-03-31"
     },
 
-    "South Carolina":
+    "SouthCarolina":
     {
         "at_polls":"<p>You'll be asked to show ID. You can show:</p><ul><li>Driver's license or state ID</li> <li>Voter registration card</li> <li>Military ID</li> <li>Passport</li> </ul>",
         "other_options": "You can get a free photo ID from your county voter registration and elections office.",
@@ -355,7 +355,7 @@
         "last_checked":"2020-03-31"
     },
 
-    "South Dakota":
+    "SouthDakota":
     {
         "at_polls":"<p>You'll be asked to show ID. You can show:</p><ul><li>Driver's license or state ID</li><li>Government-issued ID (such as a passport)</li><li>Military ID</li> <li>Student ID</li> <li>Tribal ID</li></ul>",
         "other_options": "",
@@ -419,7 +419,7 @@
         "last_checked":"2020-03-31"
     },
 
-    "Washington, D.C.": 
+    "WashingtonDC": 
     {
         "at_polls":"<p>You don't need an ID to vote, but if you are registering in person at the polls, you'll need to bring something that lists your address, such as: </p><ul><li>Government-issued ID (such as a driver's license)</li> <li>Utility bill from the last 3 months</li> <li>Government check or paycheck from the last 3 months</li> <li>Bank or credit card statement from the last 3 months</li> <li>Lease</li><li>Tuition bill from a D.C. college from this term</li><li>Occupancy statement from a DC homeless shelter from the last 3 months</li></ul>",
         "other_options": "",
@@ -439,7 +439,7 @@
         "last_checked":"2020-03-31"
     },
 
-    "West Virginia": 
+    "WestVirginia": 
     {
         "at_polls":"<p>You'll be asked to show ID, such as:</p><ul><li>Driver's license or state ID</li><li>Passport or passport card</li> <li>Military ID</li><li>Other government-issued ID (e.g. SNAP or TANF)</li> <li>Student ID</li> <li>Concealed carry permit</li> <li>Voter reigstration card</li> <li>Medicare, medicaid, or social security card</li><li>Hunting license</li>  <li>Bank statement</li> <li>Utility bill that's fewer than 6 months old</li> <li>Health insurance card</li></ul>",
         "other_options": "<p>You're also qualified to vote if:</p> <ul><li>You know a poll worker</li> <li>You live and vote in a state care facility</li> <li>Another voter vouches for you. The other voter needs to have ID and sign a statement swearing that they know you </li></ul>.",
