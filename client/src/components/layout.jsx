@@ -102,7 +102,7 @@ class Layout extends Component {
                             />
                         </div>
                     </div>
-                    <div className='row' id="absentee-row">
+                    <div className='row' id="id-requirements-row">
                         <div className='col'>
                             <IdRequirementsRow
                                 selectedState={this.state.selectedState}
