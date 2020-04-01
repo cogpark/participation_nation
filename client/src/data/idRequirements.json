@@ -302,32 +302,30 @@
 
     "Ohio": 
     {
-        "at_polls":"<p>At the polls, you'll announce your name and address, and show a document with your name and addess. You can show one of these (as long as it has your name & address):</p><ul><li>Driver's license or state ID</li> <li>Military ID</li> <li>A government-issued ID</li> <li>Utility bill</li> <li>Bank statement</li> <li>Paycheck or government check</li> <li>Other government document that shows your name & address</li></ul>",
+        "at_polls":"<p>At the polls, you'll announce your name and address, and show a document that also lists your name and addess. You can show one of these:</p><ul><li>Driver's license or state ID</li> <li>Military ID</li> <li>A government-issued ID</li> <li>Utility bill</li> <li>Bank statement</li> <li>Paycheck or government check</li> <li>Other government document that shows your name & address</li></ul>",
         "other_options": "",
         "no_id":"If you can't show ID, you can still vote a provisional ballot. You'll be asked for a piece of identifying information, such as the last 4 digits of your social security number, and the board of elections will try to verify that you are who you say you are.",
         "source":"https://www.sos.state.oh.us/elections/voters/id-requirements/#gref",
-        "last_checked":"2020-03-25"
+        "last_checked":"2020-03-31"
     },
-
-
 
 
     "Oklahoma":
     {
-        "at_polls":"<p>You'll be asked to show ID at the polls. You need to show a document that isn't expired and that includes your name and photo.</p>",
+        "at_polls":"<p>You'll be asked to show ID at the polls. You need to show a document that isn't expired and that includes your name and photo, such as:</p><ul><li>State ID or driver's license</li><li>Passport</li><li>Utility bill</li><li>Paycheck or government check</li></ul>",
         "other_options": "",
         "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election, your County Election Board will try to figure out if your vote should count.",
         "source":"https://www.ok.gov/elections/Voter_Info/Proof_of_Identity/",
-        "last_checked":"2020-03-25"       
+        "last_checked":"2020-03-31"       
     },
 
     "Oregon":
     {
-        "at_polls":"<p>If you're alread registered, you don't need to show ID. However, if you didn't provide an ID when you registered, you'll need to show one. You can show: </p><ul><li>Driver's license or state ID</li><li>Other photo ID</li> <li>Paycheck</li> <li>Utility bill</li> <li>Bank statement</li> <li>Government document</li></ul>",
+        "at_polls":"<p>If you're already registered, you don't need to show ID. However, if you didn't provide an ID when you registered, you'll need to show one. You can show: </p><ul><li>Driver's license or state ID</li><li>Other photo ID</li> <li>Paycheck</li> <li>Utility bill</li> <li>Bank statement</li> <li>Government document</li></ul>",
         "other_options": "You may also be able to provide the last 4 digits of your social security number.",
         "no_id":"If you can't show ID, you can still vote a <a href='https://sos.oregon.gov/elections/Documents/SEL113.pdf'>provisional ballot</a>. Then, election officials will try to determine if your vote should count.",
         "source":"https://sos.oregon.gov/voting/Pages/registration.aspx",
-        "last_checked":"2020-03-25"
+        "last_checked":"2020-03-31"
     },
    
     "Pennsylvania":
@@ -336,16 +334,16 @@
         "other_options": "",
         "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, your County Election Office will decide if your vote should count (based on the info you provide in your provisional ballot).",
         "source":"https://www.dos.pa.gov/VotingElections/OtherServicesEvents/Documents/Voter%20ID%20Guidance%20FINAL.pdf",
-        "last_checked":"2020-03-25"
+        "last_checked":"2020-03-31"
     },
 
     "Rhode Island":
     {
-        "at_polls":"<p>You'll need to show ID, such as:</p><ul><li>Driver's license or state ID</li> <li>Other government-issued ID</li> <li>Voter ID card</li> <li>Passport</li> <li>Student ID</li> <li>Military ID</li> <li>Medical card (e.g. Medicaid or Medicare</li> </ul>",
+        "at_polls":"<p>You'll need to show ID, such as:</p><ul><li>Driver's license or state ID</li> <li>Other government-issued ID</li> <li>Voter ID card</li> <li>Passport</li> <li>Student ID</li> <li>Military ID</li> <li>Medical card (e.g. Medicaid or Medicare)</li> </ul>",
         "other_options": "You can get a free voter ID from the <a href='https://vote.sos.ri.gov/'>Secretary of State</a>.",
         "no_id":"If you can't show ID, you can vote a <a href='https://elections.ri.gov/voting/provisional.php'>provisional ballot</a>. Then, after the election, your local Board of Canvassers will try to figure out if your vote should count.",
         "source":"https://elections.ri.gov/voting/id.php",
-        "last_checked":"2020-03-25"
+        "last_checked":"2020-03-31"
     },
 
     "South Carolina":
@@ -354,16 +352,16 @@
         "other_options": "You can get a free photo ID from your county voter registration and elections office.",
         "no_id":"If you can't show ID, you can vote a provisional ballot. Then, you have a couple of days to prove your identity. Ask for more details at your polling place.",
         "source":"https://www.scvotes.org/node/235",
-        "last_checked":"2020-03-25"
+        "last_checked":"2020-03-31"
     },
 
     "South Dakota":
     {
-        "at_polls":"<p>You'll be asked to show ID. You can show:</p><ul><li>Driver's license or state ID</li>Government-issued ID (such as a passport)</li> <li>Military ID</li> <li>Student ID</li> <li>Tribal ID</li></ul>",
+        "at_polls":"<p>You'll be asked to show ID. You can show:</p><ul><li>Driver's license or state ID</li><li>Government-issued ID (such as a passport)</li><li>Military ID</li> <li>Student ID</li> <li>Tribal ID</li></ul>",
         "other_options": "",
         "no_id":"If you don't have ID, you can sign a statement swearing to your identity, and then you can vote.",
         "source":"https://sdsos.gov/elections-voting/voting/default.aspx",
-        "last_checked":"2020-03-25"
+        "last_checked":"2020-03-31"
     },
 
     "Tennessee":
@@ -372,34 +370,34 @@
         "other_options": "<p>If your ID is expired, you can still show it, but you'll need to also provide one of these:</p><ul><li>Utility bill</li> <li>Bank statement</li> <li>Government check or paycheck</li> <li>Another document that shows your name and address</li> <p>You can also get a <a href='https://www.tn.gov/safety/driver-services/photoids.html'>free voter ID</a> from the TN Department of Safety and Homeland Security.",
         "no_id":"If you can't show ID, you can vote a provisional ballot. Then, you'll have 2 days to prove your identity to the election commission.",
         "source":"https://sos.tn.gov/products/elections/what-id-required-when-voting",
-        "last_checked":"2020-03-25"
+        "last_checked":"2020-03-31"
     },
 
     "Texas":
     {
-        "at_polls":"<p>You'll be asked to show a photo  ID. You can show:</p></p><ul><li>Driver's license or state ID</li><li>Texas Election Certificate</li <li>Handgun license </li> <li>Military ID</li> <li>Citizenship certificate</li> <li>Passport</li></ul>",
-        "other_options": "<p>You may also sign a statement giving a reason that you can't get a photo ID, as well as showing one of these:</p><ul><li>Government document that shows your name and address</li> <li>Utility bill</li> <li>Bank statement</li> <li>Government check or paycheck</li><li>Birth certificate</li></ul>",
+        "at_polls":"<p>You'll be asked to show a photo  ID. You can show:</p><ul><li>Driver's license or state ID</li><li>Texas Election Certificate</li> <li>Handgun license </li> <li>Military ID</li> <li>Citizenship certificate</li> <li>Passport</li></ul>",
+        "other_options": "<p>You may also sign a statement giving a reason that you can't get a photo ID, as well as show one of these:</p><ul><li>Government document that shows your name and address</li> <li>Utility bill</li> <li>Bank statement</li> <li>Government check or paycheck</li><li>Birth certificate</li></ul>",
         "no_id":"If you can't show ID, you can vote a provisional ballot. Then, after the election, the voting board will figure out if your ballot counts.",
         "source":"https://www.sos.state.tx.us/elections/forms/id/poster-11x17-aw-voter.pdf",
-        "last_checked":"2020-03-26"
+        "last_checked":"2020-03-31"
     },
 
     "Utah":
     {
-        "at_polls":"<p>You'll be asked to show ID. You may show a photo ID such as:</p><ul><li>Driver's license or state ID</li><li>Concealed carry permit</li> <li>Passport</li><li>Tribal ID (with or without a photo)</li></ul>",
-        "other_options": "<p>If you can't show a photo ID, you can also provide 2 of the following::</p><ul><li>Utility bill from sometime in the last 3 months</li><li>Bank or credit card statement</li> <li>Employer,government, or student ID</li> <li>Birth certificate</li><li>Social security card</li> <li>Government-issued check</li> <li>Hunting or fishing license</li> <li>Military ID</li> <li>Naturalization papers</li> <li>Adoption or name change paperwork</li> <li>Bureau of Indian Affairs card</li> <li>Medicaid, Medicare, or EBT card</li><li>Vehicle registration</li></ul>",
+        "at_polls":"<p>You'll be asked to show a photo ID, such as:</p><ul><li>Driver's license or state ID</li><li>Concealed carry permit</li> <li>Passport</li><li>Tribal ID (with or without a photo)</li></ul><p>If you can't show a photo ID, you can also provide 2 of the following:</p><ul><li>Utility bill from sometime in the last 3 months</li><li>Bank or credit card statement</li> <li>Employer,government, or student ID</li> <li>Birth certificate</li><li>Social security card</li> <li>Government-issued check</li> <li>Hunting or fishing license</li> <li>Military ID</li> <li>Naturalization papers</li> <li>Adoption or name change paperwork</li> <li>Bureau of Indian Affairs card</li> <li>Medicaid, Medicare, or EBT card</li><li>Vehicle registration</li></ul>",
+        "other_options": "",
         "no_id":"If you can't show ID, you can vote a provisional ballot. Then, after the election, the Election Division will try to determine if your vote counts (based on the information in your provisional ballot).",
         "source":"https://voteinfo.utah.gov/voter-id-requirements/",
-        "last_checked":"2020-03-26"
+        "last_checked":"2020-03-31"
     },
 
     "Virginia":
     {
-        "at_polls":"<p>You'll need to show a photo ID. You can show:</p><ul><li>Virginia's driver's license or state ID</li> <li>Passport</li> <li>Veteran's ID</li> <li>Tribal ID</li> <li>Student ID</li><li>Employee ID (that includes a photo)</li> <li>Credit card with a photograph</li> <li>Nursing home card</li><li>Other government-issued ID</li> </ul>",
+        "at_polls":"<p>You'll need to show a photo ID. You can show:</p><ul><li>Virginia's driver's license or state ID</li> <li>Passport</li> <li>Veteran's ID</li> <li>Tribal ID</li> <li>Student ID</li><li>Employee ID</li> <li>Credit card/li> <li>Nursing home card</li><li>Other government-issued ID</li> </ul>",
         "other_options": "If you don't have an ID, you can <a href='https://www.elections.virginia.gov/media/formswarehouse/voter-photo-id/outreach-materials/ELECT-404-ID-VoPhoIDCardApp-Long.pdf'>apply for a VA photo ID</a> from your general registrar's office.",
-        "no_id":"If you need to show ID but can't, you can vote a provisional ballot. Then, you'll be told how you can prove your identity to your local election officials.",
+        "no_id":"If you need to show ID but can't, you can vote a provisional ballot instead. Then, you'll be told how you can prove your identity to your local election officials.",
         "source":"https://www.elections.virginia.gov/casting-a-ballot/in-person-voting/",
-        "last_checked":"2020-03-26"
+        "last_checked":"2020-03-31"
     },
     
     "Vermont":
@@ -408,26 +406,26 @@
         "other_options": "",
         "no_id":"If you need to show ID but can't, you can vote a provisional ballot. Then, after the election, election officials will try to determine if your vote counts (based on the information in your provisional ballot).",
         "source":"https://sos.vermont.gov/elections/voters/voter-faqs/election-day-faqs/#q3",
-        "last_checked":""
+        "last_checked":"2020-03-31"
     },
 
     
     "Washington":
     {
-        "at_polls":"<p>If you're voting in person, you'll be asked for ID. You can show:</p><ul><li>Washington driver's license or state ID</li> <li>Student ID</li> <li>Tribal ID</li><li>Employee ID card</li> <li></li></ul>",
+        "at_polls":"<p>If you're voting in person, you'll be asked for ID. You may show:</p><ul><li>Washington driver's license or state ID</li> <li>Student ID</li> <li>Tribal ID</li><li>Employee ID card</li></ul>",
         "other_options": "",
         "no_id":"If you don't have an ID, you'll vote a provisional ballot and include your signature. Then, election officials will match your signature to your registration, and decide if your vote counts.",
         "source":"https://app.leg.wa.gov/rcw/default.aspx?cite=29A.40.160",
-        "last_checked":"2020-03-27"
+        "last_checked":"2020-03-31"
     },
 
     "Washington, D.C.": 
     {
-        "at_polls":"<p>You don't need an ID to vote, but if you are registering in person at the polls, you'll need to bring something that lists your address, such as: </p><ul><li>Government-issued ID (such as a driver's license)</li> <li>Utility bill from the last 3 months</li> <li>Government check or paycheck from the last 3 months</li> <li>Bank or credit card statement from the last 3 months</li> <li><Lease</li><li>Tuition bill from a D.C. college from this term</li><li>Occupancy statement from a DC homeless shelter from the last 3 months</li></ul>",
+        "at_polls":"<p>You don't need an ID to vote, but if you are registering in person at the polls, you'll need to bring something that lists your address, such as: </p><ul><li>Government-issued ID (such as a driver's license)</li> <li>Utility bill from the last 3 months</li> <li>Government check or paycheck from the last 3 months</li> <li>Bank or credit card statement from the last 3 months</li> <li>Lease</li><li>Tuition bill from a D.C. college from this term</li><li>Occupancy statement from a DC homeless shelter from the last 3 months</li></ul>",
         "other_options": "",
         "no_id":"If you can't show ID, you're still able to vote a \"Special Ballot.\" Then, after the election, the Board of Electons will decide if your vote should count.",
         "source":"https://www.vote4dc.com/Home/IDRequirements",
-        "last_checked":"2020-03-27"
+        "last_checked":"2020-03-31"
     },
 
 
@@ -438,25 +436,25 @@
         "other_options": "",
         "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, you can go back to your polling place before it closes with ID, or you can take an ID to your municipal clerk by the Friday follwoing the electon.",
         "source":"https://myvote.wi.gov/en-us/PhotoIDRequired",
-        "last_checked":"2020-03-26"
+        "last_checked":"2020-03-31"
     },
 
     "West Virginia": 
     {
-        "at_polls":"<p>You'll be asked to show ID. You may show an ID, such as:</p><ul><li>Driver's license or state ID</li><li>Passport or passport card</li> <li>Military ID</li><li>Government-issued ID</li> <li>Student ID</li> <li>Concealed carry permit</li> <li>Voter reigstration card</li> <li>Medicare, medicaid, or social security card</li><li>Hunting license</li> <li>Government-issued ID (e.g. SNAP or TANF)</li> <li>Bank statement</li> <li>Utility bill that's fewer than 6 months old</li> <li>Health insurance card</li></ul>",
+        "at_polls":"<p>You'll be asked to show ID, such as:</p><ul><li>Driver's license or state ID</li><li>Passport or passport card</li> <li>Military ID</li><li>Other government-issued ID (e.g. SNAP or TANF)</li> <li>Student ID</li> <li>Concealed carry permit</li> <li>Voter reigstration card</li> <li>Medicare, medicaid, or social security card</li><li>Hunting license</li>  <li>Bank statement</li> <li>Utility bill that's fewer than 6 months old</li> <li>Health insurance card</li></ul>",
         "other_options": "<p>You're also qualified to vote if:</p> <ul><li>You know a poll worker</li> <li>You live and vote in a state care facility</li> <li>Another voter vouches for you. The other voter needs to have ID and sign a statement swearing that they know you </li></ul>.",
         "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election, election officials will try to determine if your vote counts (based on the information in your provisional ballot).",
-        "source":"https://sos.wv.gov/FormSearch/Elections/Informational/VOTER%20ID%20SOCIAL%20MEDIA%20GRAPHIC.pdfx",
-        "last_checked":"2020-03-26"
+        "source":"https://sos.wv.gov/news/Pages/09-21-2018-A.aspx",
+        "last_checked":"2020-03-31"
     },
     
     "Wyoming": 
     {
         "at_polls":"<p>You only need to show ID if you're voting for the first time and registered by mail. You can show:</p><ul><li>Driver's license or state ID</li> <li>Passport</li> <li>Other government-issued ID</li> <li>Student ID</li> <li>Military ID</li></ul>",
-        "other_options": "<p>If you don't have a photo ID, you can show 2 of these:</p> <ul> <li>Social security card</li> <li>Birth certificate or Certification of Abroad Birth</li> <li>U.S. Draft record/li> <li>Voter registration card</li> <li>Certificate of naturalization</li> <li>Utility bill</li> <li>Bank statement</li> <li>Government check or paycheck</li> </ul>",
+        "other_options": "<p>If you don't have a photo ID, you can show 2 of these:</p> <ul> <li>Social security card</li> <li>Birth certificate or Certification of Abroad Birth</li> <li>U.S. Draft record</li> <li>Voter registration card</li> <li>Certificate of naturalization</li> <li>Utility bill</li> <li>Bank statement</li> <li>Government check or paycheck</li> </ul>",
         "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election, election officials will try to determine if your vote counts (based on the information in your provisional ballot).",
         "source":"http://soswy.state.wy.us/faqs.aspx?root=ELEC",
-        "last_checked":"2020-03-26"
+        "last_checked":"2020-03-31"
     }
 }
 
