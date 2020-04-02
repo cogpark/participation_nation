@@ -31,52 +31,37 @@ class Layout extends Component {
         this.electionTypes = ['General', 'Democratic Primary'];
 
         this.state = {
-            selectedState: 'Hawaii',
-            stateNameCleaned:"",
-            selectedElection: 'general',
-            onlineRegistration: 'https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action',
+            
             datesData: RegData,
             absenteeData: AbsenteeData,
             idData: IdData,
+            selectedState: props.selectedState,
+            selectedElection: props.selectedElection,
+            onlineRegistration: RegData[props.selectedElection][props.selectedState]['onlineRegistration'],
+            
         }
 
         this.handleSelectAState = this.handleSelectAState.bind(this);
         this.handleSelectElectionType = this.handleSelectElectionType.bind(this);
     } 
 
-    componentDidMount(props) {
-        this.setState({selectedState: this.props.selectedState})
-    }
      
     handleSelectAState(event, election) {
         this.setState({ selectedState: event.target.value,
                         onlineRegistration: RegData[election][event.target.value]['onlineRegistration'],
-                        stateNameCleaned: this.cleanupStateNames(event.target.value) });
-        var fixElectionName = (election === "general") ? "general" : "democratic_primary"
-        var url = "?election=" + fixElectionName + '&state=' + event.target.value.replace(/\s+|\.|,/g,"");
+                         });
+        var url = encodeURI("?election=" + election + '&state=' + event.target.value);
+        console.log(url)
         history.push(url)
         }
 
     handleSelectElectionType(event) {
-        this.setState({ selectedElection: event.target.value });
-        var election = (event.target.value === "General") ? "general" : "democratic_primary"
-        var url =  "?election=" + election + '&state=' + this.state.selectedState.replace(/\s+|\.|,/g,"");
+        this.setState({ selectedElection: event.target.value.toLowerCase()});
+        var url =  encodeURI("?election=" + event.target.value + '&state=' + this.state.selectedState);
+        console.log(url)
         history.push(url) 
     }
 
-    cleanupStateNames(value) {
-        if (value==="WashingtonDC") {
-            return 'Washington, D.C.'; 
-        } else if (value.replace(/[^A-Z]/g,"").length > 1) {
-            for (var i=1; i < value.length; i++) {
-                if (value[i] === value[i].toUpperCase()) {
-                    return [value.slice(0,i), ' ',value.slice(i)].join('')
-                }
-            }    
-        } else {
-            return value
-        }
-    }
 
     render() {
         return ( 
@@ -97,8 +82,7 @@ class Layout extends Component {
                         <div className="col">
                             <RegistrationDeadlinesRow 
                             selectedState={this.state.selectedState}
-                            stateNameCleaned={this.state.stateNameCleaned}
-                            selectedElection={this.state.selectedElection}
+                            selectedElection={this.state.selectedElection.toLowerCase()}
                             datesData={this.state.datesData} />
                         </div>
                     </div>
@@ -106,7 +90,6 @@ class Layout extends Component {
                         <div className="col-sm-5">
                             <OnlineRegistrationController 
                             selectedState = {this.state.selectedState}
-                            stateNameCleanede={this.state.stateNameCleaned}
                             selectedElection={this.state.selectedElection}
                             onlineRegistration = {this.state.onlineRegistration}/>
                             </div>
@@ -117,7 +100,6 @@ class Layout extends Component {
                             <AbsenteeEarlyVotingRow 
                             selectedState={this.state.selectedState}
                             absenteeData={this.state.absenteeData}
-                            stateNameCleaned={this.state.stateNameCleaned}
                             />
                         </div>
                     </div>
@@ -125,7 +107,6 @@ class Layout extends Component {
                         <div className='col'>
                             <IdRequirementsRow
                                 selectedState={this.state.selectedState}
-                                stateNameCleaned={this.state.stateNameCleaned}
                                 IdData={this.state.idData}/>
                          </div>
                     </div> 

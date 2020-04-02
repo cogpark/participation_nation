@@ -348,7 +348,7 @@
         "last_checked": "2020-03-23"
     },
 
-    "NorthCarolina":
+    "North Carolina":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "One-stop in-person early voting",
@@ -362,7 +362,7 @@
         "last_checked": "2020-03-25"
     },
 
-    "NorthDakota":
+    "North Dakota":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
@@ -376,7 +376,7 @@
         "last_checked":"2020-03-25"
     },
 
-    "NewHampshire": 
+    "New Hampshire": 
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote absentee in person",
@@ -404,7 +404,7 @@
         "last_checked": "2020-03-26"
     },
 
-    "NewJersey":
+    "New Jersey":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
@@ -418,7 +418,7 @@
         "last_checked":"2020-03-26"
     },
 
-    "NewMexico":
+    "New Mexico":
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
@@ -517,7 +517,7 @@
         
     },
 
-    "RhodeIsland":
+    "Rhode Island":
     {
         "mail_title": "Vote by mail",
         "in_person_title": "Vote absentee in person",
@@ -531,7 +531,7 @@
         "last_checked":"2020-03-28"
     },
 
-    "SouthCarolina":
+    "South Carolina":
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote absentee in person",
@@ -545,7 +545,7 @@
         "last_checked": "2020-03-28"
     },
 
-    "SouthDakota":
+    "South Dakota":
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote absentee in person",
@@ -642,7 +642,7 @@
         "last_checked":"2020-03-18"
     },
 
-    "WashingtonDC": 
+    "Washington, D.C.": 
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
@@ -670,7 +670,7 @@
         "last_checked":"2020-03-16"
     },
 
-    "WestVirginia": 
+    "West Virginia": 
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote early in person",

@@ -236,7 +236,7 @@
             "onlineRegistration":"https://www.nebraska.gov/apps-sos-voter-registration/"
         },
 
-        "NewJersey":
+        "New Jersey":
         {
             "inPerson":"May 12, 2020", 
             "byMail":"May 12, 2020", 
@@ -245,7 +245,7 @@
             "onlineRegistration":""
         },
 
-        "NewMexico":
+        "New Mexico":
         {
             "inPerson":"May 5, 2020", 
             "byMail":"May 5, 2020", 
@@ -254,7 +254,7 @@
             "onlineRegistration":"https://portal.sos.state.nm.us/ovr/webpages/instructionsstep1.aspx"
         },
         
-        "NewHampshire": {
+        "New Hampshire": {
             "inPerson":"Check with <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your county clerk</a> to learn when the last day to register is in your county. You can also register and vote on election day.", 
             "byMail":"Check with <a href='http://sosuat.nh.gov/VoteInforLook.aspx'>your county clerk</a> to learn when the last day to register is in your county.", 
             "online":"NH doesn't offer online voter registration.",
@@ -271,7 +271,7 @@
             "onlineRegistration":"https://www.nvsos.gov/SOSVoterServices/Registration/Step0.aspx"
         },
         
-        "NewYork":
+        "New York":
         {
             "inPerson":"April 3, 2020", 
             "byMail": "Received by April 8, 2020", 
@@ -280,7 +280,7 @@
             "onlineRegistration":"https://voterreg.dmv.ny.gov/MotorVoter/"
         },
 
-        "NorthCarolina":
+        "North Carolina":
         {
             "inPerson":"Anytime.", 
             "byMail":"February 7", 
@@ -290,7 +290,7 @@
             "onlineRegistration":"" 
         },
 
-        "NorthDakota": {
+        "North Dakota": {
             "inPerson":"You don't need to register to vote in North Dakota.", 
             "byMail":"", 
             "online":"",
@@ -337,7 +337,7 @@
             "onlineRegistration":"https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx"
         },
 
-        "RhodeIsland": 
+        "Rhode Island": 
         {
             "inPerson":"March 29, 2020", 
             "byMail":"March 29, 2020", 
@@ -346,7 +346,7 @@
             "onlineRegistration":"https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1"
         },
 
-        "SouthCarolina": 
+        "South Carolina": 
         {
             "inPerson":"January 30, 2020", 
             "byMail":"January 30, 2020", 
@@ -356,7 +356,7 @@
             "onlineRegistration":"https://info.scvotes.sc.gov/eng/ovr/start.aspx"
         },
 
-        "SouthDakota": 
+        "South Dakota": 
         {
             "inPerson":"May 18, 2020", 
             "byMail":"May 18, 2020", 
@@ -423,7 +423,7 @@
             "onlineRegistration":"https://voter.votewa.gov/WhereToVote.aspx"
         },
 
-        "WashingtonD.C.": 
+        "Washington, D.C.": 
         {
             "inPerson":"Anytime", 
             "byMail":"May 12, 2020", 
@@ -441,7 +441,7 @@
             "onlineRegistration":"https://myvote.wi.gov/en-US/RegisterToVote"
         },
 
-        "WestVirginia": 
+        "West Virginia": 
         {
             "inPerson":"April 21, 2020", 
             "byMail":"April 21, 2020", 
@@ -696,7 +696,7 @@
             "onlineRegistration":""
         },
 
-        "NorthCarolina":
+        "North Carolina":
         {
             "inPerson":"Anytime", 
             "byMail":"October 9, 2020", 
@@ -706,7 +706,7 @@
             "onlineRegistration":""
         },
 
-        "NorthDakota":
+        "North Dakota":
         {
             "inPerson":"North Dakota doesn't require voter registration.", 
             "byMail":"", 
@@ -725,7 +725,7 @@
             "onlineRegistration":"https://www.nebraska.gov/apps-sos-voter-registration/"
         },
 
-        "NewJersey":
+        "New Jersey":
         {
             "inPerson":"October 13, 2020", 
             "byMail":"October 13, 2020", 
@@ -734,7 +734,7 @@
             "onlineRegistration":""
         },
 
-        "NewMexico":
+        "New Mexico":
         {
             "inPerson":"October 6, 2020", 
             "byMail":"October 6, 2020", 
@@ -752,7 +752,7 @@
             "onlineRegistration":"https://www.nvsos.gov/SOSVoterServices/Registration/Step0.aspx"
         },
         
-        "NewYork":
+        "New York":
         {
             "inPerson":"October 9, 2020", 
             "byMail":"Received by October 14, 2020", 
@@ -801,7 +801,7 @@
             "onlineRegistration":"https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx"
         },
 
-        "RhodeIsland": 
+        "Rhode Island": 
         {
             "inPerson":"October 4, 2020", 
             "byMail":"October 4, 2020", 
@@ -810,7 +810,7 @@
             "onlineRegistration":"https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1"
         },
 
-        "SouthCarolina": 
+        "South Carolina": 
         {
             "inPerson":"October 4, 2020", 
             "byMail":"October 4, 2020", 
@@ -820,7 +820,7 @@
             "onlineRegistration":"https://info.scvotes.sc.gov/eng/ovr/start.aspx"
         },
 
-        "SouthDakota": 
+        "South Dakota": 
         {
             "inPerson":"October 19, 2020", 
             "byMail":"October 19, 2020", 
@@ -886,7 +886,7 @@
             "onlineRegistration":"https://voter.votewa.gov/WhereToVote.aspx"
         },
 
-        "WashingtonDC": 
+        "Washington, D.C.": 
      {
             "inPerson":"Anytime", 
             "byMail":"October 13, 2020", 
@@ -904,7 +904,7 @@
             "onlineRegistration":"https://myvote.wi.gov/en-US/RegisterToVote"
         },
 
-        "WestVirginia": 
+        "West Virginia": 
         {
             "inPerson":"October 13, 2020", 
             "byMail":"October 13, 2020", 
