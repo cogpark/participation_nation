@@ -31,36 +31,37 @@ class Layout extends Component {
         this.electionTypes = ['General', 'Democratic Primary'];
 
         this.state = {
-            selectedState: 'Hawaii',
-            selectedElection: 'general',
-            onlineRegistration: 'https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action',
+            
             datesData: RegData,
             absenteeData: AbsenteeData,
             idData: IdData,
+            selectedState: props.selectedState,
+            selectedElection: props.selectedElection,
+            onlineRegistration: RegData[props.selectedElection][props.selectedState]['onlineRegistration'],
+            
         }
 
         this.handleSelectAState = this.handleSelectAState.bind(this);
         this.handleSelectElectionType = this.handleSelectElectionType.bind(this);
     } 
 
-    componentDidMount(props) {
-        this.setState({selectedState: this.props.selectedState})
-    }
      
     handleSelectAState(event, election) {
         this.setState({ selectedState: event.target.value,
-                        onlineRegistration: RegData[election][event.target.value]['onlineRegistration']});
-        var fixElectionName = (election === "general") ? "general" : "democratic_primary"
-        var url = "?election=" + fixElectionName + '&state=' + event.target.value
+                        onlineRegistration: RegData[election][event.target.value]['onlineRegistration'],
+                         });
+        var url = encodeURI("?election=" + election + '&state=' + event.target.value);
+        console.log(url)
         history.push(url)
         }
 
     handleSelectElectionType(event) {
-        this.setState({ selectedElection: event.target.value });
-        var election = (event.target.value === "General") ? "general" : "democratic_primary"
-        var url =  "?election=" + election + '&state=' + this.state.selectedState
+        this.setState({ selectedElection: event.target.value.toLowerCase()});
+        var url =  encodeURI("?election=" + event.target.value + '&state=' + this.state.selectedState);
+        console.log(url)
         history.push(url) 
     }
+
 
     render() {
         return ( 
@@ -81,7 +82,7 @@ class Layout extends Component {
                         <div className="col">
                             <RegistrationDeadlinesRow 
                             selectedState={this.state.selectedState}
-                            selectedElection={this.state.selectedElection}
+                            selectedElection={this.state.selectedElection.toLowerCase()}
                             datesData={this.state.datesData} />
                         </div>
                     </div>

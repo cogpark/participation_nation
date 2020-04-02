@@ -60,7 +60,7 @@ function AbsenteeEarlyVotingRow(props) {
             <h3>Learn more</h3> 
             <div className='row' style={{ paddingBottom: '10px' }}>
                 <div className='col-sm-6'>
-                     <a className="btn btn-secondary btn-lg btn-block" href={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'source')}>Learn more about voting early/absentee in <b>{props.selectedState}</b>.</a>
+                     <a className="btn btn-secondary btn-lg btn-block" href={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'source')}>Learn more about voting early/absentee in <b>{props.selectedState}</b></a>
                 </div>
             </div>
     </React.Fragment>
