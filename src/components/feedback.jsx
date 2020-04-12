@@ -51,7 +51,7 @@ class Feedback extends React.Component {
 		
 	console.log(data);
 
-	fetch('/api/feedback', {
+	fetch('/.netlify/functions/feedback', {
 	    method: 'POST',
 	    headers: {
 		'Content-Type': 'application/json', 
