@@ -28,7 +28,7 @@ class Layout extends Component {
         'Virginia','Washington', 'Washington, D.C.','West Virginia','Wisconsin',
         'Wyoming'];
 
-        this.electionTypes = ['General', 'Democratic Primary'];
+        this.electionTypes = ['General'];
 
         this.state = {
             
