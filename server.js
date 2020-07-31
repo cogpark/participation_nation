@@ -1,21 +1,24 @@
 // initial imports
 const express = require('express');
+const app = express();
 const mongoose = require('mongoose');
 const path = require('path');
 var Request = require("request");
-const bodyParser = require('body-parser');
-
 
 //for md
 const showdown = require('showdown');
+const fs = require('fs')
 
 converter = new showdown.Converter();
 converter.setOption('simplifiedAutoLink', 'true');
 
-const app = express();
-const Feedback = require('./models/feedback.js');
-const Deadline = require('./models/deadline.js');
-const Absentee = require('./models/absentee.js');
+
+//const Feedback = require('./models/feedback.js');
+//const Deadline = require('./models/deadline.js');
+//const Absentee = require('./models/absentee.js');
+
+
+const { text } = require('express');
 // use dotenv if not on heroku
 if (! process.env.NODE_ENV === 'production')
     require('dotenv').config();
@@ -25,53 +28,34 @@ app.use(express.urlencoded({extended: true}));
 
 //showdown stuff
 // Start of markdown
-var textToConvert = `Heading
-=======
-## Sub-heading
- 
-Paragraphs are separated
-by a blank line.
- 
-Two spaces at the end of a line  
-produces a line break.
- 
-Text attributes _italic_, 
-**bold**, 'monospace'.
-A [link](http://example.com).
-Horizontal rule:`;
- 
-// End of markdown
- 
-// End of markdown
-app.post("/convert", function(req, res, next) {
-    if(typeof req.body.content == 'undefined' || req.body.content == null) {
-        res.json(["error", "No data found"]);
-    } else {
-        text = req.body.content;
-        html = converter.makeHtml(text);
-        res.json(["markdown", html]);
-    }
-});
+var textToConvert = `# hello, markdown!
+* list
+* list
+* item
+`
 
-Request.post({
-    "headers": { "content-type": "application/json" },
-    "url": "http://localhost:5000/convert",
-    "body": JSON.stringify({
-        "content": textToConvert,
+async function convertMarkdown(filename) {
+    const md = fs.readFileSync(path.join(__dirname+filename+'.md'),'utf8')
+    html = converter.makeHtml(md)
+    console.log('async func called')
+    return html
+}
+
+
+
+app.get('/billofrights', async function (req, res) {
+    const data = await convertMarkdown('/billofrights');
+    res.send(data)
     })
-}, function(error, response, body){
-    console.log("Body: ", body)
-    // If we got any connection error, bail out.
-    if(error) {
-        return console.log(error);
-    }
-    // Else display the converted text
-    console.dir(JSON.parse(body));
-});
+
+  app.get('/allamendments', async function (req, res) {
+    const data = await convertMarkdown('/allamendments');
+    res.send(data)
+  })
 
 
 // MongoDB stuff
-// connect mongoDB
+/* connect mongoDB
 var mongoIsConnected = false;
 console.log('Connecting to mongoDB...');
 mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASS+'@cluster0-bfrfd.mongodb.net/test?retryWrites=true&w=majority', { 
@@ -83,9 +67,7 @@ mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASS+'@
 }).catch(err => {
     console.log('no mongodb conection: ', err);
 });
-
-
-// middleware -- no longer need body-parser
+*/
 
 
 
