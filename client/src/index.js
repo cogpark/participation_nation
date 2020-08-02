@@ -8,7 +8,7 @@ import {
     Route
 } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
-import CivicLitRenderer from './components/civicLitRenderer'
+import CivicLitRenderer from './components/civicLitRenderer';
 
 ReactDOM.render(
     <Router>
@@ -24,6 +24,12 @@ ReactDOM.render(
         </Route>
         <Route path="/amendments-eleven-to-twenty-seven">
             <CivicLitRenderer url = {'AllAmendments'}/>
+        </Route>
+        <Route path="/whats-a-liberal">
+            <CivicLitRenderer url = {'WhatsALiberal'}/>
+        </Route>
+        <Route path="/whats-a-conservative">
+            <CivicLitRenderer url = {'WhatsAConservative'}/>
         </Route>
         </div>
     </Router>, 
