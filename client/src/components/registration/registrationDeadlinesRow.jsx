@@ -5,7 +5,11 @@ import Scorecard from '../scorecard';
 function RegistrationDeadlinesRow(props) { 
     return (
         <React.Fragment >
-            <h2>Registration deadlines</h2>
+            <div className="row">
+                <div className="col-sm-10">
+                    <h2>Registration deadlines</h2>
+                </div>
+            </div>
             <hr />
             <div className="row">
                 <div className="col-sm-4"><Scorecard
