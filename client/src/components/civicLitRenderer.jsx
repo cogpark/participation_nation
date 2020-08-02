@@ -1,6 +1,5 @@
 import React from 'react';
 import BillOfRights from './blogs/billofrights.jsx';
-import ReactMarkdown from 'react-markdown';
 import AllAmendments from './blogs/allamendments';
 
 

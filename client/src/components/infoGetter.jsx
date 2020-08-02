@@ -67,7 +67,6 @@ class InfoGetter extends Component {
     render() {
         return (        
             <main> 
-                <InfoGetterHeaderDesktop/>
                 <div className="row">
                     <div className="col-sm-4">
                         <p>SELECT A STATE:</p>
@@ -77,8 +76,8 @@ class InfoGetter extends Component {
                         <p>SELECT AN ELECTION:</p>
                         <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} name="election selector" />
                     </div>
-                </div>
-                <br />
+                </div>  
+                <InfoGetterHeaderDesktop/>   
                 <div className="row" id="registration-row">
                     <div className="col">
                         <RegistrationDeadlinesRow 

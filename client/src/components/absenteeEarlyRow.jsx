@@ -4,10 +4,12 @@ import Scorecard from './scorecard';
 function AbsenteeEarlyVotingRow(props) {
     return (
         <React.Fragment>
-            <div>
-                <h2>Early & absentee voting</h2>
+            <div className='row'>
+                <div className='col-sm-10'>
+                    <h2>Early & absentee voting</h2>
+                </div>
                 <div className='row' style={{ paddingBottom: '10px'}}>
-                    <div className='col-md-8'>
+                    <div className='col-sm-8'>
                         <p className='explainer'>In most states, you can vote before Election Day. Sometimes this is called "early" voting, and sometimes
                         it's "absentee." Early means the state counts your vote before the election, absentee means they count it after.
                         Some states also require an excuse to vote before Election Day.</p>
@@ -15,17 +17,20 @@ function AbsenteeEarlyVotingRow(props) {
                 </div>
                 <hr />
             </div>
-
-            <h3>Instructions</h3> 
+            <div className='row'>
+                <div className='col-sm-8'>
+                    <h3>Instructions</h3>
+                </div>
+            </div> 
             <div className='row' style={{ paddingBottom: '10px'}}>
 
-                <div className='col-md-6'>
+                <div className='col-sm-6'>
                     <Scorecard 
                     cardTitle={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'mail_title')}
                     passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'mail_instructions')}
                     />
                 </div>
-                <div className='col-md-6'>
+                <div className='col-sm-6'>
                     <Scorecard 
                     cardTitle={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'in_person_title')}
                     passJson={lookupAbsenteeInfo(props.absenteeData, props.selectedState,'in_person_instructions')}
