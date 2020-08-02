@@ -1,9 +1,11 @@
+// currently, this is just an extra layer between index and infoGetter --> might not be required
+
 import React from 'react';
-import Layout from './layout';
- 
+import InfoGetter from './infoGetter';
+
 
 function App() {
-
+    
     let query;
 
     if (window.location.search.length === 0) {
@@ -18,10 +20,9 @@ function App() {
         console.log(query.state, ' ', query.election)
     }
 
-    
     return (
         <React.Fragment>
-            <Layout
+            <InfoGetter
                 selectedState = {query.state}
                 selectedElection = {query.election.toLowerCase()}/> 
         </React.Fragment>
@@ -42,4 +43,6 @@ function parseSearch(url) {
     console.log(query.election)
     return(query)
 }
+
+
 export default App;

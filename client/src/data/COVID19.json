@@ -1,40 +1,29 @@
 {   
     "Alaska": 
     {
-        "1": "If you have health concerns, you should vote by mail.",
+        "1": "Fear of contracting or spreading coronavirus is a good reason to vote by mail.",
         "2": "Only voters over 65 years old will automatically be sent a vote by mail application"
     },
     
     "Alabama": 
     {
-"
+        "1": "Fear of contracting or spreading coronavirus is a good reason to vote by mail."
     },
     
     "Arkansas":
     {  
-        "at_polls":"<p>You'll need to prove registration with an Arkansas or federal government ID that shows your name & photo, such as:</p><ul><li>Arkansas driver's license or state ID</li> <li>Passport</li> <li>Student ID</li> <li>Military ID</li></ul>",
-        "other_options": "",
-        "no_id":"If you don't have an ID, you can vote a provisional ballot. This means that you'll have until the first Monday after the election to show an ID or document that has your name, a photo of you, is issued by either Arkansas or federal government, and expired fewer than 4 years ago.",
-        "source":"https://www.sos.arkansas.gov/elections/voter-information/voter-registration-information",
-        "last_checked":"2020-03-29"
+        "1": "Fear of contracting or spreading coronavirus is a good reason to vote by mail."
     },
 
     "Arizona": 
     {
-        "at_polls":"<p>You'll be asked to show ID. You can show:</p> <ul><li>Arizona driver's license or state ID</li><li>Tribal ID</li><li>Other federal- or Arizona-issued photo ID</li>",
-        "other_options": "<p>If you don't have a photo ID, you can also bring 2 of the following:</p><ul><li>Utility bill from the last 90 days</li><li>Bank or credit union statement</li><li>AZ vehicle registration or insurance card</li><li>Property tax statement</li><li>Tribal card</li><li>Recorder's Certificate</li><li>Government-issued ID</li><li>\"Official Election\" mail</li></ul>",
-        "no_id":"If you don't have ID, you can still vote a provisional ballot. Then, you'll have 7 days to show an ID at your polling place so that your vote can be counted.",
-        "source":"https://azsos.gov/elections/voting-election",
-        "last_checked":"2020-03-29"
+        "1":"If you're afraid of contracting or spreading coronavirus, use Arizona's mail-in and early voting services."
+     
     },
 
     "California": 
     {
-        "at_polls":"<p>You only need to show ID if you're voting for the first time by mail & you didn't provide a driver's license number or social security number when you registered. If that's the case, you can show a photo ID such as:</p><ul><li>Driver's license or state ID</li> <li>Passport</li> <li>Student ID</li> <li>Health club membership</li> <li>Public housing card</li></ul>",
-        "other_options": "<p>If you don't have a photo ID, you can show 2 documents that include your name and address, such as:</p><ul><li>Utility bill</li><li>Lease</li><li>Paycheck or government check</li><li>Vehicle registration</li></ul>",
-        "no_id":"If you have to show an ID but can't, you can vote a provisional ballot. Then, your ballot will be counted counted after election officials verify that you're eligible to vote.",
-        "source":"https://www.sos.ca.gov/elections/voting-resources/voting-california/what-bring/",
-        "last_checked":"2020-03-29"
+        "1":"If you're afraid of contracting or spreading coronavirus, use Arizona's mail-in and early voting services."
     },
 
     "Colorado": 

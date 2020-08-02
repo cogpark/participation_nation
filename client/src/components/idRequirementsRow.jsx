@@ -5,18 +5,20 @@ import Scorecard from './scorecard'
 function IdRequirementsRow(props) {
     return (
         <React.Fragment>
-            <div>
-                <h2 id='id-requirements-row'>Voter ID requirements</h2>
+            <div className='row'>
+                <div className='col-sm-10'>
+                    <h2 id='id-requirements-row'>Voter ID requirements</h2>
+                </div>
             </div>
             <div className='row'>
-                <div className='col-md-8'>
+                <div className='col-sm-8'>
                     <p className='explainer'>Most states require some form of ID at the polls. 
                     </p>
                 </div>
             </div>
             <hr />
             <div className='row'>
-                <div className='col-md-8'>
+                <div className='col-sm-8'>
                 <p style= {{ fontStyle: "italic" }}> {props.selectedState} info last updated: {lookupIDInfo(props.IdData, props.selectedState, 'last_checked')}</p>
                 </div>
             </div>

@@ -9,10 +9,11 @@ import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
 import IdData from '../data/idRequirements.json';
 import history from './history';
+import InfoGetterHeaderDesktop from './nav/infoGetterHeaderDesktop';
 //import { ReactComponent } from '*.svg';
 
 
-class Layout extends Component { 
+class InfoGetter extends Component { 
     constructor(props) {
         super(props)
         
@@ -64,59 +65,57 @@ class Layout extends Component {
 
 
     render() {
-        return ( 
+        return (        
             <main> 
-                <div className="container" >
-                    <div className="row">
-                        <div className="col-sm-4">
-                            <p>SELECT A STATE:</p>
-                            <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} name="state selector"/>
-                        </div>
-                        <div className="col-sm-4">
-                            <p>SELECT AN ELECTION:</p>
-                            <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} name="election selector" />
-                        </div>
+                <div className="row">
+                    <div className="col-sm-4">
+                        <p>SELECT A STATE:</p>
+                        <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} name="state selector"/>
                     </div>
-                    <br />
-                    <div className="row" id="registration-row">
-                        <div className="col">
-                            <RegistrationDeadlinesRow 
-                            selectedState={this.state.selectedState}
-                            selectedElection={this.state.selectedElection.toLowerCase()}
-                            datesData={this.state.datesData} />
-                        </div>
+                    <div className="col-sm-4">
+                        <p>SELECT AN ELECTION:</p>
+                        <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} name="election selector" />
                     </div>
-                    <div className="row padded-down">
-                        <div className="col-sm-5">
-                            <OnlineRegistrationController 
-                            selectedState = {this.state.selectedState}
-                            selectedElection={this.state.selectedElection}
-                            onlineRegistration = {this.state.onlineRegistration}/>
-                            </div>
+                </div>  
+                <InfoGetterHeaderDesktop/>   
+                <div className="row" id="registration-row">
+                    <div className="col">
+                        <RegistrationDeadlinesRow 
+                        selectedState={this.state.selectedState}
+                        selectedElection={this.state.selectedElection.toLowerCase()}
+                        datesData={this.state.datesData} />
                     </div>
-
-                    <div className='row padded-down' id="absentee-row">
-                        <div className='col'>
-                            <AbsenteeEarlyVotingRow 
-                            selectedState={this.state.selectedState}
-                            absenteeData={this.state.absenteeData}
-                            />
-                        </div>
-                    </div>
-                    <div className='row' id="id-requirements-row">
-                        <div className='col'>
-                            <IdRequirementsRow
-                                selectedState={this.state.selectedState}
-                                IdData={this.state.idData}/>
-                         </div>
-                    </div> 
                 </div>
+                <div className="row padded-down">
+                    <div className="col-sm-5">
+                        <OnlineRegistrationController 
+                        selectedState = {this.state.selectedState}
+                        selectedElection={this.state.selectedElection}
+                        onlineRegistration = {this.state.onlineRegistration}/>
+                        </div>
+                </div>
+
+                <div className='row padded-down' id="absentee-row">
+                    <div className='col'>
+                        <AbsenteeEarlyVotingRow 
+                        selectedState={this.state.selectedState}
+                        absenteeData={this.state.absenteeData}
+                        />
+                    </div>
+                </div>
+                <div className='row' id="id-requirements-row">
+                    <div className='col'>
+                        <IdRequirementsRow
+                            selectedState={this.state.selectedState}
+                            IdData={this.state.idData}/>
+                    </div>
+                </div> 
             </main>
         );
     }
 }
 
-export default Layout;
+export default InfoGetter;
 
 //<div className="container" >
 //<div className="row">
