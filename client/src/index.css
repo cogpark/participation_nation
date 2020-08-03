@@ -119,6 +119,11 @@ p , li {
   margin-right:10px;
 }
 
+.btn.btn-secondary:hover {
+  background-color: #8C0813;
+
+}
+
 .form-control, .form-control * {
   font-size: 18px;
 }
