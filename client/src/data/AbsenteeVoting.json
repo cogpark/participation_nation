@@ -168,7 +168,7 @@
 
     "Idaho":
     {
-        "mail_title": "Vote early mail",
+        "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out <a href='https://sos.idaho.gov/elect/clerk/forms/2020_Primary_Absentee_Request_Fillable.pdf'>this absentee ballot application</a> and send it to <a href='https://idahovotes.gov/county-clerks/'>your county clerk</a>.",
         "mail_request_deadline": "11 days before the election.",

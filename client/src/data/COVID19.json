@@ -55,74 +55,44 @@
    
     "Hawaii":
     {
-        "at_polls":"<p>If you're voting in person at a Voter Service Center, you should take an ID with you. Acceptable IDs include:</p><ul><li>State driver's license or ID</li> <li>U.S. passport</li> <li>Utility bill, bank statement, paycheck, or other document that shows your name and address</li> </ul>",
-        "other_options": "If you don't have ID, you might be asked for other information that would confirm your identity and registration status.",
-        "no_id":"If for some reason you can't prove your identity, you can still vote a provisional ballot. Then, you have 2 days to prove your identity to your local Clerk's Office.",
-        "source":"https://www.honolulu.gov/elections/voter-info.html",
-        "last_checked":"2020-03-30"
+        "1":"If you're afraid of contracting or spreading coronavirus, you should bote by mail."
     },
 
     "Iowa":
     {
-        "at_polls":"<p>Take a photo ID to the polls. You can show:</p><ul> <li>Iowa driver's license or state ID</li> </li> <li>Military or veteran's ID</li> <li>U.S. passport</li> <li>Tribal ID</li><li>Voter ID card</li></ul>",
-        "other_options": "<p>The <a href='https://sos.iowa.gov/elections/voterinformation/voterIDfaq.html'>Iowa Secretary of State's website</a> says that if you don't have a driver's license or state ID, they'll mail you a voter ID card when you register. If they don't, try <a href='https://sos.iowa.gov/contactus.html'>contacting them</a>.</p><p>If you don't have ID on Election Day, you can have another registered voter testify to your identity.</p>",
-        "no_id":"If you can't prove your identity, you can still vote a provisional ballot. Then, after the election, election officials will try to verify that you're registered based on the info in your provisional ballot. If they can, they'll count your vote.",
-        "source":"https://sos.iowa.gov/elections/voterinformation/voterIDfaq.html",
-        "last_checked":"2020-03-30"
+        "1":"If you're afraid of contracting or spreading coronavirus, you should vote absentee.",
+        "2":"In May's primary, many counties reduced the number of polling locations they offered. Check the Secretary of State's website to find yours."
     },
 
     "Idaho":
     {
-        "at_polls":"<p>Take a photo ID to the polls. You can show:</p><ul><li> An Idaho driver's license or state ID </li> <li>A student ID from an Idaho school along with a fee statement that shows where you're enrolled and living</li> <li>Any other document that contains a photo and an address</li> </ul>",
-        "other_options": "",
-        "no_id":"We couldn't find much on the <a href='https://sos.idaho.gov'>Idaho Secretary of State's website</a>, but if you can't prove that you're registered, you're legally allowed to ask for a provisonal ballot.",
-        "source":"https://sos.idaho.gov/citizenship-voting/",
-        "last_checked":"2020-03-30"
+        "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail." ,
+        "2": "Idaho had a mail-only primary in May, though it doesn't look like they'll be doing this again in November. Don't expect to be sent an mail-in ballot." ,
     },
     
     "Illinois":
     {
-        "at_polls":"<p>You might be asked to show ID if you didn't have an Illinois ID when you registered. If you're registering at the polls, you need two forms of ID. Here's what you can show:</p><ul> <li>Driver's license or state ID</li><li>U.S. passport</li> <li>Military ID</li> <li>Student ID</li> <li>Lease, mortgage, or deed to your home</li><li>Credit or debit card</li><li>Social security card</li> <li>Medicare, medicaid, or health insurance card</li><li>Card that shows you're a member of a union or professional organization</li><li>LINK, Public Aid, or Department of Human Services Card</li><li>Illinois FOID card</li> </ul>",
-        "other_options": "<p>You can also show a copy of one of these that you received in the mail:</p><ul><li>Bank, pension, or credit card statement</li> <li>Paycheck</li> <li>Utility bill</li> <li>Document from a government agency</li> </ul>",
-        "no_id":"If you can't prove your identity, you can still vote a provisional ballot. Then, you have 7 days to take identification that proves your identity to your county clerk's office. ",
-        "source":"https://www.cookcountyclerk.com/service/when-voters-do-and-dont-need-identification-id",
-        "last_checked":"2020-03-30"
+        "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail." ,
     },
 
     "Indiana":
     {
-        "at_polls":"<p>You'll need to show a \"government-issued photo ID\" at the polls. This means that it includes your name and photo, and that it was issued by a U.S. state, the federal government, or a public college/school in Indiana. It can be expired as long as its expiration date was <i>before</i> the most recent election. Here are some examples:</p><ul><li>Indiana driver license or state ID card</li><li>Military ID</li> <li>U.S. Passport</li><li>Student ID (as long it has your name and photo and is from a school in Indiana)</li></ul>",
-        "other_options": "If you don't have an ID, you can get a voter ID through the <a href='https://www.in.gov/bmv/'>Indiana Bureau of Motor Vehicles</a>.",
-        "no_id":"If you can't prove your identity, you can still vote a provisional ballot. Then, you have 10 days to confirm your identify with your local county board of elections.",
-        "source":"https://www.in.gov/sos/elections/2401.htm",
-        "last_checked":"2020-03-30"
+        "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail or by 'Traveling Board': https://www.in.gov/idr/2782.htm"
     },
 
     "Kansas":
     {
-        "at_polls":"<p>You'll need to show an unexpired photo ID at the polls. You can show:</p><ul><li>A driver's license or state ID</li> <li>Gun license</li><li>U.S. passport</li><li>Government ID</li> <li>Military ID</li> <li>Student ID from a school in Kansas</li> <li>Government-issued public assistance card</li><li>Tribal ID</li> </ul>",
-        "other_options": "You can get a <a href='http://www.gotvoterid.com/valid-photo-ids.html#feewaver'>free voter ID</a> through Kansas's <a href='https://www.ksrevenue.org/dovindex.html'>Divison of Vehicles</a>.",
-        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election, contact your county election office to find out what you need to do to prove your identity.",
-        "source":"http://www.gotvoterid.com/valid-photo-ids.html",
-        "last_checked":"2020-03-30"
+       "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail." 
     },
 
     "Kentucky":
     {
-        "at_polls":"<p>You need to show ID (unless your polling place's officer knows you). You can show something:</p><ul><li>Driver's license or state ID</li> <li>Credit card with a photo and signature</li> <li>Social security card</li> <li>ID issued by state or federal government</li></ul>",
-        "other_options": "Polling places will accept another form of ID, too, as long it has your photo and your signature.",
-        "no_id":"If you don't have ID, you can still vote a <a href='https://vrsws.sos.ky.gov/provweb/Default.aspx'>provisional ballot</a>. Then, contact your <a href='https://elect.ky.gov/About-Us/Pages/County-Clerks.aspx'>county clerk</a> to find out what you need to do to make sure your vote is counted.",
-        "source":"https://elect.ky.gov/Frequently-Asked-Questions/Pages/Election-Day-Information.aspx",
-        "last_checked":"2020-03-30"
+        "1": "Kentucky has made it easier to vote absentee. If you're afraid of contracting or spreading coronavirus, you should vote by mail-in ballot."
     },   
 
     "Louisiana":
     {
-        "at_polls":"<p>You should take a photo ID to the polls. You can show:</p><ul><li>Driver's license or state ID</li><li>A Louisiana <a href='https://www.lawallet.com/'>digital driver's license</a></li><li>Military photo ID</li> </ul>",
-        "other_options": "You can also show another official form of documentation that includes your photo, name, and signature.",
-        "no_id":"If you don't have an ID, you can vote by signing a \"voter affidavit,\" or a sworn statement that you are who you say you are.",
-        "source":"https://www.sos.la.gov/ElectionsAndVoting/Vote/VoteOnElectionDay/Pages/default.aspx",
-        "last_checked":"2020-03-30"
+       "1": "During the primaries, Louisiana made it possible to vote absentee if you were concerned about contracting or spreading coronavirus. It's not clear if they'll do this again for the general election in November."
     },
 
     "Massachusetts":
