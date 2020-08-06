@@ -1,17 +1,61 @@
 // initial imports
 const express = require('express');
+const app = express();
 const mongoose = require('mongoose');
 const path = require('path');
-const app = express();
-const Feedback = require('./models/feedback.js');
-const Deadline = require('./models/deadline.js');
-const Absentee = require('./models/absentee.js');
+var Request = require("request");
+
+//for md
+const showdown = require('showdown');
+const fs = require('fs')
+
+converter = new showdown.Converter();
+converter.setOption('simplifiedAutoLink', 'true');
+
+
+//const Feedback = require('./models/feedback.js');
+//const Deadline = require('./models/deadline.js');
+//const Absentee = require('./models/absentee.js');
+
+
+const { text } = require('express');
 // use dotenv if not on heroku
 if (! process.env.NODE_ENV === 'production')
     require('dotenv').config();
 
+app.use(express.json({type: 'application/json'}));
+app.use(express.urlencoded({extended: true}));
 
-// connect mongoDB
+//showdown stuff
+// Start of markdown
+var textToConvert = `# hello, markdown!
+* list
+* list
+* item
+`
+
+async function convertMarkdown(filename) {
+    const md = fs.readFileSync(path.join(__dirname+filename+'.md'),'utf8')
+    html = converter.makeHtml(md)
+    console.log('async func called')
+    return html
+}
+
+
+
+app.get('/billofrights', async function (req, res) {
+    const data = await convertMarkdown('/billofrights');
+    res.send(data)
+    })
+
+  app.get('/allamendments', async function (req, res) {
+    const data = await convertMarkdown('/allamendments');
+    res.send(data)
+  })
+
+
+// MongoDB stuff
+/* connect mongoDB
 var mongoIsConnected = false;
 console.log('Connecting to mongoDB...');
 mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASS+'@cluster0-bfrfd.mongodb.net/test?retryWrites=true&w=majority', { 
@@ -23,11 +67,8 @@ mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASS+'@
 }).catch(err => {
     console.log('no mongodb conection: ', err);
 });
+*/
 
-
-// middleware -- no longer need body-parser
-app.use(express.json({type: 'application/json'}));
-app.use(express.urlencoded({extended: true}));
 
 
 // backend routes -- eventually to be imported from a separate router dir

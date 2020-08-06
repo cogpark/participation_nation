@@ -1,22 +1,53 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import App from './components/app'
-import './index.css'
+import App from './components/app';
+import './index.css';
 import {
     BrowserRouter as Router,
     Route
 } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import CivicLitRenderer from './components/civicLitRenderer';
+import MobileNav from './components/nav/mobileNav';
+import DesktopNav from './components/nav/desktopNav';
+import  { BreakpointProvider, Breakpoint } from 'react-socks';
 
 ReactDOM.render(
-    <Router>
-        <div>
-        <Route exact path="/">
-            <App />
-        </Route>
+    <BreakpointProvider>  
+        <Breakpoint small down>
+            <MobileNav left/>
+        </Breakpoint>
+        
+        <div className='container'  >
+            <Breakpoint medium up style={{ padding:"0px" }}> 
+                <DesktopNav/>
+            </Breakpoint>
+            <Router>
+                <div className='col' style={{ padding:"0px" }} >
+                <Route exact path="/">
+                    <App />
+                </Route>
+                <Route path="/voting">
+                    <App />
+                </Route>
+                <Route path="/bill-of-rights">
+                    <CivicLitRenderer url = {'BillOfRights'}/>
+                </Route>
+                <Route path="/amendments-eleven-to-twenty-seven">
+                    <CivicLitRenderer url = {'AllAmendments'}/>
+                </Route>
+                <Route path="/whats-a-liberal">
+                    <CivicLitRenderer url = {'WhatsALiberal'}/>
+                </Route>
+                <Route path="/whats-a-conservative">
+                    <CivicLitRenderer url = {'WhatsAConservative'}/>
+                </Route>
+                </div>
+            </Router>
         </div>
-    </Router>, 
+        
+    </BreakpointProvider>,
     document.getElementById('root')
     );
 
