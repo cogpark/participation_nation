@@ -68,11 +68,11 @@ class InfoGetter extends Component {
         return (        
             <main> 
                 <div className="row">
-                    <div className="col-sm-4">
+                    <div className="col-sm-5">
                         <p>SELECT A STATE:</p>
                         <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} name="state selector"/>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-5">
                         <p>SELECT AN ELECTION:</p>
                         <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} name="election selector" />
                     </div>

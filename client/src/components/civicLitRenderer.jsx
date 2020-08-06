@@ -16,7 +16,7 @@ export default function CivicLitRenderer(props) {
     let Component = Components[props.url]
 
     return (
-        <main >
+        <main className='col-sm-9'  >
             <Component />
         </main>
     )

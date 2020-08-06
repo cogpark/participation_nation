@@ -2,7 +2,8 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
 const markdown = `
-## What's "liberal" mean
+## What's a "liberal"?
+
 People use liberal to mean 2 different things. In casual conversation, people sometimes just mean, “someone who votes for progressive candidates (usually Democrats).” But “liberal” also refers to a couple-hundred-years-old philosophical tradition, which doesn’t always align with the Democratic party.
 
 Sometimes you’ll hear people say, “I’m socially liberal and fiscally conservative.” What they mean is, “I agree with Democrats on social issues, but I agree with Republicans on economic issues.” However, if they were referring to “liberal” as a philosophy, they could also say, “I’m socially and fiscally liberal” and pretty much mean the same thing. Confused? Let’s try to clear things up. 

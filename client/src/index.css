@@ -23,9 +23,8 @@ body {
   position: sticky;
   top: 0;
   align-self: flex-start;
-  padding-right: 20px;
-  margin-right: 20px;
-  border-right: 1px solid black;
+  display: table;
+  width: 100%;
 }
 
 .toc-item {
@@ -115,13 +114,13 @@ p , li {
   color: white;
   padding-left:10px;
   padding-right:10px;
+  margin-bottom:5px;
   background-color:#6c757d;
   margin-right:10px;
 }
 
 .btn.btn-secondary:hover {
   background-color: #8C0813;
-
 }
 
 .form-control, .form-control * {
@@ -204,4 +203,79 @@ p , li {
 
 .explainer {
   padding-left:20px;
+}
+
+/* BURGER MENU */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background-color: white;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #C5D1D9;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: absolute;
+  height: 100%;
+  top: 36px;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  height: 30px;
+  right: 36px;
+  top: 232px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+a.bm-item {
+  color: white;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
 }

@@ -1,40 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import App from './components/app'
-import './index.css'
+import App from './components/app';
+import './index.css';
 import {
     BrowserRouter as Router,
     Route
 } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import CivicLitRenderer from './components/civicLitRenderer';
+import MobileNav from './components/nav/mobileNav';
+import DesktopNav from './components/nav/desktopNav';
+import  { BreakpointProvider, Breakpoint } from 'react-socks';
 
 ReactDOM.render(
-    <>  
-        <div class='container'>
-            <nav id="toc" class='col-sm-2' > 
-                <p class='toc-subhead'><b>VOTING INFO</b></p>
-                <div class="toc-item">
-                <a href="/voting">Voting</a>
-                </div>
-                <p class='toc-subhead'><b>WHAT IS THE...</b></p>
-                <div class="toc-item"> 
-                <a href="/bill-of-rights">Bill of Rights</a>
-                </div>
-                <div class="toc-item"> 
-                <a href="/amendments-eleven-to-twenty-seven">Amendments 11 to 27</a>
-                </div>
-                <p class='toc-subhead'><b>WHAT IS A...</b></p>
-                <div class="toc-item"> 
-                <a href="/whats-a-liberal">Liberal</a>
-                </div>
-                <div class="toc-item"> 
-                <a href="/whats-a-conservative">Conservative</a>
-                </div>
-            </nav>
+    <BreakpointProvider>  
+        <Breakpoint small down>
+            <MobileNav left/>
+        </Breakpoint>
+        
+        <div className='container'  >
+            <Breakpoint medium up style={{ padding:"0px" }}> 
+                <DesktopNav/>
+            </Breakpoint>
             <Router>
-                <div>
+                <div className='col' style={{ padding:"0px" }} >
                 <Route exact path="/">
                     <App />
                 </Route>
@@ -57,7 +47,7 @@ ReactDOM.render(
             </Router>
         </div>
         
-    </>,
+    </BreakpointProvider>,
     document.getElementById('root')
     );
 

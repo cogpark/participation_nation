@@ -2,7 +2,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
 const markdown = `
-## Conservative
+## What's a "Conservative"?
 
 ### Summary
 Conservatives in the U.S. today generally hold at least 1 of 3 political positions. First, they could be religious conservatives who believe Christian values should inform how we shape society. Second, they’re conservative about the U.S. constitution, and want to make sure we don’t stray too far from founders’ vision. Third, they’re economic conservatives, which means they want to restrain how much the government spends and how much it influences private companies. 

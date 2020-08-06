@@ -21,11 +21,11 @@ function App() {
     }
 
     return (
-        <React.Fragment>
+        <div>
             <InfoGetter
                 selectedState = {query.state}
                 selectedElection = {query.election.toLowerCase()}/> 
-        </React.Fragment>
+        </div>
         )
 } 
     
