@@ -19,7 +19,7 @@ ReactDOM.render(
             <MobileNav left/>
         </Breakpoint>
         
-        <div className='container'  >
+        <div className='container'>
             <Breakpoint medium up style={{ padding:"0px" }}> 
                 <DesktopNav/>
             </Breakpoint>
@@ -42,6 +42,9 @@ ReactDOM.render(
                 </Route>
                 <Route path="/whats-a-conservative">
                     <CivicLitRenderer url = {'WhatsAConservative'}/>
+                </Route>
+                <Route path="/whats-a-democrat">
+                    <CivicLitRenderer url = {'WhatsADemocrat'}/>
                 </Route>
                 </div>
             </Router>
