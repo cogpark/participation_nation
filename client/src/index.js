@@ -19,7 +19,7 @@ ReactDOM.render(
             <MobileNav left/>
         </Breakpoint>
         
-        <div className='container'  >
+        <div className='container'>
             <Breakpoint medium up style={{ padding:"0px" }}> 
                 <DesktopNav/>
             </Breakpoint>
