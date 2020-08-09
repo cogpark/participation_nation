@@ -25,6 +25,9 @@ export default function DesktopNav() {
             <div className="toc-item"> 
                 <a href="/whats-a-democrat">Democrat</a>
             </div>
+            <div className="toc-item"> 
+                <a href="/whats-a-republican">Republican</a>
+            </div>
             
         </nav>
     )
