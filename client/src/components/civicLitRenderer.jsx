@@ -4,6 +4,7 @@ import AllAmendments from './blogs/allamendments';
 import WhatsALiberal from './blogs/whatsaliberal';
 import WhatsAConservative from './blogs/whatsaconservative';
 import WhatsADemocrat from './blogs/whatsademocrat';
+import WhatsARepublican from './blogs/whatsarepublican';
 
 
 
@@ -13,7 +14,8 @@ export default function CivicLitRenderer(props) {
         "BillOfRights": BillOfRights,
         "WhatsALiberal": WhatsALiberal,
         "WhatsAConservative": WhatsAConservative,
-        "WhatsADemocrat":WhatsADemocrat
+        "WhatsADemocrat":WhatsADemocrat,
+        "WhatsARepublican":WhatsARepublican
  }
     let Component = Components[props.url]
 

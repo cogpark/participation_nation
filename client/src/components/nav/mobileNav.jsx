@@ -13,6 +13,7 @@ export default function MobileNav() {
         <a href="/whats-a-liberal">Liberal</a>
         <a href="/whats-a-conservative">Conservative</a>
         <a href="/whats-a-democrat">Democrat</a>
+        <a href="/whats-a-republican">Republican</a>
       </Menu>
     );
 

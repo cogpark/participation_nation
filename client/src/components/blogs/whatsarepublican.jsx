@@ -3,31 +3,31 @@ import ReactMarkdown from 'react-markdown';
 
 const markdown = `
 # What's a Republican
+[See the current Republican Party platform (same as in 2016)]https://prod-cdn-static.gop.com/static/home/data/platform.pdf)
 
 ## Quick summary
 
-1 of the 2 major political parties in U.S. politics today. Republican politicians tend to be a blend of religious and economic conservatives. This means they they argue for fewer taxes and less restrictive financial regulations. However, they also argue for laws restricting sexuality and values that don’t align with traditional Christian values. 
+The Replublican party, sometimes called the Grand Old Party or GOP, are 1 of the 2 major political parties in U.S. politics today. Republican politicians tend to be a blend of religious and economic conservatives, which means that they argue for fewer taxes, less restrictive financial regulations, and more restrictions on individual rights--particularly those that don't align with traditional Christian values. 
 
-5 things Republicans ran on in 2016:
-Lower taxes for businesses
-Renegotiate trade agreements with other countries
-Open public lands to oil production
-Spend less on healthcare and Social Security
-Laws that recognize marriage as only between 1 man and 1 woman
+3 things Republicans ran on in 2016:
+* Lower taxes for businesses
+* Open public lands to oil production
+* Spend less on healthcare and Social Security
 
-Republicans’ vision for the U.S.
+*Note*: In 2020, Republicans have decideed to keep the same platform as in 2016.
 
-Republicans want a society characterized by limited government and Christian values. The laws and policies they favor try to reduce the size and influence of government. For example, they want to get rid of rules that affect large financial corporations and banks. They want to reform or even abolish the IRS (the government agency in charge of tax collection). They also want to make it easier for companies to drill for oil and mine coal. 
+## Republicans’ vision for the U.S.
 
-They’re also a party that thinks Christianity should have a bigger influence on U.S. government and life. For example, their platform argues that abortion violates the Fifth Amendment in the Bill of Rights (that nobody should “be deprived of life, liberty or property” without fair treatment under the law). It also argues that publicly displaying the Ten Commandments is protected under the First Amendment, which protects free speech. (The Supreme Court has ruled that you can’t do this.) They also call for laws limiting marriage to 1 man and 1 woman. 
+Republicans want a society characterized by limited government and Christian values. "Limited" government often amounts to reducing how much money the government takes in and spends, and how much influence it has over constituents' lives. For example, they want to get rid of rules that affect large financial corporations and banks. They want to reform--and some even want to abolish--the IRS (the government agency in charge of tax collection). They also want to reduce how much the government spends on Social Security and Medicaid.
 
-Republicans also often argue for spending cuts, including on healthcare (Medicare), government-funded food (SNAP Benefits/food stamps), and Social Security (money you get after you retire). 
+They’re also a party that thinks Christianity should have a bigger influence on U.S. government and life. For example, their platform argues that abortion violates the Fifth Amendment in the [Bill of Rights](/bill-of-rights) (that nobody should “be deprived of life, liberty or property” without fair treatment under the law). It also argues that publicly displaying the Ten Commandments is protected under the First Amendment, which protects free speech. (The Supreme Court has ruled that you can’t do this.) They also argue that the legal definition of marriage should align with their interpretation of the bible's legal definiton: 1 man and 1 woman. 
 
-Party conflicts
-President Trump ran on a several issues that run directly counter to traditional Republican values. First, President Trump promised not to cut healthcare--in fact, he said he’d expand it. He also argued against free trade, which many Republicans are for. More recently, he’s tried to advance a few laws limiting guns or gun accessories, which many Republicans feel threaten their Second Amendment rights. 
+## Party conflicts
+One major conflict within the Republican party is that small-government conservatives and religious conservatives don't always have the same goals. One obvious difference is that small-government conservatives want to reduce the size of government, while religious conservatives think government should act more authoratatively to influence American life. 
 
-President Trump has caused a lot of upheaval within the Republican Party. He doesn’t particularly care about making the government smaller, and he’s also not a crusader for Christianity. Since he’s been in office, the Republican-controlled congress has mostly worked on traditional Republican laws. For example, they’ve tried to reduce healthcare spending, they’ve passed a tax cut that benefits big financial corporation, and they’ve cut regulations on banks. However, Trump is much more popular than the rest of the Republican Party--so it’s not clear how things will change in the next elections. 
+We saw these conflicts in the 2016 election over healthcare. Small-government conservatives wanted to reduce government spending on health care, but religious conservatives (along with most moderates and Democrats) didn't agree. Then-candidate Trump ended up promising to make healthcare less expensive _and_ more expansive. As a result, a Republican-controlled Congress spent the first months of 2017 trying and failing to pass a law that made everybody happy. 
 
+President Trump himself has caused a lot of upheaval within the Republican Party. He often wants to expand government authority, and he’s not a crusader for Christianity. He's also more popular with most Republicans than the average Republican politician is, which has forced many Republican politicians to embrace his positions, even if they run counter to what they've argued in the past.
 `
 
 export default function WhatsARepublican() {
