@@ -97,38 +97,23 @@
 
     "Massachusetts":
     {
-        "at_polls":"<p>You'll be asked to show ID if you're voting for the first time, for the first time in a long time, or if a pull worker \"suspects\" something. (We're not sure exactly what the MA Secretary of State means by this last item.) You can show:</p><ul><li>Driver's license or state ID</li><li>Utililty bill</li><li>Lease or morgage</li><li>Copy of your voter registration confirmation</li></ul>",
-        "other_options": "You can also bring any printed ID that has your name and address.",
-        "no_id":"If you can't show an ID when you get to the polls, you can vote a provisional ballot. Then, you have until the polls close to return and prove your identity.",
-        "source":"https://www.sec.state.ma.us/ele/eleidreq/idrequirementsidx.htm",
-        "last_checked":"2020-03-30"
+        "1":"MA passed a new law that allows every registered voter to vote by mail. In fact, if you registered by July 1, 2020, the Secretary of State automatically send you a ballot."
     },
 
     "Maryland":
     {
-        "at_polls":"<p>You'll need to prove your identity if you're voting for the first time and you registered by mail. You can show: </p><ul><li>Driver's license or state ID</li><li>The last 4 digits of your social security number</li> <li>Student or employee photo ID</li> <li>U.S. passport</li> <li>State or federal ID</li> <li>Military ID</li></ul>",
-        "other_options": "",
-        "no_id":"If you don't have an ID, you can still vote a provisional ballot. Then, after the election, election officials will try to determine if your vote counts (based on the information in your provisional ballot). Maryland provides this site to <a href='https://voterservices.elections.maryland.gov/VoterSearch'>check the status of your recently cast provisonal ballot</a>.",
-        "source":"https://elections.maryland.gov/vote_act_2002/general_requirements.html",
-        "last_checked":"2020-03-30"
+        "1": "MD hasn't made any official changes for the November presidential election. However, its June primary was mostly vote-by-mail. Registered voters received ballots and pre-paid postage envelopes."
     },
 
     "Michigan":
     {
-        "at_polls":"<p>You need to take an ID at the polls. You can show:</p><ul><li>Driver's license or state ID (from Michigan or another state)</li><li>U.S. passport</li><li>Military ID</li> <li>Student ID</li> <li>Tribal ID</li> </ul>",
-        "other_options": "",
-        "no_id":"If you don't have an ID, you can still vote if you sign a sworn statement attesting to your identity.",
-        "source":"https://www.michigan.gov/sos/0,4670,7-127-5647_12539_29836-202520--,00.html",
-        "last_checked":"2020-03-30"
+        "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail." 
+ 
     },
     
     "Minnesota": 
     {
-        "at_polls":"<p>You only need to show an ID if you're registering at the polls, or if you haven't voted in 4 years. <b>If you have a Minnesota driver's license, Minnesota state ID, or a Tribal ID that includes your name and photo, you can just bring that</b>.</p><p>If you don't have one of those, you'll neeed to bring both a photo ID and a document that shows your name and address. Here's the list of backup photo IDs:</p><ul><li>Driver's license, state ID, or learner's permit (from another state)</li><li>Student ID from a school in Minnesota</li><li>Tribal ID </li> <li>U.S. passport</li> <li>Military or veteran's ID</li></ul> <p>Here's the list of name-and-address documents: (you can show a digital copy): </p> <ul><li>Utility bill, including for phone, TV, or internet</li><li>Bank or credit card statement</li><li>Rent or mortgage paperwork</li><li>Current student loan statement</li></ul>",
-        "other_options": "Minnesota allows for a few other options, too. <ul> <li>You may also bring somebody else from your precinct who is registered and can \"vouch\" for you.</li><li>If you registered late, you might've gotten a \"Notice of late registration\" in the mail. You can take that to the polls.</li><li>If you recently moved but stayed within your voting precinct, you can just tell election officials your old address</li>",
-        "no_id":"If you can't prove your registration by any of the above means, you can still vote a provisional ballot, or a ballot that is counted after election officials verify that you are really registered. Ask at your polling place what you'll need to do to confirm that your vote should count.",
-        "source":"https://www.sos.state.mn.us/elections-voting/register-to-vote/register-on-election-day/",
-        "last_checked":"2020-03-30"
+        "1": "Minnesota is encouraging residents who are afraid of contracting or spreading coronavirus to vote by mail." 
     },
 
     "Montana":
