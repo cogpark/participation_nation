@@ -113,80 +113,53 @@
     
     "Minnesota": 
     {
-        "1": "Minnesota is encouraging residents who are afraid of contracting or spreading coronavirus to vote by mail." 
+        "1": "Minnesota is encouraging residents who are afraid of contracting or spreading coronavirus to vote by mail.", 
+        "2": "Minnesota's Secretary of State has also advised polling locations to follow social distancing guidelines, increase curbside voting, and regularly sanitize equipment."
     },
 
     "Montana":
     {
-        "at_polls":"<p>You'll be asked to show ID at the polls. You can show: </p><ul><li>Driver's license, state ID, or another ID that has your name and photo</li> <li>Utility bill</li> <li>Bank or credit card statement</li> <li>Paycheck or government check</li> <li>Your voter registration confirmation</li> <li>Government-issued document that shows your name and the address where you're registered</li></ul>",
-        "other_options": "If you don't have an acceptable ID, you can fill out a \"Polling place elector ID\" form at your polling place. Then, an official will call a local election office to verify that you're registered.",
-        "no_id":"If you can't prove your registration, you can still vote a provisional ballot, or a ballot that is counted after election officials verify that you are really registered. Ask at your polling place what you'll need to do to confirm that your vote should count.",
-        "source":"https://sosmt.gov/elections/faq/#identification",
-        "last_checked":"2020-03-30"
+        "1": "Montana's governor is allowing counties to hold all-mail elections in November. Check with your county elections office to find out if they'll be taking advantage of this order.",
+        "2": "If you're afraid of contracting or spreading coronavirus, you should vote by mail." 
+ 
     },
 
     "Mississippi":
     {
-        "at_polls":"<p>You'll be asked to show ID at the polls. You can show:</p><ul><li>Mississippi driver's license or state ID</li><li>U.S. passport</li> <li>Student ID from a school in Mississippi</li> <li>Government-issued ID (e.g. employee ID)</li> <li>Tribal ID</li> <li>Gun license</li> <li>Mississippi voter ID</li> </ul>",
-        "other_options": "If you don't have an ID, you can apply for a voter ID at a <a href='https://courts.ms.gov/trialcourts/circuitcourt/circuitclerks.pdf'>Mississippi Circuit Court</a>.",
-        "no_id":"If you can't prove your registration, you can still vote a provisional ballot, or a ballot that is counted after election officials verify that you are really registered. Ask at your polling place what you'll need to do to confirm that your vote should count.",
-        "source":"http://msvoterid.ms.gov/Pages/VoterIDAcceptID.htm",
-        "last_checked":"2020-03-30"
+        "1": "Hours for in-person voting have been extended.",
+        "2": "Quarantining or caring for someone who is are valid reasons to vote bsentee."
     },
 
 
     "Missouri":
     {
-        "at_polls":"<p>You'll need to show an ID and sign the poll book. Here's a list of IDs you can take with you to the polls:</p><ul><li>U.S.- or Missouri-government issued ID, including driver's license, student ID, state ID, or a passport</li><li>Utility bill</li> <li>Bank or credit card statement</li> <li>Paycheck or government check</li></ul>",
-        "other_options": "You can also show a government document that includes your name and address.",
-        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, you can either come back to the polling place with an ID, or the local election authority will try to match the signature you added to the poll book to the one from your registration.",
-        "source":"https://www.sos.mo.gov/showit2vote",
-        "last_checked":"2020-03-30"
+        "1": "If you've contracted coronavirus, or if you're in an at-risk category, you should vote by mail. At-risk categories include being 65+ years old, living in a long-term care facility, have asthma; kidney, liver, or lung disease; diabetes, a heart condition, or immunocompromised."
     },
 
     "North Carolina":
     {
-        "at_polls":"<p>There's an ongoing legal battle about if North Carolina constituents need to show a photo ID. At the time we're writing this (March 2020), you don't--though you will have to prove your residency if you're registering at the polls. You can show one of these as long as it has your name & address: </p> <ul><li>North Carolina driver's license or state ID</li> <li>Other government ID</li> <li>Utility bill</li> <li>Bank statement</li> <li>Paycheck or government check</li> <li>Student ID and proof that you live on campus</li></ul> ",
-        "other_options": "",
-        "no_id":"If you can't show ID, you can still vote a provisional ballot. You might be given instructions on what you can do to prove your identity to election officials. After the election, your local county board of elections will decide if your vote counts. Here's a detailed description of <a href='https://www.ncsbe.gov/Voting-Options/Provisional-Voting'>provisional voting in North Carolina</a>.",
-        "source":"https://www.ncsbe.gov/Voting-Options/One-Stop-Early-Voting",
-        "last_checked":"2020-03-30"
+        "1":"If you're afraid of contracting or spreading coronavirus, you should vote by mail." 
     },
 
     "North Dakota":
     {
-        "at_polls":"<p>You'll be asked to show an ID that lists your name, address, and birthdate. You can show:</p><ul><li>Driver's license or state ID</li><li>Tribal ID</li><li>ID from a long term care facility</li></ul>",
-        "other_options": "<p>If the main items are missing a your address or birthdate, you can supplement them with:</p><ul><li>Utility bill</li> <li>Government- or tribal-issued check or document</li><li>Paycheck</li><li>Credit card or bank statement</li> </ul>",
-        "no_id":"If you can't provide ID, you can vote a \"set aside ballot.\" Then, after the election, you'll prove your identity to the canvassing board, and your ballot will be counted.",
-        "source":"https://vip.sos.nd.gov/idrequirements.aspx",
-        "last_checked":"2020-03-30"
+        "1":"North Dakota held its June primary by mail: All registered voters were sent a mail-in ballot.",
+        "2": "They haven't yet said if they're planning the same for the November general election."
     },
 
     "New Hampshire": {
-        "at_polls":"<p>You'll be asked to show ID at the polls. You can show:</p><ul><li>Driver's license or state ID (from any state or from the federal government)</li><li>Military ID</li> <li>Passport</li> <li>Student ID from a school in New Hampshire</li> </ul>",
-        "other_options": "Your <a href=https://app.sos.nh.gov/Public/ClerkDetails.aspx'>town clerk</a> may allow for other forms of ID.",
-        "no_id":"If you can't show ID, you can fill out a \"challenged voter affadavit,\" or a sworn statement that you are who you say you are. The clerk will take your picture & attach it to your statement. (They have to delete the photo from the camera after this.)",
-        "source":"https://sos.nh.gov/voterid.aspx",
-        "last_checked":"03-30-2020"
+        "1": "New Hampshire is permitting anyone who's afraid of contracting or spreading coronavirus to vote by mail."
     },
 
     "Nebraska":
     {
-        "at_polls":"<p>You only need an ID if you're voting for the first time, you registered by mail, and didn't verify your address. In that case, you can show any document that has your name and address on it.",
-        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election, the election commissioner will try to verify that you are who you say you are. Contact your <a href='https://sos.nebraska.gov/elections/election-officials-contact-information'>local election official</a> if you have questions about this process.",
-        "source":"https://sos.nebraska.gov/elections/election-day-faq",
-        "last_checked":"2020-03-30"
+      "1":"If you're afraid of contracting or spreading coronavirus, you should vote by mail." 
     },
-
-
 
     "New Jersey":
     {
-        "at_polls":"<p>You only need to show ID if you didn't when you registered. If that's the case, you can show: </p><ul><li>Driver's license or state ID</li><li>Military ID</li> <li>Student or employee ID</li> <li>Passport</li><li>Utility bill</li> <li>Bank or credit card statement</li> <li>Car registration</li> <li>Government check or paycheck</li> <li>Lease, rent receipt, or mortgage</li></ul>",
-        "other_options": "Any other document that lists your name and address.",
-        "no_id":"If you don't have an ID, you can vote a provisional ballot. Then, you'll have 2 days to prove your identity to the county election office.",
-        "source":"https://www.njisj.org/accordion_6",
-        "last_checked":"2020-03-30 "
+        "1":"New Jersey held a vote-by-mail primary in July: All registered voters were sent a vote by mail-in ballot application.",
+        "2": "If you're afraid of contracting or spreading coronavirus, you should vote by mail." 
     },
 
 

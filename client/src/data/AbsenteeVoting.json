@@ -327,19 +327,19 @@
         "mail_instructions": "Contact <a href='https://www.sos.ms.gov/Elections-Voting/Pages/County-Election-Info.aspx'>your county/municipal clerk</a>. They will probably have you fill out <a href='https://www.sos.ms.gov/Elections-Voting/Documents/Absentee%20Voting%20Forms17.pdf'>an absentee ballot form like this one</a>.",
         "mail_request_deadline": "We couldn't find an official absentee ballot request deadline, but leave enough time to get your ballot, fill it out, and return it by the absentee voting deadline.",
         "in_person_instructions":"<ul>Same as by mail: Go to <a href='https://www.sos.ms.gov/Elections-Voting/Pages/County-Election-Info.aspx'>your county/municipal clerk's office</a> and apply to vote absentee.",
-        "ballot_delivery": "<ul><li>In person: 3 days before the election</li> <li>By mail: Received the day before the election</li></ul>",
+        "ballot_delivery": "<ul><li>In person: 3 days before the election</li> <li>By mail: Postmarked by election day</li></ul>",
         "requirements":"<p>You can vote absentee if you're</p> <ul><li>Elderly</li><li>Ill</li><li>Working</li><li>Out of the state for school</li></ul>",
         "source": "https://www.sos.ms.gov/Elections-Voting/Documents/VoterInformationGuide.pdf",
         "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
-        "last_checked":"2020-03-23"
+        "last_checked":"2020-08-09"
     },
 
     "Missouri":
     {
-        "mail_title": "Vote absentee by mail",
+        "mail_title": "Vote by mail",
         "in_person_title": "Vote absentee in person",
         "mail_instructions": "Request an absentee ballot from your <a href ='https://www.sos.mo.gov/elections/govotemissouri/localelectionauthority'>local election authority</a>. You can ask them to mail you a request form, or <a href='https://www.sos.mo.gov/CMSImages/ElectionGoVoteMissouri//2019AbsenteeBallotrequestformfillable.pdf'>download this request form</a> and return it via email, mail, or fax.",
-        "mail_request_deadline": "2 Wednesdays before the election by 5 p.m..",
+        "mail_request_deadline": "2 Wednesdays before the election by 5 p.m.",
         "in_person_instructions":"Go to your <a href ='https://www.sos.mo.gov/elections/govotemissouri/localelectionauthority'>local election authority</a> to vote an absentee ballot beginning 6 weeks before an election.",
         "ballot_delivery": "The day before the election.",
         "requirements":"<p>You can vote absentee if you're</p> <ul><li>Il</li><li>Physically incapable of getting the the polls</li><li>Working</li><li>Out of the state</li><li>Celebrating a religious occasion that prevents you from voting</li><li>Incarcerated but not prevented from voting (e.g. you were convicted of a felony)</li><li>Part of an address confidentiality program</li></ul>",
