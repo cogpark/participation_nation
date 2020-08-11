@@ -165,39 +165,23 @@
 
     "New Mexico":
     {
-        "at_polls":"<p>You only need voter ID for federal and state elections* if you didn't when you registered. You can show:</p><ul><li>A photo ID, such as a driver's license or state ID</li><li>Utility bill</li><li>Bank or credit card statement</li> <li>Government check</li> <li>Paycheck</li> <li>Student ID</li><li>Tribal ID</li> <li>Any government document that lists your name and address</li></ul> <p>*Some New Mexico cities (e.g. Albuquerque) ask for ID at city elections. </p>",
-        "other_options": "",
-        "no_id":"If you don't have an ID, you can vote a provisional ballot. Ask at your polling place what you need to do to make sure your vote is counted. After the election, you can <a href='https://voterportal.servis.sos.state.nm.us/ProvisionalSearch.aspx'>check the status of your provisional ballot</a> to make sure they've counted it.",
-        "source":"https://www.sos.state.nm.us/voting-and-elections/voting-faqs/voting/",
-        "last_checked":"2020-03-30"
+    "1":"In the June primary, New Mexico voters were asked to vote exclusively by mail. It seems possible that the November general will be, too."
+        
     },
 
 
     "Nevada":
     {        
-        "at_polls":"<p>When it's your turn at the polls, you'll sign your name and the election official will compare it to the signature you provided when you registered.</p>",
-        "other_options": "<p>You can also show another form of ID that includes your signature, such as</p><ul><li>Driver's license or state ID</li> <li>Military ID</li> <li>Any government-issued document has your photo and signature</li></ul>",
-        "no_id":"If you can't prove your identity, you can still vote a provisional ballot. Ask at your polling place what you need to do to make sure your vote is counted, or contact your <a href='https://www.nvsos.gov/sos/elections/voters/county-clerk-contact-information'>county election office</a>.",
-        "source":"https://www.nvsos.gov/sos/sos-information/office-facts/faqs-all-division/elections",
-        "last_checked":"2020-03-30"
+       "1": "In August, Nevada's state government passed a law that requires every registered voter to be sent a mail ballot application. This means Nevada's elections will be primarily by mail."
     },
 
     "New York":
     {
-        "at_polls":"<p>You don't need an ID unless you didn't verify your identity when you registered. If that's the case, you can show:</p><ul><li>Driver's license or state ID</li><li>Utility bill</li> <li>Bank statement</li> <li>Government check or paycheck</li> <li>Other government document that shows your name and address</li></ul>",
-        "other_options": "",
-        "no_id":"If you can't show an ID, you can still vote an \"affadavit ballot,\" which is a ballot that'll be counted after election officials verify that you are who you say you are. Ask at the polls what you need to do to prove that you should be able to vote.",
-        "source":"https://www.nysenate.gov/legislation/laws/ELN/8-302",
-        "last_checked":"2020-03-30"
-    },
+        "1":"A new executive order says that fear of spreading or contracting coronavirus count as a reason to vote by mail.",
 
     "Ohio": 
     {
-        "at_polls":"<p>At the polls, you'll announce your name and address, and show a document that also lists your name and addess. You can show one of these:</p><ul><li>Driver's license or state ID</li> <li>Military ID</li> <li>A government-issued ID</li> <li>Utility bill</li> <li>Bank statement</li> <li>Paycheck or government check</li> <li>Other government document that shows your name & address</li></ul>",
-        "other_options": "",
-        "no_id":"If you can't show ID, you can still vote a provisional ballot. You'll be asked for a piece of identifying information, such as the last 4 digits of your social security number, and the board of elections will try to verify that you are who you say you are.",
-        "source":"https://www.sos.state.oh.us/elections/voters/id-requirements/#gref",
-        "last_checked":"2020-03-31"
+    "1":"If you're afraid of contracting or spreading coronavirus, you should vote by mail." 
     },
 
 
