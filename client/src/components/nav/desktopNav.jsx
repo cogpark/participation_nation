@@ -8,14 +8,22 @@ export default function DesktopNav() {
             <div className="toc-item">
                 <a href="/voting">Voting info by state</a>
             </div>
-            <p className='toc-subhead'><b>WHAT IS THE...</b></p>
+            <p className='toc-subhead'><b>WHAT IS/ARE...</b></p>
             <div className="toc-item"> 
-                <a href="/bill-of-rights">Bill of Rights</a>
+                <a href="/bill-of-rights">The Bill of Rights</a>
             </div>
             <div className="toc-item"> 
-                <a href="/amendments-eleven-to-twenty-seven">Amendments 11 to 27</a>
+                <a href="/amendments-eleven-to-twenty-seven">The other 17 amendments</a>
             </div>
-            <p className='toc-subhead'><b>WHAT IS A...</b></p>
+            <div className="toc-item"> 
+                <a href="/the-us-senate">The U.S. Senate</a>
+            </div>
+            <div className="toc-item"> 
+                <a href="/all-elections">All the elections we hold</a>
+            </div>
+            <div className="toc-item"> 
+                <a href="/electoral-college">Electoral college</a>
+            </div>
             <div className="toc-item"> 
                 <a href="/whats-a-liberal">Liberal</a>
             </div>
@@ -28,6 +36,7 @@ export default function DesktopNav() {
             <div className="toc-item"> 
                 <a href="/whats-a-republican">Republican</a>
             </div>
+
             
         </nav>
     )
