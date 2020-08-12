@@ -181,62 +181,43 @@
 
     "Ohio": 
     {
-    "1":"If you're afraid of contracting or spreading coronavirus, you should vote by mail." 
+        "1":"If you're afraid of contracting or spreading coronavirus, you should vote by mail." 
     },
 
 
     "Oklahoma":
     {
-        "at_polls":"<p>You'll be asked to show ID at the polls. You need to show a document that isn't expired and that includes your name and photo, such as:</p><ul><li>State ID or driver's license</li><li>Passport</li><li>Utility bill</li><li>Paycheck or government check</li></ul>",
-        "other_options": "",
-        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, after the election, your County Election Board will try to figure out if your vote should count.",
-        "source":"https://www.ok.gov/elections/Voter_Info/Proof_of_Identity/",
-        "last_checked":"2020-03-31"       
+     "1":"If you're afraid of contracting or spreading coronavirus, you should vote by mail.", 
+     "2": "A new law passed by the Oklahoma state government makes it a little easier to verify your identity. Now, instead of a notarized signature, you can attach a copy of your ID to your mail-in ballot."  
     },
 
     "Oregon":
     {
-        "at_polls":"<p>If you're already registered, you don't need to show ID. However, if you didn't provide an ID when you registered, you'll need to show one. You can show: </p><ul><li>Driver's license or state ID</li><li>Other photo ID</li> <li>Paycheck</li> <li>Utility bill</li> <li>Bank statement</li> <li>Government document</li></ul>",
-        "other_options": "You may also be able to provide the last 4 digits of your social security number.",
-        "no_id":"If you can't show ID, you can still vote a <a href='https://sos.oregon.gov/elections/Documents/SEL113.pdf'>provisional ballot</a>. Then, election officials will try to determine if your vote should count.",
-        "source":"https://sos.oregon.gov/voting/Pages/registration.aspx",
-        "last_checked":"2020-03-31"
+        "1": "Nothing major: Oregon is a vote-by-mail state, which means its voting system is less at risk from COVID-19."
+
     },
    
     "Pennsylvania":
     {
-        "at_polls":"<p>You only need to show ID if it's your first time voting in your district. If that's the case, you can show: </p><ul><li>Driver's license or state ID</li> <li>Government-issued ID</li> <li>Passport</li> <li>Military ID</li> <li>Student ID</li> <li>Employee ID</li> <li>Voter registration card</li> <li>Firearm permit</li> <li>Utility bill</li> <li>Bank statement</li> <li>Paycheck or government check</li></ul>",
-        "other_options": "",
-        "no_id":"If you can't show ID, you can still vote a provisional ballot. Then, your County Election Office will decide if your vote should count (based on the info you provide in your provisional ballot).",
-        "source":"https://www.dos.pa.gov/VotingElections/OtherServicesEvents/Documents/Voter%20ID%20Guidance%20FINAL.pdf",
-        "last_checked":"2020-03-31"
+        "1":"If you're afraid of contracting or spreading coronavirus, you should vote by mail."
+  
     },
 
     "Rhode Island":
     {
-        "at_polls":"<p>You'll need to show ID, such as:</p><ul><li>Driver's license or state ID</li> <li>Other government-issued ID</li> <li>Voter ID card</li> <li>Passport</li> <li>Student ID</li> <li>Military ID</li> <li>Medical card (e.g. Medicaid or Medicare)</li> </ul>",
-        "other_options": "You can get a free voter ID from the <a href='https://vote.sos.ri.gov/'>Secretary of State</a>.",
-        "no_id":"If you can't show ID, you can vote a <a href='https://elections.ri.gov/voting/provisional.php'>provisional ballot</a>. Then, after the election, your local Board of Canvassers will try to figure out if your vote should count.",
-        "source":"https://elections.ri.gov/voting/id.php",
-        "last_checked":"2020-03-31"
+        "1":"If you're afraid of contracting or spreading coronavirus, you should vote by mail."
     },
 
     "South Carolina":
     {
-        "at_polls":"<p>You'll be asked to show ID. You can show:</p><ul><li>Driver's license or state ID</li> <li>Voter registration card</li> <li>Military ID</li> <li>Passport</li> </ul>",
-        "other_options": "You can get a free photo ID from your county voter registration and elections office.",
-        "no_id":"If you can't show ID, you can vote a provisional ballot. Then, you have a couple of days to prove your identity. Ask for more details at your polling place.",
-        "source":"https://www.scvotes.org/node/235",
-        "last_checked":"2020-03-31"
+        "1": "While South Carolina allowed anyone who wanted to to vote by mail during its June primaries, it did not extend those changes to the November general election. See below for who is allowed to vote by mail (LAST UPDATED: AUG. 12, 2020)",
+        "2": "In-person voting will be 'touchless,' e.g. you'll hold up your ID instead of handing it to someone. However, there is no requirement that voters wear masks to the polls."
     },
 
     "South Dakota":
     {
-        "at_polls":"<p>You'll be asked to show ID. You can show:</p><ul><li>Driver's license or state ID</li><li>Government-issued ID (such as a passport)</li><li>Military ID</li> <li>Student ID</li> <li>Tribal ID</li></ul>",
-        "other_options": "",
-        "no_id":"If you don't have ID, you can sign a statement swearing to your identity, and then you can vote.",
-        "source":"https://sdsos.gov/elections-voting/voting/default.aspx",
-        "last_checked":"2020-03-31"
+        "1": "South Dakota mailed absentee ballot applications to all registered voters for its June primary. It's unclear if they'll do the same in November.",
+        "2": "That said, South Dakota does not restrict who can voter absentee, so if you're afraid of contracting or spreading coronavirus, you should vote by mail in November."
     },
 
     "Tennessee":

@@ -477,12 +477,12 @@
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "<a href='https://www.ok.gov/elections/OVP.html'>Apply online to vote absentee </a> or download <a href='https://www.ok.gov/elections/documents/Oklahoma%20Absentee%20Ballot%20Application%20-%20fillable.pdf'>a ballot request form</a> and send it to your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a>. You can also just write a letter! Include your name, date of birth, address you're registered at, mailing address, election you're registering for, and signature.",
-        "mail_request_deadline": "5 p.m. on the Wednesday before the election.",
+        "mail_instructions": "<p><a href='https://www.ok.gov/elections/OVP.html'>Apply online to vote absentee </a> or download <a href='https://www.ok.gov/elections/documents/Oklahoma%20Absentee%20Ballot%20Application%20-%20fillable.pdf'>a ballot request form</a> and send it to your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a>. You can also just write a letter. Include your name, date of birth, address you're registered at, mailing address, election you're registering for, and either a signature or copy of your ID.</p><p>For either method: You'll need to get your signature notarized or include a copy of your ID.</p>",
+        "mail_request_deadline": "5 p.m. on the Wednesday before the election. Don't forget to include a notarized signature or attach a copy of your ID.",
         "in_person_instructions":"You can vote early at your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a> on the Thursday and Friday before elections from 8 a.m. to 6 p.m. For state and national elections, you can also vote on Saturday from 9 a.m. to 2 p.m.",
         "ballot_delivery": "7 p.m. on Election Day.",
         "requirements":"None (except that you're registered).",
-        "source": "https://www.ok.gov/elections/Voter_Info/Absentee_Voting/",
+        "source": "https://www.ok.gov/elections/Voter_Info/Absentee_Voting/index.html",
         "span_app": "",
         "last_checked":"2020-03-27"        
 
