@@ -18,7 +18,9 @@ export default function DesktopNav() {
             <div className="toc-item"> 
                 <a href="/all-elections">All the elections we hold</a>
             </div>
-
+            <div className="toc-item"> 
+                <a href="/electoral-college">Electoral college</a>
+            </div>
             <div className="toc-item"> 
                 <a href="/whats-a-liberal">Liberal</a>
             </div>

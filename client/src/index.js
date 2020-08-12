@@ -52,6 +52,9 @@ ReactDOM.render(
                  <Route path="/all-elections">
                     <CivicLitRenderer url = {'AllTheElections'}/>
                 </Route>
+                    <Route path="/electoral-college">
+                    <CivicLitRenderer url = {'ElectoralCollege'}/>
+                </Route>
                 </div>
             </Router>
         </div>
