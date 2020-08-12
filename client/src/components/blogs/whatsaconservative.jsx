@@ -20,8 +20,8 @@ These are folks who believe the U.S. Constitution lays out a blueprint for gover
 ### Economic conservatives
 This type of conservative believes in free and open markets, and in limiting government spending and regulation. If you’re economically conservative, you don’t think the government should try to help people. You think that people should help themselves, and the private citizens should give to charities who help those truly in need. Economic conservatives also tend to think that government should leave private businesses alone--not to make laws about what they sell and how they treat workers. 
 
-### Today’s conservative is yesterday’s radical liberal
-It’s true: the founding fathers were considered radically liberal in their day. In the 18th century, to be conservative meant supporting monarchy and centralized, all-powerful governments. 
+### Some conservative positions today used to be seen as radically liberal
+Some of the positions that conservates in the U.S. hold today were considered radically liberal in their day. For example, supporting limited government in a time where a monarch held all the power was quite a progressive position to take
 `
 
 export default function WhatsAConservative() {

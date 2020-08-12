@@ -2,11 +2,11 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
 const markdown = `
-# WHAT'S A DEMOCRAT
+## WHAT'S A DEMOCRAT
 
 [See the 2020 official Democratic Party platform](https://www.demconvention.com/wp-content/uploads/2020/07/2020-07-21-DRAFT-Democratic-Party-Platform.pdf)
 
-## Quick summary
+### Quick summary
 
 1 of the 2 major political parties in U.S. politics today. Democratic politicians tend to be [liberal](/whats-a-liberal). Democrats today generally think that government should play a role in solving our society's biggest problems, though they also think government shouldn't regulate sexuality or individual identity. 
 
@@ -15,7 +15,7 @@ const markdown = `
 * Raising wages for workers
 * Universal healthcare
 
-## Democrats’ vision for the U.S.
+### Democrats’ vision for the U.S.
 
 Democrats want a society where everybody has access to a decent standard of living. In general, they think that government has a role to play in providing people in the U.S. with access to food, resources, shelter, work, healthcare, and education. 
 
@@ -25,7 +25,7 @@ Democrats also believe that the government should protect individuals’ rights 
 
 Finally, Democrats frequently try to pass laws that reign in potentially harmful behavior by private companies. [The Glass-Steagal Act](https://www.federalreservehistory.org/essays/glass_steagall_act) is a good example of this sort of law. 
 
-## Party conflicts
+### Party conflicts
 Democrats today disagree over what their message (or messages) should be, and who they should try to convince to vote for them. For example, Democrats very much need Black Americans to vote for them to win elections. However, the U.S. is still a majority White country. An ongoing tension within the party is whether to appeal primarily to Black voters, rural White voters, or to craft a message that works for both. 
 
 Democrats also disagree over how aggressively government should push for social change. More progressive Democrats want government to do more to make sure every American has access to a decent standard of living: They want to pass laws that more evenly distribute money, for example, or more fully fund existing programs. More moderate Democrats believe that while government has a role to play, it should also empower private companies and citizens to solve these issues.

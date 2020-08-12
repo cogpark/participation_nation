@@ -16,6 +16,9 @@ export default function DesktopNav() {
                 <a href="/amendments-eleven-to-twenty-seven">The other 17 amendments</a>
             </div>
             <div className="toc-item"> 
+                <a href="/the-us-senate">The U.S. Senate</a>
+            </div>
+            <div className="toc-item"> 
                 <a href="/all-elections">All the elections we hold</a>
             </div>
             <div className="toc-item"> 
