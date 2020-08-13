@@ -1,4 +1,4 @@
-{   
+{
     "Alaska": 
     {
         "1": "Fear of contracting or spreading coronavirus is a good reason to vote by mail.",
@@ -67,12 +67,12 @@
     "Idaho":
     {
         "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail." ,
-        "2": "Idaho had a mail-only primary in May, though it doesn't look like they'll be doing this again in November. Don't expect to be sent an mail-in ballot." ,
+        "2": "Idaho had a mail-only primary in May, though it doesn't look like they'll be doing this again in November. Don't expect to be sent an mail-in ballot."
     },
     
     "Illinois":
     {
-        "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail." ,
+        "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail."
     },
 
     "Indiana":
@@ -120,8 +120,7 @@
     "Montana":
     {
         "1": "Montana's governor is allowing counties to hold all-mail elections in November. Check with your county elections office to find out if they'll be taking advantage of this order.",
-        "2": "If you're afraid of contracting or spreading coronavirus, you should vote by mail." 
- 
+        "2": "If you're afraid of contracting or spreading coronavirus, you should vote by mail."
     },
 
     "Mississippi":
@@ -129,7 +128,6 @@
         "1": "Hours for in-person voting have been extended.",
         "2": "Quarantining or caring for someone who is are valid reasons to vote bsentee."
     },
-
 
     "Missouri":
     {
@@ -221,39 +219,28 @@
     },
 
     "Tennessee":
-    {
-        "at_polls":"<p>You'll be asked to show ID. You can show:</p><ul><li>Driver's license or state ID</li> <li>Passport</li> <li>Other government-issued ID</li> <li>Military ID</li> <li>Handgun permit (with a photo)</li></ul>",
-        "other_options": "<p>If your ID is expired, you can still show it, but you'll need to also provide one of these:</p><ul><li>Utility bill</li> <li>Bank statement</li> <li>Government check or paycheck</li> <li>Another document that shows your name and address</li> <p>You can also get a <a href='https://www.tn.gov/safety/driver-services/photoids.html'>free voter ID</a> from the TN Department of Safety and Homeland Security.",
-        "no_id":"If you can't show ID, you can vote a provisional ballot. Then, you'll have 2 days to prove your identity to the election commission.",
-        "source":"https://sos.tn.gov/products/elections/what-id-required-when-voting",
-        "last_checked":"2020-03-31"
+    {   
+        "1":"Tennesee tried to make it easier to vote by mail to avoid spreading coronavirus, but its Supreme Court reversed the decsion.",
+        "2": "As a result, not wanting to spread coronavirus is not a valid reason to vote by mail. The only new reason is having a pre-existing condition that makes you more likely to contract coronavirus. If that's the case, you can check the \"hospitalized or ill\" box on your ballot application.",
+        "3": "There is also no mask requirement for in-person voting."
     },
 
     "Texas":
-    {
-        "at_polls":"<p>You'll be asked to show a photo  ID. You can show:</p><ul><li>Driver's license or state ID</li><li>Texas Election Certificate</li> <li>Handgun license </li> <li>Military ID</li> <li>Citizenship certificate</li> <li>Passport</li></ul>",
-        "other_options": "<p>You may also sign a statement giving a reason that you can't get a photo ID, as well as show one of these:</p><ul><li>Government document that shows your name and address</li> <li>Utility bill</li> <li>Bank statement</li> <li>Government check or paycheck</li><li>Birth certificate</li></ul>",
-        "no_id":"If you can't show ID, you can vote a provisional ballot. Then, after the election, the voting board will figure out if your ballot counts.",
-        "source":"https://www.sos.state.tx.us/elections/forms/id/poster-11x17-aw-voter.pdf",
-        "last_checked":"2020-03-31"
+    {   
+        "1":"Texas has lengthened the early-voting period for the November election by a week. You can now vote early in person starting October 13.",
+        "2":"There is no mask requirement for in-person voting."
     },
 
     "Utah":
     {
-        "at_polls":"<p>You'll be asked to show a photo ID, such as:</p><ul><li>Driver's license or state ID</li><li>Concealed carry permit</li> <li>Passport</li><li>Tribal ID (with or without a photo)</li></ul><p>If you can't show a photo ID, you can also provide 2 of the following:</p><ul><li>Utility bill from sometime in the last 3 months</li><li>Bank or credit card statement</li> <li>Employer,government, or student ID</li> <li>Birth certificate</li><li>Social security card</li> <li>Government-issued check</li> <li>Hunting or fishing license</li> <li>Military ID</li> <li>Naturalization papers</li> <li>Adoption or name change paperwork</li> <li>Bureau of Indian Affairs card</li> <li>Medicaid, Medicare, or EBT card</li><li>Vehicle registration</li></ul>",
-        "other_options": "",
-        "no_id":"If you can't show ID, you can vote a provisional ballot. Then, after the election, the Election Division will try to determine if your vote counts (based on the information in your provisional ballot).",
-        "source":"https://voteinfo.utah.gov/voter-id-requirements/",
-        "last_checked":"2020-03-31"
+        "1":"Utah conducted its primaries by mail in summer 2020 and had drop boxes for ballots open until 8 p.m. on election day.",
+        "2": "At the time of writing (Aug. 13, 2020), they have not said whether they'd make the same changes for the November elections, though it seems likely if the risk of getting COVID-19 is still very high."
     },
 
     "Virginia":
     {
-        "at_polls":"<p>You'll need to show a photo ID. You can show:</p><ul><li>Virginia's driver's license or state ID</li> <li>Passport</li> <li>Veteran's ID</li> <li>Tribal ID</li> <li>Student ID</li><li>Employee ID</li> <li>Credit card/li> <li>Nursing home card</li><li>Other government-issued ID</li> </ul>",
-        "other_options": "If you don't have an ID, you can <a href='https://www.elections.virginia.gov/media/formswarehouse/voter-photo-id/outreach-materials/ELECT-404-ID-VoPhoIDCardApp-Long.pdf'>apply for a VA photo ID</a> from your general registrar's office.",
-        "no_id":"If you need to show ID but can't, you can vote a provisional ballot instead. Then, you'll be told how you can prove your identity to your local election officials.",
-        "source":"https://www.elections.virginia.gov/casting-a-ballot/in-person-voting/",
-        "last_checked":"2020-03-31"
+        "1": "If you're afraid of contracting or spreading coronavirus, you should vote early in person or by mail.",
+        "2": "If it's your first time voting, you'll need a reason to give a reason to vote by mail (see below)."
     },
     
     "Vermont":
@@ -312,7 +299,7 @@
         "source":"http://soswy.state.wy.us/faqs.aspx?root=ELEC",
         "last_checked":"2020-03-31"
     }
-}
+    
 
 
 
