@@ -16,7 +16,10 @@ export default function DesktopNav() {
                 <a href="/amendments-eleven-to-twenty-seven">The other 17 amendments</a>
             </div>
             <div className="toc-item"> 
-                <a href="/the-us-senate">The U.S. Senate</a>
+                <a href="/the-us-senate">The Senate</a>
+            </div>
+            <div className="toc-item"> 
+                <a href="/the-us-house-of-representatives">The House of Representatives</a>
             </div>
             <div className="toc-item"> 
                 <a href="/all-elections">All the elections we hold</a>
@@ -31,10 +34,10 @@ export default function DesktopNav() {
                 <a href="/whats-a-conservative">Conservative</a>
             </div>
             <div className="toc-item"> 
-                <a href="/whats-a-democrat">Democrat</a>
+                <a href="/whats-a-republican">Republican</a>
             </div>
             <div className="toc-item"> 
-                <a href="/whats-a-republican">Republican</a>
+                <a href="/whats-a-democrat">Democrat</a>
             </div>
 
             
