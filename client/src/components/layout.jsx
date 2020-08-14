@@ -9,6 +9,8 @@ import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
 import IdData from '../data/idRequirements.json';
 import history from './history';
+import Alert from './alert';
+import CovidData from '../data/COVID19.json';
 //import { ReactComponent } from '*.svg';
 
 
@@ -35,9 +37,11 @@ class Layout extends Component {
             datesData: RegData,
             absenteeData: AbsenteeData,
             idData: IdData,
+            covidData: CovidData,
             selectedState: props.selectedState,
             selectedElection: props.selectedElection,
             onlineRegistration: RegData[props.selectedElection][props.selectedState]['onlineRegistration'],
+            covidUpdates: CovidData[props.selectedState]
             
         }
 
@@ -49,6 +53,7 @@ class Layout extends Component {
     handleSelectAState(event, election) {
         this.setState({ selectedState: event.target.value,
                         onlineRegistration: RegData[election][event.target.value]['onlineRegistration'],
+                        covidUpdates: CovidData[event.target.value]
                          });
         var url = encodeURI("?election=" + election + '&state=' + event.target.value);
         console.log(url)
@@ -61,6 +66,7 @@ class Layout extends Component {
         console.log(url)
         history.push(url) 
     }
+
 
 
     render() {
@@ -78,6 +84,7 @@ class Layout extends Component {
                         </div>
                     </div>
                     <br />
+                    <Alert data = {this.state.covidUpdates} selectedState={this.state.selectedState} />
                     <div className="row" id="registration-row">
                         <div className="col">
                             <RegistrationDeadlinesRow 
