@@ -41,6 +41,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 14px;
+  width: 75%;
 }
 
 .toc-item a {
@@ -218,7 +219,7 @@ p , li {
   position: fixed;
   width: 36px;
   height: 30px;
-  right: 36px;
+  right: 10px;
   top: 72px;
 }
 

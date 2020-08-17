@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function DesktopNav() {
     return (
-        <nav id="toc" style={{ width: "180px", marginTop:"5px" }}>
+        <nav id="toc" style={{ width: "180px", marginTop:"5px", }}>
             <h3 style={{ fontSize:"1.5rem" }}>SITE CONTENTS</h3>
             <p className='toc-subhead'><b>VOTING CLARIFIED</b></p>
             <div className="toc-item">
@@ -22,7 +22,7 @@ export default function DesktopNav() {
                 <a href="/the-us-house-of-representatives">The House of Representatives</a>
             </div>
             <div className="toc-item"> 
-                <a href="/all-elections">All the elections we hold</a>
+                <a href="/all-elections">All the elections we vote in</a>
             </div>
             <div className="toc-item"> 
                 <a href="/electoral-college">Electoral college</a>

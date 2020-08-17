@@ -1,37 +1,29 @@
 {
     "Alaska": 
     {
-        "1": "Fear of contracting or spreading coronavirus is a good reason to vote by mail.",
-<<<<<<< HEAD
-        "2": "Only voters over 65 years old will automatically be sent a vote by mail application"
-=======
+        "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail.",
         "2": "Voters over 65 years old will automatically be sent a vote-by-mail application."
->>>>>>> covid-19-updates
     },
     
     "Alabama": 
     {
-        "1": "Fear of contracting or spreading coronavirus is a good reason to vote by mail."
+        "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail."
     },
     
     "Arkansas":
     {  
-        "1": "Fear of contracting or spreading coronavirus is a good reason to vote by mail."
+        "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail."
     },
 
     "Arizona": 
     {
-        "1":"If you're afraid of contracting or spreading coronavirus, use Arizona's mail-in and early voting services."
+        "1":"If you're afraid of contracting or spreading coronavirus, you should vote by mail."
      
     },
 
     "California": 
     {
-<<<<<<< HEAD
-        "1":"If you're afraid of contracting or spreading coronavirus, use Arizona's mail-in and early voting services."
-=======
-        "1":"If you're afraid of contracting or spreading coronavirus, use California's mail-in and early voting services."
->>>>>>> covid-19-updates
+        "1":"If you're afraid of contracting or spreading coronavirus, you should vote by mail."
     },
 
     "Colorado": 
@@ -41,7 +33,7 @@
 
     "Connecticut": 
     {
-       "1": "Connecticutt extended their absentee voting capabilities during the August 2020 primaries, and all indications are that this will apply in the Novemember 2020 general electon, too.",
+       "1": "Connecticut extended absentee voting during the August 2020 primaries, and all indications are that this will apply in the Novemember 2020 general electon, too (last updated: August 16, 2020).",
        "2":"If you're afraid of contracting or spreading coronavirus, you should vote absentee."
     },
 
@@ -75,7 +67,7 @@
     "Idaho":
     {
         "1": "If you're afraid of contracting or spreading coronavirus, you should vote by mail." ,
-        "2": "Idaho had a mail-only primary in May, though it doesn't look like they'll be doing this again in November. Don't expect to be sent an mail-in ballot."
+        "2": "Idaho had a mail-only primary in May, though it doesn't look like they'll be doing this again in November. Don't expect to be sent a mail-in ballot."
     },
     
     "Illinois":
@@ -100,12 +92,12 @@
 
     "Louisiana":
     {
-       "1": "During the primaries, Louisiana made it possible to vote absentee if you were concerned about contracting or spreading coronavirus. It's not clear if they'll do this again for the general election in November."
+       "1": "During the primaries, Louisiana made it possible to vote absentee if you were concerned about contracting or spreading coronavirus. It's not clear if they'll do this again for the general election in November  (last updated: Aug. 15, 2020)."
     },
 
     "Massachusetts":
     {
-        "1":"MA passed a new law that allows every registered voter to vote by mail. In fact, if you registered by July 1, 2020, the Secretary of State automatically send you a ballot."
+        "1":"MA passed a new law that allows every registered voter to vote by mail. In fact, if you registered by July 1, 2020, the Secretary of State will send you a ballot."
     },
 
     "Maryland":
@@ -134,12 +126,12 @@
     "Mississippi":
     {
         "1": "Hours for in-person voting have been extended.",
-        "2": "Quarantining or caring for someone who is are valid reasons to vote bsentee."
+        "2": "Quarantining or caring for someone who is quarantining are valid reasons to vote bsentee."
     },
 
     "Missouri":
     {
-        "1": "If you've contracted coronavirus, or if you're in an at-risk category, you should vote by mail. At-risk categories include being 65+ years old, living in a long-term care facility, have asthma; kidney, liver, or lung disease; diabetes, a heart condition, or immunocompromised."
+        "1": "If you've contracted coronavirus, or if you're in an at-risk category, you should vote by mail. At-risk categories include being 65+ years old; living in a long-term care facility; having asthma,kidney, liver, lung disease, diabetes, or a heart condition; having some condition that makes you immunocompromised."
     },
 
     "North Carolina":
@@ -183,7 +175,7 @@
 
     "New York":
     {
-        "1":"A new executive order says that fear of spreading or contracting coronavirus count as a reason to vote by mail."
+        "1":"A new executive order says that fear of spreading or contracting coronavirus counts as a reason to vote by mail."
     },
 
     "Ohio": 
@@ -229,7 +221,7 @@
 
     "Tennessee":
     {   
-        "1":"Tennesee tried to make it easier to vote by mail to avoid spreading coronavirus, but its Supreme Court reversed the decsion.",
+        "1":"Tennesee tried to make it easier to vote by mail to avoid spreading coronavirus, but its Supreme Court reversed the decision.",
         "2": "As a result, not wanting to spread coronavirus is not a valid reason to vote by mail. The only new reason is having a pre-existing condition that makes you more likely to contract coronavirus. If that's the case, you can check the \"hospitalized or ill\" box on your ballot application.",
         "3": "There is also no mask requirement for in-person voting."
     },

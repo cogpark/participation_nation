@@ -9,12 +9,9 @@ import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
 import IdData from '../data/idRequirements.json';
 import history from './history';
-<<<<<<< HEAD:client/src/components/infoGetter.jsx
 import InfoGetterHeaderDesktop from './nav/infoGetterHeaderDesktop';
-=======
 import Alert from './alert';
 import CovidData from '../data/COVID19.json';
->>>>>>> covid-19-updates:client/src/components/layout.jsx
 //import { ReactComponent } from '*.svg';
 
 
@@ -71,8 +68,6 @@ class InfoGetter extends Component {
         history.push(url) 
     }
 
-
-
     render() {
         return (        
             <main> 
@@ -81,23 +76,14 @@ class InfoGetter extends Component {
                         <p>SELECT A STATE:</p>
                         <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} name="state selector"/>
                     </div>
-<<<<<<< HEAD:client/src/components/infoGetter.jsx
-                    <div className="col-sm-5">
+                    <div className="col-sm-5" style ={{ paddingBottom:"10px"}}>
                         <p>SELECT AN ELECTION:</p>
                         <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} name="election selector" />
-=======
-                    <br />
-                    <Alert data = {this.state.covidUpdates} selectedState={this.state.selectedState} />
-                    <div className="row" id="registration-row">
-                        <div className="col">
-                            <RegistrationDeadlinesRow 
-                            selectedState={this.state.selectedState}
-                            selectedElection={this.state.selectedElection.toLowerCase()}
-                            datesData={this.state.datesData} />
-                        </div>
->>>>>>> covid-19-updates:client/src/components/layout.jsx
                     </div>
-                </div>  
+                </div>
+                <div className='row'>
+                    <Alert data = {this.state.covidUpdates} selectedState={this.state.selectedState} />
+                </div>
                 <InfoGetterHeaderDesktop/>   
                 <div className="row" id="registration-row">
                     <div className="col">
@@ -137,15 +123,3 @@ class InfoGetter extends Component {
 }
 
 export default InfoGetter;
-
-//<div className="container" >
-//<div className="row">
-//    <div className="col">
-//        <Feedback usStates={this.usStates} elections={this.electionTypes} />
-//    </div>
-//</div>
-// </div> 
-
-/**
-
-</div> */
