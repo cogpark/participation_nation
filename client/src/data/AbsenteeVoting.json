@@ -168,7 +168,7 @@
 
     "Idaho":
     {
-        "mail_title": "Vote early mail",
+        "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out <a href='https://sos.idaho.gov/elect/clerk/forms/2020_Primary_Absentee_Request_Fillable.pdf'>this absentee ballot application</a> and send it to <a href='https://idahovotes.gov/county-clerks/'>your county clerk</a>.",
         "mail_request_deadline": "11 days before the election.",
@@ -327,19 +327,19 @@
         "mail_instructions": "Contact <a href='https://www.sos.ms.gov/Elections-Voting/Pages/County-Election-Info.aspx'>your county/municipal clerk</a>. They will probably have you fill out <a href='https://www.sos.ms.gov/Elections-Voting/Documents/Absentee%20Voting%20Forms17.pdf'>an absentee ballot form like this one</a>.",
         "mail_request_deadline": "We couldn't find an official absentee ballot request deadline, but leave enough time to get your ballot, fill it out, and return it by the absentee voting deadline.",
         "in_person_instructions":"<ul>Same as by mail: Go to <a href='https://www.sos.ms.gov/Elections-Voting/Pages/County-Election-Info.aspx'>your county/municipal clerk's office</a> and apply to vote absentee.",
-        "ballot_delivery": "<ul><li>In person: 3 days before the election</li> <li>By mail: Received the day before the election</li></ul>",
+        "ballot_delivery": "<ul><li>In person: 3 days before the election</li> <li>By mail: Postmarked by election day</li></ul>",
         "requirements":"<p>You can vote absentee if you're</p> <ul><li>Elderly</li><li>Ill</li><li>Working</li><li>Out of the state for school</li></ul>",
         "source": "https://www.sos.ms.gov/Elections-Voting/Documents/VoterInformationGuide.pdf",
         "span_app": "<a href=''>Solicitud para votar en ausencia</a>.",
-        "last_checked":"2020-03-23"
+        "last_checked":"2020-08-09"
     },
 
     "Missouri":
     {
-        "mail_title": "Vote absentee by mail",
+        "mail_title": "Vote by mail",
         "in_person_title": "Vote absentee in person",
         "mail_instructions": "Request an absentee ballot from your <a href ='https://www.sos.mo.gov/elections/govotemissouri/localelectionauthority'>local election authority</a>. You can ask them to mail you a request form, or <a href='https://www.sos.mo.gov/CMSImages/ElectionGoVoteMissouri//2019AbsenteeBallotrequestformfillable.pdf'>download this request form</a> and return it via email, mail, or fax.",
-        "mail_request_deadline": "2 Wednesdays before the election by 5 p.m..",
+        "mail_request_deadline": "2 Wednesdays before the election by 5 p.m.",
         "in_person_instructions":"Go to your <a href ='https://www.sos.mo.gov/elections/govotemissouri/localelectionauthority'>local election authority</a> to vote an absentee ballot beginning 6 weeks before an election.",
         "ballot_delivery": "The day before the election.",
         "requirements":"<p>You can vote absentee if you're</p> <ul><li>Il</li><li>Physically incapable of getting the the polls</li><li>Working</li><li>Out of the state</li><li>Celebrating a religious occasion that prevents you from voting</li><li>Incarcerated but not prevented from voting (e.g. you were convicted of a felony)</li><li>Part of an address confidentiality program</li></ul>",
@@ -446,7 +446,7 @@
         "last_checked":"2020-03-26"
     },
     
-    "NewYork":
+    "New York":
     {
         "mail_title": "Vote absentee by mail",
         "in_person_title": "Vote early in person",
@@ -477,12 +477,12 @@
     {
         "mail_title": "Vote early by mail",
         "in_person_title": "Vote early in person",
-        "mail_instructions": "<a href='https://www.ok.gov/elections/OVP.html'>Apply online to vote absentee </a> or download <a href='https://www.ok.gov/elections/documents/Oklahoma%20Absentee%20Ballot%20Application%20-%20fillable.pdf'>a ballot request form</a> and send it to your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a>. You can also just write a letter! Include your name, date of birth, address you're registered at, mailing address, election you're registering for, and signature.",
-        "mail_request_deadline": "5 p.m. on the Wednesday before the election.",
+        "mail_instructions": "<p><a href='https://www.ok.gov/elections/OVP.html'>Apply online to vote absentee </a> or download <a href='https://www.ok.gov/elections/documents/Oklahoma%20Absentee%20Ballot%20Application%20-%20fillable.pdf'>a ballot request form</a> and send it to your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a>. You can also just write a letter. Include your name, date of birth, address you're registered at, mailing address, election you're registering for, and either a signature or copy of your ID.</p><p>For either method: You'll need to get your signature notarized or include a copy of your ID.</p>",
+        "mail_request_deadline": "5 p.m. on the Wednesday before the election. Don't forget to include a notarized signature or attach a copy of your ID.",
         "in_person_instructions":"You can vote early at your <a href='https://www.ok.gov/elections/About_Us/County_Election_Boards/index.html'>County Board of Elections</a> on the Thursday and Friday before elections from 8 a.m. to 6 p.m. For state and national elections, you can also vote on Saturday from 9 a.m. to 2 p.m.",
         "ballot_delivery": "7 p.m. on Election Day.",
         "requirements":"None (except that you're registered).",
-        "source": "https://www.ok.gov/elections/Voter_Info/Absentee_Voting/",
+        "source": "https://www.ok.gov/elections/Voter_Info/Absentee_Voting/index.html",
         "span_app": "",
         "last_checked":"2020-03-27"        
 
@@ -578,7 +578,7 @@
         "in_person_title": "Vote early in person",
         "mail_instructions": "Fill out <a href='https://webservices.sos.state.tx.us/forms/5-15f.pdf'>an absentee ballot request form</a> or <a href='https://webservices.sos.state.tx.us/vrrequest/bbm.asp'>complete a request online</a> and send it back to your <a href='https://www.sos.texas.gov/elections/voter/county.shtml'>county clerk or elections official</a>.",
         "mail_request_deadline": "11 days before the election.",
-        "in_person_instructions":"You can usually vote early in person from 17 to 4 days before the election. You can <a href='https://teamrv-mvp.sos.texas.gov/MVP/mvp.do'>find early voting locations on Texas's state website</a>.",
+        "in_person_instructions":"You can usually vote early in person from 24 to 4 days before the election. You can <a href='https://teamrv-mvp.sos.texas.gov/MVP/mvp.do'>find early voting locations on Texas's state website</a>.",
         "ballot_delivery": "By 7 p.m. on Election Day.",
         "requirements":"<p>You can vote absentee by mail if you're</p> <ul><li>65 years or older</li><li>Physically incapable of getting to the polls</li><li>Away from home</li><li>Incarcerated not convicted of a felony</li></ul> ",
         "source": "https://www.sos.texas.gov/elections/voter/reqabbm.shtml",
@@ -608,7 +608,7 @@
         "mail_request_deadline": "Return your ballot request by 5 p.m. the Tuesday before the election by mail, fax, or email. If you miss this deadline, you can still go in person to apply and vote until the Saturday before the election.",
         "in_person_instructions":"Starting 45 days before the election, you can go to your <a href='https://vote.elections.virginia.gov/VoterInformation/PublicContactLookup'>local registrar</a> and vote. It's a good idea to <a href='https://www.elections.virginia.gov/media/formswarehouse/absentee-voting/applications/SBE-701-Absentee-Ballot-Application-Rev7-17-long.pdf'>review the ballot application</a> before you get there make sure you have everything you need.",
         "ballot_delivery": "We couldn't find a deadline. Aim to mail your absentee ballot back for before Election Day, or vote in-person absentee.",
-        "requirements":"If you're a first-time voter, you'll have to give a reason to absentee vote. You can find <a href='https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/'>a list of authorized reasons on Virginia's elections website</a>.",
+        "requirements":"If you're a first-time voter, you'll have to <a href='https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/'>give a reason to absentee vote</a>. These include illness, being away at school, pregnancy, temporarily living out of the U.S., you or your spouse is an active duty service member, you're confined awaiting trial, or you're 65 years old or more.",
         "source": "https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/",
         "span_app": "<a href='https://www.elections.virginia.gov/media/formswarehouse/absentee-voting/applications/absenteeballotapplication-espanol.pdf'>Solicitud para votar en ausencia</a>.",
         "last_checked": "2020-03-16"

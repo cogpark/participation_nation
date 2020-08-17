@@ -9,7 +9,12 @@ import RegData from '../data/RegDeadlines2020.json';
 import AbsenteeData from '../data/AbsenteeVoting.json'
 import IdData from '../data/idRequirements.json';
 import history from './history';
+<<<<<<< HEAD:client/src/components/infoGetter.jsx
 import InfoGetterHeaderDesktop from './nav/infoGetterHeaderDesktop';
+=======
+import Alert from './alert';
+import CovidData from '../data/COVID19.json';
+>>>>>>> covid-19-updates:client/src/components/layout.jsx
 //import { ReactComponent } from '*.svg';
 
 
@@ -36,9 +41,11 @@ class InfoGetter extends Component {
             datesData: RegData,
             absenteeData: AbsenteeData,
             idData: IdData,
+            covidData: CovidData,
             selectedState: props.selectedState,
             selectedElection: props.selectedElection,
             onlineRegistration: RegData[props.selectedElection][props.selectedState]['onlineRegistration'],
+            covidUpdates: CovidData[props.selectedState]
             
         }
 
@@ -50,6 +57,7 @@ class InfoGetter extends Component {
     handleSelectAState(event, election) {
         this.setState({ selectedState: event.target.value,
                         onlineRegistration: RegData[election][event.target.value]['onlineRegistration'],
+                        covidUpdates: CovidData[event.target.value]
                          });
         var url = encodeURI("?election=" + election + '&state=' + event.target.value);
         console.log(url)
@@ -64,6 +72,7 @@ class InfoGetter extends Component {
     }
 
 
+
     render() {
         return (        
             <main> 
@@ -72,9 +81,21 @@ class InfoGetter extends Component {
                         <p>SELECT A STATE:</p>
                         <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} name="state selector"/>
                     </div>
+<<<<<<< HEAD:client/src/components/infoGetter.jsx
                     <div className="col-sm-5">
                         <p>SELECT AN ELECTION:</p>
                         <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} name="election selector" />
+=======
+                    <br />
+                    <Alert data = {this.state.covidUpdates} selectedState={this.state.selectedState} />
+                    <div className="row" id="registration-row">
+                        <div className="col">
+                            <RegistrationDeadlinesRow 
+                            selectedState={this.state.selectedState}
+                            selectedElection={this.state.selectedElection.toLowerCase()}
+                            datesData={this.state.datesData} />
+                        </div>
+>>>>>>> covid-19-updates:client/src/components/layout.jsx
                     </div>
                 </div>  
                 <InfoGetterHeaderDesktop/>   
