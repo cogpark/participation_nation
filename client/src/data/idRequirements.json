@@ -104,7 +104,7 @@
         "at_polls":"<p>Take a photo ID to the polls. You can show:</p><ul> <li>Iowa driver's license or state ID</li> </li> <li>Military or veteran's ID</li> <li>U.S. passport</li> <li>Tribal ID</li><li>Voter ID card</li></ul>",
         "other_options": "<p>The <a href='https://sos.iowa.gov/elections/voterinformation/voterIDfaq.html'>Iowa Secretary of State's website</a> says that if you don't have a driver's license or state ID, they'll mail you a voter ID card when you register. If they don't, try <a href='https://sos.iowa.gov/contactus.html'>contacting them</a>.</p><p>If you don't have ID on Election Day, you can have another registered voter testify to your identity.</p>",
         "no_id":"If you can't prove your identity, you can still vote a provisional ballot. Then, after the election, election officials will try to verify that you're registered based on the info in your provisional ballot. If they can, they'll count your vote.",
-        "source":"https://sos.iowa.gov/elections/voterinformation/voterIDfaq.html",
+        "source":"https://voterready.iowa.gov/",
         "last_checked":"2020-03-30"
     },
 

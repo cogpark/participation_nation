@@ -10,6 +10,8 @@ import AbsenteeData from '../data/AbsenteeVoting.json'
 import IdData from '../data/idRequirements.json';
 import history from './history';
 import InfoGetterHeaderDesktop from './nav/infoGetterHeaderDesktop';
+import Alert from './alert';
+import CovidData from '../data/COVID19.json';
 //import { ReactComponent } from '*.svg';
 
 
@@ -36,9 +38,11 @@ class InfoGetter extends Component {
             datesData: RegData,
             absenteeData: AbsenteeData,
             idData: IdData,
+            covidData: CovidData,
             selectedState: props.selectedState,
             selectedElection: props.selectedElection,
             onlineRegistration: RegData[props.selectedElection][props.selectedState]['onlineRegistration'],
+            covidUpdates: CovidData[props.selectedState]
             
         }
 
@@ -50,6 +54,7 @@ class InfoGetter extends Component {
     handleSelectAState(event, election) {
         this.setState({ selectedState: event.target.value,
                         onlineRegistration: RegData[election][event.target.value]['onlineRegistration'],
+                        covidUpdates: CovidData[event.target.value]
                          });
         var url = encodeURI("?election=" + election + '&state=' + event.target.value);
         console.log(url)
@@ -63,7 +68,6 @@ class InfoGetter extends Component {
         history.push(url) 
     }
 
-
     render() {
         return (        
             <main> 
@@ -72,11 +76,14 @@ class InfoGetter extends Component {
                         <p>SELECT A STATE:</p>
                         <Picker onChange={event => this.handleSelectAState(event,this.state.selectedElection.toLowerCase())} selection={this.state.selectedState} data={this.usStates} name="state selector"/>
                     </div>
-                    <div className="col-sm-5">
+                    <div className="col-sm-5" style ={{ paddingBottom:"10px"}}>
                         <p>SELECT AN ELECTION:</p>
                         <Picker onChange={event => this.handleSelectElectionType(event)} selection={this.selectedElection} data={this.electionTypes} name="election selector" />
                     </div>
-                </div>  
+                </div>
+                <div className='row'>
+                    <Alert data = {this.state.covidUpdates} selectedState={this.state.selectedState} />
+                </div>
                 <InfoGetterHeaderDesktop/>   
                 <div className="row" id="registration-row">
                     <div className="col">
@@ -116,15 +123,3 @@ class InfoGetter extends Component {
 }
 
 export default InfoGetter;
-
-//<div className="container" >
-//<div className="row">
-//    <div className="col">
-//        <Feedback usStates={this.usStates} elections={this.electionTypes} />
-//    </div>
-//</div>
-// </div> 
-
-/**
-
-</div> */
