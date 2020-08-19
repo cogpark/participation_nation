@@ -9,6 +9,8 @@ import AllTheElections from './blogs/alltheelections';
 import ElectoralCollege from './blogs/electoralcollege';
 import TheSenate from './blogs/thesenate';
 import TheHouseOfRepresentatives from './blogs/thehouseofrepresentatives';
+import TheSupremeCourt from './blogs/supremecourt';
+import WhatsALibertarian from './blogs/whatsalibertarian';
 
 
 export default function CivicLitRenderer(props) {
@@ -19,10 +21,12 @@ export default function CivicLitRenderer(props) {
         "WhatsAConservative": WhatsAConservative,
         "WhatsADemocrat":WhatsADemocrat,
         "WhatsARepublican":WhatsARepublican,
+        "WhatsALibertarian":WhatsALibertarian,
         "AllTheElections":AllTheElections,
         "ElectoralCollege":ElectoralCollege,
         "TheSenate":TheSenate,
-        "TheHouseOfRepresentatives":TheHouseOfRepresentatives
+        "TheHouseOfRepresentatives":TheHouseOfRepresentatives,
+        "TheSupremeCourt":TheSupremeCourt
  }
     let Component = Components[props.url]
 

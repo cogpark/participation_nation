@@ -61,6 +61,12 @@ ReactDOM.render(
                 <Route path="/the-us-house-of-representatives">
                     <CivicLitRenderer url = {'TheHouseOfRepresentatives'}/>
                 </Route>
+                <Route path="/the-supreme-court">
+                    <CivicLitRenderer url = {'TheSupremeCourt'}/>
+                </Route>
+                <Route path="/whats-a-libertarian">
+                    <CivicLitRenderer url = {'WhatsALibertarian'}/>
+                </Route>
                 </div>
             </Router>
         </div>
