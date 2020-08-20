@@ -13,6 +13,8 @@ export default function MobileNav() {
         <a href="/the-us-senate">The Senate</a>
         <a href="/the-us-house-of-representatives">The House of Representatives</a>
         <a href="/the-supreme-court">The Supreme Court</a>
+        <a href="/executive-orders">Executive Orders</a>
+        <a href="/how-taxes-work">Taxes</a>
         <a href="/all-elections">All the elections we hold</a>
         <a href="/electoral-college">Electoral college</a>
         <a href="/whats-a-liberal">Liberal</a>

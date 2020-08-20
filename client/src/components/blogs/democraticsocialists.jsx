@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
-const Markdown = 
+const markdown = 
 `
 ## What's a Democratic Socialist?
 
