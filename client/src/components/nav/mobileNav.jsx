@@ -20,6 +20,7 @@ export default function MobileNav() {
         <a href="/whats-a-democrat">Democrat</a>
         <a href="/whats-a-republican">Republican</a>
         <a href="/whats-a-libertarian">Libertarian</a>
+        <a href="/whats-a-democratic-socialist">Democratic Socialist</a>
       </Menu>
     );
 

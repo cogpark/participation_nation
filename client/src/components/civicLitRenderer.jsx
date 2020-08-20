@@ -11,6 +11,7 @@ import TheSenate from './blogs/thesenate';
 import TheHouseOfRepresentatives from './blogs/thehouseofrepresentatives';
 import TheSupremeCourt from './blogs/supremecourt';
 import WhatsALibertarian from './blogs/whatsalibertarian';
+import WhatsADemSocialist from './blogs/democraticsocialists';
 
 
 export default function CivicLitRenderer(props) {

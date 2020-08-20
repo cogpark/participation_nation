@@ -45,6 +45,9 @@ export default function DesktopNav() {
             <div className="toc-item"> 
                 <a href="/whats-a-libertarian">Libertarian</a>
             </div>
+            <div className="toc-item"> 
+                <a href="/whats-a-democratic-socialist">Democratic Socialist</a>
+            </div>
             
         </nav>
     )
