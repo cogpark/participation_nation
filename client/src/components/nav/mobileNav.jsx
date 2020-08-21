@@ -15,6 +15,7 @@ export default function MobileNav() {
         <a href="/the-supreme-court">The Supreme Court</a>
         <a href="/all-elections">All the elections we hold</a>
         <a href="/electoral-college">Electoral college</a>
+        <a href="/just-moved-voting">Voting when you just moved</a>
         <a href="/whats-a-liberal">Liberal</a>
         <a href="/whats-a-conservative">Conservative</a>
         <a href="/whats-a-democrat">Democrat</a>
